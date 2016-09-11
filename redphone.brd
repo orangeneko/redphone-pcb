@@ -6759,23 +6759,23 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="77.63" y="29.585" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="80.495" y="29" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="IC5" library="netcat" package="SOT23-5" value="LP3985IBP-2.5" x="34.03" y="42.01" smashed="yes" rot="R270">
+<element name="IC5" library="netcat" package="SOT23-5" value="TPS73025DBVT" x="34.03" y="42.01" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.01" y="44.5" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="30.22" y="44.55" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R1" library="netcat" package="R0402" value="4.7k" x="72.68" y="33.71" smashed="yes" rot="R270">
+<element name="R1" library="netcat" package="R0402" value="10k" x="72.68" y="33.71" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.355" y="33.842" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="70.648" y="34.345" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R2" library="netcat" package="R0402" value="4.7k" x="70.38" y="33.71" smashed="yes" rot="R270">
+<element name="R2" library="netcat" package="R0402" value="10k" x="70.38" y="33.71" smashed="yes" rot="R270">
 <attribute name="NAME" x="71.055" y="34.967" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="68.348" y="34.345" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R3" library="netcat" package="R0402" value="4.7k" x="69.4" y="5.6" smashed="yes" rot="R180">
+<element name="R3" library="netcat" package="R0402" value="10k" x="69.4" y="5.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.815" y="4.212" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="70.035" y="7.632" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="IC6" library="netcat" package="SOT23-5" value="? 1.2v" x="23.5" y="43.45" smashed="yes" rot="R270">
+<element name="IC6" library="netcat" package="SOT23-5" value="LP3990MF-1.2" x="23.5" y="43.45" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.66" y="45.29" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="19.69" y="45.99" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
@@ -6818,7 +6818,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="15.08" y="34.27" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="14.83" y="38.45" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R9" library="netcat" package="R0402" value="1M" x="26.8" y="41.25" smashed="yes">
+<element name="R9" library="netcat" package="R0402" value="100" x="26.8" y="41.25" smashed="yes">
 <attribute name="NAME" x="28.038" y="41.865" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="26.165" y="39.218" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -6834,7 +6834,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="22.862" y="39.435" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="21.268" y="41.085" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C2" library="netcat" package="SMC_A" value="4.7u" x="17.7" y="47.55" smashed="yes" rot="R90">
+<element name="C2" library="netcat" package="SMC_A" value="10u" x="17.7" y="47.55" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.8" y="48.125" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="19.7" y="45.95" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
@@ -6928,7 +6928,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="110.91" y="9.1054" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="103.8782" y="8.97" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R17" library="netcat" package="R0402" value="4.7k" x="104.7" y="10.35" smashed="yes" rot="R90">
+<element name="R17" library="netcat" package="R0402" value="100k" x="104.7" y="10.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.962" y="13.785" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="106.732" y="9.715" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
@@ -6948,7 +6948,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="81.833" y="37.1275" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="80.663" y="40.7225" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C16" library="netcat" package="R0402" value="0.22u" x="111.9" y="10.76" smashed="yes" rot="R270">
+<element name="C16" library="netcat" package="R0402" value="220n" x="111.9" y="10.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="112.605" y="11.412" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="109.868" y="11.395" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
@@ -6967,7 +6967,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="111.238" y="54.615" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="111.565" y="51.918" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R18" library="netcat" package="R0402" value="100K" x="109.7" y="53.95" smashed="yes">
+<element name="R18" library="netcat" package="R0402" value="100k" x="109.7" y="53.95" smashed="yes">
 <attribute name="NAME" x="110.138" y="54.615" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="109.065" y="51.918" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -6975,11 +6975,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="109.088" y="54.615" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="110.335" y="54.482" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R21" library="netcat" package="R0402" value="200" x="112.8" y="47" smashed="yes" rot="R90">
+<element name="R21" library="netcat" package="R0402" value="330" x="112.8" y="47" smashed="yes" rot="R90">
 <attribute name="NAME" x="113.137" y="45.835" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="114.832" y="46.365" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R23" library="netcat" package="R0402" value="100K" x="100.4" y="50.4" smashed="yes">
+<element name="R23" library="netcat" package="R0402" value="100k" x="100.4" y="50.4" smashed="yes">
 <attribute name="NAME" x="100.935" y="48.288" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="99.765" y="48.368" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -7003,11 +7003,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="VALUE" x="107.746" y="27.318" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="NAME" x="107.376" y="28.728" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="C21" library="netcat" package="R0402" value="22pF" x="104.09" y="30.46" smashed="yes" rot="R90">
+<element name="C21" library="netcat" package="R0402" value="22p" x="104.09" y="30.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.328" y="29.525" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="106.122" y="29.825" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C22" library="netcat" package="R0402" value="22pF" x="110.94" y="30.485" smashed="yes" rot="R270">
+<element name="C22" library="netcat" package="R0402" value="22p" x="110.94" y="30.485" smashed="yes" rot="R270">
 <attribute name="NAME" x="111.73" y="29.452" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="108.908" y="31.12" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
@@ -7015,27 +7015,27 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="110.155" y="28.452" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="111.592" y="29.855" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R25" library="netcat" package="R0402" value="22K" x="107.99" y="39.55" smashed="yes">
+<element name="R25" library="netcat" package="R0402" value="22k" x="107.99" y="39.55" smashed="yes">
 <attribute name="NAME" x="109.355" y="39.562" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="107.355" y="37.518" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="C23" library="netcat" package="R0402" value="33nF" x="103.95" y="39.55" smashed="yes" rot="R180">
+<element name="C23" library="netcat" package="R0402" value="33n" x="103.95" y="39.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="102.76" y="39.638" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="104.585" y="41.582" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C24" library="netcat" package="R0402" value="2.2nF" x="110.92" y="33.64" smashed="yes" rot="R90">
+<element name="C24" library="netcat" package="R0402" value="2.2n" x="110.92" y="33.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="109.905" y="31.592" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="112.952" y="33.005" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C25" library="netcat" package="R0402" value="4.7pF" x="112.22" y="33.64" smashed="yes" rot="R90">
+<element name="C25" library="netcat" package="R0402" value="4.7p" x="112.22" y="33.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.792" y="33.395" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="114.252" y="33.005" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C26" library="netcat" package="R0402" value="1.0pF" x="113.64" y="35.59" smashed="yes">
+<element name="C26" library="netcat" package="R0402" value="1.0p" x="113.64" y="35.59" smashed="yes">
 <attribute name="NAME" x="113.055" y="34.152" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.005" y="33.558" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="C27" library="netcat" package="R0402" value="1.5pF" x="113.66" y="36.745" smashed="yes">
+<element name="C27" library="netcat" package="R0402" value="1.5p" x="113.66" y="36.745" smashed="yes">
 <attribute name="NAME" x="112.675" y="37.407" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.025" y="34.713" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -7067,7 +7067,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="31.195" y="42.34" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="27.28" y="43.91" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C29" library="netcat" package="SMC_A" value="1u" x="39.41" y="42" smashed="yes" rot="R270">
+<element name="C29" library="netcat" package="SMC_A" value="10u" x="39.41" y="42" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.65" y="45.615" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.41" y="43.6" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
@@ -7155,7 +7155,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="106.205" y="26.08" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="106.195" y="21.925" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R31" library="netcat" package="R0402" value="10K" x="110.3" y="23.75" smashed="yes">
+<element name="R31" library="netcat" package="R0402" value="330" x="110.3" y="23.75" smashed="yes">
 <attribute name="NAME" x="111.665" y="23.312" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="109.665" y="21.718" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -7271,11 +7271,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="10.68" y="54.06" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="5.71" y="57.89" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R8" library="netcat" package="R0402" value="4.7k" x="108.9" y="12.1" smashed="yes" rot="R180">
+<element name="R8" library="netcat" package="R0402" value="10k" x="108.9" y="12.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="106.888" y="12.915" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="109.535" y="14.132" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R13" library="netcat" package="R0402" value="4.7k" x="106.4" y="12.1" smashed="yes">
+<element name="R13" library="netcat" package="R0402" value="10k" x="106.4" y="12.1" smashed="yes">
 <attribute name="NAME" x="105.838" y="12.915" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="105.765" y="10.068" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -7294,11 +7294,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="13.235" y="50.338" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="14.582" y="50.865" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R22" library="netcat" package="R0402" value="2.2" x="10.25" y="51.5" smashed="yes" rot="R270">
+<element name="R22" library="netcat" package="R0402" value="1.5k" x="10.25" y="51.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.638" y="50.565" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="8.218" y="52.135" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R34" library="netcat" package="R0402" value="2k" x="11.4" y="51.5" smashed="yes" rot="R270">
+<element name="R34" library="netcat" package="R0402" value="3k" x="11.4" y="51.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.365" y="52.762" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="9.368" y="52.135" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
@@ -7314,11 +7314,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <element name="TP6" library="netcat" package="TP06R" value="ST" x="60.55" y="41.7" smashed="yes">
 <attribute name="VALUE" x="59.3" y="42.1001" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="R38" library="netcat" package="R0402" value="4.7k" x="98.2" y="26.55" smashed="yes" rot="R180">
+<element name="R38" library="netcat" package="R0402" value="10k" x="98.2" y="26.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="97.215" y="27.212" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="98.835" y="28.582" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R39" library="netcat" package="R0402" value="4.7k" x="98.2" y="25.5" smashed="yes" rot="R180">
+<element name="R39" library="netcat" package="R0402" value="10k" x="98.2" y="25.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.965" y="26.062" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="98.835" y="27.532" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
@@ -7375,7 +7375,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="89.012" y="42.235" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="86.168" y="41.785" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C69" library="netcat" package="SMC_A" value="4.7u" x="101.05" y="6.25" smashed="yes" rot="R180">
+<element name="C69" library="netcat" package="SMC_A" value="10u" x="101.05" y="6.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.75" y="5.125" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="102.65" y="8.25" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
@@ -7390,7 +7390,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <element name="IC20" library="netcat" package="HCLGA" value="MP34DT01" x="2.35" y="54.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="0.55" y="52.35" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="R42" library="netcat" package="R0402" value="100K" x="100.4" y="49.2" smashed="yes">
+<element name="R42" library="netcat" package="R0402" value="100k" x="100.4" y="49.2" smashed="yes">
 <attribute name="NAME" x="100.935" y="47.313" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="99.765" y="47.168" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -7509,18 +7509,18 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="103.47" y="37.571" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="104.88" y="38.79" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R48" library="netcat" package="R0402" value="10K" x="101.95" y="4.65" smashed="yes" rot="R180">
+<element name="R48" library="netcat" package="R0402" value="10k" x="101.95" y="4.65" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.485" y="4.038" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="102.585" y="6.682" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="X15" library="netcat" package="DF13C-4P-1.25V" value="DF13-4P-1.25V" x="32.5" y="3.2" smashed="yes">
 <attribute name="NAME" x="37.65" y="3.2" size="0.8128" layer="25" font="vector"/>
 </element>
-<element name="R19" library="netcat" package="R0402" value="100K" x="88.2" y="36.65" smashed="yes" rot="R90">
+<element name="R19" library="netcat" package="R0402" value="100k" x="88.2" y="36.65" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.362" y="35.535" size="0.8128" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="90.232" y="36.015" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R49" library="netcat" package="R0402" value="100K" x="100.4" y="53.6" smashed="yes">
+<element name="R49" library="netcat" package="R0402" value="100k" x="100.4" y="53.6" smashed="yes">
 <attribute name="NAME" x="99.665" y="54.162" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="99.765" y="51.568" size="0.8128" layer="27" font="vector"/>
 </element>
@@ -7558,15 +7558,15 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="103.2" y="15.55" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="103.5" y="15" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R53" library="netcat" package="R0402" value="4.7k" x="69" y="30.6" smashed="yes" rot="R270">
+<element name="R53" library="netcat" package="R0402" value="10k" x="69" y="30.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="69.665" y="29.962" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="66.968" y="31.235" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R54" library="netcat" package="R0402" value="4.7k" x="69.35" y="33.7" smashed="yes" rot="R270">
+<element name="R54" library="netcat" package="R0402" value="10k" x="69.35" y="33.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.615" y="31.762" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="67.318" y="34.335" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R55" library="netcat" package="R0402" value="4.7k" x="68.3" y="33.7" smashed="yes" rot="R270">
+<element name="R55" library="netcat" package="R0402" value="10k" x="68.3" y="33.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="67.915" y="34.962" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="66.268" y="34.335" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
@@ -7575,7 +7575,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <element name="IC24" library="netcat" package="BME280" value="BME280" x="117.7" y="27.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="115.2" y="28.5" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="C74" library="netcat" package="R0402" value="10n" x="114.4" y="27" smashed="yes" rot="R90">
+<element name="C74" library="netcat" package="R0402" value="100n" x="114.4" y="27" smashed="yes" rot="R90">
 <attribute name="NAME" x="113.738" y="26.815" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="116.432" y="26.365" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -77,19 +77,19 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -97,19 +97,19 @@
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -136,21 +136,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -12689,19 +12689,19 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="3.3V3" library="netcat" deviceset="3.3V" device=""/>
 <part name="2.5V1" library="netcat" deviceset="2.5V" device=""/>
 <part name="GND4" library="netcat" deviceset="GND" device=""/>
-<part name="IC5" library="netcat" deviceset="LP3985" device="" value="LP3985IBP-2.5"/>
+<part name="IC5" library="netcat" deviceset="LP3985" device="" value="TPS73025DBVT"/>
 <part name="GND5" library="netcat" deviceset="GND" device=""/>
 <part name="2.5V2" library="netcat" deviceset="2.5V" device=""/>
 <part name="2.5V3" library="netcat" deviceset="2.5V" device=""/>
 <part name="GND6" library="netcat" deviceset="GND" device=""/>
-<part name="R1" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
-<part name="R2" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
-<part name="R3" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
+<part name="R1" library="netcat" deviceset="RES" device="R0402" value="10k"/>
+<part name="R2" library="netcat" deviceset="RES" device="R0402" value="10k"/>
+<part name="R3" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="2.5V4" library="netcat" deviceset="2.5V" device=""/>
 <part name="GND7" library="netcat" deviceset="GND" device=""/>
 <part name="1.2V2" library="netcat" deviceset="1.2V" device=""/>
 <part name="2.5V5" library="netcat" deviceset="2.5V" device=""/>
-<part name="IC6" library="netcat" deviceset="LP3985" device="" value="? 1.2v"/>
+<part name="IC6" library="netcat" deviceset="LP3985" device="" value="LP3990MF-1.2"/>
 <part name="GND9" library="netcat" deviceset="GND" device=""/>
 <part name="1.2V3" library="netcat" deviceset="1.2V" device=""/>
 <part name="IC7" library="netcat" deviceset="TPS63000" device=""/>
@@ -12721,14 +12721,14 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="X3" library="netcat" deviceset="RM68120_LCD" device=""/>
 <part name="GND13" library="netcat" deviceset="GND" device=""/>
 <part name="Q6" library="netcat" deviceset="MOSFET_P" device="" value="IRLML6402"/>
-<part name="R9" library="netcat" deviceset="RES" device="R0402" value="1M"/>
+<part name="R9" library="netcat" deviceset="RES" device="R0402" value="100"/>
 <part name="R10" library="netcat" deviceset="RES" device="R0402" value="1M"/>
 <part name="C1" library="netcat" deviceset="CPOL-EU" device="SMCB" value="10u"/>
 <part name="R11" library="netcat" deviceset="RES" device="R0402" value="220k"/>
 <part name="GND16" library="netcat" deviceset="GND" device=""/>
 <part name="GND17" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V7" library="netcat" deviceset="3.3V" device=""/>
-<part name="C2" library="netcat" deviceset="CPOL-EU" device="SMCA" value="4.7u"/>
+<part name="C2" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="GND18" library="netcat" deviceset="GND" device=""/>
 <part name="C3" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="C4" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
@@ -12776,7 +12776,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="IC17" library="netcat" deviceset="L3GD20" device=""/>
 <part name="3.3V8" library="netcat" deviceset="3.3V" device=""/>
 <part name="GND33" library="netcat" deviceset="GND" device=""/>
-<part name="R17" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
+<part name="R17" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="3.3V9" library="netcat" deviceset="3.3V" device=""/>
 <part name="C11" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="GND34" library="netcat" deviceset="GND" device=""/>
@@ -12789,7 +12789,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="IC16" library="netcat" deviceset="EPCS4SI8N" device=""/>
 <part name="GND38" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V11" library="netcat" deviceset="3.3V" device=""/>
-<part name="C16" library="netcat" deviceset="CAP" device="C0402" value="0.22u"/>
+<part name="C16" library="netcat" deviceset="CAP" device="C0402" value="220n"/>
 <part name="SUPPLY1" library="colibri" deviceset="GND" device=""/>
 <part name="IC14" library="netcat" deviceset="24LC256" device="-I/SN"/>
 <part name="GND39" library="netcat" deviceset="GND" device=""/>
@@ -12797,10 +12797,10 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="X1" library="netcat" deviceset="MICROSIM" device=""/>
 <part name="C14" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="C15" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
-<part name="R18" library="netcat" deviceset="RES" device="R0402" value="100K"/>
+<part name="R18" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="R20" library="netcat" deviceset="RES" device="R0402" value="12k"/>
-<part name="R21" library="netcat" deviceset="RES" device="R0402" value="200"/>
-<part name="R23" library="netcat" deviceset="RES" device="R0402" value="100K"/>
+<part name="R21" library="netcat" deviceset="RES" device="R0402" value="330"/>
+<part name="R23" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="LED5" library="netcat" deviceset="LED" device="LED0603" value="GREEN"/>
 <part name="3.3V14" library="netcat" deviceset="3.3V" device=""/>
 <part name="3.3V15" library="netcat" deviceset="3.3V" device=""/>
@@ -12813,15 +12813,15 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C20" library="netcat" deviceset="CAP" device="C0402" value="10p"/>
 <part name="GND42" library="netcat" deviceset="GND" device=""/>
 <part name="Q7" library="netcat" deviceset="CRYSTAL_SMD" device="MINI2" value="16MHz"/>
-<part name="C21" library="netcat" deviceset="CAP" device="C0402" value="22pF"/>
-<part name="C22" library="netcat" deviceset="CAP" device="C0402" value="22pF"/>
+<part name="C21" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
+<part name="C22" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="R24" library="netcat" deviceset="RES" device="R0402" value="1M"/>
-<part name="R25" library="netcat" deviceset="RES" device="R0402" value="22K"/>
-<part name="C23" library="netcat" deviceset="CAP" device="C0402" value="33nF"/>
-<part name="C24" library="netcat" deviceset="CAP" device="C0402" value="2.2nF"/>
-<part name="C25" library="netcat" deviceset="CAP" device="C0402" value="4.7pF"/>
-<part name="C26" library="netcat" deviceset="CAP" device="C0402" value="1.0pF"/>
-<part name="C27" library="netcat" deviceset="CAP" device="C0402" value="1.5pF"/>
+<part name="R25" library="netcat" deviceset="RES" device="R0402" value="22k"/>
+<part name="C23" library="netcat" deviceset="CAP" device="C0402" value="33n"/>
+<part name="C24" library="netcat" deviceset="CAP" device="C0402" value="2.2n"/>
+<part name="C25" library="netcat" deviceset="CAP" device="C0402" value="4.7p"/>
+<part name="C26" library="netcat" deviceset="CAP" device="C0402" value="1.0p"/>
+<part name="C27" library="netcat" deviceset="CAP" device="C0402" value="1.5p"/>
 <part name="IC18" library="netcat" deviceset="WM8903" device=""/>
 <part name="SW1" library="netcat" deviceset="BUT" device="" value="PWR"/>
 <part name="SW3" library="netcat" deviceset="BUT" device="" value="VOL+"/>
@@ -12834,7 +12834,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="3.3V17" library="netcat" deviceset="3.3V" device=""/>
 <part name="C28" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="GND56" library="netcat" deviceset="GND" device=""/>
-<part name="C29" library="netcat" deviceset="CPOL-EU" device="SMCA" value="1u"/>
+<part name="C29" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="GND57" library="netcat" deviceset="GND" device=""/>
 <part name="TP1" library="netcat" deviceset="TP" device="06R" value="INT0"/>
 <part name="TP2" library="netcat" deviceset="TP" device="06R" value="INT1"/>
@@ -12881,7 +12881,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="GND59" library="netcat" deviceset="GND" device=""/>
 <part name="C17" library="netcat" deviceset="CAP" device="C0603" value="2.2u"/>
 <part name="Q10" library="netcat" deviceset="MOSFET_N" device="SOT-416" value="NTA4153NT1G"/>
-<part name="R31" library="netcat" deviceset="RES" device="R0402" value="10K"/>
+<part name="R31" library="netcat" deviceset="RES" device="R0402" value="330"/>
 <part name="LED1" library="netcat" deviceset="LED" device="LED0603"/>
 <part name="C41" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="C42" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
@@ -12921,16 +12921,16 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="R5" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="IC12" library="netcat" deviceset="74LVC1G02" device="DCK" value="74LVC1G02DCK"/>
 <part name="SUPPLY5" library="colibri" deviceset="GND" device=""/>
-<part name="R8" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
-<part name="R13" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
+<part name="R8" library="netcat" deviceset="RES" device="R0402" value="10k"/>
+<part name="R13" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="3.3V24" library="netcat" deviceset="3.3V" device=""/>
 <part name="IC22" library="netcat" deviceset="MAX8903A" device=""/>
 <part name="L7" library="netcat" deviceset="L" device="CDR" value="2.2uH"/>
 <part name="C64" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="C65" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="GND14" library="netcat" deviceset="GND" device=""/>
-<part name="R22" library="netcat" deviceset="RES" device="R0402" value="2.2"/>
-<part name="R34" library="netcat" deviceset="RES" device="R0402" value="2k"/>
+<part name="R22" library="netcat" deviceset="RES" device="R0402" value="1.5k"/>
+<part name="R34" library="netcat" deviceset="RES" device="R0402" value="3k"/>
 <part name="GND15" library="netcat" deviceset="GND" device=""/>
 <part name="R35" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="3.3V25" library="netcat" deviceset="3.3V" device=""/>
@@ -12941,8 +12941,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="Q4" library="netcat" deviceset="MOSFET_N" device="SOT-416" value="NTA4153NT1G"/>
 <part name="GND70" library="netcat" deviceset="GND" device=""/>
 <part name="TP6" library="netcat" deviceset="TP" device="06R" value="ST"/>
-<part name="R38" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
-<part name="R39" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
+<part name="R38" library="netcat" deviceset="RES" device="R0402" value="10k"/>
+<part name="R39" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="3.3V28" library="netcat" deviceset="3.3V" device=""/>
 <part name="Q1" library="netcat" deviceset="MOSFET_P" device="" value="IRLML6402"/>
 <part name="R40" library="netcat" deviceset="RES" device="R0402" value="2.2k"/>
@@ -12964,7 +12964,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C67" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="C68" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="GND73" library="netcat" deviceset="GND" device=""/>
-<part name="C69" library="netcat" deviceset="CPOL-EU" device="SMCA" value="4.7u"/>
+<part name="C69" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="TP7" library="netcat" deviceset="TP" device="06R" value="SDA"/>
 <part name="TP8" library="netcat" deviceset="TP" device="06R" value="SCL"/>
 <part name="LOGO1" library="netcat" deviceset="LOGO" device="2" value="LOGO2"/>
@@ -12972,7 +12972,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="GND74" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V16" library="netcat" deviceset="3.3V" device=""/>
 <part name="IC20" library="netcat" deviceset="MP34DT01" device=""/>
-<part name="R42" library="netcat" deviceset="RES" device="R0402" value="100K"/>
+<part name="R42" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="B1" library="netcat" deviceset="SPEAKER" device="NOKIA_RING"/>
 <part name="B2" library="netcat" deviceset="SPEAKER" device="HTC_SPEAKER"/>
 <part name="TP10" library="netcat" deviceset="TP" device="06R" value="DONE"/>
@@ -13023,13 +13023,13 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="GND52" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V31" library="netcat" deviceset="3.3V" device=""/>
 <part name="GND82" library="netcat" deviceset="GND" device=""/>
-<part name="R48" library="netcat" deviceset="RES" device="R0402" value="10K"/>
+<part name="R48" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="X15" library="netcat" deviceset="DF13-4P-1.25" device="V"/>
 <part name="GND83" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V32" library="netcat" deviceset="3.3V" device=""/>
-<part name="R19" library="netcat" deviceset="RES" device="R0402" value="100K"/>
+<part name="R19" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="3.3V13" library="netcat" deviceset="3.3V" device=""/>
-<part name="R49" library="netcat" deviceset="RES" device="R0402" value="100K"/>
+<part name="R49" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="3.3V33" library="netcat" deviceset="3.3V" device=""/>
 <part name="GND81" library="netcat" deviceset="GND" device=""/>
 <part name="SCL1" library="netcat" deviceset="TP" device="06R" value="PB12"/>
@@ -13044,9 +13044,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="GND85" library="netcat" deviceset="GND" device=""/>
 <part name="X16" library="netcat" deviceset="USB_TYPE_C" device=""/>
 <part name="GND86" library="netcat" deviceset="GND" device=""/>
-<part name="R53" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
-<part name="R54" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
-<part name="R55" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
+<part name="R53" library="netcat" deviceset="RES" device="R0402" value="10k"/>
+<part name="R54" library="netcat" deviceset="RES" device="R0402" value="10k"/>
+<part name="R55" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="2.5V6" library="netcat" deviceset="2.5V" device=""/>
 <part name="GND87" library="netcat" deviceset="GND" device=""/>
 <part name="GND88" library="netcat" deviceset="GND" device=""/>
@@ -13054,7 +13054,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C73" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="IC24" library="netcat" deviceset="BME280" device=""/>
 <part name="GND89" library="netcat" deviceset="GND" device=""/>
-<part name="C74" library="netcat" deviceset="CAP" device="C0402" value="10n"/>
+<part name="C74" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="3.3V35" library="netcat" deviceset="3.3V" device=""/>
 <part name="GND90" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V36" library="netcat" deviceset="3.3V" device=""/>
@@ -13083,8 +13083,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-48.26" y="-156.21" size="1.778" layer="101" rot="R90">470k-&gt;100k</text>
-<text x="-101.6" y="-128.27" size="1.778" layer="101" rot="R90">470k-&gt;100k</text>
 </plain>
 <instances>
 <instance part="IC3" gate="G$1" x="63.5" y="17.78">
@@ -13186,8 +13184,11 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="C4" gate="G$1" x="-213.36" y="22.86"/>
 <instance part="GND19" gate="GND" x="-213.36" y="38.1"/>
 <instance part="GND20" gate="GND" x="-213.36" y="12.7"/>
-<instance part="Q8" gate="G$1" x="-236.22" y="139.7"/>
-<instance part="GND21" gate="GND" x="-236.22" y="129.54"/>
+<instance part="Q8" gate="G$1" x="-243.84" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-241.6175" y="147.6375" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-241.6175" y="144.78" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="GND21" gate="GND" x="-236.22" y="132.08"/>
 <instance part="R12" gate="G$1" x="-180.34" y="119.38" rot="R180"/>
 <instance part="GND22" gate="GND" x="-172.72" y="114.3"/>
 <instance part="VD1" gate="G$1" x="-185.42" y="160.02" rot="R180"/>
@@ -13235,8 +13236,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="3.3V8" gate="G$1" x="330.2" y="-7.62" rot="R180"/>
 <instance part="GND33" gate="GND" x="342.9" y="-17.78"/>
 <instance part="R17" gate="G$1" x="386.08" y="-5.08" smashed="yes">
-<attribute name="NAME" x="379.73" y="-8.6614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="387.35" y="-8.382" size="1.778" layer="96"/>
+<attribute name="NAME" x="381" y="-10.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="388.62" y="-10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="3.3V9" gate="G$1" x="393.7" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="396.24" y="-7.62" size="1.778" layer="96"/>
@@ -13405,15 +13406,15 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="R5" gate="G$1" x="-259.08" y="147.32"/>
 <instance part="IC12" gate="A" x="-388.62" y="25.4"/>
 <instance part="SUPPLY5" gate="GND" x="-391.16" y="12.7"/>
-<instance part="R8" gate="G$1" x="421.64" y="7.62" smashed="yes">
-<attribute name="NAME" x="415.29" y="4.0386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="422.91" y="4.318" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="421.64" y="10.16" smashed="yes">
+<attribute name="NAME" x="416.56" y="12.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="424.18" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="421.64" y="2.54" smashed="yes">
-<attribute name="NAME" x="415.29" y="-1.0414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="422.91" y="-0.762" size="1.778" layer="96"/>
+<instance part="R13" gate="G$1" x="421.64" y="5.08" smashed="yes">
+<attribute name="NAME" x="416.56" y="0" size="1.778" layer="95"/>
+<attribute name="VALUE" x="424.18" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="3.3V24" gate="G$1" x="411.48" y="7.62" rot="R180"/>
+<instance part="3.3V24" gate="G$1" x="411.48" y="10.16" rot="R180"/>
 <instance part="IC22" gate="G$1" x="-350.52" y="137.16"/>
 <instance part="L7" gate="G$1" x="-360.68" y="114.3"/>
 <instance part="C64" gate="G$1" x="-370.84" y="114.3" rot="R90"/>
@@ -13425,7 +13426,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="R35" gate="G$1" x="-309.88" y="137.16" rot="R270"/>
 <instance part="3.3V25" gate="G$1" x="-309.88" y="144.78" rot="R90"/>
 <instance part="GND66" gate="GND" x="-314.96" y="86.36"/>
-<instance part="3.3V26" gate="G$1" x="-358.14" y="99.06" rot="R180"/>
+<instance part="3.3V26" gate="G$1" x="-360.68" y="99.06" rot="R180"/>
 <instance part="Y4" gate="G$1" x="284.48" y="38.1"/>
 <instance part="GND67" gate="GND" x="-408.94" y="121.92"/>
 <instance part="Q4" gate="G$1" x="261.62" y="7.62" smashed="yes" rot="MR0">
@@ -13435,12 +13436,12 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="GND70" gate="GND" x="261.62" y="-2.54"/>
 <instance part="TP6" gate="G$1" x="256.54" y="22.86"/>
 <instance part="R38" gate="G$1" x="421.64" y="-7.62" smashed="yes">
-<attribute name="NAME" x="415.29" y="-11.2014" size="1.778" layer="95"/>
-<attribute name="VALUE" x="422.91" y="-10.922" size="1.778" layer="96"/>
+<attribute name="NAME" x="416.56" y="-5.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="424.18" y="-5.08" size="1.778" layer="96"/>
 </instance>
 <instance part="R39" gate="G$1" x="421.64" y="-12.7" smashed="yes">
-<attribute name="NAME" x="415.29" y="-16.2814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="422.91" y="-16.002" size="1.778" layer="96"/>
+<attribute name="NAME" x="416.56" y="-17.78" size="1.778" layer="95"/>
+<attribute name="VALUE" x="424.18" y="-17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="3.3V28" gate="G$1" x="411.48" y="-7.62" rot="R180"/>
 <instance part="Q1" gate="G$1" x="-266.7" y="55.88" smashed="yes" rot="MR90">
@@ -13449,7 +13450,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </instance>
 <instance part="R40" gate="G$1" x="-322.58" y="-170.18" rot="R90"/>
 <instance part="R41" gate="G$1" x="-314.96" y="-170.18" rot="R90"/>
-<instance part="Y5" gate="G$1" x="269.24" y="43.18"/>
+<instance part="Y5" gate="G$1" x="271.78" y="43.18"/>
 <instance part="Y3" gate="G$1" x="238.76" y="-137.16"/>
 <instance part="Y1" gate="G$1" x="71.12" y="-76.2"/>
 <instance part="L8" gate="G$1" x="200.66" y="-139.7"/>
@@ -13522,7 +13523,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="3.3V21" gate="G$1" x="325.12" y="-109.22" rot="R180"/>
 <instance part="GND80" gate="GND" x="325.12" y="-165.1"/>
 <instance part="X12" gate="G$1" x="327.66" y="-129.54"/>
-<instance part="X14" gate="G$1" x="289.56" y="33.02"/>
+<instance part="X14" gate="G$1" x="292.1" y="33.02"/>
 <instance part="SJ1" gate="G$1" x="274.32" y="33.02"/>
 <instance part="L10" gate="G$1" x="-431.8" y="-58.42"/>
 <instance part="IC8" gate="G$1" x="20.32" y="-109.22"/>
@@ -13792,7 +13793,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <pinref part="GND21" gate="GND" pin="GND"/>
 <pinref part="Q8" gate="G$1" pin="S"/>
-<wire x1="-236.22" y1="132.08" x2="-236.22" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-238.76" y1="137.16" x2="-236.22" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-236.22" y1="137.16" x2="-236.22" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -14228,13 +14230,13 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <pinref part="IC9" gate="G$1" pin="SPK_N"/>
 <pinref part="GND65" gate="GND" pin="GND"/>
-<wire x1="218.44" y1="22.86" x2="213.36" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="22.86" x2="201.93" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="22.86" x2="201.93" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="201.93" y1="22.86" x2="201.93" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="G$1" pin="MIC_N"/>
-<wire x1="218.44" y1="27.94" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="27.94" x2="213.36" y2="22.86" width="0.1524" layer="91"/>
-<junction x="213.36" y="22.86"/>
+<wire x1="218.44" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="27.94" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<junction x="215.9" y="22.86"/>
 </segment>
 <segment>
 <pinref part="OSC4" gate="G$1" pin="GND"/>
@@ -15596,13 +15598,13 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="416.56" y1="2.54" x2="414.02" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="2.54" x2="414.02" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="5.08" x2="414.02" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="5.08" x2="414.02" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="416.56" y1="7.62" x2="414.02" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="416.56" y1="10.16" x2="414.02" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="3.3V24" gate="G$1" pin="3.3V"/>
-<wire x1="414.02" y1="7.62" x2="411.48" y2="7.62" width="0.1524" layer="91"/>
-<junction x="414.02" y="7.62"/>
+<wire x1="414.02" y1="10.16" x2="411.48" y2="10.16" width="0.1524" layer="91"/>
+<junction x="414.02" y="10.16"/>
 </segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
@@ -15614,7 +15616,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="3.3V26" gate="G$1" pin="3.3V"/>
 <wire x1="-350.52" y1="99.06" x2="-355.6" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC22" gate="G$1" pin="DCM"/>
-<wire x1="-355.6" y1="99.06" x2="-358.14" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-355.6" y1="99.06" x2="-360.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-350.52" y1="104.14" x2="-355.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-355.6" y1="104.14" x2="-355.6" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-355.6" y="99.06"/>
@@ -16332,7 +16334,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <pinref part="IC22" gate="G$1" pin="!CEN"/>
 <wire x1="-358.14" y1="101.6" x2="-350.52" y2="101.6" width="0.1524" layer="91"/>
-<label x="-358.14" y="101.6" size="1.778" layer="95" rot="R180"/>
+<label x="-358.14" y="101.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -16477,9 +16479,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <net name="PWR_OTG_MODE" class="0">
 <segment>
 <pinref part="Q8" gate="G$1" pin="G"/>
-<wire x1="-246.38" y1="139.7" x2="-241.3" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="-246.38" y1="139.7" x2="-246.38" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-246.38" y1="119.38" x2="-190.5" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="119.38" x2="-243.84" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="119.38" x2="-190.5" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-190.5" y1="119.38" x2="-190.5" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="ON"/>
 <wire x1="-190.5" y1="152.4" x2="-190.5" y2="157.48" width="0.1524" layer="91"/>
@@ -16490,8 +16491,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="-175.26" y1="152.4" x2="-190.5" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-190.5" y="152.4"/>
 <label x="-175.26" y="152.4" size="1.778" layer="95"/>
-<wire x1="-246.38" y1="119.38" x2="-256.54" y2="119.38" width="0.1524" layer="91"/>
-<junction x="-246.38" y="119.38"/>
+<wire x1="-243.84" y1="119.38" x2="-256.54" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-243.84" y="119.38"/>
 <wire x1="-256.54" y1="119.38" x2="-256.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-256.54" y1="76.2" x2="-353.06" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-353.06" y1="76.2" x2="-353.06" y2="96.52" width="0.1524" layer="91"/>
@@ -16715,8 +16716,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="378.46" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="7.62" x2="426.72" y2="7.62" width="0.1524" layer="91"/>
-<label x="429.26" y="7.62" size="1.778" layer="95"/>
+<wire x1="429.26" y1="10.16" x2="426.72" y2="10.16" width="0.1524" layer="91"/>
+<label x="429.26" y="10.16" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -16745,8 +16746,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="378.46" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="429.26" y1="2.54" x2="426.72" y2="2.54" width="0.1524" layer="91"/>
-<label x="429.26" y="2.54" size="1.778" layer="95"/>
+<wire x1="429.26" y1="5.08" x2="426.72" y2="5.08" width="0.1524" layer="91"/>
+<label x="429.26" y="5.08" size="1.778" layer="95"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -16940,7 +16941,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <wire x1="426.72" y1="-35.56" x2="431.8" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="IC24" gate="G$1" pin="SCK"/>
-<label x="431.8" y="-35.56" size="1.778" layer="95"/>
+<label x="431.8" y="-35.56" size="1.778" layer="95" rot="MR180"/>
 </segment>
 </net>
 <net name="EE_I2C_SDA" class="0">
@@ -16980,7 +16981,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <wire x1="426.72" y1="-33.02" x2="431.8" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="IC24" gate="G$1" pin="SDI"/>
-<label x="431.8" y="-33.02" size="1.778" layer="95"/>
+<label x="431.8" y="-33.02" size="1.778" layer="95" rot="MR180"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -17231,15 +17232,15 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <net name="N$39" class="0">
 <segment>
 <pinref part="IC9" gate="G$1" pin="BT_ANT"/>
-<wire x1="251.46" y1="35.56" x2="269.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="35.56" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="Y5" gate="G$1" pin="FEED"/>
-<wire x1="269.24" y1="43.18" x2="269.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="43.18" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TS_SDA" class="0">
 <segment>
 <pinref part="X7" gate="G$1" pin="SDA"/>
-<label x="304.8" y="-50.8" size="1.778" layer="95" rot="R180"/>
+<label x="304.8" y="-50.8" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP5" gate="G$1" pin="TEST"/>
 <wire x1="314.96" y1="-50.8" x2="312.42" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="-50.8" x2="304.8" y2="-50.8" width="0.1524" layer="91"/>
@@ -17255,7 +17256,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <net name="TS_SCL" class="0">
 <segment>
 <pinref part="X7" gate="G$1" pin="SCL"/>
-<label x="304.8" y="-53.34" size="1.778" layer="95" rot="R180"/>
+<label x="304.8" y="-53.34" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP13" gate="G$1" pin="TEST"/>
 <wire x1="314.96" y1="-53.34" x2="307.34" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="-53.34" x2="304.8" y2="-53.34" width="0.1524" layer="91"/>
@@ -17909,8 +17910,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="IC9" gate="G$1" pin="SPK_P"/>
-<wire x1="218.44" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
-<label x="210.82" y="25.4" size="1.778" layer="95" rot="R180"/>
+<wire x1="218.44" y1="25.4" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
+<label x="213.36" y="25.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GSM_A_IN" class="0">
@@ -17928,7 +17929,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <pinref part="IC9" gate="G$1" pin="MIC_P"/>
 <wire x1="218.44" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
-<label x="215.9" y="30.48" size="1.778" layer="95" rot="R180"/>
+<label x="215.9" y="30.48" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="OSCI1" class="0">
@@ -18025,9 +18026,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="-251.46" y1="149.86" x2="-251.46" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="147.32" x2="-236.22" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="147.32" x2="-251.46" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="Q8" gate="G$1" pin="D"/>
-<wire x1="-236.22" y1="144.78" x2="-236.22" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-248.92" y1="137.16" x2="-251.46" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-254" y1="147.32" x2="-251.46" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-251.46" y="147.32"/>
@@ -18418,8 +18419,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="3"/>
 <pinref part="X14" gate="G$1" pin="S"/>
-<wire x1="279.4" y1="30.48" x2="289.56" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="30.48" x2="289.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="30.48" x2="292.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="30.48" x2="292.1" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$90" class="0">

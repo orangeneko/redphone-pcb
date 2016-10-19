@@ -15347,9 +15347,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="-2.54" y1="-81.28" x2="-5.08" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-81.28" x2="-5.08" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-78.74"/>
-<wire x1="-2.54" y1="-83.82" x2="-5.08" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-83.82" x2="-5.08" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-81.28"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="-76.2" x2="-22.86" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-73.66" x2="-15.24" y2="-73.66" width="0.1524" layer="91"/>
@@ -15369,7 +15366,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="IC8" gate="G$1" pin="VDDA"/>
 <pinref part="IC8" gate="G$1" pin="VDDD"/>
 <pinref part="IC8" gate="G$1" pin="VDDPST"/>
-<pinref part="IC8" gate="G$1" pin="VDD_RTC"/>
 </segment>
 <segment>
 <pinref part="X7" gate="G$1" pin="VCC"/>

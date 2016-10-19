@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,15 +23,15 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -10079,13 +10079,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <contactref element="IC8" pad="29"/>
 <contactref element="IC8" pad="11"/>
 <contactref element="IC8" pad="17"/>
-<contactref element="IC8" pad="5"/>
 <wire x1="105.25" y1="52.95" x2="105.25" y2="53.65" width="0.2" layer="1"/>
 <wire x1="108.1" y1="50.9" x2="107.3" y2="50.9" width="0.2" layer="1"/>
 <wire x1="107.3" y1="51.4" x2="108.6" y2="51.4" width="0.2" layer="1"/>
 <wire x1="103.25" y1="47.7" x2="103.25" y2="48.35" width="0.2" layer="1"/>
-<wire x1="104.75" y1="52.95" x2="104.75" y2="53.65" width="0.2" layer="1"/>
-<wire x1="104.75" y1="53.65" x2="105.25" y2="53.65" width="0.2" layer="1"/>
 <wire x1="105.75" y1="52.95" x2="105.75" y2="53.65" width="0.2" layer="1"/>
 <wire x1="105.75" y1="53.65" x2="105.25" y2="53.65" width="0.2" layer="1"/>
 <contactref element="IC23" pad="7"/>
@@ -10121,7 +10118,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="109.95" y1="52.35" x2="107.95" y2="54.35" width="0.4064" layer="16"/>
 <wire x1="107.95" y1="54.35" x2="104.75" y2="54.35" width="0.4064" layer="16"/>
 <wire x1="108.3" y1="54.7" x2="107.95" y2="54.35" width="0.2" layer="1"/>
-<wire x1="104.75" y1="54.35" x2="104.75" y2="53.65" width="0.2" layer="1"/>
 <wire x1="106.75" y1="52.95" x2="106.75" y2="53.4" width="0.2" layer="1"/>
 <wire x1="106.75" y1="53.4" x2="106.95" y2="53.6" width="0.2" layer="1"/>
 <wire x1="106.95" y1="53.6" x2="107.2" y2="53.6" width="0.2" layer="1"/>
@@ -10249,8 +10245,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="16.75" y1="47" x2="17.95" y2="47" width="0.2" layer="1"/>
 <wire x1="17.95" y1="47" x2="19.05" y2="45.9" width="0.2" layer="1"/>
 <contactref element="IC7" pad="10"/>
-<wire x1="23" y1="40.6" x2="22.6" y2="40.6" width="0.2" layer="1"/>
-<wire x1="22.6" y1="40.6" x2="20.75" y2="40.6" width="0.2" layer="1"/>
+<wire x1="23" y1="40.6" x2="20.75" y2="40.6" width="0.2" layer="1"/>
 <wire x1="24.55" y1="39.45" x2="24.55" y2="40.6" width="0.2" layer="1"/>
 <wire x1="24.55" y1="40.6" x2="23" y2="40.6" width="0.2" layer="1"/>
 <wire x1="24.5" y1="33" x2="22.95" y2="33" width="0.3048" layer="1"/>
@@ -10258,6 +10253,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="22.95" y1="36" x2="20.8" y2="36" width="0.4064" layer="1"/>
 <wire x1="20.8" y1="36" x2="20.75" y2="36.2" width="0.3048" layer="1"/>
 <wire x1="20.75" y1="39.1" x2="20.75" y2="36.2" width="0.4064" layer="1"/>
+<wire x1="105.25" y1="53.65" x2="104.75" y2="54.15" width="0.2" layer="1"/>
+<wire x1="104.75" y1="54.15" x2="104.75" y2="54.35" width="0.2" layer="1"/>
 </signal>
 <signal name="AQ13">
 <contactref element="IC2" pad="88"/>
@@ -12638,7 +12635,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="63.3" y1="38.6" x2="78.06" y2="38.6" width="0.2" layer="16"/>
 <wire x1="52.01" y1="37.9" x2="49.52" y2="40.39" width="0.2" layer="16"/>
 <contactref element="IC8" pad="7"/>
-<wire x1="103.75" y1="52.95" x2="103.75" y2="53.8" width="0.2" layer="1"/>
 <via x="103.75" y="53.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="94.15" y1="49.65" x2="93.3" y2="48.8" width="0.2" layer="16"/>
 <wire x1="93.3" y1="48.8" x2="92.85" y2="48.8" width="0.2" layer="16"/>
@@ -12671,6 +12667,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="94.05" y1="45.7" x2="92.6" y2="47.15" width="0.2" layer="1"/>
 <wire x1="39.41" y1="38.56" x2="41.24" y2="40.39" width="0.2" layer="16"/>
 <wire x1="41.24" y1="40.39" x2="49.52" y2="40.39" width="0.2" layer="16"/>
+<wire x1="103.75" y1="52.95" x2="103.75" y2="53.8" width="0.2" layer="1"/>
 </signal>
 <signal name="ESP_TX">
 <contactref element="IC2" pad="37"/>

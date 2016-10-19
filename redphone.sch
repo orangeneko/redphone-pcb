@@ -5059,8 +5059,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="-0.7" y1="-0.3" x2="-0.7" y2="-0.15" width="0.127" layer="51"/>
 <wire x1="-0.7" y1="-0.15" x2="-0.7" y2="0.3" width="0.127" layer="21"/>
 <smd name="1" x="-0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
-<smd name="2" x="0" y="0.575" dx="0.4" dy="0.65" layer="1"/>
-<smd name="3" x="0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="3" x="0" y="0.575" dx="0.4" dy="0.65" layer="1"/>
+<smd name="2" x="0.5" y="-0.575" dx="0.4" dy="0.65" layer="1"/>
 <text x="-0.8" y="1" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.8" y="-2.3" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.6" y1="-0.8" x2="-0.4" y2="-0.35" layer="51"/>

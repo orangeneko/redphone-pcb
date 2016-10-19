@@ -4980,8 +4980,8 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 </package>
 <package name="HTC_ONE_S_SPEAKER">
 <wire x1="15" y1="-6" x2="0" y2="-6" width="0.127" layer="21"/>
-<smd name="1" x="1.5" y="-1.5" dx="3" dy="3" layer="1"/>
-<smd name="2" x="13.5" y="-1.5" dx="3" dy="3" layer="1"/>
+<smd name="1" x="0.75" y="-1.5" dx="1.5" dy="3" layer="1"/>
+<smd name="2" x="14.25" y="-1.5" dx="1.5" dy="3" layer="1"/>
 <wire x1="0" y1="-3.2" x2="0" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="0" x2="3.2" y2="0" width="0.127" layer="51"/>
 <wire x1="11.8" y1="0" x2="15" y2="0" width="0.127" layer="51"/>

@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,10 +28,10 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1744,6 +1744,27 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="0.5" y1="-16.4" x2="9.4" y2="-16.4" width="0.127" layer="51"/>
 <wire x1="11.4" y1="-14.4" x2="9.4" y2="-16.4" width="0.127" layer="51"/>
 <text x="2" y="-1.4" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="CRYSTAL_MICRO_26">
+<smd name="1" x="-0.9625" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
+<smd name="2" x="0.80375" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
+<smd name="3" x="0.80375" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
+<smd name="4" x="-0.9625" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
+<text x="-1.27" y="2.54" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-1.27" y1="0.79375" x2="-0.3571875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="0.79375" x2="-1.27" y2="0.15875" width="0.127" layer="51"/>
+<wire x1="0.1984375" y1="0.79375" x2="1.11125" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-0.79375" x2="-0.3571875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="0.1984375" y1="-0.79375" x2="1.11125" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.11125" y1="0.79375" x2="1.11125" y2="0.15875" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-0.15875" x2="-1.27" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.11125" y1="-0.15875" x2="1.11125" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="-0.3571875" y1="0.79375" x2="0.1984375" y2="0.79375" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.15875" x2="-1.27" y2="-0.15875" width="0.127" layer="21"/>
+<wire x1="1.11125" y1="0.15875" x2="1.11125" y2="-0.15875" width="0.127" layer="21"/>
+<wire x1="-0.3571875" y1="-0.79375" x2="0.1984375" y2="-0.79375" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<circle x="-0.9575" y="0.0925" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="CRYSTAL_MINI_26">
 <description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
@@ -6914,9 +6935,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="109.21" y="47.415" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="110.115" y="45.4625" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="OSC1" library="netcat" package="CRYSTAL_MINI_26" value="26 Mhz" x="110.75" y="49.95" smashed="yes" rot="R270">
-<attribute name="VALUE" x="113.942" y="51.036" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
-<attribute name="NAME" x="109.143" y="48.134" size="0.8128" layer="25" font="vector" rot="R90"/>
+<element name="OSC1" library="netcat" package="CRYSTAL_MICRO_26" value="26 Mhz" x="110.8" y="49.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="113.992" y="50.886" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="109.193" y="47.984" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C19" library="netcat" package="R0402" value="10p" x="112.8" y="49.45" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.338" y="54.615" size="0.8128" layer="25" font="vector" rot="R90"/>
@@ -7238,9 +7259,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="99.965" y="26.062" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="98.835" y="27.532" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="Q1" library="netcat" package="SOT23" value="IRLML6402" x="18.3" y="49.65" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.855" y="48.755" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="20.205" y="52.825" size="0.8128" layer="27" font="vector" rot="R180"/>
+<element name="Q1" library="netcat" package="SOT23" value="IRLML6402" x="18.3" y="49.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.855" y="48.905" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="20.205" y="52.975" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R40" library="netcat" package="R0402" value="2.2k" x="99.15" y="20.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.86" y="19.713" size="0.8128" layer="25" font="vector" rot="R180"/>
@@ -8059,9 +8080,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="113.4" y="37.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="C71" pad="2"/>
 <via x="101.2" y="46.65" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="106.6" y="44.75" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="106.3" y="44.6" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="105.05" y="42.4" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="101.7" y="40" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="102" y="39.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="100.45" y="35.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="91.45" y="31.5" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="94.65" y="27.85" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -8078,7 +8099,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="113.3" y="34.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="6.9" y="15.75" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="1.1" y="50.55" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="19.25" y="49.55" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="20.5" y="51.25" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="1.1" y="42.25" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="88.05" y="44" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="73.35" y="43.9" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -8186,7 +8207,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="30.2" y="56.5" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="33.45" y="6.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="38" y="53" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="7" y="53.35" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="8.45" y="50.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="14.7" y="49.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="4.5" y="55.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="65.5" y="43.85" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -8253,9 +8274,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <contactref element="C77" pad="2"/>
 <via x="83.875" y="29.725" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="12.6" y1="50.05" x2="12.6" y2="50.85" width="0.2" layer="1"/>
-<wire x1="12.6" y1="50.85" x2="13" y2="51.25" width="0.2" layer="1"/>
-<wire x1="13" y1="50.05" x2="13" y2="51.25" width="0.2" layer="1"/>
-<wire x1="13" y1="51.25" x2="13.05" y2="51.3" width="0.2" layer="1"/>
+<wire x1="12.6" y1="50.85" x2="13" y2="50.85" width="0.2" layer="1"/>
+<wire x1="13" y1="50.05" x2="13" y2="50.85" width="0.2" layer="1"/>
 <contactref element="R16" pad="1"/>
 <contactref element="IC23" pad="8"/>
 <contactref element="IC23" pad="14"/>
@@ -8283,10 +8303,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="30.6" y="42" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="IC22" pad="3"/>
 <contactref element="IC22" pad="4"/>
-<wire x1="11.8" y1="50.05" x2="11.8" y2="50.9" width="0.2" layer="1"/>
-<wire x1="12.2" y1="51.3" x2="12.2" y2="51.25" width="0.2" layer="1"/>
-<wire x1="12.2" y1="51.25" x2="12.6" y2="50.85" width="0.2" layer="1"/>
-<wire x1="12.2" y1="50.05" x2="12.2" y2="51.25" width="0.2" layer="1"/>
+<wire x1="11.8" y1="50.05" x2="11.8" y2="50.85" width="0.2" layer="1"/>
+<wire x1="12.2" y1="50.85" x2="12.6" y2="50.85" width="0.2" layer="1"/>
+<wire x1="12.2" y1="50.05" x2="12.2" y2="50.85" width="0.2" layer="1"/>
 <contactref element="IC22" pad="10"/>
 <contactref element="IC22" pad="16"/>
 <wire x1="9.95" y1="48.6" x2="9.4" y2="48.6" width="0.2" layer="1"/>
@@ -8320,6 +8339,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="45.05" y="31.2" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="53.1" y="33.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="63.2" y="30.05" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="11.7" y="39.35" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="17.4" y="45.8" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="4.1" y="39.5" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="14.5" y="42.2" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="5.6" y="42" extent="1-16" drill="0.3048" shape="octagon"/>
 </signal>
 <signal name="SDHC_ST">
 <contactref element="X5" pad="9"/>
@@ -9820,7 +9844,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="13.49" y1="20.6" x2="13.5" y2="20.6" width="0.2" layer="1"/>
 <contactref element="IC7" pad="1"/>
 <contactref element="R35" pad="1"/>
-<via x="19.05" y="45.9" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="19.05" y="45.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="30.15" y="53.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="59.25" y1="46.95" x2="59.525" y2="46.95" width="0.4064" layer="16"/>
 <wire x1="59.55" y1="46.95" x2="85.7" y2="46.95" width="0.4064" layer="16"/>
@@ -9978,7 +10002,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="28.35" y1="5.8" x2="39.7" y2="5.8" width="0.4064" layer="16"/>
 <wire x1="39.7" y1="5.8" x2="39.95" y2="6.05" width="0.4064" layer="16"/>
 <wire x1="24.2" y1="53.1" x2="19.05" y2="47.95" width="0.4064" layer="16"/>
-<wire x1="19.05" y1="47.95" x2="19.05" y2="45.9" width="0.4064" layer="16"/>
+<wire x1="19.05" y1="47.95" x2="19.05" y2="45.8" width="0.4064" layer="16"/>
 <wire x1="72.8" y1="24" x2="73.7" y2="24.9" width="0.4064" layer="1"/>
 <wire x1="64.25" y1="28.1" x2="65.75" y2="26.6" width="0.2" layer="1"/>
 <wire x1="65.75" y1="26.6" x2="68.2" y2="26.6" width="0.2" layer="1"/>
@@ -10228,7 +10252,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="98.5" y1="14.7" x2="98.5" y2="16.75" width="0.4064" layer="16"/>
 <wire x1="117.9" y1="12.85" x2="117.9" y2="13.9" width="0.2" layer="16"/>
 <wire x1="117.9" y1="13.9" x2="117.95" y2="13.95" width="0.2" layer="16"/>
-<wire x1="19.05" y1="45.9" x2="19.05" y2="43.179" width="0.4064" layer="1"/>
+<wire x1="19.05" y1="45.8" x2="19.05" y2="43.179" width="0.4064" layer="1"/>
 <wire x1="19.05" y1="43.179" x2="19.046" y2="43.175" width="0.4064" layer="1"/>
 <wire x1="101.05" y1="53.6" x2="101.25" y2="53.8" width="0.2" layer="1"/>
 <wire x1="101.25" y1="53.8" x2="101.95" y2="53.8" width="0.2" layer="1"/>
@@ -10242,8 +10266,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="5.8" y1="50.85" x2="14.75" y2="50.85" width="0.2" layer="16"/>
 <wire x1="14.75" y1="50.85" x2="17.65" y2="47.95" width="0.2" layer="16"/>
 <wire x1="17.65" y1="47.95" x2="19.05" y2="47.95" width="0.2" layer="16"/>
-<wire x1="16.75" y1="47" x2="17.95" y2="47" width="0.2" layer="1"/>
-<wire x1="17.95" y1="47" x2="19.05" y2="45.9" width="0.2" layer="1"/>
+<wire x1="16.75" y1="47" x2="17.85" y2="47" width="0.2" layer="1"/>
+<wire x1="17.85" y1="47" x2="19.05" y2="45.8" width="0.2" layer="1"/>
 <contactref element="IC7" pad="10"/>
 <wire x1="23" y1="40.6" x2="20.75" y2="40.6" width="0.2" layer="1"/>
 <wire x1="24.55" y1="39.45" x2="24.55" y2="40.6" width="0.2" layer="1"/>
@@ -11165,8 +11189,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="97.4" y1="32.45" x2="97.9" y2="32.95" width="0.2" layer="1"/>
 <wire x1="97.9" y1="32.95" x2="97.9" y2="33.6" width="0.2" layer="1"/>
 <wire x1="97.9" y1="33.6" x2="96.75" y2="34.75" width="0.2" layer="1"/>
-<wire x1="7.4" y1="55.35" x2="6.55" y2="55.35" width="0.2" layer="1"/>
-<wire x1="6.55" y1="55.35" x2="6.55" y2="56" width="0.2" layer="1"/>
 <wire x1="6.55" y1="56" x2="7.4" y2="56" width="0.2" layer="1"/>
 <wire x1="6.55" y1="57.25" x2="6.55" y2="56" width="0.2" layer="1"/>
 <wire x1="7.6" y1="57.25" x2="6.55" y2="57.25" width="0.2" layer="1"/>
@@ -11208,6 +11230,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="93.45" y1="44.1" x2="90.75" y2="46.8" width="0.2" layer="1"/>
 <wire x1="24.2" y1="43.85" x2="14.2" y2="33.85" width="0.2" layer="16"/>
 <wire x1="24.2" y1="43.85" x2="24.2" y2="47.95" width="0.2" layer="16"/>
+<wire x1="7.4" y1="55.35" x2="6.75" y2="55.35" width="0.2" layer="1"/>
+<wire x1="6.75" y1="55.35" x2="6.55" y2="55.55" width="0.2" layer="1"/>
+<wire x1="6.55" y1="55.55" x2="6.55" y2="56" width="0.2" layer="1"/>
 </signal>
 <signal name="BAT_EN">
 <contactref element="R7" pad="1"/>
@@ -11219,10 +11244,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="13.75" y1="53.55" x2="12.65" y2="53.55" width="0.2" layer="1"/>
 <wire x1="13.75" y1="54.75" x2="13.75" y2="53.55" width="0.2" layer="1"/>
 <wire x1="12.65" y1="53.55" x2="19.25" y2="53.55" width="0.2" layer="16"/>
-<wire x1="19.25" y1="50.75" x2="19.25" y2="53.55" width="0.2" layer="1"/>
-<wire x1="18.35" y1="54.7" x2="18.9" y2="54.7" width="0.2" layer="1"/>
-<wire x1="18.9" y1="54.7" x2="19.25" y2="54.35" width="0.2" layer="1"/>
-<wire x1="19.25" y1="54.35" x2="19.25" y2="53.55" width="0.2" layer="1"/>
+<wire x1="18.35" y1="54.7" x2="18.95" y2="54.7" width="0.2" layer="1"/>
+<wire x1="18.95" y1="54.7" x2="19.25" y2="54.4" width="0.2" layer="1"/>
+<wire x1="19.25" y1="54.4" x2="19.25" y2="53.55" width="0.2" layer="1"/>
+<wire x1="19.25" y1="53.55" x2="19.25" y2="50.9" width="0.2" layer="1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="C2" pad="+"/>
@@ -11315,7 +11340,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="31.34" y1="41.05" x2="31.34" y2="40.14" width="0.4064" layer="1"/>
 <wire x1="31.34" y1="40.14" x2="34.41" y2="40.14" width="0.4064" layer="1"/>
 <wire x1="20.95" y1="44.4" x2="20.95" y2="45.4" width="0.4064" layer="1"/>
-<wire x1="20.4" y1="45.95" x2="20.95" y2="45.4" width="0.4064" layer="1"/>
+<wire x1="20.35" y1="46" x2="20.95" y2="45.4" width="0.4064" layer="1"/>
 <wire x1="32.74" y1="42.96" x2="31.34" y2="42.96" width="0.2" layer="1"/>
 <wire x1="31.34" y1="42.96" x2="31.34" y2="43.01" width="0.2" layer="1"/>
 <wire x1="26.55" y1="36.75" x2="26.55" y2="36.2" width="0.2" layer="1"/>
@@ -11326,9 +11351,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="30.1" y1="37.35" x2="30.1" y2="38.9" width="0.4064" layer="1"/>
 <wire x1="30.1" y1="38.9" x2="31.34" y2="40.14" width="0.4064" layer="1"/>
 <wire x1="29.2" y1="37.35" x2="30.1" y2="37.35" width="0.2" layer="1"/>
-<wire x1="20.4" y1="45.95" x2="20.4" y2="47.3" width="0.4064" layer="1"/>
-<wire x1="20.4" y1="47.3" x2="19.15" y2="48.55" width="0.4064" layer="1"/>
-<wire x1="19.15" y1="48.55" x2="18.3" y2="48.55" width="0.4064" layer="1"/>
+<wire x1="20.35" y1="46" x2="20.35" y2="47.35" width="0.4064" layer="1"/>
 <contactref element="IC13" pad="5"/>
 <contactref element="R45" pad="2"/>
 <wire x1="34.41" y1="40.14" x2="37.75" y2="36.8" width="0.4064" layer="1"/>
@@ -11346,6 +11369,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="44.85" y1="35.35" x2="44.85" y2="33.8" width="0.3048" layer="1"/>
 <wire x1="44.85" y1="33.8" x2="44.85" y2="33.75" width="0.3048" layer="1"/>
 <wire x1="45.35" y1="33.3" x2="44.85" y2="33.8" width="0.2" layer="1"/>
+<wire x1="20.35" y1="47.35" x2="19" y2="48.7" width="0.4064" layer="1"/>
+<wire x1="19" y1="48.7" x2="18.3" y2="48.7" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC7" pad="8"/>
@@ -11433,10 +11458,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="11.15" y1="28.65" x2="13.8" y2="31.3" width="0.2" layer="16"/>
 <wire x1="13.25" y1="34.85" x2="16.05" y2="37.65" width="0.2" layer="16"/>
 <wire x1="16.05" y1="37.65" x2="16.3" y2="37.65" width="0.2" layer="16"/>
-<wire x1="10.6" y1="45.55" x2="10.6" y2="46.35" width="0.2" layer="1"/>
-<wire x1="10.6" y1="45.55" x2="10.05" y2="45" width="0.2" layer="1"/>
-<via x="10.05" y="45" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="10.05" y1="45" x2="10.05" y2="43.3" width="0.2" layer="16"/>
+<wire x1="10.6" y1="45.85" x2="10.6" y2="46.35" width="0.2" layer="1"/>
+<wire x1="10.6" y1="45.85" x2="10.05" y2="45.3" width="0.2" layer="1"/>
+<via x="10.05" y="45.3" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="10.05" y1="45.3" x2="10.05" y2="43.3" width="0.2" layer="16"/>
 <wire x1="10.05" y1="43.3" x2="12.3" y2="41.05" width="0.2" layer="16"/>
 <via x="12.3" y="41.05" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="12.3" y1="41.05" x2="13.2" y2="41.05" width="0.2" layer="1"/>
@@ -12191,15 +12216,15 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="104.25" y1="47.4" x2="104.25" y2="48.35" width="0.2" layer="1"/>
 </signal>
 <signal name="SD_!HD!">
-<via x="107.1" y="43.7" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="106.3" y="43.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="102.4" y="46.9" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="103.75" y1="47.6" x2="103.05" y2="46.9" width="0.2" layer="1"/>
 <wire x1="103.05" y1="46.9" x2="102.4" y2="46.9" width="0.2" layer="1"/>
-<wire x1="107.1" y1="43.7" x2="105.6" y2="43.7" width="0.2" layer="16"/>
+<wire x1="106.3" y1="43.7" x2="105.6" y2="43.7" width="0.2" layer="16"/>
 <wire x1="105.6" y1="43.7" x2="102.4" y2="46.9" width="0.2" layer="16"/>
 <contactref element="IC19" pad="7"/>
 <wire x1="108.8587" y1="43.685" x2="108.8437" y2="43.7" width="0.2" layer="1"/>
-<wire x1="108.8437" y1="43.7" x2="107.1" y2="43.7" width="0.2" layer="1"/>
+<wire x1="108.8437" y1="43.7" x2="106.3" y2="43.7" width="0.2" layer="1"/>
 <contactref element="IC8" pad="18"/>
 <wire x1="103.75" y1="47.6" x2="103.75" y2="48.35" width="0.2" layer="1"/>
 </signal>
@@ -12218,26 +12243,24 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="110.5" y1="41.145" x2="110.5" y2="41.15" width="0.2" layer="1"/>
 </signal>
 <signal name="SD_SO">
-<wire x1="105.75" y1="44.75" x2="104.685" y2="43.685" width="0.2" layer="1"/>
+<wire x1="105.75" y1="45.1" x2="104.335" y2="43.685" width="0.2" layer="1"/>
 <contactref element="IC19" pad="2"/>
-<wire x1="104.685" y1="43.685" x2="103.3412" y2="43.685" width="0.2" layer="1"/>
+<wire x1="104.335" y1="43.685" x2="103.3412" y2="43.685" width="0.2" layer="1"/>
 <contactref element="IC8" pad="22"/>
-<wire x1="105.75" y1="44.75" x2="105.75" y2="48.35" width="0.2" layer="1"/>
+<wire x1="105.75" y1="45.1" x2="105.75" y2="48.35" width="0.2" layer="1"/>
 </signal>
 <signal name="SD_CLK">
 <wire x1="105.25" y1="46.65" x2="104.75" y2="46.15" width="0.2" layer="1"/>
 <via x="104.75" y="46.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="104.75" y1="46.15" x2="106.45" y2="46.15" width="0.2" layer="16"/>
-<wire x1="106.45" y1="46.15" x2="108.25" y2="44.35" width="0.2" layer="16"/>
-<wire x1="108.25" y1="44.35" x2="108.25" y2="43.4" width="0.2" layer="16"/>
-<wire x1="108.25" y1="43.4" x2="107.25" y2="42.4" width="0.2" layer="16"/>
-<wire x1="107.25" y1="42.4" x2="106.3" y2="42.4" width="0.2" layer="16"/>
-<via x="106.3" y="42.4" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="107.25" y="42.4" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="IC19" pad="6"/>
 <wire x1="108.8587" y1="42.415" x2="108.8437" y2="42.4" width="0.2" layer="1"/>
-<wire x1="108.8437" y1="42.4" x2="106.3" y2="42.4" width="0.2" layer="1"/>
+<wire x1="108.8437" y1="42.4" x2="107.25" y2="42.4" width="0.2" layer="1"/>
 <contactref element="IC8" pad="21"/>
 <wire x1="105.25" y1="46.65" x2="105.25" y2="48.35" width="0.2" layer="1"/>
+<wire x1="106.45" y1="46.15" x2="107.25" y2="45.35" width="0.2" layer="16"/>
+<wire x1="107.25" y1="45.35" x2="107.25" y2="42.4" width="0.2" layer="16"/>
 </signal>
 <signal name="SD_CS0">
 <wire x1="104.75" y1="47.2" x2="103.3413" y2="45.7913" width="0.2" layer="1"/>
@@ -12260,21 +12283,25 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <signal name="N$26">
 <contactref element="C19" pad="2"/>
 <contactref element="OSC1" pad="3"/>
-<wire x1="110.62625" y1="49.9" x2="111.6975" y2="48.82875" width="0.2" layer="1"/>
 <contactref element="IC8" pad="27"/>
-<wire x1="107.3" y1="49.9" x2="110.62625" y2="49.9" width="0.2" layer="1"/>
-<wire x1="111.6975" y1="48.82875" x2="112.8" y2="48.82875" width="0.2" layer="1"/>
-<wire x1="112.8" y1="48.82875" x2="112.8" y2="48.8" width="0.2" layer="1"/>
+<wire x1="107.3" y1="49.9" x2="110.52625" y2="49.9" width="0.2" layer="1"/>
+<wire x1="110.52625" y1="49.9" x2="111.43" y2="48.99625" width="0.2" layer="1"/>
+<wire x1="112.8" y1="48.8" x2="111.62625" y2="48.8" width="0.2" layer="1"/>
+<wire x1="111.62625" y1="48.8" x2="111.43" y2="48.99625" width="0.2" layer="1"/>
 </signal>
 <signal name="N$27">
 <contactref element="C20" pad="2"/>
 <contactref element="OSC1" pad="1"/>
-<wire x1="111.55" y1="52.45" x2="110.35" y2="51.25" width="0.2" layer="1"/>
-<wire x1="110.35" y1="51.25" x2="109.8225" y2="51.25" width="0.2" layer="1"/>
-<wire x1="109.8225" y1="51.25" x2="109.8025" y2="51.23" width="0.2" layer="1"/>
-<wire x1="108.9725" y1="50.4" x2="109.8025" y2="51.23" width="0.2" layer="1"/>
 <contactref element="IC8" pad="28"/>
-<wire x1="107.3" y1="50.4" x2="108.9725" y2="50.4" width="0.2" layer="1"/>
+<wire x1="110.17" y1="50.7625" x2="110.15" y2="50.7825" width="0.2" layer="1"/>
+<wire x1="110.15" y1="50.7825" x2="110.15" y2="51.4" width="0.2" layer="1"/>
+<wire x1="110.15" y1="51.4" x2="110.4" y2="51.65" width="0.2" layer="1"/>
+<wire x1="110.4" y1="51.65" x2="111.3" y2="51.65" width="0.2" layer="1"/>
+<wire x1="111.3" y1="51.65" x2="111.55" y2="51.9" width="0.2" layer="1"/>
+<wire x1="111.55" y1="51.9" x2="111.55" y2="52.45" width="0.2" layer="1"/>
+<wire x1="107.3" y1="50.4" x2="108.85" y2="50.4" width="0.2" layer="1"/>
+<wire x1="108.85" y1="50.4" x2="109.2125" y2="50.7625" width="0.2" layer="1"/>
+<wire x1="109.2125" y1="50.7625" x2="110.17" y2="50.7625" width="0.2" layer="1"/>
 </signal>
 <signal name="N$30">
 <contactref element="R24" pad="1"/>
@@ -12337,10 +12364,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </signal>
 <signal name="N$35">
 <contactref element="C23" pad="1"/>
-<wire x1="105.6568" y1="38.1754" x2="105.6568" y2="38.5432" width="0.2" layer="1"/>
-<wire x1="105.6568" y1="38.5432" x2="105.4" y2="38.8" width="0.2" layer="1"/>
-<wire x1="105.4" y1="38.8" x2="104.8" y2="38.8" width="0.2" layer="1"/>
-<wire x1="104.8" y1="38.8" x2="104.6" y2="39" width="0.2" layer="1"/>
+<wire x1="105.6568" y1="38.1754" x2="105.6568" y2="38.6432" width="0.2" layer="1"/>
+<wire x1="105.6568" y1="38.6432" x2="105.45" y2="38.85" width="0.2" layer="1"/>
+<wire x1="105.45" y1="38.85" x2="104.75" y2="38.85" width="0.2" layer="1"/>
+<wire x1="104.75" y1="38.85" x2="104.6" y2="39" width="0.2" layer="1"/>
 <wire x1="104.6" y1="39" x2="104.6" y2="39.55" width="0.2" layer="1"/>
 <contactref element="IC23" pad="19"/>
 </signal>
@@ -13697,7 +13724,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="9.85" y1="57.25" x2="13.15" y2="57.25" width="0.2" layer="1"/>
 <wire x1="13.15" y1="57.25" x2="13.75" y2="56.65" width="0.2" layer="1"/>
 <wire x1="13.75" y1="56.65" x2="13.75" y2="56.05" width="0.2" layer="1"/>
-<wire x1="15.95" y1="51.95" x2="15.05" y2="52.85" width="0.2" layer="1"/>
+<wire x1="16" y1="51.9" x2="15.05" y2="52.85" width="0.2" layer="1"/>
 <wire x1="15.05" y1="52.85" x2="15.05" y2="53.55" width="0.2" layer="1"/>
 <wire x1="15.05" y1="54.7" x2="15.05" y2="55.55" width="0.2" layer="1"/>
 <wire x1="15.05" y1="55.55" x2="14.55" y2="56.05" width="0.2" layer="1"/>
@@ -13707,11 +13734,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="13.65" y1="47.375" x2="14.5" y2="47.375" width="0.2" layer="1"/>
 <wire x1="14.5" y1="47.375" x2="14.5" y2="47.775" width="0.2" layer="1"/>
 <wire x1="14.5" y1="47.775" x2="13.65" y2="47.775" width="0.2" layer="1"/>
-<wire x1="15.95" y1="51.95" x2="15.95" y2="50.8" width="0.2" layer="1"/>
-<wire x1="15.95" y1="50.8" x2="15.95" y2="49.225" width="0.4064" layer="1"/>
-<wire x1="15.95" y1="49.225" x2="14.5" y2="47.775" width="0.4064" layer="1"/>
-<wire x1="17.35" y1="50.75" x2="16" y2="50.75" width="0.4064" layer="1"/>
-<wire x1="16" y1="50.75" x2="15.95" y2="50.8" width="0.2" layer="1"/>
+<wire x1="14.5" y1="47.775" x2="16" y2="49.275" width="0.4064" layer="1"/>
+<wire x1="16" y1="49.275" x2="16" y2="50.9" width="0.4064" layer="1"/>
+<wire x1="16" y1="50.9" x2="17.35" y2="50.9" width="0.4064" layer="1"/>
+<wire x1="16" y1="51.9" x2="16" y2="50.9" width="0.2" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC10" pad="1"/>

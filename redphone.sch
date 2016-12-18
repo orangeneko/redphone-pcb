@@ -17363,6 +17363,11 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="312.42" y="238.76" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC2" gate="SPEC" pin="!RST"/>
 </segment>
+<segment>
+<pinref part="X16" gate="G$1" pin="CC1"/>
+<wire x1="-378.46" y1="147.32" x2="-381" y2="147.32" width="0.1524" layer="91"/>
+<label x="-378.46" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$44" class="0">
 <segment>
@@ -18268,18 +18273,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="IC2" gate="GPIOB" pin="PB3"/>
 <wire x1="7.62" y1="162.56" x2="5.08" y2="162.56" width="0.1524" layer="91"/>
 <label x="5.08" y="162.56" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="USB_CC1" class="0">
-<segment>
-<pinref part="X16" gate="G$1" pin="CC1"/>
-<wire x1="-378.46" y1="147.32" x2="-381" y2="147.32" width="0.1524" layer="91"/>
-<label x="-378.46" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="GPIOA" pin="PA15"/>
-<wire x1="-33.02" y1="132.08" x2="-35.56" y2="132.08" width="0.1524" layer="91"/>
-<label x="-35.56" y="132.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$17" class="0">

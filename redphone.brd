@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1672,7 +1672,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="11.4" y1="-14.4" x2="9.4" y2="-16.4" width="0.127" layer="51"/>
 <text x="2" y="-1.4" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="CRYSTAL_MICRO_26">
+<package name="2520">
 <smd name="1" x="-0.9625" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
 <smd name="2" x="0.80375" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
 <smd name="3" x="0.80375" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
@@ -1693,7 +1693,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <circle x="-0.9575" y="0.0925" radius="0.1016" width="0" layer="21"/>
 </package>
-<package name="CRYSTAL_MINI_26">
+<package name="3225">
 <description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
 Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <smd name="1" x="-1.28" y="-0.9475" dx="0.762" dy="1.016" layer="1" rot="R90"/>
@@ -1855,7 +1855,7 @@ Source: RSB_TPS65023RSB_Land_Pattern.pdf</description>
 <text x="-4.474" y="1.2701" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.474" y="2.5194" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="CRYSTAL_MICRO_32">
+<package name="3215">
 <description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
 Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <smd name="1" x="-1.43875" y="0.005" dx="1.143" dy="1.27" layer="1" rot="R90"/>
@@ -6859,7 +6859,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="109.21" y="47.415" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="110.115" y="45.4625" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="OSC1" library="netcat" package="CRYSTAL_MICRO_26" value="26 Mhz" x="110.8" y="49.8" smashed="yes" rot="R270">
+<element name="OSC1" library="netcat" package="2520" value="26 MHz" x="110.8" y="49.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="113.992" y="50.886" size="0.8128" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="NAME" x="109.593" y="48.484" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
@@ -6871,7 +6871,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="112.288" y="54.615" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="112.835" y="54.482" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="Q7" library="netcat" package="CRYSTAL_MINI_26" value="16MHz" x="106.66" y="30.51" smashed="yes" rot="R180">
+<element name="Q7" library="netcat" package="3225" value="16MHz" x="106.66" y="30.51" smashed="yes" rot="R180">
 <attribute name="VALUE" x="107.746" y="27.318" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="NAME" x="107.376" y="28.728" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
@@ -6955,7 +6955,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="34.91559375" y="29.5137" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="35.73488125" y="29.827646875" size="0.8128" layer="27" font="vector" rot="R135"/>
 </element>
-<element name="OSC2" library="netcat" package="CRYSTAL_MINI_26" value="8 mhz" x="24.15" y="3.15" smashed="yes" rot="R180">
+<element name="OSC2" library="netcat" package="3225" value="8 mhz" x="24.15" y="3.15" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.76" y="4.8075" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="26.436" y="3.658" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
@@ -6979,7 +6979,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="9.438" y="4.465" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="10.932" y="2.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="OSC3" library="netcat" package="CRYSTAL_MICRO_32" value="32.768k" x="18.5" y="3.6" smashed="yes">
+<element name="OSC3" library="netcat" package="3215" value="32.768k" x="18.5" y="3.6" smashed="yes">
 <attribute name="NAME" x="17.08" y="4.5075" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="16.214" y="4.362" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
@@ -7087,17 +7087,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="95.111" y="18.639" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="97.039" y="21.9645" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="OSC4" library="netcat" package="CRYSTAL_MINI_26" value="48 mhz" x="65.9" y="32" smashed="yes">
-<attribute name="NAME" x="64.46" y="29.6075" size="0.8128" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="63.614" y="31.492" size="0.8128" layer="27" font="vector" ratio="10"/>
-</element>
-<element name="C53" library="netcat" package="R0402" value="22p" x="66.5" y="34.15" smashed="yes">
-<attribute name="NAME" x="65.165" y="34.962" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="65.865" y="32.118" size="0.8128" layer="27" font="vector"/>
-</element>
-<element name="C54" library="netcat" package="R0402" value="22p" x="63.4" y="31.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.738" y="30.915" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="61.368" y="32.535" size="0.8128" layer="27" font="vector" rot="R270"/>
+<element name="C54" library="netcat" package="R0402" value="100n" x="63.25" y="32.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.588" y="31.215" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="61.218" y="32.985" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C55" library="netcat" package="R0402" value="100n" x="38.05" y="16.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.338" y="15.865" size="0.8128" layer="25" font="vector" rot="R90"/>
@@ -7169,7 +7161,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </element>
 <element name="Y4" library="netcat" package="GSM_ANT" value="GSM_PCB" x="60.05" y="62.95"/>
 <element name="Q4" library="netcat" package="SOT-416" value="NTA4153NT1G" x="62.8" y="35.5" smashed="yes">
-<attribute name="NAME" x="64.455" y="34.345" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="64.355" y="34.345" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="60.895" y="32.325" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="TP6" library="netcat" package="TP06R" value="ST" x="60.55" y="41.7" smashed="yes">
@@ -7533,6 +7525,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <attribute name="NAME" x="16.189" y="4.511" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="15.189" y="2.6645" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
+<element name="OSC4" library="netcat" package="3225" value="48 MHz" x="65.9" y="32.05" smashed="yes">
+<attribute name="VALUE" x="64.814" y="35.242" size="0.8128" layer="27" font="vector" ratio="10"/>
+<attribute name="NAME" x="64.884" y="33.932" size="0.8128" layer="25" font="vector"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -7698,10 +7694,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <contactref element="C50" pad="2"/>
 <contactref element="IC9" pad="12"/>
 <contactref element="IC9" pad="10"/>
-<contactref element="OSC4" pad="4"/>
-<contactref element="OSC4" pad="2"/>
-<contactref element="C53" pad="1"/>
-<contactref element="C54" pad="1"/>
 <polygon width="0.2" layer="1" isolate="0.2">
 <vertex x="0" y="0"/>
 <vertex x="0" y="63"/>
@@ -7823,7 +7815,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="103.6" y="56.4" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="62.25" y="52.25" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="78.75" y="52.25" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="64.65" y="34.1" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="64.45" y="34.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="78.35" y="34.25" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="90.9" y="43.05" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="90.1" y="49.85" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -8300,6 +8292,8 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <via x="1.5" y="24" extent="1-16" drill="0.8" diameter="1.55" shape="octagon"/>
 <via x="1.5" y="6" extent="1-16" drill="0.8" diameter="1.55" shape="octagon"/>
 <via x="7.5" y="6" extent="1-16" drill="0.8" diameter="1.55" shape="octagon"/>
+<contactref element="OSC4" pad="2"/>
+<contactref element="C54" pad="2"/>
 </signal>
 <signal name="SDHC_ST">
 <contactref element="X5" pad="9"/>
@@ -10234,6 +10228,16 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="98" y1="48.75" x2="98" y2="50.2" width="0.2" layer="1"/>
 <wire x1="98" y1="50.2" x2="97.25" y2="50.95" width="0.2" layer="1"/>
 <wire x1="97.25" y1="50.95" x2="93.71" y2="50.95" width="0.2" layer="1"/>
+<contactref element="C54" pad="1"/>
+<contactref element="OSC4" pad="4"/>
+<wire x1="64.25" y1="28.75" x2="64.25" y2="29.4" width="0.2" layer="1"/>
+<wire x1="64.25" y1="29.4" x2="64.7" y2="29.85" width="0.2" layer="1"/>
+<wire x1="64.7" y1="29.85" x2="65" y2="29.85" width="0.2" layer="1"/>
+<wire x1="65" y1="29.85" x2="65.55" y2="30.4" width="0.2" layer="1"/>
+<wire x1="65.55" y1="30.4" x2="65.55" y2="32.0675" width="0.2" layer="1"/>
+<wire x1="65.55" y1="32.0675" x2="64.62" y2="32.9975" width="0.2" layer="1"/>
+<wire x1="63.25" y1="33" x2="64.6175" y2="33" width="0.2" layer="1"/>
+<wire x1="64.6175" y1="33" x2="64.62" y2="32.9975" width="0.2" layer="1"/>
 </signal>
 <signal name="AQ13">
 <contactref element="IC2" pad="88"/>
@@ -13553,24 +13557,12 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="81.35" y1="30.4" x2="80.925" y2="29.975" width="0.2" layer="1"/>
 </signal>
 <signal name="OSCI1">
-<contactref element="C53" pad="2"/>
-<contactref element="OSC4" pad="3"/>
 <contactref element="IC1" pad="24"/>
-<wire x1="65.25" y1="28.75" x2="65.25" y2="30.1" width="0.2" layer="1"/>
-<wire x1="65.25" y1="30.1" x2="65.85" y2="30.7" width="0.2" layer="1"/>
-<wire x1="65.85" y1="30.7" x2="65.85" y2="31.77625" width="0.2" layer="1"/>
-<wire x1="65.85" y1="31.77625" x2="67.02125" y2="32.9475" width="0.2" layer="1"/>
-<wire x1="67.15" y1="34.15" x2="67.15" y2="33.07625" width="0.2" layer="1"/>
-<wire x1="67.15" y1="33.07625" x2="67.02125" y2="32.9475" width="0.2" layer="1"/>
-</signal>
-<signal name="OSCO1">
-<contactref element="OSC4" pad="1"/>
-<contactref element="C54" pad="2"/>
-<contactref element="IC1" pad="25"/>
-<wire x1="64.75" y1="28.75" x2="64.75" y2="30.9225" width="0.2" layer="1"/>
-<wire x1="64.75" y1="30.9225" x2="64.62" y2="31.0525" width="0.2" layer="1"/>
-<wire x1="63.4" y1="31.25" x2="64.4225" y2="31.25" width="0.2" layer="1"/>
-<wire x1="64.4225" y1="31.25" x2="64.62" y2="31.0525" width="0.2" layer="1"/>
+<contactref element="OSC4" pad="3"/>
+<wire x1="65.25" y1="28.75" x2="65.25" y2="29.5" width="0.2" layer="1"/>
+<wire x1="65.25" y1="29.5" x2="66.1" y2="30.35" width="0.2" layer="1"/>
+<wire x1="66.1" y1="30.35" x2="66.1" y2="32.07625" width="0.2" layer="1"/>
+<wire x1="66.1" y1="32.07625" x2="67.02125" y2="32.9975" width="0.2" layer="1"/>
 </signal>
 <signal name="JACK_MIC">
 <contactref element="C52" pad="1"/>

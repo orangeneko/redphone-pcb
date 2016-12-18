@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1726,28 +1726,26 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="3.5" y1="-2.1" x2="-3.5" y2="-2.1" width="0.127" layer="21"/>
 <wire x1="1.722" y1="2.1" x2="3.5" y2="2.1" width="0.127" layer="21"/>
 </package>
-<package name="CRYSTAL_MINI_26">
-<description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
-Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
-<smd name="1" x="-1.28" y="-0.9475" dx="0.762" dy="1.016" layer="1" rot="R90"/>
-<smd name="2" x="1.12125" y="-0.9475" dx="0.762" dy="1.016" layer="1" rot="R90"/>
-<smd name="3" x="1.12125" y="0.9475" dx="0.762" dy="1.016" layer="1" rot="R270"/>
-<smd name="4" x="-1.28" y="0.9475" dx="0.762" dy="1.016" layer="1" rot="R270"/>
-<text x="-1.086" y="3.192" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<wire x1="-1.5875" y1="1.11125" x2="-0.6746875" y2="1.11125" width="0.127" layer="51"/>
-<wire x1="-1.5875" y1="1.11125" x2="-1.5875" y2="0.47625" width="0.127" layer="51"/>
-<wire x1="0.5159375" y1="1.11125" x2="1.42875" y2="1.11125" width="0.127" layer="51"/>
-<wire x1="-1.5875" y1="-1.11125" x2="-0.6746875" y2="-1.11125" width="0.127" layer="51"/>
-<wire x1="0.5159375" y1="-1.11125" x2="1.42875" y2="-1.11125" width="0.127" layer="51"/>
-<wire x1="1.42875" y1="1.11125" x2="1.42875" y2="0.47625" width="0.127" layer="51"/>
-<wire x1="-1.5875" y1="-0.47625" x2="-1.5875" y2="-1.11125" width="0.127" layer="51"/>
-<wire x1="1.42875" y1="-0.47625" x2="1.42875" y2="-1.11125" width="0.127" layer="51"/>
-<wire x1="-0.6746875" y1="1.11125" x2="0.5159375" y2="1.11125" width="0.127" layer="21"/>
-<wire x1="-1.5875" y1="0.47625" x2="-1.5875" y2="-0.47625" width="0.127" layer="21"/>
-<wire x1="1.42875" y1="0.47625" x2="1.42875" y2="-0.47625" width="0.127" layer="21"/>
-<wire x1="-0.6746875" y1="-1.11125" x2="0.5159375" y2="-1.11125" width="0.127" layer="21"/>
-<text x="-1.016" y="2.032" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<circle x="-1.275" y="-0.225" radius="0.1016" width="0" layer="21"/>
+<package name="2520">
+<smd name="1" x="-0.9625" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
+<smd name="2" x="0.80375" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
+<smd name="3" x="0.80375" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
+<smd name="4" x="-0.9625" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
+<text x="-1.27" y="2.54" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-1.27" y1="0.79375" x2="-0.3571875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="0.79375" x2="-1.27" y2="0.15875" width="0.127" layer="51"/>
+<wire x1="0.1984375" y1="0.79375" x2="1.11125" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-0.79375" x2="-0.3571875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="0.1984375" y1="-0.79375" x2="1.11125" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.11125" y1="0.79375" x2="1.11125" y2="0.15875" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-0.15875" x2="-1.27" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.11125" y1="-0.15875" x2="1.11125" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="-0.3571875" y1="0.79375" x2="0.1984375" y2="0.79375" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.15875" x2="-1.27" y2="-0.15875" width="0.127" layer="21"/>
+<wire x1="1.11125" y1="0.15875" x2="1.11125" y2="-0.15875" width="0.127" layer="21"/>
+<wire x1="-0.3571875" y1="-0.79375" x2="0.1984375" y2="-0.79375" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<circle x="-0.9575" y="0.0925" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="NX3225">
 <wire x1="-1.6" y1="1.2" x2="-1.6" y2="-1.2" width="0.127" layer="51"/>
@@ -1927,7 +1925,7 @@ Source: RSB_TPS65023RSB_Land_Pattern.pdf</description>
 <text x="-4.474" y="1.2701" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-4.474" y="2.5194" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="CRYSTAL_MICRO_32">
+<package name="3215">
 <description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
 Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <smd name="1" x="-1.43875" y="0.005" dx="1.143" dy="1.27" layer="1" rot="R90"/>
@@ -2331,29 +2329,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <text x="-3.81" y="-2.54" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-2.286" y="-0.508" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <circle x="-2.975" y="-0.725" radius="0.1016" width="0" layer="21"/>
-</package>
-<package name="CRYSTAL_MINI_8">
-<description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
-Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
-<smd name="1" x="-1.915" y="-1.344375" dx="1.016" dy="1.27" layer="1" rot="R90"/>
-<smd name="2" x="1.915" y="-1.344375" dx="1.016" dy="1.27" layer="1" rot="R90"/>
-<smd name="3" x="1.915" y="1.344375" dx="1.016" dy="1.27" layer="1" rot="R270"/>
-<smd name="4" x="-1.915" y="1.344375" dx="1.016" dy="1.27" layer="1" rot="R270"/>
-<text x="-2.8575" y="-2.54" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-2.286" y="-0.508" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<wire x1="-1.1" y1="1.7" x2="-2.4" y2="1.7" width="0.127" layer="51"/>
-<wire x1="-2.4" y1="1.7" x2="-2.4" y2="0.7" width="0.127" layer="51"/>
-<wire x1="-2.4" y1="-0.7" x2="-2.4" y2="-1.7" width="0.127" layer="51"/>
-<wire x1="-2.4" y1="-1.7" x2="-1.1" y2="-1.7" width="0.127" layer="51"/>
-<wire x1="1.1" y1="-1.7" x2="2.4" y2="-1.7" width="0.127" layer="51"/>
-<wire x1="2.4" y1="-1.7" x2="2.4" y2="-0.7" width="0.127" layer="51"/>
-<wire x1="2.4" y1="0.7" x2="2.4" y2="1.7" width="0.127" layer="51"/>
-<wire x1="2.4" y1="1.7" x2="1.1" y2="1.7" width="0.127" layer="51"/>
-<wire x1="-1.1" y1="1.7" x2="1.1" y2="1.7" width="0.127" layer="21"/>
-<wire x1="2.4" y1="0.7" x2="2.4" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="0.7" x2="-2.4" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-1.7" x2="1.1" y2="-1.7" width="0.127" layer="21"/>
-<circle x="-1.975" y="-0.425" radius="0.1016" width="0" layer="21"/>
 </package>
 <package name="CRYSTAL_SMD_5X3">
 <wire x1="-0.6" y1="1.3" x2="0.6" y2="1.3" width="0.127" layer="21"/>
@@ -9320,27 +9295,6 @@ chip</description>
 <rectangle x1="-0.0127" y1="7.9883" x2="6.0833" y2="8.0137" layer="200"/>
 <rectangle x1="-0.0127" y1="8.0137" x2="6.0833" y2="8.0391" layer="200"/>
 </package>
-<package name="CRYSTAL_MICRO_26">
-<smd name="1" x="-0.9625" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
-<smd name="2" x="0.80375" y="-0.63" dx="0.508" dy="0.762" layer="1" rot="R90"/>
-<smd name="3" x="0.80375" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
-<smd name="4" x="-0.9625" y="0.63" dx="0.508" dy="0.762" layer="1" rot="R270"/>
-<text x="-1.27" y="2.54" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<wire x1="-1.27" y1="0.79375" x2="-0.3571875" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="0.79375" x2="-1.27" y2="0.15875" width="0.127" layer="51"/>
-<wire x1="0.1984375" y1="0.79375" x2="1.11125" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="-0.79375" x2="-0.3571875" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="0.1984375" y1="-0.79375" x2="1.11125" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="1.11125" y1="0.79375" x2="1.11125" y2="0.15875" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="-0.15875" x2="-1.27" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="1.11125" y1="-0.15875" x2="1.11125" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="-0.3571875" y1="0.79375" x2="0.1984375" y2="0.79375" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0.15875" x2="-1.27" y2="-0.15875" width="0.127" layer="21"/>
-<wire x1="1.11125" y1="0.15875" x2="1.11125" y2="-0.15875" width="0.127" layer="21"/>
-<wire x1="-0.3571875" y1="-0.79375" x2="0.1984375" y2="-0.79375" width="0.127" layer="21"/>
-<text x="-1.27" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<circle x="-0.9575" y="0.0925" radius="0.1016" width="0" layer="21"/>
-</package>
 <package name="DSBGA">
 <smd name="A2" x="0" y="0" dx="0.275" dy="0.275" layer="1" roundness="100"/>
 <smd name="B2" x="0.5" y="0" dx="0.275" dy="0.275" layer="1" roundness="100"/>
@@ -9359,6 +9313,52 @@ chip</description>
 <wire x1="-0.4" y1="-0.9" x2="-0.2" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="0.7" y1="-0.9" x2="0.9" y2="-0.9" width="0.127" layer="21"/>
 <wire x1="0.9" y1="-0.9" x2="0.9" y2="-0.7" width="0.127" layer="21"/>
+</package>
+<package name="3225">
+<description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
+Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
+<smd name="1" x="-1.28" y="-0.9475" dx="0.762" dy="1.016" layer="1" rot="R90"/>
+<smd name="2" x="1.12125" y="-0.9475" dx="0.762" dy="1.016" layer="1" rot="R90"/>
+<smd name="3" x="1.12125" y="0.9475" dx="0.762" dy="1.016" layer="1" rot="R270"/>
+<smd name="4" x="-1.28" y="0.9475" dx="0.762" dy="1.016" layer="1" rot="R270"/>
+<text x="-1.086" y="3.192" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-1.5875" y1="1.11125" x2="-0.6746875" y2="1.11125" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="1.11125" x2="-1.5875" y2="0.47625" width="0.127" layer="51"/>
+<wire x1="0.5159375" y1="1.11125" x2="1.42875" y2="1.11125" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-1.11125" x2="-0.6746875" y2="-1.11125" width="0.127" layer="51"/>
+<wire x1="0.5159375" y1="-1.11125" x2="1.42875" y2="-1.11125" width="0.127" layer="51"/>
+<wire x1="1.42875" y1="1.11125" x2="1.42875" y2="0.47625" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.47625" x2="-1.5875" y2="-1.11125" width="0.127" layer="51"/>
+<wire x1="1.42875" y1="-0.47625" x2="1.42875" y2="-1.11125" width="0.127" layer="51"/>
+<wire x1="-0.6746875" y1="1.11125" x2="0.5159375" y2="1.11125" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.47625" x2="-1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="1.42875" y1="0.47625" x2="1.42875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="-0.6746875" y1="-1.11125" x2="0.5159375" y2="-1.11125" width="0.127" layer="21"/>
+<text x="-1.016" y="2.032" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<circle x="-1.275" y="-0.225" radius="0.1016" width="0" layer="21"/>
+</package>
+<package name="5030">
+<description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
+Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
+<smd name="1" x="-1.915" y="-1.344375" dx="1.016" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.915" y="-1.344375" dx="1.016" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="1.915" y="1.344375" dx="1.016" dy="1.27" layer="1" rot="R270"/>
+<smd name="4" x="-1.915" y="1.344375" dx="1.016" dy="1.27" layer="1" rot="R270"/>
+<text x="-2.8575" y="-2.54" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-2.286" y="-0.508" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-1.1" y1="1.7" x2="-2.4" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="1.7" x2="-2.4" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-0.7" x2="-2.4" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-1.7" x2="-1.1" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-1.7" x2="2.4" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-1.7" x2="2.4" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="2.4" y1="0.7" x2="2.4" y2="1.7" width="0.127" layer="51"/>
+<wire x1="2.4" y1="1.7" x2="1.1" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="1.7" x2="1.1" y2="1.7" width="0.127" layer="21"/>
+<wire x1="2.4" y1="0.7" x2="2.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="0.7" x2="-2.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1.7" x2="1.1" y2="-1.7" width="0.127" layer="21"/>
+<circle x="-1.975" y="-0.425" radius="0.1016" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -10737,6 +10737,17 @@ chip</description>
 <text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="OSC">
+<pin name="VCC" x="-5.08" y="0" length="short"/>
+<pin name="GND" x="-5.08" y="-2.54" length="short"/>
+<pin name="OUT" x="15.24" y="0" length="short" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="3.175" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MT48LC16M16A2TG" prefix="IC">
@@ -11766,7 +11777,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL_SMD" prefix="OSC" uservalue="yes">
+<deviceset name="CRYSTAL_GND" prefix="OSC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CRYSTAL_GND" x="-2.54" y="5.08"/>
 </gates>
@@ -11781,7 +11792,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINI" package="CRYSTAL_MINI_8">
+<device name="5030" package="5030">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
@@ -11791,7 +11802,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 <technology name=""/>
 </technologies>
 </device>
-<device name="MINI2" package="CRYSTAL_MINI_26">
+<device name="3225" package="3225">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
@@ -11811,7 +11822,7 @@ It includes a sensing element and an IC interface capable of providing the measu
 <technology name=""/>
 </technologies>
 </device>
-<device name="MICRO2" package="CRYSTAL_MICRO_26">
+<device name="2520" package="2520">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
@@ -12046,7 +12057,7 @@ Source: www.kingbright.com</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MICRO32" package="CRYSTAL_MICRO_32">
+<device name="3215" package="3215">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -12536,6 +12547,23 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
+<deviceset name="OSC" prefix="OSC" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="OSC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3225" package="3225">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="colibri">
@@ -12698,11 +12726,11 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="GND40" library="netcat" deviceset="GND" device=""/>
 <part name="GND44" library="netcat" deviceset="GND" device=""/>
 <part name="GND45" library="netcat" deviceset="GND" device=""/>
-<part name="OSC1" library="netcat" deviceset="CRYSTAL_SMD" device="MICRO2" value="26 Mhz"/>
+<part name="OSC1" library="netcat" deviceset="CRYSTAL_GND" device="2520" value="26 MHz"/>
 <part name="C19" library="netcat" deviceset="CAP" device="C0402" value="10p"/>
 <part name="C20" library="netcat" deviceset="CAP" device="C0402" value="10p"/>
 <part name="GND42" library="netcat" deviceset="GND" device=""/>
-<part name="Q7" library="netcat" deviceset="CRYSTAL_SMD" device="MINI2" value="16MHz"/>
+<part name="Q7" library="netcat" deviceset="CRYSTAL_GND" device="3225" value="16MHz"/>
 <part name="C21" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="C22" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="R24" library="netcat" deviceset="RES" device="R0402" value="1M"/>
@@ -12740,7 +12768,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C31" library="netcat" deviceset="CAP" device="C0603" value="4.7u"/>
 <part name="SUPPLY37" library="colibri" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="colibri" deviceset="GND" device=""/>
-<part name="OSC2" library="netcat" deviceset="CRYSTAL_SMD" device="MINI2" value="8 mhz"/>
+<part name="OSC2" library="netcat" deviceset="CRYSTAL_GND" device="3225" value="8 mhz"/>
 <part name="C32" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="C33" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="SUPPLY39" library="colibri" deviceset="GND" device=""/>
@@ -12753,7 +12781,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="SUPPLY53" library="colibri" deviceset="GND" device=""/>
 <part name="3.3V5" library="netcat" deviceset="3.3V" device=""/>
 <part name="3.3V19" library="netcat" deviceset="3.3V" device=""/>
-<part name="OSC3" library="netcat" deviceset="CRYSTAL" device="MICRO32" value="32.768k"/>
+<part name="OSC3" library="netcat" deviceset="CRYSTAL" device="3215" value="32.768k"/>
 <part name="C34" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="C35" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
 <part name="SUPPLY19" library="colibri" deviceset="GND" device=""/>
@@ -12791,11 +12819,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C51" library="netcat" deviceset="CAP" device="C0603" value="1u"/>
 <part name="C52" library="netcat" deviceset="CAP" device="C0603" value="1u"/>
 <part name="GND65" library="netcat" deviceset="GND" device=""/>
-<part name="OSC4" library="netcat" deviceset="CRYSTAL_SMD" device="MINI2" value="48 mhz"/>
-<part name="C53" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
-<part name="C54" library="netcat" deviceset="CAP" device="C0402" value="22p"/>
-<part name="SUPPLY2" library="colibri" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="colibri" deviceset="GND" device=""/>
+<part name="C54" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="SUPPLY4" library="colibri" deviceset="GND" device=""/>
 <part name="3.3V23" library="netcat" deviceset="3.3V" device=""/>
 <part name="C55" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
@@ -12982,6 +13006,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="VD2" library="netcat" deviceset="STPS0520Z" device=""/>
 <part name="C8" library="netcat" deviceset="CAP" device="C0603" value="1u"/>
 <part name="SUPPLY6" library="colibri" deviceset="GND" device=""/>
+<part name="OSC4" library="netcat" deviceset="OSC" device="3225" value="48 MHz"/>
+<part name="3.3V26" library="netcat" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13269,15 +13295,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="C51" gate="G$1" x="-304.8" y="-160.02" rot="R90"/>
 <instance part="C52" gate="G$1" x="-304.8" y="-152.4" rot="R90"/>
 <instance part="GND65" gate="GND" x="201.93" y="17.78"/>
-<instance part="OSC4" gate="G$1" x="426.72" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="434.34" y="54.61" size="1.778" layer="95"/>
-<attribute name="VALUE" x="434.34" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="C53" gate="G$1" x="424.18" y="68.58" rot="R90"/>
-<instance part="C54" gate="G$1" x="424.18" y="53.34" rot="MR270"/>
-<instance part="SUPPLY2" gate="GND" x="416.56" y="68.58" rot="R270"/>
-<instance part="SUPPLY3" gate="GND" x="419.1" y="60.96" rot="R270"/>
-<instance part="SUPPLY4" gate="GND" x="416.56" y="53.34" rot="R270"/>
+<instance part="C54" gate="G$1" x="419.1" y="58.42" rot="MR0"/>
+<instance part="SUPPLY4" gate="GND" x="425.45" y="45.72"/>
 <instance part="3.3V23" gate="G$1" x="370.84" y="-58.42" rot="R180"/>
 <instance part="C55" gate="G$1" x="375.92" y="-63.5"/>
 <instance part="C56" gate="G$1" x="383.54" y="-63.5"/>
@@ -13517,6 +13536,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="VD2" gate="G$1" x="304.8" y="217.17"/>
 <instance part="C8" gate="G$1" x="292.1" y="208.28"/>
 <instance part="SUPPLY6" gate="GND" x="292.1" y="198.12"/>
+<instance part="OSC4" gate="G$1" x="433.07" y="63.5"/>
+<instance part="3.3V26" gate="G$1" x="416.56" y="63.5" rot="MR0"/>
 </instances>
 <busses>
 <bus name="DQ[0..15],AQ[0..13],BQ[0..1],MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,SDHC_ST,SDR_!WE,SDR_CKE0,SDR_!RAS,SDR_CLK,SDR_!CAS,SDR_!E0,SDR_NBL[0..1],EPCS_ASDI,EPCS_DATA,EPCS_!CS,EPCS_DCLK,JTAG_TMS,JTAG_TCK,JTAG_TDO,JTAG_TDI,FPGA_OSC,OV_EN,OV_D[0..7],OV_SDA,OV_SCL,OV_VSYNC,OV_HSYNC,OV_PCLK,OV_CLK,SYS_RST,USB_DP,USB_DM,USB_ID,GSM_TX,GSM_RX,SIM_DET,SIM_CLK,SIM_RST,SIM_VDD,SIM_DATA,PWR_BUT,PWR_SHDN,V_USB,V_BAT,BAT_CHG,BAT_EN,BAT_SENS,PWR_OTG_MODE,GSM_RST,GSM_EN,GSM_PWRKEY,SDIO[0..3],SDIO_CMD,SDIO_CLK,NAV_I2C_SDA,NAV_I2C_SCL,NAV_INT[0..3],FMC_!E[1..2],FMC_!WE,FMC_!OE,EE_I2C_SDA,EE_I2C_SCL,TS_INT,TS_SDA,TS_SCL,NRF_SCL,NRF_MISO,NRF_MOSI,!NRF_CS,NRF_IRQ,RADIO_CE,ESP_RX,ESP_TX,FPGA_MOSI,FPGA_MISO,FPGA_SCL,FPGA_RX,FPGA_TX,BUT[0..4],SAI_SCKA,SAI_FSA,SAI_SDA,SAI_SDB,AUDIO_INT,SAI_MCLK,SPKRP,SPKRN,RINGP,RINGN,DMIC_DAT,DMIC_CLK,!LCD_BL_EN,!LED_ST_EN,GSM_A_IN,GSM_A_OUT,MIC_PWR,JACK_MIC,SWD_IO,SWD_CLK,GPIO_FPGA[0..1],SYS_LED[0..1],LCD_BL_PWR,LCD_BL_GND,UART_EXT_RX,UART_EXT_TX,MDL[0..1],USB_CC[1..2]">
@@ -14051,19 +14072,15 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <junction x="215.9" y="22.86"/>
 </segment>
 <segment>
-<pinref part="OSC4" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="424.18" y1="60.96" x2="421.64" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C53" gate="G$1" pin="1"/>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="421.64" y1="68.58" x2="419.1" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<pinref part="C54" gate="G$1" pin="1"/>
-<wire x1="419.1" y1="53.34" x2="421.64" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="OSC4" gate="G$1" pin="GND"/>
+<wire x1="427.99" y1="60.96" x2="425.45" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="425.45" y1="60.96" x2="425.45" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C54" gate="G$1" pin="2"/>
+<wire x1="425.45" y1="50.8" x2="425.45" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="53.34" x2="419.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="50.8" x2="425.45" y2="50.8" width="0.1524" layer="91"/>
+<junction x="425.45" y="50.8"/>
 </segment>
 <segment>
 <pinref part="GND69" gate="GND" pin="GND"/>
@@ -15581,6 +15598,15 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="477.52" y1="-35.56" x2="474.98" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="474.98" y1="-35.56" x2="474.98" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="474.98" y="-33.02"/>
+</segment>
+<segment>
+<pinref part="C54" gate="G$1" pin="1"/>
+<wire x1="419.1" y1="60.96" x2="419.1" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="OSC4" gate="G$1" pin="VCC"/>
+<wire x1="419.1" y1="63.5" x2="427.99" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="3.3V26" gate="G$1" pin="3.3V"/>
+<wire x1="416.56" y1="63.5" x2="419.1" y2="63.5" width="0.1524" layer="91"/>
+<junction x="419.1" y="63.5"/>
 </segment>
 </net>
 <net name="AQ13" class="0">
@@ -17739,28 +17765,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="OSCI1" class="0">
 <segment>
-<pinref part="C53" gate="G$1" pin="2"/>
-<wire x1="429.26" y1="68.58" x2="431.8" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="OSC4" gate="G$1" pin="2"/>
-<wire x1="431.8" y1="68.58" x2="431.8" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="63.5" x2="441.96" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="68.58" x2="431.8" y2="68.58" width="0.1524" layer="91"/>
-<junction x="431.8" y="68.58"/>
 <pinref part="IC1" gate="CLK" pin="IO_24/CLK2"/>
-<wire x1="441.96" y1="63.5" x2="457.2" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="OSCO1" class="0">
-<segment>
-<pinref part="OSC4" gate="G$1" pin="1"/>
-<wire x1="431.8" y1="53.34" x2="431.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="60.96" x2="441.96" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="441.96" y1="53.34" x2="431.8" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="C54" gate="G$1" pin="2"/>
-<wire x1="429.26" y1="53.34" x2="431.8" y2="53.34" width="0.1524" layer="91"/>
-<junction x="431.8" y="53.34"/>
-<pinref part="IC1" gate="CLK" pin="IO_25/CLK3"/>
-<wire x1="457.2" y1="60.96" x2="441.96" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="448.31" y1="63.5" x2="457.2" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="OSC4" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="JACK_MIC" class="0">

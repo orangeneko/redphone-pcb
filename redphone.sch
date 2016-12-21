@@ -2458,36 +2458,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <rectangle x1="-0.25" y1="0.8" x2="0.25" y2="1.4" layer="51"/>
 <rectangle x1="-1.2" y1="0.8" x2="-0.7" y2="1.4" layer="51"/>
 </package>
-<package name="1X03">
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.127" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.127" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-2.667" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
 <package name="SC70-5">
 <description>&lt;b&gt;SMT SC70-5&lt;/b&gt;&lt;p&gt;
 SOT353 - Philips Semiconductors&lt;br&gt;
@@ -2708,24 +2678,49 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="8.1" y1="1.55" x2="8.1" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="8.1" y1="-2.1" x2="8.1" y2="-4.7" width="0.127" layer="21"/>
 </package>
-<package name="GALAXY_S3MINI_BATTARY">
-<wire x1="-30.25" y1="25.25" x2="-30.25" y2="-25.25" width="0.127" layer="51"/>
-<wire x1="-30.25" y1="-25.25" x2="30.25" y2="-25.25" width="0.127" layer="51"/>
-<wire x1="30.25" y1="-25.25" x2="30.25" y2="25.25" width="0.127" layer="51"/>
-<wire x1="30.25" y1="25.25" x2="-30.25" y2="25.25" width="0.127" layer="51"/>
-<wire x1="-30" y1="18.75" x2="-29" y2="18.75" width="0.127" layer="51"/>
-<wire x1="-30" y1="16.75" x2="-29" y2="16.75" width="0.127" layer="51"/>
-<wire x1="-30" y1="16.25" x2="-29" y2="16.25" width="0.127" layer="51"/>
-<wire x1="-30" y1="14.25" x2="-29" y2="14.25" width="0.127" layer="51"/>
-<wire x1="-30" y1="13.75" x2="-29" y2="13.75" width="0.127" layer="51"/>
-<wire x1="-30" y1="11.75" x2="-29" y2="11.75" width="0.127" layer="51"/>
-<wire x1="-36.25" y1="18.75" x2="-36.25" y2="11.75" width="0.127" layer="51"/>
-<wire x1="-29" y1="18.75" x2="-29" y2="16.75" width="0.127" layer="51"/>
-<wire x1="-29" y1="16.25" x2="-29" y2="14.25" width="0.127" layer="51"/>
-<wire x1="-29" y1="13.75" x2="-29" y2="11.75" width="0.127" layer="51"/>
-<wire x1="-28.5" y1="17.75" x2="-27.5" y2="17.75" width="0.127" layer="51"/>
-<wire x1="-28.5" y1="12.75" x2="-27.5" y2="12.75" width="0.127" layer="51"/>
-<wire x1="-28" y1="18.25" x2="-28" y2="17.25" width="0.127" layer="51"/>
+<package name="GALAXY_S4_BATTARY">
+<wire x1="-31.5" y1="28" x2="-30" y2="28" width="0.127" layer="51"/>
+<wire x1="-30" y1="28" x2="31.5" y2="28" width="0.127" layer="51"/>
+<wire x1="31.5" y1="28" x2="31.5" y2="23" width="0.127" layer="51"/>
+<wire x1="31.5" y1="23" x2="31.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="31.5" y1="3.5" x2="31.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="31.5" y1="-3.5" x2="31.5" y2="-24" width="0.127" layer="51"/>
+<wire x1="31.5" y1="-24" x2="31.5" y2="-29" width="0.127" layer="51"/>
+<wire x1="31.5" y1="-29" x2="-30" y2="-29" width="0.127" layer="51"/>
+<wire x1="-30" y1="-29" x2="-31.5" y2="-29" width="0.127" layer="51"/>
+<wire x1="-31.5" y1="-29" x2="-31.5" y2="-26.5" width="0.127" layer="51"/>
+<wire x1="-31.5" y1="-26.5" x2="-31.5" y2="25.5" width="0.127" layer="51"/>
+<wire x1="-31.5" y1="25.5" x2="-31.5" y2="28" width="0.127" layer="51"/>
+<wire x1="-30.5" y1="21" x2="-29.5" y2="21" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="21" x2="-29.5" y2="19" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="19" x2="-30.5" y2="19" width="0.127" layer="51"/>
+<wire x1="-30.5" y1="18.5" x2="-29.5" y2="18.5" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="18.5" x2="-29.5" y2="16.5" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="16.5" x2="-30.5" y2="16.5" width="0.127" layer="51"/>
+<wire x1="-30.5" y1="16" x2="-29.5" y2="16" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="16" x2="-29.5" y2="14" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="14" x2="-30.5" y2="14" width="0.127" layer="51"/>
+<wire x1="-30.5" y1="13.5" x2="-29.5" y2="13.5" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="13.5" x2="-29.5" y2="11.5" width="0.127" layer="51"/>
+<wire x1="-29.5" y1="11.5" x2="-30.5" y2="11.5" width="0.127" layer="51"/>
+<wire x1="-29" y1="20" x2="-28" y2="20" width="0.127" layer="51"/>
+<wire x1="-28.5" y1="20.5" x2="-28.5" y2="19.5" width="0.127" layer="51"/>
+<wire x1="-29" y1="15" x2="-28" y2="15" width="0.127" layer="51"/>
+<wire x1="-31.5" y1="25.5" x2="-30" y2="25.5" width="0.127" layer="51"/>
+<wire x1="-30" y1="25.5" x2="-30" y2="28" width="0.127" layer="51"/>
+<wire x1="-30" y1="-29" x2="-30" y2="-26.5" width="0.127" layer="51"/>
+<wire x1="-30" y1="-26.5" x2="-31.5" y2="-26.5" width="0.127" layer="51"/>
+<wire x1="31.5" y1="28" x2="32.5" y2="28" width="0.127" layer="51"/>
+<wire x1="32.5" y1="28" x2="32.5" y2="23" width="0.127" layer="51"/>
+<wire x1="32.5" y1="23" x2="31.5" y2="23" width="0.127" layer="51"/>
+<wire x1="31.5" y1="-29" x2="32.5" y2="-29" width="0.127" layer="51"/>
+<wire x1="32.5" y1="-29" x2="32.5" y2="-24" width="0.127" layer="51"/>
+<wire x1="32.5" y1="-24" x2="31.5" y2="-24" width="0.127" layer="51"/>
+<wire x1="32.5" y1="3.5" x2="31.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="32.5" y1="-3.5" x2="32.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="31.5" y1="-3.5" x2="32.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="BME280">
 <wire x1="-1.25" y1="-1.25" x2="1.25" y2="-1.25" width="0.127" layer="51"/>
@@ -5904,6 +5899,24 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <text x="-1.27" y="-1.905" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <smd name="1" x="-0.7" y="0" dx="0.5" dy="0.5" layer="1" cream="no"/>
 </package>
+<package name="GALAXY_S3MINI_BATTARY">
+<wire x1="-30.25" y1="25.25" x2="-30.25" y2="-25.25" width="0.127" layer="51"/>
+<wire x1="-30.25" y1="-25.25" x2="30.25" y2="-25.25" width="0.127" layer="51"/>
+<wire x1="30.25" y1="-25.25" x2="30.25" y2="25.25" width="0.127" layer="51"/>
+<wire x1="30.25" y1="25.25" x2="-30.25" y2="25.25" width="0.127" layer="51"/>
+<wire x1="-30" y1="18.75" x2="-29" y2="18.75" width="0.127" layer="51"/>
+<wire x1="-30" y1="16.75" x2="-29" y2="16.75" width="0.127" layer="51"/>
+<wire x1="-30" y1="16.25" x2="-29" y2="16.25" width="0.127" layer="51"/>
+<wire x1="-30" y1="14.25" x2="-29" y2="14.25" width="0.127" layer="51"/>
+<wire x1="-30" y1="13.75" x2="-29" y2="13.75" width="0.127" layer="51"/>
+<wire x1="-30" y1="11.75" x2="-29" y2="11.75" width="0.127" layer="51"/>
+<wire x1="-29" y1="18.75" x2="-29" y2="16.75" width="0.127" layer="51"/>
+<wire x1="-29" y1="16.25" x2="-29" y2="14.25" width="0.127" layer="51"/>
+<wire x1="-29" y1="13.75" x2="-29" y2="11.75" width="0.127" layer="51"/>
+<wire x1="-28.5" y1="17.75" x2="-27.5" y2="17.75" width="0.127" layer="51"/>
+<wire x1="-28.5" y1="12.75" x2="-27.5" y2="12.75" width="0.127" layer="51"/>
+<wire x1="-28" y1="18.25" x2="-28" y2="17.25" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MT48LC16M">
@@ -7105,20 +7118,6 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <text x="2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="M03">
-<wire x1="3.81" y1="2.54" x2="10.16" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="6.35" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="6.35" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="3.81" y2="-7.62" width="0.4064" layer="94"/>
-<text x="10.16" y="5.08" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
-<text x="10.16" y="-8.382" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="M01">
 <wire x1="3.81" y1="2.54" x2="10.16" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.6096" layer="94"/>
@@ -7247,7 +7246,7 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <pin name="SHILD" x="0" y="-30.48" length="short"/>
 </symbol>
 <symbol name="GALAXY_S3MINI_BATTARY">
-<text x="0" y="0" size="1.27" layer="94" font="vector">GALAXY_S3MINI_BATTARY</text>
+<text x="0" y="0" size="1.27" layer="94" font="vector">&gt;NAME</text>
 </symbol>
 <symbol name="BME280">
 <pin name="VDD" x="0" y="0" length="short"/>
@@ -8901,25 +8900,6 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="M03" prefix="X" uservalue="yes">
-<description>&lt;b&gt;Header 3&lt;/b&gt;
-Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings.</description>
-<gates>
-<gate name="G$1" symbol="M03" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PLS2-1X01" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="M01" x="0" y="0"/>
@@ -9059,12 +9039,17 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="GALAXY_S3MINI_BATTARY">
+<deviceset name="GALAXY_BATTARY">
 <gates>
 <gate name="G$1" symbol="GALAXY_S3MINI_BATTARY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="GALAXY_S3MINI_BATTARY">
+<device name="_S3MINI" package="GALAXY_S3MINI_BATTARY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_S4" package="GALAXY_S4_BATTARY">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9283,7 +9268,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="IC10" library="netcat" deviceset="74LVC1G02" device="DCK" value="74LVC1G02DCK"/>
 <part name="IC11" library="netcat" deviceset="74LVC1G02" device="DCK" value="74LVC1G02DCK"/>
 <part name="X3" library="netcat" deviceset="RM68120_LCD" device=""/>
-<part name="GND13" library="netcat" deviceset="GND" device=""/>
 <part name="Q6" library="netcat" deviceset="MOSFET_P" device="" value="IRLML2502"/>
 <part name="R9" library="netcat" deviceset="RES" device="R0402" value="100"/>
 <part name="C1" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
@@ -9538,7 +9522,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="R43" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="GND78" library="netcat" deviceset="GND" device=""/>
 <part name="C71" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
-<part name="X2" library="netcat" deviceset="M03" device="" value="BAT"/>
 <part name="C72" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="GND79" library="netcat" deviceset="GND" device=""/>
 <part name="TP11" library="netcat" deviceset="TP" device="06R" value="MISO"/>
@@ -9577,7 +9560,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="R55" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="2.5V6" library="netcat" deviceset="2.5V" device=""/>
 <part name="GND87" library="netcat" deviceset="GND" device=""/>
-<part name="U$3" library="netcat" deviceset="GALAXY_S3MINI_BATTARY" device=""/>
+<part name="U$3" library="netcat" deviceset="GALAXY_BATTARY" device="_S4"/>
 <part name="C73" library="netcat" deviceset="CAP" device="C0402" value="100n"/>
 <part name="IC24" library="netcat" deviceset="BME280" device=""/>
 <part name="GND89" library="netcat" deviceset="GND" device=""/>
@@ -9730,7 +9713,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="IC10" gate="A" x="-350.52" y="30.48"/>
 <instance part="IC11" gate="A" x="-304.8" y="27.94"/>
 <instance part="X3" gate="G$1" x="218.44" y="-35.56"/>
-<instance part="GND13" gate="GND" x="-274.32" y="99.06" rot="MR0"/>
 <instance part="Q6" gate="G$1" x="-251.46" y="154.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-261.62" y="165.1" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="-261.62" y="162.56" size="1.778" layer="96" rot="MR180"/>
@@ -10044,7 +10026,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="R43" gate="G$1" x="-447.04" y="-78.74" rot="R90"/>
 <instance part="GND78" gate="GND" x="-447.04" y="-88.9"/>
 <instance part="C71" gate="G$1" x="444.5" y="-63.5"/>
-<instance part="X2" gate="G$1" x="-271.78" y="109.22"/>
 <instance part="C72" gate="G$1" x="-302.26" y="88.9" rot="R180"/>
 <instance part="GND79" gate="GND" x="-302.26" y="81.28"/>
 <instance part="TP11" gate="G$1" x="132.08" y="93.98" rot="R180"/>
@@ -10917,12 +10898,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="C72" gate="G$1" pin="1"/>
 <pinref part="GND79" gate="GND" pin="GND"/>
 <wire x1="-302.26" y1="86.36" x2="-302.26" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="X2" gate="G$1" pin="3"/>
-<pinref part="GND13" gate="GND" pin="GND"/>
-<wire x1="-271.78" y1="104.14" x2="-274.32" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="104.14" x2="-274.32" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X6" gate="G$1" pin="1"/>
@@ -12787,17 +12762,13 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="V_BAT" class="0">
 <segment>
-<wire x1="-281.94" y1="109.22" x2="-274.32" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="109.22" x2="-271.78" y2="109.22" width="0.1524" layer="91"/>
-<junction x="-274.32" y="109.22"/>
-<label x="-274.32" y="111.76" size="1.778" layer="95" rot="MR0"/>
-<wire x1="-274.32" y1="109.22" x2="-274.32" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-281.94" y1="109.22" x2="-279.4" y2="109.22" width="0.1524" layer="91"/>
+<label x="-279.4" y="109.22" size="1.778" layer="95" rot="MR180"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="-281.94" y1="104.14" x2="-281.94" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-281.94" y="109.22"/>
 <wire x1="-281.94" y1="109.22" x2="-317.5" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC22" gate="G$1" pin="BAT"/>
-<pinref part="X2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="302.26" y1="215.9" x2="299.72" y2="215.9" width="0.1524" layer="91"/>

@@ -4697,6 +4697,7 @@ chip</description>
 <wire x1="0.5" y1="-1.4" x2="0.3" y2="-1.6" width="0.127" layer="51"/>
 <wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0.8" x2="0.6" y2="-0.8" width="0.127" layer="21"/>
+<text x="-1" y="-1" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="LED6030">
 <smd name="A" x="0" y="0" dx="0.9" dy="2.3" layer="1"/>
@@ -4737,6 +4738,7 @@ chip</description>
 <wire x1="3.1" y1="3.1" x2="2.8" y2="3.1" width="0.127" layer="21"/>
 <wire x1="0.2" y1="3.1" x2="-0.1" y2="3.1" width="0.127" layer="21"/>
 <wire x1="-0.1" y1="3.1" x2="-0.1" y2="2.8" width="0.127" layer="21"/>
+<text x="0" y="4" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="FPC_I9500">
 <wire x1="0" y1="0" x2="0" y2="13" width="0.127" layer="21"/>
@@ -4766,6 +4768,8 @@ chip</description>
 <wire x1="6.25" y1="3.25" x2="5.5" y2="3.25" width="0.127" layer="51"/>
 <wire x1="6.25" y1="3.25" x2="6.25" y2="2.25" width="0.127" layer="51"/>
 <wire x1="6.25" y1="2.25" x2="5.5" y2="2.25" width="0.127" layer="51"/>
+<hole x="1.5" y="4" drill="0.9"/>
+<hole x="1.5" y="9" drill="0.9"/>
 </package>
 </packages>
 <symbols>
@@ -8140,7 +8144,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED3">
+<deviceset name="LED3" prefix="LED">
 <gates>
 <gate name="G$1" symbol="LED3A" x="0" y="0"/>
 </gates>
@@ -8578,7 +8582,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="TP23" library="netcat" deviceset="TP" device="06R" value="AOUT"/>
 <part name="TP24" library="netcat" deviceset="TP" device="06R" value="TSI"/>
 <part name="VD2" library="netcat" deviceset="DIODE" device="" value="BAS516"/>
-<part name="C8" library="netcat" deviceset="CAP" device="C0603" value="1u"/>
+<part name="C8" library="netcat" deviceset="CAP" device="C0603" value="4.7u"/>
 <part name="SUPPLY6" library="colibri" deviceset="GND" device=""/>
 <part name="OSC4" library="netcat" deviceset="OSC" device="3225" value="48 MHz"/>
 <part name="3.3V26" library="netcat" deviceset="3.3V" device=""/>
@@ -8621,7 +8625,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="X5" library="netcat" deviceset="LG_P715_TS" device=""/>
 <part name="3.3V1" library="netcat" deviceset="3.3V" device=""/>
 <part name="GND33" library="netcat" deviceset="GND" device=""/>
-<part name="U$4" library="netcat" deviceset="LED3" device=""/>
+<part name="LED1" library="netcat" deviceset="LED3" device=""/>
 <part name="R6" library="netcat" deviceset="RES" device="R0402" value="330"/>
 <part name="R7" library="netcat" deviceset="RES" device="R0402" value="330"/>
 <part name="R9" library="netcat" deviceset="RES" device="R0402" value="330"/>
@@ -10015,7 +10019,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="TP20" gate="G$1" x="60.96" y="-106.68" smashed="yes">
 <attribute name="VALUE" x="63.5" y="-106.68" size="1.27" layer="95"/>
 </instance>
-<instance part="U$4" gate="G$1" x="-147.32" y="-66.04"/>
+<instance part="LED1" gate="G$1" x="-147.32" y="-66.04"/>
 <instance part="R6" gate="G$1" x="-160.02" y="-60.96" smashed="yes">
 <attribute name="NAME" x="-158.75" y="-59.4614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-166.37" y="-59.182" size="1.778" layer="96"/>
@@ -12953,21 +12957,21 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="CG"/>
+<pinref part="LED1" gate="G$1" pin="CG"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-152.4" y1="-60.96" x2="-154.94" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="CB"/>
+<pinref part="LED1" gate="G$1" pin="CB"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-152.4" y1="-66.04" x2="-154.94" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="CR"/>
+<pinref part="LED1" gate="G$1" pin="CR"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="-152.4" y1="-71.12" x2="-154.94" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
@@ -12976,7 +12980,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <segment>
 <wire x1="-139.7" y1="-66.04" x2="-142.24" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-139.7" y="-66.04" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="IC11" gate="G$1" pin="VCC"/>

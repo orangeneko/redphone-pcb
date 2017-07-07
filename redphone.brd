@@ -9,7 +9,7 @@
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -426,6 +426,41 @@
 <rectangle x1="78.825" y1="40.025" x2="78.875" y2="40.325" layer="41" rot="R90"/>
 <rectangle x1="76.95" y1="37.25" x2="77" y2="37.55" layer="41" rot="R180"/>
 <rectangle x1="62.125" y1="46.525" x2="62.175" y2="46.825" layer="41" rot="R270"/>
+<rectangle x1="51.45" y1="40.1" x2="51.55" y2="40.15" layer="41"/>
+<rectangle x1="51.125" y1="40.425" x2="51.225" y2="40.475" layer="41" rot="R90"/>
+<rectangle x1="51.775" y1="40.425" x2="51.875" y2="40.475" layer="41" rot="R90"/>
+<rectangle x1="21.775" y1="44.825" x2="21.875" y2="44.875" layer="41" rot="R90"/>
+<rectangle x1="22.1" y1="44.5" x2="22.2" y2="44.55" layer="41" rot="R180"/>
+<rectangle x1="22.425" y1="44.825" x2="22.525" y2="44.875" layer="41" rot="R270"/>
+<rectangle x1="105.6" y1="26.2" x2="105.7" y2="26.25" layer="41" rot="R180"/>
+<rectangle x1="105.925" y1="25.875" x2="106.025" y2="25.925" layer="41" rot="R270"/>
+<rectangle x1="13.1" y1="38.8" x2="13.15" y2="38.95" layer="41"/>
+<rectangle x1="0.95" y1="43.45" x2="1.35" y2="43.5" layer="41"/>
+<rectangle x1="0.95" y1="42.6" x2="1.35" y2="42.65" layer="41"/>
+<rectangle x1="0.95" y1="41.8" x2="1.35" y2="41.85" layer="41"/>
+<rectangle x1="0.95" y1="40.95" x2="1.35" y2="41" layer="41"/>
+<rectangle x1="1.375" y1="43.025" x2="1.775" y2="43.075" layer="41" rot="R90"/>
+<rectangle x1="1.375" y1="41.375" x2="1.775" y2="41.425" layer="41" rot="R90"/>
+<rectangle x1="51.4" y1="39" x2="51.7" y2="39.05" layer="41"/>
+<rectangle x1="51.2" y1="38.45" x2="51.25" y2="38.75" layer="41"/>
+<rectangle x1="51.4" y1="38.15" x2="51.7" y2="38.2" layer="41"/>
+<rectangle x1="51.4" y1="37.65" x2="51.7" y2="37.7" layer="41"/>
+<rectangle x1="51.2" y1="37.1" x2="51.25" y2="37.4" layer="41"/>
+<rectangle x1="51.2" y1="34.55" x2="51.25" y2="34.85" layer="41"/>
+<rectangle x1="51.4" y1="34.25" x2="51.7" y2="34.3" layer="41"/>
+<rectangle x1="35.05" y1="40.95" x2="35.1" y2="41.25" layer="41" rot="R180"/>
+<rectangle x1="34.625" y1="41.275" x2="34.675" y2="41.575" layer="41" rot="R270"/>
+<rectangle x1="38.25" y1="40.9" x2="38.3" y2="41.2" layer="41" rot="R180"/>
+<rectangle x1="37.825" y1="41.225" x2="37.875" y2="41.525" layer="41" rot="R270"/>
+<rectangle x1="37.825" y1="40.575" x2="37.875" y2="40.875" layer="41" rot="R270"/>
+<rectangle x1="27.925" y1="37.675" x2="27.975" y2="37.975" layer="41" rot="R270"/>
+<rectangle x1="27.5" y1="37.35" x2="27.55" y2="37.65" layer="41"/>
+<rectangle x1="22.975" y1="39.475" x2="23.025" y2="39.775" layer="41" rot="R270"/>
+<rectangle x1="23.4" y1="39.15" x2="23.45" y2="39.45" layer="41"/>
+<rectangle x1="22.55" y1="39.15" x2="22.6" y2="39.45" layer="41"/>
+<rectangle x1="12.25" y1="40.4" x2="12.3" y2="40.7" layer="41"/>
+<rectangle x1="11.925" y1="40.825" x2="11.975" y2="41.125" layer="41" rot="R90"/>
+<rectangle x1="11.925" y1="39.975" x2="11.975" y2="40.275" layer="41" rot="R90"/>
 </plain>
 <libraries>
 <library name="netcat">
@@ -3176,7 +3211,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="OC_NEWARK" value="39X0207" x="22.61" y="17.83" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="22.61" y="17.83" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="STM32F429ZIT6" x="22.61" y="17.83" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.42" y="4.985" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="11.62" y="4.935" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="22.61" y="18.465" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="IC3" library="netcat" package="TSOPII-54" value="MT48LC16M16A2TG" x="45.55" y="17.56" rot="R270">
@@ -3287,7 +3322,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="74.95" y="54.6499" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="IC16" library="netcat" package="SO-08" value="EPCS16N" x="84.6" y="38.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="81.833" y="37.1275" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="81.433" y="40.0275" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="80.663" y="40.7225" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="IC14" library="netcat" package="UDFN8-3X2" value="24LC256" x="83.8" y="45.4" smashed="yes">
@@ -3336,18 +3371,18 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="Q7" library="netcat" package="3225" value="16MHz" x="106.66" y="30.51" smashed="yes" rot="R180">
 <attribute name="VALUE" x="107.746" y="27.318" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
-<attribute name="NAME" x="107.376" y="28.728" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="107.5" y="28.7" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C21" library="netcat" package="R0402" value="22p" x="104.09" y="30.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="103.278" y="29.575" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="103.15" y="29.55" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="106.122" y="29.825" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C22" library="netcat" package="R0402" value="22p" x="110.94" y="30.485" smashed="yes" rot="R270">
-<attribute name="NAME" x="111.13" y="28.402" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="111.1" y="28.4" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="108.908" y="31.12" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R24" library="netcat" package="R0402" value="1M" x="109.56" y="30.49" smashed="yes" rot="R90">
-<attribute name="NAME" x="108.605" y="27.652" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="108.6" y="27.6" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="111.592" y="29.855" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R25" library="netcat" package="R0402" value="22k" x="107.99" y="39.55" smashed="yes">
@@ -3431,7 +3466,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="10.932" y="2.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="OSC3" library="netcat" package="3215" value="32.768 KHz" x="18.5" y="3.6" smashed="yes">
-<attribute name="NAME" x="17.08" y="4.5075" size="0.8128" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="17.28" y="4.5575" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="16.214" y="4.362" size="0.8128" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C34" library="netcat" package="R0402" value="22p" x="19.95" y="1.6" smashed="yes" rot="R90">
@@ -3599,11 +3634,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="59.35" y="42.2001" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="R38" library="netcat" package="R0402" value="4.7k" x="89" y="39.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="90.462" y="39.635" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="90.715" y="41.162" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="89.635" y="41.232" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R39" library="netcat" package="R0402" value="4.7k" x="86.5" y="44.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.465" y="44.212" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="87.5" y="44.5" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="88.532" y="43.865" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Q1" library="netcat" package="SOT23" value="IRLML6402" x="17.45" y="48.5" smashed="yes" rot="R270">
@@ -3663,7 +3698,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="104.085" y="34.732" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C68" library="netcat" package="R0402" value="100n" x="89" y="43.05" smashed="yes">
-<attribute name="NAME" x="88.788" y="43.965" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="90.715" y="44.762" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="88.365" y="41.018" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C69" library="netcat" package="SMC_A" value="10u" x="101.05" y="6.25" smashed="yes" rot="R180">
@@ -3782,7 +3817,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="102.585" y="6.682" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R19" library="netcat" package="R0402" value="100k" x="87.95" y="35.15" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.112" y="34.035" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="86.9" y="33.05" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="89.982" y="34.515" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R49" library="netcat" package="R0402" value="100k" x="95.8" y="53.5" smashed="yes" rot="R90">
@@ -3826,7 +3861,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="78.282" y="31.565" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C76" library="netcat" package="R0402" value="100n" x="84.85" y="31.65" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.085" y="33.088" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="86.05" y="33.05" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="85.485" y="33.682" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C77" library="netcat" package="R0402" value="100n" x="59.3" y="32.25" smashed="yes">
@@ -4014,8 +4049,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="NAME" x="100.788" y="51.515" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="100.165" y="47.668" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="TP1" library="netcat" package="TP06R" value="IO124" x="105.6" y="24.6" smashed="yes">
-<attribute name="VALUE" x="106.25" y="24.1501" size="0.8128" layer="25" font="vector"/>
+<element name="TP1" library="netcat" package="TP06R" value="IO124" x="105.65" y="24.9" smashed="yes">
+<attribute name="VALUE" x="105" y="25.6" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="TP9" library="netcat" package="TP06R" value="2" x="-4.5" y="49.5" smashed="yes">
 <attribute name="VALUE" x="-5.5" y="50.0001" size="0.8128" layer="25" font="vector"/>
@@ -4026,7 +4061,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="TP14" library="netcat" package="TP06R" value="5v" x="14.5" y="33.3" smashed="yes">
 <attribute name="VALUE" x="14.75" y="32.5999" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="TP15" library="netcat" package="TP06R" value="VINT" x="27.6" y="42.75" smashed="yes">
+<element name="TP15" library="netcat" package="TP06R" value="V_INT" x="27.6" y="42.75" smashed="yes">
 <attribute name="VALUE" x="27.6" y="44.0999" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="TP20" library="netcat" package="TP06R" value="VUSB" x="10" y="39.05" smashed="yes">
@@ -4060,10 +4095,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="VALUE" x="22.25" y="33.0501" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="TP30" library="netcat" package="TP06R" value="TX" x="35.95" y="49.3" smashed="yes">
-<attribute name="VALUE" x="36.55" y="49.5001" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="36.8001" y="49.3" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="TP31" library="netcat" package="TP06R" value="RX" x="35.95" y="50.4" smashed="yes">
-<attribute name="VALUE" x="35.95" y="51.1001" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="37.5999" y="50.4" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="SCL7" library="netcat" package="TP06R" value="TX" x="32.7" y="3.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="32.1" y="1.6501" size="0.8128" layer="25" font="vector"/>
@@ -4083,8 +4118,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="SCL9" library="netcat" package="TP06R" value="PA15" x="9.6" y="25.7" smashed="yes">
 <attribute name="VALUE" x="9.7501" y="25.1" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="TP34" library="netcat" package="TP06R" value="GND" x="105.6" y="25.6" smashed="yes">
-<attribute name="VALUE" x="106.25" y="25.2501" size="0.8128" layer="25" font="vector"/>
+<element name="TP34" library="netcat" package="TP06R" value="GND" x="105.65" y="25.9" smashed="yes">
+<attribute name="VALUE" x="106.4" y="25.6" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="TP35" library="netcat" package="TP06R" value="GND" x="22.15" y="44.85" smashed="yes">
 <attribute name="VALUE" x="22.15" y="45.5501" size="0.8128" layer="25" font="vector"/>
@@ -4134,8 +4169,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="TP2" library="netcat" package="TP06R" value="IO89" x="67.85" y="4.65" smashed="yes">
 <attribute name="VALUE" x="66.85" y="5.0499" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="TP43" library="netcat" package="TP06R" value="3.3v" x="106.7" y="23.45" smashed="yes">
-<attribute name="VALUE" x="107.45" y="23.1001" size="0.8128" layer="25" font="vector"/>
+<element name="TP43" library="netcat" package="TP06R" value="3.3v" x="105.65" y="26.9" smashed="yes">
+<attribute name="VALUE" x="106.4" y="26.6" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="TP44" library="netcat" package="TP06R" value="3.3v" x="81.8" y="24.5" smashed="yes">
 <attribute name="VALUE" x="80.95" y="25.1501" size="0.8128" layer="25" font="vector"/>
@@ -4178,13 +4213,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="TP80" library="netcat" package="TP065RH" value="" x="134" y="23"/>
 <element name="TP81" library="netcat" package="TP065RH" value="" x="130" y="23"/>
 <element name="TP82" library="netcat" package="TP065RH" value="" x="134" y="40"/>
-<element name="R50" library="netcat" package="R0402" value="330" x="5.2" y="42.9" smashed="yes">
-<attribute name="NAME" x="4.115" y="43.812" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="4.565" y="40.868" size="0.8128" layer="27" font="vector"/>
+<element name="R50" library="netcat" package="R0402" value="330" x="5.2" y="43.05" smashed="yes">
+<attribute name="NAME" x="4.115" y="43.962" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="4.565" y="41.018" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="VD9" library="netcat" package="LED0603" value="" x="1.9" y="42.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="0.615" y="43.785" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="2.535" y="44.4875" size="0.8128" layer="27" font="vector" rot="R180"/>
+<element name="VD9" library="netcat" package="LED0603" value="" x="1.9" y="43.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="0.615" y="43.935" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="2.535" y="44.6375" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="TP83" library="netcat" package="TP06R" value="OTG" x="14.35" y="40.55" smashed="yes">
 <attribute name="VALUE" x="15.3" y="42.0499" size="0.8128" layer="25" font="vector" rot="R180"/>
@@ -4192,9 +4227,32 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="TP84" library="netcat" package="TP06R" value="SHDN" x="17" y="55.85" smashed="yes">
 <attribute name="VALUE" x="18" y="57.3499" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R52" library="netcat" package="R0402" value="10k" x="89" y="41.75" rot="R180"/>
-<element name="R56" library="netcat" package="R0402" value="10k" x="89" y="40.45" rot="R180"/>
-<element name="R58" library="netcat" package="R0402" value="10k" x="80.8" y="37.2" rot="R270"/>
+<element name="R52" library="netcat" package="R0402" value="10k" x="89" y="41.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="90.715" y="43.562" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="89.635" y="43.782" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R56" library="netcat" package="R0402" value="10k" x="89" y="40.45" smashed="yes" rot="R180">
+<attribute name="NAME" x="90.715" y="42.362" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="89.635" y="42.482" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R58" library="netcat" package="R0402" value="10k" x="80.8" y="37.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.715" y="38.562" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="78.768" y="37.835" size="0.8128" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="SCL12" library="netcat" package="TP06R" value="PC1" x="16.75" y="4.75" smashed="yes">
+<attribute name="VALUE" x="14.3" y="4.9501" size="0.8128" layer="25" font="vector"/>
+</element>
+<element name="R59" library="netcat" package="R0402" value="330" x="107.45" y="24.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="106.45" y="23.35" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="108.085" y="26.932" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="VD10" library="netcat" package="LED0603" value="" x="110.85" y="24.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="109.5" y="25.7" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="110.215" y="23.3125" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="TP85" library="netcat" package="TP06R" value="PPS" x="35.95" y="51.5" smashed="yes">
+<attribute name="VALUE" x="36.4999" y="52.35" size="0.8128" layer="25" font="vector" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -4627,7 +4685,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="105.05" y="42.4" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="102.2" y="39.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="100.45" y="35.55" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="89" y="37.95" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="88.7" y="37.45" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="111.15" y="4.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="111.15" y="3.85" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="77.9" y="8" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -4698,7 +4756,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="42" y="57" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="54.25" y="57" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="33.45" y="6.6" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="36.05" y="55" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="36" y="55.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="8.45" y="49.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="11.25" y="6.95" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="14.5" y="8.8" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -4719,10 +4777,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="X14" pad="GND@1"/>
 <wire x1="66.25" y1="28.75" x2="66.25" y2="29.65" width="0.2" layer="1"/>
 <via x="94.5" y="11.85" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="100.25" y="17.5" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="99.5" y="17.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="R53" pad="1"/>
 <via x="68.925" y="32.15" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="93.3" y="20.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="37.3" y="25.5" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="25.1" y="27" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="C73" pad="2"/>
@@ -4897,7 +4954,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="61.25" y="52.85" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="28.2" y="40.9" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="20.65" y="42.05" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="19.6" y="55.65" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="19.6" y="56.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="19.6" y="57.05" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="19.6" y="57.75" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -4928,7 +4984,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="21.15" y1="56.7" x2="21.15" y2="57.5" width="0.2" layer="1"/>
 <wire x1="21.15" y1="57.5" x2="21.65" y2="57.5" width="0.2" layer="1"/>
 <wire x1="21.65" y1="57.5" x2="21.65" y2="56.7" width="0.2" layer="1"/>
-<via x="21.3" y="51.75" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="20.75" y="51.75" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="21.45" y="5.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="78" y="4" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="Q5" pad="2"/>
@@ -5078,6 +5134,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="100.1" y="25.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="C54" pad="2"/>
 <contactref element="OSC4" pad="2"/>
+<contactref element="VD10" pad="C"/>
+<via x="63.55" y="23.4" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="96.35" y="18.3" extent="1-16" drill="0.3048" shape="octagon"/>
 </signal>
 <signal name="SDHC_ST">
 <contactref element="IC2" pad="117"/>
@@ -5469,10 +5528,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="86" y1="5.1" x2="86" y2="4.4" width="0.2" layer="16"/>
 <wire x1="85.65" y1="5.45" x2="81.8" y2="5.45" width="0.2" layer="16"/>
 <wire x1="81.8" y1="5.45" x2="72.85" y2="14.4" width="0.2" layer="16"/>
-<wire x1="62.25" y1="28.75" x2="62.25" y2="27.2" width="0.2" layer="1"/>
-<wire x1="62.25" y1="27.2" x2="63" y2="26.45" width="0.2" layer="1"/>
-<wire x1="63" y1="26.45" x2="63" y2="22.65" width="0.2" layer="1"/>
-<wire x1="63" y1="22.65" x2="64.6" y2="21.05" width="0.2" layer="1"/>
+<wire x1="62.9" y1="22.75" x2="64.6" y2="21.05" width="0.2" layer="1"/>
 <wire x1="40.0478" y1="27.16" x2="41.2" y2="27.16" width="0.2" layer="1"/>
 <wire x1="41.2" y1="27.16" x2="41.4" y2="27.36" width="0.2" layer="1"/>
 <wire x1="25.36" y1="28.43" x2="25.36" y2="29.96" width="0.2" layer="1"/>
@@ -5488,6 +5544,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="25.75" y1="30.35" x2="25.5" y2="30.1" width="0.2" layer="16"/>
 <wire x1="64.6" y1="21.05" x2="64.6" y2="14.9" width="0.2" layer="1"/>
 <wire x1="64.6" y1="14.9" x2="65.3" y2="14.2" width="0.2" layer="1"/>
+<wire x1="62.25" y1="28.75" x2="62.25" y2="24.85" width="0.2" layer="1"/>
+<wire x1="62.25" y1="24.85" x2="62.9" y2="24.2" width="0.2" layer="1"/>
+<wire x1="62.9" y1="24.2" x2="62.9" y2="22.75" width="0.2" layer="1"/>
 </signal>
 <signal name="DQ1">
 <contactref element="IC3" pad="4"/>
@@ -5496,12 +5555,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="X3" pad="12"/>
 <wire x1="40.0478" y1="25.56" x2="39.24" y2="25.56" width="0.2" layer="1"/>
 <via x="85.31" y="10.61" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="64.3" y="24.6" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="64.1" y="24.65" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="24.85" y="31.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="86.8" y1="8.365" x2="86.8" y2="8.95" width="0.2" layer="1"/>
 <wire x1="41.65" y1="32.4" x2="43.925" y2="30.125" width="0.2" layer="16"/>
-<wire x1="64.3" y1="24.6" x2="64.9" y2="24.6" width="0.2" layer="16"/>
-<wire x1="64.9" y1="24.6" x2="68" y2="21.5" width="0.2" layer="16"/>
 <wire x1="68" y1="21.5" x2="74.4" y2="21.5" width="0.2" layer="16"/>
 <wire x1="74.4" y1="21.5" x2="85.29" y2="10.61" width="0.2" layer="16"/>
 <wire x1="85.29" y1="10.61" x2="85.31" y2="10.61" width="0.2" layer="16"/>
@@ -5515,15 +5572,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="31.45" y1="32.4" x2="30.75" y2="33.1" width="0.2" layer="16"/>
 <wire x1="43.1" y1="28.65" x2="43.925" y2="29.475" width="0.2" layer="1"/>
 <wire x1="43.925" y1="29.475" x2="43.925" y2="30.125" width="0.2" layer="1"/>
-<wire x1="63.25" y1="28.75" x2="63.25" y2="27.6" width="0.2" layer="1"/>
-<wire x1="63.25" y1="27.6" x2="64.3" y2="26.55" width="0.2" layer="1"/>
-<wire x1="64.3" y1="26.55" x2="64.3" y2="24.6" width="0.2" layer="1"/>
-<wire x1="64.3" y1="24.6" x2="61.6" y2="24.6" width="0.2" layer="16"/>
-<wire x1="61.6" y1="24.6" x2="61.35" y2="24.35" width="0.2" layer="16"/>
 <wire x1="54.65" y1="28.7" x2="58.4" y2="24.95" width="0.2" layer="16"/>
 <wire x1="58.4" y1="24.95" x2="59" y2="24.95" width="0.2" layer="16"/>
-<wire x1="59" y1="24.95" x2="59.6" y2="24.35" width="0.2" layer="16"/>
-<wire x1="59.6" y1="24.35" x2="61.35" y2="24.35" width="0.2" layer="16"/>
 <wire x1="54.65" y1="28.7" x2="45.35" y2="28.7" width="0.2" layer="16"/>
 <wire x1="45.35" y1="28.7" x2="43.925" y2="30.125" width="0.2" layer="16"/>
 <wire x1="24.86" y1="31.14" x2="24.85" y2="31.15" width="0.2" layer="1"/>
@@ -5533,6 +5583,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="25" y1="31.3" x2="27.35" y2="31.3" width="0.2" layer="16"/>
 <wire x1="27.35" y1="31.3" x2="29.15" y2="33.1" width="0.2" layer="16"/>
 <wire x1="29.15" y1="33.1" x2="30.75" y2="33.1" width="0.2" layer="16"/>
+<wire x1="63.25" y1="28.75" x2="63.25" y2="25.4" width="0.2" layer="1"/>
+<wire x1="63.25" y1="25.4" x2="64" y2="24.65" width="0.2" layer="1"/>
+<wire x1="64" y1="24.65" x2="64.1" y2="24.65" width="0.2" layer="1"/>
+<wire x1="68" y1="21.5" x2="64.85" y2="24.65" width="0.2" layer="16"/>
+<wire x1="64.85" y1="24.65" x2="64.1" y2="24.65" width="0.2" layer="16"/>
+<wire x1="64.1" y1="24.65" x2="63.95" y2="24.8" width="0.2" layer="16"/>
+<wire x1="63.95" y1="24.8" x2="60.6" y2="24.8" width="0.2" layer="16"/>
+<wire x1="60.6" y1="24.8" x2="60.25" y2="24.45" width="0.2" layer="16"/>
+<wire x1="60.25" y1="24.45" x2="59.5" y2="24.45" width="0.2" layer="16"/>
+<wire x1="59.5" y1="24.45" x2="59" y2="24.95" width="0.2" layer="16"/>
 </signal>
 <signal name="DQ2">
 <contactref element="IC3" pad="5"/>
@@ -5561,10 +5621,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="82" y1="5.9" x2="85.9" y2="5.9" width="0.2" layer="16"/>
 <wire x1="85.9" y1="5.9" x2="86.95" y2="4.85" width="0.2" layer="16"/>
 <wire x1="86.95" y1="4.85" x2="86.95" y2="4.4" width="0.2" layer="16"/>
-<wire x1="61.25" y1="28.75" x2="61.25" y2="26.8" width="0.2" layer="1"/>
-<wire x1="61.25" y1="26.8" x2="61.45" y2="26.6" width="0.2" layer="1"/>
-<wire x1="61.45" y1="26.6" x2="61.45" y2="23.55" width="0.2" layer="1"/>
-<wire x1="61.45" y1="23.55" x2="64.15" y2="20.85" width="0.2" layer="1"/>
+<wire x1="61.25" y1="23.75" x2="64.15" y2="20.85" width="0.2" layer="1"/>
 <wire x1="40.05" y1="25.75" x2="41.4" y2="25.75" width="0.2" layer="16"/>
 <wire x1="54.2" y1="31.9" x2="55.35" y2="30.75" width="0.2" layer="1"/>
 <wire x1="41.4" y1="25.75" x2="47.55" y2="31.9" width="0.2" layer="1"/>
@@ -5578,6 +5635,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="23.65" y1="27.3" x2="20.6" y2="27.3" width="0.2" layer="16"/>
 <wire x1="20.6" y1="27.3" x2="17.9" y2="24.6" width="0.2" layer="16"/>
 <wire x1="17.9" y1="24.6" x2="17.59" y2="24.6" width="0.2" layer="16"/>
+<wire x1="61.25" y1="23.75" x2="61.25" y2="28.75" width="0.2" layer="1"/>
 </signal>
 <signal name="DQ3">
 <contactref element="IC3" pad="7"/>
@@ -5593,18 +5651,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="41.4" y1="23.5" x2="41.4" y2="23.9" width="0.2" layer="1"/>
 <wire x1="87.4" y1="8.365" x2="87.4" y2="9.23" width="0.2" layer="1"/>
 <wire x1="87.4" y1="9.23" x2="86.4" y2="10.23" width="0.2" layer="1"/>
-<wire x1="67.75" y1="21.05" x2="74.15" y2="21.05" width="0.2" layer="16"/>
+<wire x1="67.8" y1="21.05" x2="74.15" y2="21.05" width="0.2" layer="16"/>
 <wire x1="74.15" y1="21.05" x2="84.65" y2="10.55" width="0.2" layer="16"/>
 <wire x1="84.65" y1="10.55" x2="84.65" y2="10.25" width="0.2" layer="16"/>
 <wire x1="84.65" y1="10.25" x2="84.95" y2="9.95" width="0.2" layer="16"/>
 <wire x1="84.95" y1="9.95" x2="86.12" y2="9.95" width="0.2" layer="16"/>
 <wire x1="86.12" y1="9.95" x2="86.4" y2="10.23" width="0.2" layer="16"/>
-<wire x1="61.75" y1="28.75" x2="61.75" y2="27" width="0.2" layer="1"/>
-<wire x1="61.75" y1="27" x2="62.2" y2="26.55" width="0.2" layer="1"/>
-<wire x1="62.2" y1="26.55" x2="62.2" y2="23.85" width="0.2" layer="1"/>
 <wire x1="57.95" y1="24.45" x2="58.75" y2="24.45" width="0.2" layer="16"/>
-<wire x1="58.75" y1="24.45" x2="59.35" y2="23.85" width="0.2" layer="16"/>
-<wire x1="59.35" y1="23.85" x2="62.2" y2="23.85" width="0.2" layer="16"/>
 <wire x1="57.95" y1="24.45" x2="57.6" y2="24.1" width="0.2" layer="16"/>
 <wire x1="57.6" y1="24.1" x2="42.5" y2="24.1" width="0.2" layer="16"/>
 <wire x1="42.5" y1="24.1" x2="42.05" y2="24.55" width="0.2" layer="16"/>
@@ -5616,12 +5669,21 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="24.8" y1="27.8" x2="28.1" y2="27.8" width="0.2" layer="16"/>
 <wire x1="28.1" y1="27.8" x2="29.05" y2="26.85" width="0.2" layer="16"/>
 <wire x1="29.05" y1="26.85" x2="38.3" y2="26.85" width="0.2" layer="16"/>
-<wire x1="67.75" y1="21.05" x2="64.95" y2="23.85" width="0.2" layer="16"/>
-<wire x1="64.95" y1="23.85" x2="62.2" y2="23.85" width="0.2" layer="16"/>
+<wire x1="67.8" y1="21.05" x2="64.95" y2="23.9" width="0.2" layer="16"/>
 <wire x1="12.01" y1="23.58" x2="17.57" y2="23.58" width="0.2" layer="1"/>
 <wire x1="17.57" y1="23.58" x2="17.59" y2="23.6" width="0.2" layer="1"/>
 <wire x1="23.85" y1="26.85" x2="20.84" y2="26.85" width="0.2" layer="16"/>
 <wire x1="20.84" y1="26.85" x2="17.59" y2="23.6" width="0.2" layer="16"/>
+<wire x1="61.75" y1="28.75" x2="61.75" y2="24.3" width="0.2" layer="1"/>
+<wire x1="61.75" y1="24.3" x2="62.2" y2="23.85" width="0.2" layer="1"/>
+<wire x1="58.75" y1="24.45" x2="59.25" y2="23.95" width="0.2" layer="16"/>
+<wire x1="59.25" y1="23.95" x2="60.5" y2="23.95" width="0.2" layer="16"/>
+<wire x1="60.5" y1="23.95" x2="60.85" y2="24.3" width="0.2" layer="16"/>
+<wire x1="63.55" y1="24.3" x2="63.95" y2="23.9" width="0.2" layer="16"/>
+<wire x1="63.95" y1="23.9" x2="64.95" y2="23.9" width="0.2" layer="16"/>
+<wire x1="60.85" y1="24.3" x2="62.2" y2="24.3" width="0.2" layer="16"/>
+<wire x1="63.55" y1="24.3" x2="62.2" y2="24.3" width="0.2" layer="16"/>
+<wire x1="62.2" y1="24.3" x2="62.2" y2="23.85" width="0.2" layer="16"/>
 </signal>
 <signal name="DQ4">
 <contactref element="IC3" pad="8"/>
@@ -5635,13 +5697,12 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="60.75" y1="29.65" x2="60.75" y2="28.75" width="0.2" layer="1"/>
 <wire x1="75.15" y1="22.85" x2="68.6" y2="22.85" width="0.2" layer="16"/>
 <wire x1="68.6" y1="22.85" x2="65.15" y2="26.3" width="0.2" layer="16"/>
-<via x="60.7" y="26.3" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="60.7" y1="26.3" x2="60.75" y2="26.35" width="0.2" layer="1"/>
-<wire x1="60.75" y1="26.35" x2="60.75" y2="28.75" width="0.2" layer="1"/>
+<via x="60.6" y="26.4" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="60.6" y1="26.4" x2="60.75" y2="26.55" width="0.2" layer="1"/>
+<wire x1="60.75" y1="26.55" x2="60.75" y2="28.75" width="0.2" layer="1"/>
 <wire x1="33.21" y1="19.58" x2="35.58" y2="19.58" width="0.2" layer="1"/>
 <wire x1="41.11" y1="22.36" x2="42.1" y2="23.35" width="0.2" layer="1"/>
 <wire x1="75.15" y1="22.85" x2="85.65" y2="12.35" width="0.2" layer="16"/>
-<wire x1="65.15" y1="26.3" x2="60.7" y2="26.3" width="0.2" layer="16"/>
 <via x="87.9" y="4.4" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="35.58" y1="19.58" x2="38.36" y2="22.36" width="0.2" layer="1"/>
 <wire x1="38.36" y1="22.36" x2="40.0478" y2="22.36" width="0.2" layer="1"/>
@@ -5662,6 +5723,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="93.1" y1="6.6" x2="92.6" y2="7.1" width="0.2" layer="16"/>
 <wire x1="92.6" y1="7.1" x2="92.6" y2="9.05" width="0.2" layer="16"/>
 <wire x1="92.6" y1="9.05" x2="89.3" y2="12.35" width="0.2" layer="16"/>
+<wire x1="65.15" y1="26.3" x2="60.7" y2="26.3" width="0.2" layer="16"/>
+<wire x1="60.7" y1="26.3" x2="60.6" y2="26.4" width="0.2" layer="16"/>
 </signal>
 <signal name="DQ5">
 <contactref element="IC3" pad="10"/>
@@ -5679,20 +5742,18 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="85.3" y1="11.3" x2="74.65" y2="21.95" width="0.2" layer="16"/>
 <wire x1="74.65" y1="21.95" x2="68.2" y2="21.95" width="0.2" layer="16"/>
 <wire x1="68.2" y1="21.95" x2="64.85" y2="25.3" width="0.2" layer="16"/>
-<via x="59.95" y="25.05" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="61.2" y1="25.05" x2="61.45" y2="25.3" width="0.2" layer="16"/>
-<wire x1="61.45" y1="25.3" x2="64.85" y2="25.3" width="0.2" layer="16"/>
+<via x="59.9" y="25.1" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="60.1" y1="25.3" x2="64.85" y2="25.3" width="0.2" layer="16"/>
 <wire x1="33.21" y1="20.08" x2="35.43" y2="20.08" width="0.2" layer="1"/>
 <wire x1="35.43" y1="20.08" x2="38.65" y2="23.3" width="0.2" layer="1"/>
 <via x="38.75" y="23.3" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="88" y1="8.365" x2="88" y2="9.7" width="0.2" layer="1"/>
 <wire x1="88" y1="9.7" x2="87.5" y2="10.2" width="0.2" layer="1"/>
-<wire x1="61.2" y1="25.05" x2="59.95" y2="25.05" width="0.2" layer="16"/>
 <wire x1="38.65" y1="23.3" x2="38.75" y2="23.3" width="0.2" layer="1"/>
 <wire x1="40.0478" y1="20.76" x2="41.46" y2="20.76" width="0.2" layer="1"/>
 <wire x1="41.46" y1="20.76" x2="42.95" y2="22.25" width="0.2" layer="1"/>
-<wire x1="60.25" y1="27.05" x2="59.95" y2="26.75" width="0.2" layer="1"/>
-<wire x1="59.95" y1="26.75" x2="59.95" y2="25.05" width="0.2" layer="1"/>
+<wire x1="60.25" y1="27.05" x2="59.9" y2="26.7" width="0.2" layer="1"/>
+<wire x1="59.9" y1="26.7" x2="59.9" y2="25.1" width="0.2" layer="1"/>
 <wire x1="53.8" y1="31.1" x2="54.95" y2="29.95" width="0.2" layer="1"/>
 <wire x1="47.95" y1="31.1" x2="43.9" y2="27.05" width="0.2" layer="1"/>
 <wire x1="43.9" y1="27.05" x2="43.9" y2="23.2" width="0.2" layer="1"/>
@@ -5705,6 +5766,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="39.7" y1="22.05" x2="42.75" y2="22.05" width="0.2" layer="16"/>
 <wire x1="42.75" y1="22.05" x2="42.95" y2="22.25" width="0.2" layer="16"/>
 <wire x1="38.75" y1="23" x2="38.75" y2="23.3" width="0.2" layer="16"/>
+<wire x1="60.1" y1="25.3" x2="59.9" y2="25.1" width="0.2" layer="16"/>
 </signal>
 <signal name="DQ6">
 <contactref element="IC3" pad="11"/>
@@ -5735,9 +5797,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="35.23" y1="20.58" x2="38" y2="23.35" width="0.2" layer="1"/>
 <wire x1="38" y1="23.35" x2="38" y2="23.95" width="0.2" layer="1"/>
 <wire x1="38" y1="23.95" x2="38.1" y2="24.05" width="0.2" layer="1"/>
-<wire x1="61.3" y1="26.8" x2="61.05" y2="27.05" width="0.2" layer="16"/>
-<wire x1="61.05" y1="27.05" x2="57.75" y2="27.05" width="0.2" layer="16"/>
-<wire x1="57.75" y1="27.05" x2="57.35" y2="27.45" width="0.2" layer="16"/>
+<wire x1="61.3" y1="26.8" x2="61" y2="27.1" width="0.2" layer="16"/>
+<wire x1="61" y1="27.1" x2="57.7" y2="27.1" width="0.2" layer="16"/>
+<wire x1="57.7" y1="27.1" x2="57.35" y2="27.45" width="0.2" layer="16"/>
 <wire x1="53.6" y1="30.7" x2="56.2" y2="28.1" width="0.2" layer="1"/>
 <wire x1="44.35" y1="26.9" x2="48.15" y2="30.7" width="0.2" layer="1"/>
 <wire x1="44.35" y1="26.9" x2="44.35" y2="22.55" width="0.2" layer="1"/>
@@ -5771,9 +5833,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="85.5" y1="11.8" x2="74.9" y2="22.4" width="0.2" layer="16"/>
 <wire x1="74.9" y1="22.4" x2="68.4" y2="22.4" width="0.2" layer="16"/>
 <wire x1="68.4" y1="22.4" x2="65" y2="25.8" width="0.2" layer="16"/>
-<wire x1="65" y1="25.8" x2="61.25" y2="25.8" width="0.2" layer="16"/>
-<wire x1="61.25" y1="25.8" x2="61" y2="25.55" width="0.2" layer="16"/>
-<wire x1="61" y1="25.55" x2="60.45" y2="25.55" width="0.2" layer="16"/>
+<wire x1="65" y1="25.8" x2="58.6" y2="25.8" width="0.2" layer="16"/>
 <wire x1="40" y1="16.8" x2="38.55" y2="18.2" width="0.2" layer="16"/>
 <wire x1="38.55" y1="18.2" x2="37.9" y2="18.2" width="0.2" layer="16"/>
 <wire x1="37.9" y1="18.2" x2="34.85" y2="21.3" width="0.2" layer="16"/>
@@ -5799,8 +5859,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="86" y1="11.8" x2="86.5" y2="11.3" width="0.2" layer="16"/>
 <wire x1="86.5" y1="11.3" x2="87.15" y2="11.3" width="0.2" layer="16"/>
 <wire x1="87.15" y1="11.3" x2="87.55" y2="10.9" width="0.2" layer="16"/>
-<wire x1="60.45" y1="25.55" x2="60.25" y2="25.75" width="0.2" layer="16"/>
-<wire x1="60.25" y1="25.75" x2="58.55" y2="25.75" width="0.2" layer="16"/>
+<wire x1="58.6" y1="25.8" x2="58.55" y2="25.75" width="0.2" layer="16"/>
 </signal>
 <signal name="DQ8">
 <contactref element="IC3" pad="42"/>
@@ -6448,7 +6507,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="14.4" y1="15.58" x2="12.01" y2="15.58" width="0.2" layer="1"/>
 <wire x1="28.36" y1="9.65" x2="28.36" y2="7.23" width="0.2" layer="1"/>
 <wire x1="29.36" y1="7.23" x2="29.36" y2="8.65" width="0.2" layer="1"/>
-<wire x1="14.4" y1="19.65" x2="14.4" y2="15.58" width="0.6096" layer="1"/>
+<wire x1="14.4" y1="19.45" x2="14.4" y2="15.58" width="0.6096" layer="1"/>
 <via x="107.95" y="54.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="104.55" y="54.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="103.25" y1="47.7" x2="102.9" y2="47.35" width="0.2" layer="1"/>
@@ -6472,7 +6531,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="79.95" y="14.2" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="83.95" y="10.2" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="77.15" y="17" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="68.75" y1="27.15" x2="68.75" y2="28.75" width="0.2" layer="1"/>
+<wire x1="68.75" y1="27.3" x2="68.75" y2="28.75" width="0.2" layer="1"/>
 <wire x1="77.6" y1="24.25" x2="76.5" y2="25.35" width="0.3048" layer="1"/>
 <via x="76.5" y="25.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="69" y="25.1" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -6640,9 +6699,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="39.7" y1="6.05" x2="39.95" y2="6.05" width="0.2" layer="1"/>
 <wire x1="28.35" y1="5.8" x2="39.7" y2="5.8" width="0.6096" layer="16"/>
 <wire x1="39.7" y1="5.8" x2="39.95" y2="6.05" width="0.6096" layer="16"/>
-<wire x1="68.2" y1="26.6" x2="68.2" y2="25.9" width="0.4064" layer="1"/>
+<wire x1="68.2" y1="26.75" x2="68.2" y2="25.9" width="0.4064" layer="1"/>
 <wire x1="68.2" y1="25.9" x2="69" y2="25.1" width="0.4064" layer="1"/>
-<wire x1="68.75" y1="27.15" x2="68.2" y2="26.6" width="0.2" layer="1"/>
+<wire x1="68.75" y1="27.3" x2="68.2" y2="26.75" width="0.2" layer="1"/>
 <contactref element="LED2" pad="A"/>
 <wire x1="59.4" y1="40.75" x2="59.4" y2="43.4" width="0.2" layer="1"/>
 <via x="59.525" y="46.95" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -6651,7 +6710,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="20.75" y1="40.6" x2="19.046" y2="42.304" width="0.6096" layer="1"/>
 <wire x1="19.046" y1="42.304" x2="19.046" y2="43.175" width="0.6096" layer="1"/>
 <wire x1="59.75" y1="22" x2="58.7" y2="22" width="0.6096" layer="16"/>
-<contactref element="IC21" pad="6"/>
 <wire x1="102.5" y1="6.3" x2="102.55" y2="6.25" width="0.2" layer="1"/>
 <wire x1="56.05" y1="17" x2="56.05" y2="19.35" width="0.6096" layer="16"/>
 <wire x1="56.05" y1="19.35" x2="58.7" y2="22" width="0.6096" layer="16"/>
@@ -6680,8 +6738,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="72.8" y1="24.9" x2="72.8" y2="19.95" width="0.6096" layer="1"/>
 <via x="72.8" y="19.95" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="60.125" y1="46.35" x2="59.525" y2="46.95" width="0.2" layer="1"/>
-<contactref element="L10" pad="1"/>
-<wire x1="112.7" y1="4.25" x2="112.65" y2="4.2" width="0.2" layer="1"/>
 <contactref element="IC8" pad="3"/>
 <contactref element="IC8" pad="4"/>
 <contactref element="IC8" pad="30"/>
@@ -6730,9 +6786,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="IC24" pad="6"/>
 <contactref element="C74" pad="1"/>
 <contactref element="IC24" pad="2"/>
-<via x="112.65" y="7.5" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="112.65" y1="4.2" x2="112.8086" y2="4.2" width="0.2" layer="1"/>
-<wire x1="112.8086" y1="4.2" x2="112.8086" y2="2.5" width="0.2" layer="1"/>
+<via x="112.1" y="8.05" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="38.95" y1="17.56" x2="38.06" y2="17.56" width="0.2" layer="1"/>
 <wire x1="38.06" y1="17.56" x2="38.05" y2="17.55" width="0.2" layer="1"/>
 <wire x1="85.235" y1="35.7413" x2="85.2" y2="35.7763" width="0.2" layer="1"/>
@@ -6753,10 +6807,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="88.36" y1="21.3" x2="88.76" y2="21.3" width="0.2" layer="1"/>
 <wire x1="88.36" y1="21.3" x2="86.7" y2="21.3" width="0.2" layer="1"/>
 <wire x1="93.69" y1="16.91" x2="92.64" y2="16.91" width="0.2" layer="1"/>
-<wire x1="68.2" y1="26.6" x2="67.05" y2="26.6" width="0.2" layer="1"/>
-<wire x1="67.05" y1="26.6" x2="66.2" y2="27.45" width="0.2" layer="1"/>
-<wire x1="66.2" y1="27.45" x2="64.9" y2="27.45" width="0.2" layer="1"/>
-<wire x1="64.9" y1="27.45" x2="64.25" y2="28.1" width="0.2" layer="1"/>
 <wire x1="59.75" y1="23.7" x2="58.2" y2="25.25" width="0.2" layer="1"/>
 <wire x1="29.25" y1="2.8" x2="29.9" y2="2.8" width="0.2" layer="1"/>
 <wire x1="29.9" y1="2.8" x2="30.55" y2="3.45" width="0.2" layer="1"/>
@@ -6775,8 +6825,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="33.21" y1="21.58" x2="27.15" y2="21.58" width="0.2" layer="1"/>
 <wire x1="81.45" y1="43.4" x2="81.45" y2="46.8" width="0.2" layer="1"/>
 <wire x1="81.45" y1="46.8" x2="81.8" y2="47.15" width="0.2" layer="1"/>
-<wire x1="12.01" y1="20.58" x2="13.47" y2="20.58" width="0.2" layer="1"/>
-<wire x1="13.47" y1="20.58" x2="14.4" y2="19.65" width="0.2" layer="1"/>
+<wire x1="12.01" y1="20.58" x2="13.27" y2="20.58" width="0.2" layer="1"/>
+<wire x1="13.27" y1="20.58" x2="14.4" y2="19.45" width="0.2" layer="1"/>
 <contactref element="R11" pad="1"/>
 <contactref element="R10" pad="1"/>
 <wire x1="64.25" y1="28.75" x2="64.25" y2="32.1175" width="0.2" layer="1"/>
@@ -6890,14 +6940,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="103.5" y1="9.05" x2="103" y2="8.55" width="0.2" layer="1"/>
 <wire x1="103" y1="8.55" x2="103" y2="8.05" width="0.2" layer="1"/>
 <wire x1="104.15" y1="6.9" x2="104.15" y2="8.05" width="0.2" layer="1"/>
-<wire x1="112.65" y1="7.5" x2="112.65" y2="6.95" width="0.6096" layer="1"/>
-<wire x1="112.65" y1="6.95" x2="112.65" y2="4.2" width="0.6096" layer="1"/>
-<wire x1="113.8" y1="8.65" x2="112.65" y2="7.5" width="0.6096" layer="16"/>
 <wire x1="103.95" y1="15.75" x2="103.95" y2="14.95" width="0.2" layer="1"/>
 <wire x1="103.95" y1="14.95" x2="102" y2="13" width="0.2" layer="1"/>
-<wire x1="113.8" y1="8.65" x2="113.8" y2="11" width="0.6096" layer="16"/>
-<wire x1="102" y1="13" x2="104.25" y2="13" width="0.6096" layer="16"/>
-<wire x1="104.25" y1="13" x2="109.35" y2="13" width="0.6096" layer="16"/>
+<wire x1="102" y1="13" x2="109.35" y2="13" width="0.6096" layer="16"/>
 <wire x1="115.525" y1="9.7" x2="115.1" y2="9.7" width="0.2" layer="1"/>
 <wire x1="115.1" y1="9.7" x2="114.875" y2="9.475" width="0.2" layer="1"/>
 <wire x1="114.875" y1="9.475" x2="114.875" y2="8.675" width="0.2" layer="1"/>
@@ -6938,8 +6983,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="87.95" y1="36.65" x2="87.95" y2="35.8" width="0.2" layer="1"/>
 <wire x1="109.3" y1="37.9" x2="109.3" y2="36.95" width="0.6096" layer="16"/>
 <wire x1="109.3" y1="36.95" x2="105.6569" y2="33.3069" width="0.6096" layer="16"/>
-<wire x1="111.75" y1="11.9" x2="111.5" y2="11.65" width="0.6096" layer="16"/>
-<wire x1="111.5" y1="11.65" x2="110.7" y2="11.65" width="0.6096" layer="16"/>
 <wire x1="109.35" y1="13" x2="110.7" y2="11.65" width="0.6096" layer="16"/>
 <wire x1="108.8587" y1="44.955" x2="107.4" y2="44.955" width="0.2" layer="1"/>
 <wire x1="107.4" y1="44.955" x2="107.4" y2="44.95" width="0.2" layer="1"/>
@@ -6964,8 +7007,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="93.3" y1="54.15" x2="94.55" y2="54.15" width="0.2" layer="1"/>
 <wire x1="99.4" y1="48.6" x2="101.35" y2="50.55" width="0.6096" layer="16"/>
 <wire x1="101.35" y1="50.55" x2="101.35" y2="52.15" width="0.6096" layer="16"/>
-<wire x1="90.3" y1="44.7" x2="94.2" y2="48.6" width="0.6096" layer="16"/>
-<wire x1="94.2" y1="48.6" x2="99.4" y2="48.6" width="0.6096" layer="16"/>
+<wire x1="90.55" y1="44.7" x2="94.45" y2="48.6" width="0.6096" layer="16"/>
+<wire x1="94.45" y1="48.6" x2="99.4" y2="48.6" width="0.6096" layer="16"/>
 <wire x1="108.65" y1="51.4" x2="110.8" y2="49.25" width="0.6096" layer="16"/>
 <wire x1="109.3" y1="37.9" x2="109.3" y2="39.55" width="0.6096" layer="16"/>
 <wire x1="109.3" y1="44.95" x2="107.4" y2="44.95" width="0.6096" layer="16"/>
@@ -6975,45 +7018,29 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="81.75" y1="23.35" x2="80.5" y2="24.6" width="0.6096" layer="16"/>
 <wire x1="83.35" y1="23.35" x2="85.4" y2="21.3" width="0.6096" layer="16"/>
 <wire x1="85.4" y1="21.3" x2="86.7" y2="21.3" width="0.6096" layer="16"/>
-<wire x1="88.55" y1="44.7" x2="90.3" y2="44.7" width="0.6096" layer="16"/>
+<wire x1="88.55" y1="44.7" x2="90.55" y2="44.7" width="0.6096" layer="16"/>
 <contactref element="IC12" pad="B1"/>
 <wire x1="118" y1="9.95" x2="116.425" y2="9.95" width="0.2" layer="1"/>
 <wire x1="116.425" y1="9.95" x2="116.175" y2="9.7" width="0.2" layer="1"/>
-<wire x1="111.75" y1="11.9" x2="112.9" y2="11.9" width="0.6048" layer="16"/>
-<wire x1="112.9" y1="11.9" x2="113.8" y2="11" width="0.6048" layer="16"/>
 <contactref element="SJ4" pad="1"/>
-<wire x1="112.1" y1="8.05" x2="110.9" y2="8.05" width="0.2" layer="1"/>
 <wire x1="110.9" y1="8.45" x2="110.9075" y2="8.4425" width="0.2" layer="1"/>
 <wire x1="110.9075" y1="8.4425" x2="112.1" y2="8.4425" width="0.2" layer="1"/>
-<wire x1="112.1" y1="8.4425" x2="114.6425" y2="8.4425" width="0.2" layer="1"/>
+<wire x1="112.1" y1="8.4425" x2="113.7" y2="8.4425" width="0.2" layer="1"/>
+<wire x1="113.7" y1="8.4425" x2="114.6425" y2="8.4425" width="0.2" layer="1"/>
 <wire x1="110.4" y1="10.2025" x2="110.4" y2="11.35" width="0.2" layer="1"/>
 <wire x1="110.4" y1="11.35" x2="110.7" y2="11.65" width="0.2" layer="1"/>
 <wire x1="106.2" y1="9.05" x2="106.8" y2="8.45" width="0.2" layer="1"/>
 <wire x1="106.8" y1="8.45" x2="107.9" y2="8.45" width="0.2" layer="1"/>
 <wire x1="114.6425" y1="8.4425" x2="114.875" y2="8.675" width="0.2" layer="1"/>
-<wire x1="112.1" y1="8.05" x2="112.1" y2="8.4425" width="0.2" layer="1"/>
-<wire x1="112.1" y1="8.05" x2="112.65" y2="7.5" width="0.2" layer="1"/>
-<wire x1="112.65" y1="7.5" x2="112.7" y2="7.45" width="0.2" layer="1"/>
-<wire x1="112.7" y1="7.45" x2="113.7" y2="7.45" width="0.2" layer="1"/>
 <wire x1="105.25" y1="53.65" x2="105.5" y2="53.65" width="0.2" layer="1"/>
 <wire x1="105.5" y1="53.65" x2="105.75" y2="53.4" width="0.2" layer="1"/>
 <wire x1="105.75" y1="53.4" x2="105.75" y2="52.95" width="0.2" layer="1"/>
 <wire x1="106.95" y1="53.6" x2="107.2" y2="53.6" width="0.2" layer="1"/>
 <wire x1="108.91195" y1="5.86195" x2="109.35" y2="6.3" width="0.2" layer="1"/>
-<wire x1="109.35" y1="6.3" x2="111.15" y2="6.3" width="0.2" layer="1"/>
-<wire x1="111.15" y1="6.3" x2="111.8" y2="6.95" width="0.2" layer="1"/>
-<wire x1="111.8" y1="6.95" x2="112.65" y2="6.95" width="0.2" layer="1"/>
-<via x="105.65" y="23.45" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="105.65" y1="23.45" x2="105.65" y2="21.1" width="0.6" layer="1"/>
-<via x="105.65" y="21.1" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="105.65" y1="21.1" x2="105" y2="21.1" width="0.6" layer="16"/>
-<wire x1="105" y1="21.1" x2="104.25" y2="20.35" width="0.6" layer="16"/>
-<wire x1="104.25" y1="20.35" x2="104.25" y2="13" width="0.6" layer="16"/>
 <contactref element="TP43" pad="TP"/>
 <contactref element="TP44" pad="TP"/>
 <wire x1="81.8" y1="24.5" x2="81.7" y2="24.6" width="0.2" layer="1"/>
 <wire x1="81.7" y1="24.6" x2="80.5" y2="24.6" width="0.2" layer="1"/>
-<wire x1="106.7" y1="23.45" x2="105.65" y2="23.45" width="0.2" layer="1"/>
 <contactref element="TP45" pad="1"/>
 <wire x1="118.025" y1="55.025" x2="119" y2="56" width="0.4064" layer="1"/>
 <contactref element="TP68" pad="1"/>
@@ -7021,11 +7048,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="3.9" y1="45.3" x2="4.7" y2="44.5" width="0.2" layer="1"/>
 <wire x1="4.7" y1="44.5" x2="5.45" y2="44.5" width="0.2" layer="1"/>
 <wire x1="5.45" y1="44.5" x2="5.85" y2="44.1" width="0.2" layer="1"/>
-<wire x1="5.85" y1="44.1" x2="5.85" y2="42.9" width="0.2" layer="1"/>
+<wire x1="5.85" y1="44.1" x2="5.85" y2="43.05" width="0.2" layer="1"/>
 <wire x1="3.9" y1="45.3" x2="3.9" y2="46.05" width="0.2" layer="1"/>
 <wire x1="3.9" y1="45.3" x2="2.9" y2="45.3" width="0.2" layer="1"/>
 <wire x1="105.6569" y1="33.3069" x2="105.65" y2="33.3069" width="0.6096" layer="16"/>
-<wire x1="105.65" y1="33.3069" x2="105.65" y2="23.45" width="0.6096" layer="16"/>
 <wire x1="108.4" y1="7.0975" x2="108.4" y2="5.86195" width="0.2" layer="1"/>
 <contactref element="R58" pad="1"/>
 <contactref element="R52" pad="1"/>
@@ -7038,6 +7064,31 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="89" y1="41.75" x2="89.65" y2="41.75" width="0.2" layer="1"/>
 <wire x1="80.8" y1="37.85" x2="83" y2="37.85" width="0.2" layer="1"/>
 <wire x1="83" y1="37.85" x2="83.55" y2="37.3" width="0.2" layer="1"/>
+<wire x1="64.25" y1="28.1" x2="65.6" y2="26.75" width="0.2" layer="1"/>
+<wire x1="65.6" y1="26.75" x2="68.2" y2="26.75" width="0.2" layer="1"/>
+<wire x1="105.6569" y1="24.6069" x2="101.45" y2="20.4" width="0.6096" layer="16"/>
+<wire x1="101.45" y1="20.4" x2="98.4" y2="20.4" width="0.6096" layer="16"/>
+<wire x1="98.4" y1="20.4" x2="97.8" y2="19.8" width="0.6096" layer="16"/>
+<wire x1="97.8" y1="19.8" x2="97.8" y2="16.7" width="0.6096" layer="16"/>
+<wire x1="105.6569" y1="24.6069" x2="105.6569" y2="25.05" width="0.6096" layer="16"/>
+<wire x1="105.6569" y1="25.05" x2="105.6569" y2="33.3069" width="0.6096" layer="16"/>
+<wire x1="109.35" y1="6.3" x2="111.2" y2="6.3" width="0.2" layer="1"/>
+<wire x1="113.7" y1="7.45" x2="113.7" y2="8.4425" width="0.2" layer="1"/>
+<wire x1="110.9" y1="8.05" x2="112.1" y2="8.05" width="0.2" layer="1"/>
+<wire x1="112.1" y1="8.05" x2="112.1" y2="8.4425" width="0.2" layer="1"/>
+<wire x1="113.35" y1="9.3" x2="112.1" y2="8.05" width="0.6096" layer="16"/>
+<wire x1="110.7" y1="11.65" x2="112.7" y2="11.65" width="0.6096" layer="16"/>
+<wire x1="112.7" y1="11.65" x2="113.35" y2="11" width="0.6096" layer="16"/>
+<wire x1="113.35" y1="11" x2="113.35" y2="9.3" width="0.6096" layer="16"/>
+<wire x1="111.2" y1="6.3" x2="111.65" y2="6.75" width="0.2" layer="1"/>
+<wire x1="111.65" y1="6.75" x2="111.65" y2="7.15" width="0.2" layer="1"/>
+<wire x1="111.65" y1="7.15" x2="112" y2="7.5" width="0.2" layer="1"/>
+<wire x1="112" y1="7.5" x2="112" y2="7.95" width="0.2" layer="1"/>
+<wire x1="112" y1="7.95" x2="112.1" y2="8.05" width="0.2" layer="1"/>
+<wire x1="105.65" y1="26.9" x2="104.7" y2="26.9" width="0.2" layer="1"/>
+<via x="104.7" y="26.9" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="104.7" y1="26.9" x2="105.6569" y2="26.65" width="0.2" layer="16"/>
+<wire x1="105.6569" y1="26.65" x2="105.6569" y2="25.05" width="0.2" layer="16"/>
 </signal>
 <signal name="AQ13">
 <contactref element="IC2" pad="88"/>
@@ -7049,8 +7100,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="54.9" y1="29.2" x2="55.95" y2="28.15" width="0.2" layer="16"/>
 <wire x1="86.15" y1="13.25" x2="75.65" y2="23.75" width="0.2" layer="16"/>
 <wire x1="75.65" y1="23.75" x2="69" y2="23.75" width="0.2" layer="16"/>
-<wire x1="69" y1="23.75" x2="65.45" y2="27.3" width="0.2" layer="16"/>
-<wire x1="65.45" y1="27.3" x2="61.5" y2="27.3" width="0.2" layer="16"/>
 <wire x1="41.85" y1="32.9" x2="31.65" y2="32.9" width="0.2" layer="16"/>
 <wire x1="31.65" y1="32.9" x2="30.95" y2="33.6" width="0.2" layer="16"/>
 <wire x1="54.9" y1="29.2" x2="45.6" y2="29.2" width="0.2" layer="16"/>
@@ -7060,9 +7109,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="58.2" y1="27.55" x2="57.6" y2="28.15" width="0.2" layer="16"/>
 <wire x1="57.6" y1="28.15" x2="55.95" y2="28.15" width="0.2" layer="16"/>
 <wire x1="89.8" y1="13.25" x2="86.15" y2="13.25" width="0.2" layer="16"/>
-<wire x1="95.6" y1="9.4" x2="95.8" y2="9.2" width="0.2" layer="16"/>
-<wire x1="95.6" y1="9.4" x2="93.65" y2="9.4" width="0.2" layer="16"/>
-<wire x1="93.65" y1="9.4" x2="89.8" y2="13.25" width="0.2" layer="16"/>
 <wire x1="23.8" y1="31.2" x2="24.4" y2="31.8" width="0.2" layer="16"/>
 <wire x1="24.4" y1="31.8" x2="27.15" y2="31.8" width="0.2" layer="16"/>
 <wire x1="27.15" y1="31.8" x2="28.95" y2="33.6" width="0.2" layer="16"/>
@@ -7075,6 +7121,18 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="44.25" y1="30.8" x2="44.65" y2="30.4" width="0.2" layer="16"/>
 <wire x1="44.65" y1="30.4" x2="44.65" y2="30.15" width="0.2" layer="16"/>
 <wire x1="44.65" y1="30.15" x2="45.6" y2="29.2" width="0.2" layer="16"/>
+<via x="65.75" y="27.5" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="69" y1="23.75" x2="65.75" y2="27" width="0.2" layer="16"/>
+<wire x1="65.75" y1="27" x2="65.75" y2="27.5" width="0.2" layer="16"/>
+<wire x1="61.5" y1="27.3" x2="65.55" y2="27.3" width="0.2" layer="16"/>
+<wire x1="65.55" y1="27.3" x2="65.75" y2="27.5" width="0.2" layer="16"/>
+<contactref element="IC1" pad="25"/>
+<wire x1="64.75" y1="28.75" x2="64.75" y2="28.15" width="0.2" layer="1"/>
+<wire x1="64.75" y1="28.15" x2="65.4" y2="27.5" width="0.2" layer="1"/>
+<wire x1="65.4" y1="27.5" x2="65.75" y2="27.5" width="0.2" layer="1"/>
+<wire x1="89.8" y1="13.25" x2="93.35" y2="9.7" width="0.2" layer="16"/>
+<wire x1="93.35" y1="9.7" x2="95.3" y2="9.7" width="0.2" layer="16"/>
+<wire x1="95.3" y1="9.7" x2="95.8" y2="9.2" width="0.2" layer="16"/>
 </signal>
 <signal name="2.5V">
 <contactref element="IC1" pad="35"/>
@@ -7090,8 +7148,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="91.25" y="33.5" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="70.375" y="35.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="69.95" y1="25.85" x2="67.7" y2="25.85" width="0.4064" layer="16"/>
-<wire x1="67.7" y1="25.85" x2="65.65" y2="27.9" width="0.4064" layer="16"/>
-<wire x1="65.65" y1="27.9" x2="61.75" y2="27.9" width="0.4064" layer="16"/>
 <wire x1="61.75" y1="27.9" x2="60.9" y2="28.75" width="0.4064" layer="16"/>
 <wire x1="60.9" y1="28.75" x2="58.45" y2="28.75" width="0.4064" layer="16"/>
 <wire x1="59.75" y1="28.75" x2="59.75" y2="29.3" width="0.2" layer="1"/>
@@ -7136,7 +7192,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="R55" pad="1"/>
 <contactref element="R54" pad="1"/>
 <wire x1="69.35" y1="34.35" x2="69.35" y2="35.1" width="0.2" layer="1"/>
-<wire x1="70.38" y1="34.36" x2="70.38" y2="35.15" width="0.2" layer="1"/>
 <wire x1="72.4" y1="35.1" x2="72.68" y2="34.82" width="0.2" layer="1"/>
 <wire x1="72.68" y1="34.82" x2="72.68" y2="34.36" width="0.2" layer="1"/>
 <wire x1="69.35" y1="35.1" x2="68.55" y2="35.1" width="0.2" layer="1"/>
@@ -7173,7 +7228,14 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="72.4" y1="35.1" x2="70.375" y2="35.1" width="0.2" layer="1"/>
 <wire x1="70.75" y1="7.25" x2="70.75" y2="4.7" width="0.2" layer="1"/>
 <wire x1="70.75" y1="4.7" x2="70.8" y2="4.65" width="0.2" layer="1"/>
-<wire x1="70.375" y1="35.1" x2="70.38" y2="35.15" width="0" layer="19" extent="1-1"/>
+<wire x1="67.7" y1="25.85" x2="66.5" y2="27.05" width="0.4064" layer="16"/>
+<wire x1="66.5" y1="27.05" x2="66.5" y2="27.9" width="0.4064" layer="16"/>
+<wire x1="66.5" y1="27.9" x2="66.15" y2="28.25" width="0.4064" layer="16"/>
+<wire x1="66.15" y1="28.25" x2="65.4" y2="28.25" width="0.4064" layer="16"/>
+<wire x1="65.4" y1="28.25" x2="65.05" y2="27.9" width="0.4064" layer="16"/>
+<wire x1="65.05" y1="27.9" x2="61.75" y2="27.9" width="0.4064" layer="16"/>
+<wire x1="70.38" y1="34.36" x2="70.375" y2="34.36" width="0.2" layer="1"/>
+<wire x1="70.375" y1="34.36" x2="70.375" y2="35.1" width="0.2" layer="1"/>
 </signal>
 <signal name="1.2V">
 <contactref element="IC1" pad="29"/>
@@ -7211,7 +7273,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="61.75" y1="8.9" x2="62.4" y2="8.9" width="0.2" layer="16"/>
 <wire x1="62.4" y1="8.9" x2="63.6" y2="7.7" width="0.2" layer="16"/>
 <via x="74.1" y="20.1" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="67.55" y1="20.6" x2="73.6" y2="20.6" width="0.2" layer="16"/>
+<wire x1="67.6" y1="20.6" x2="73.6" y2="20.6" width="0.2" layer="16"/>
 <wire x1="73.6" y1="20.6" x2="74.1" y2="20.1" width="0.2" layer="16"/>
 <wire x1="74.75" y1="28.75" x2="74.75" y2="26.7" width="0.2" layer="1"/>
 <wire x1="74.75" y1="26.7" x2="75.4" y2="26.05" width="0.2" layer="1"/>
@@ -7229,17 +7291,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="88.35" y1="31.7" x2="88.75" y2="32.1" width="0.2" layer="16"/>
 <wire x1="90.1" y1="32.52" x2="89.17" y2="32.52" width="0.2" layer="1"/>
 <wire x1="89.17" y1="32.52" x2="88.75" y2="32.1" width="0.2" layer="1"/>
-<wire x1="62.75" y1="28.75" x2="62.75" y2="27.4" width="0.2" layer="1"/>
-<wire x1="62.75" y1="27.4" x2="63.5" y2="26.65" width="0.2" layer="1"/>
-<wire x1="63.5" y1="26.65" x2="63.5" y2="23.6" width="0.2" layer="1"/>
-<wire x1="63.5" y1="23.6" x2="64.3" y2="22.8" width="0.2" layer="1"/>
 <wire x1="59.25" y1="24.85" x2="60.7" y2="23.4" width="0.2" layer="1"/>
 <wire x1="60.7" y1="23.4" x2="60.7" y2="22.8" width="0.2" layer="1"/>
 <wire x1="64.3" y1="22.8" x2="60.7" y2="22.8" width="0.2" layer="16"/>
 <wire x1="63.7" y1="20.65" x2="61.55" y2="22.8" width="0.2" layer="1"/>
 <wire x1="61.55" y1="22.8" x2="60.7" y2="22.8" width="0.2" layer="1"/>
-<wire x1="67.55" y1="20.6" x2="65.35" y2="22.8" width="0.2" layer="16"/>
-<wire x1="65.35" y1="22.8" x2="64.3" y2="22.8" width="0.2" layer="16"/>
+<wire x1="67.6" y1="20.6" x2="65.4" y2="22.8" width="0.2" layer="16"/>
+<wire x1="65.4" y1="22.8" x2="64.3" y2="22.8" width="0.2" layer="16"/>
 <wire x1="57.25" y1="22.75" x2="59.1" y2="22.75" width="0.2" layer="1"/>
 <wire x1="59.1" y1="22.75" x2="59.45" y2="22.4" width="0.2" layer="1"/>
 <wire x1="59.45" y1="22.4" x2="60.3" y2="22.4" width="0.2" layer="1"/>
@@ -7298,6 +7356,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="75.6" y1="30.65" x2="75.6" y2="31" width="0.2" layer="1"/>
 <wire x1="75.6" y1="31" x2="76.15" y2="31.55" width="0.2" layer="1"/>
 <wire x1="76.15" y1="31.55" x2="76.25" y2="31.55" width="0.2" layer="1"/>
+<wire x1="62.75" y1="28.75" x2="62.75" y2="25.1" width="0.2" layer="1"/>
+<wire x1="62.75" y1="25.1" x2="64.3" y2="23.55" width="0.2" layer="1"/>
+<wire x1="64.3" y1="23.55" x2="64.3" y2="22.8" width="0.2" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
@@ -7330,7 +7391,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="74.95" y="33.35" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="74.25" y1="28.75" x2="74.25" y2="29.55" width="0.2" layer="1"/>
 <wire x1="82.35" y1="33.95" x2="82.7" y2="34.3" width="0.2" layer="16"/>
-<via x="82.7" y="34.3" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="82.7" y="34.3" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="82.7" y1="34.3" x2="82.7" y2="35.7363" width="0.2" layer="1"/>
 <wire x1="82.7" y1="35.7363" x2="82.695" y2="35.7413" width="0.2" layer="1"/>
 <wire x1="82.35" y1="33.95" x2="75.85" y2="33.95" width="0.2" layer="16"/>
@@ -7657,16 +7718,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="72.55" y="50.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="72.55" y1="50.15" x2="71.95" y2="50.75" width="0.2" layer="16"/>
 <wire x1="71.95" y1="50.75" x2="71.15" y2="50.75" width="0.2" layer="16"/>
-<wire x1="60.5" y1="50.3" x2="55.85" y2="54.95" width="0.2" layer="16"/>
-<wire x1="55.85" y1="54.95" x2="44.1" y2="54.95" width="0.2" layer="16"/>
-<wire x1="44.1" y1="54.95" x2="43.55" y2="55.5" width="0.2" layer="16"/>
-<wire x1="43.55" y1="55.5" x2="42.95" y2="55.5" width="0.2" layer="16"/>
-<wire x1="42.95" y1="55.5" x2="42.3" y2="54.85" width="0.2" layer="16"/>
-<via x="42.3" y="54.85" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="42.3" y1="54.85" x2="41.99" y2="54.54" width="0.2" layer="1"/>
-<wire x1="41.99" y1="54.54" x2="37.55" y2="54.54" width="0.2" layer="1"/>
-<wire x1="60.5" y1="50.3" x2="70.7" y2="50.3" width="0.2" layer="16"/>
-<wire x1="70.7" y1="50.3" x2="71.15" y2="50.75" width="0.2" layer="16"/>
+<wire x1="43.55" y1="55.7" x2="42.75" y2="55.7" width="0.2" layer="16"/>
+<wire x1="42.75" y1="55.7" x2="42.3" y2="55.25" width="0.2" layer="16"/>
+<via x="42.3" y="55.25" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="71.15" y1="50.75" x2="70.75" y2="50.35" width="0.2" layer="16"/>
+<wire x1="70.75" y1="50.35" x2="61" y2="50.35" width="0.2" layer="16"/>
+<wire x1="61" y1="50.35" x2="56.05" y2="55.3" width="0.2" layer="16"/>
+<wire x1="56.05" y1="55.3" x2="43.95" y2="55.3" width="0.2" layer="16"/>
+<wire x1="43.95" y1="55.3" x2="43.55" y2="55.7" width="0.2" layer="16"/>
+<wire x1="37.55" y1="54.54" x2="41.59" y2="54.54" width="0.2" layer="1"/>
+<wire x1="41.59" y1="54.54" x2="42.3" y2="55.25" width="0.2" layer="1"/>
 </signal>
 <signal name="SIM_RST">
 <contactref element="IC9" pad="17"/>
@@ -7678,16 +7739,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="73.55" y="50.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="73.55" y1="50.15" x2="72.55" y2="51.15" width="0.2" layer="16"/>
 <wire x1="72.55" y1="51.15" x2="70.9" y2="51.15" width="0.2" layer="16"/>
-<wire x1="60.65" y1="50.75" x2="56.05" y2="55.35" width="0.2" layer="16"/>
-<wire x1="56.05" y1="55.35" x2="44.3" y2="55.35" width="0.2" layer="16"/>
-<via x="39.85" y="55.8" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="44.3" y1="55.35" x2="43.7" y2="55.95" width="0.2" layer="16"/>
-<wire x1="43.7" y1="55.95" x2="40" y2="55.95" width="0.2" layer="16"/>
-<wire x1="40" y1="55.95" x2="39.85" y2="55.8" width="0.2" layer="16"/>
-<wire x1="37.55" y1="57.08" x2="38.57" y2="57.08" width="0.2" layer="1"/>
-<wire x1="38.57" y1="57.08" x2="39.85" y2="55.8" width="0.2" layer="1"/>
-<wire x1="60.65" y1="50.75" x2="70.5" y2="50.75" width="0.2" layer="16"/>
-<wire x1="70.5" y1="50.75" x2="70.9" y2="51.15" width="0.2" layer="16"/>
+<via x="39.85" y="56.2" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="70.9" y1="51.15" x2="70.5" y2="50.75" width="0.2" layer="16"/>
+<wire x1="70.5" y1="50.75" x2="61.2" y2="50.75" width="0.2" layer="16"/>
+<wire x1="61.2" y1="50.75" x2="56.25" y2="55.7" width="0.2" layer="16"/>
+<wire x1="56.25" y1="55.7" x2="44.1" y2="55.7" width="0.2" layer="16"/>
+<wire x1="44.1" y1="55.7" x2="43.7" y2="56.1" width="0.2" layer="16"/>
+<wire x1="43.7" y1="56.1" x2="39.95" y2="56.1" width="0.2" layer="16"/>
+<wire x1="39.95" y1="56.1" x2="39.85" y2="56.2" width="0.2" layer="16"/>
+<wire x1="37.55" y1="57.08" x2="38.97" y2="57.08" width="0.2" layer="1"/>
+<wire x1="38.97" y1="57.08" x2="39.85" y2="56.2" width="0.2" layer="1"/>
 </signal>
 <signal name="SIM_VDD">
 <contactref element="IC9" pad="18"/>
@@ -7698,16 +7759,18 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="74.55" y="50.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="74.55" y1="50.15" x2="73.15" y2="51.55" width="0.2" layer="16"/>
 <wire x1="73.15" y1="51.55" x2="70.65" y2="51.55" width="0.2" layer="16"/>
-<wire x1="60.8" y1="51.2" x2="56.25" y2="55.75" width="0.2" layer="16"/>
-<wire x1="56.25" y1="55.75" x2="44.5" y2="55.75" width="0.2" layer="16"/>
-<wire x1="44.5" y1="55.75" x2="43.9" y2="56.35" width="0.2" layer="16"/>
-<via x="38.9" y="55.8" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="37.55" y1="55.81" x2="38.89" y2="55.81" width="0.2" layer="1"/>
-<wire x1="38.89" y1="55.81" x2="38.9" y2="55.8" width="0.2" layer="1"/>
-<wire x1="43.9" y1="56.35" x2="39.45" y2="56.35" width="0.2" layer="16"/>
-<wire x1="39.45" y1="56.35" x2="38.9" y2="55.8" width="0.2" layer="16"/>
-<wire x1="60.8" y1="51.2" x2="70.3" y2="51.2" width="0.2" layer="16"/>
-<wire x1="70.3" y1="51.2" x2="70.65" y2="51.55" width="0.2" layer="16"/>
+<via x="38.9" y="56.2" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="70.65" y1="51.55" x2="70.25" y2="51.15" width="0.2" layer="16"/>
+<wire x1="70.25" y1="51.15" x2="61.4" y2="51.15" width="0.2" layer="16"/>
+<wire x1="61.4" y1="51.15" x2="56.45" y2="56.1" width="0.2" layer="16"/>
+<wire x1="56.45" y1="56.1" x2="44.25" y2="56.1" width="0.2" layer="16"/>
+<wire x1="44.25" y1="56.1" x2="43.85" y2="56.5" width="0.2" layer="16"/>
+<wire x1="43.85" y1="56.5" x2="40.45" y2="56.5" width="0.2" layer="16"/>
+<wire x1="40.45" y1="56.5" x2="40.1" y2="56.85" width="0.2" layer="16"/>
+<wire x1="40.1" y1="56.85" x2="39.55" y2="56.85" width="0.2" layer="16"/>
+<wire x1="39.55" y1="56.85" x2="38.9" y2="56.2" width="0.2" layer="16"/>
+<wire x1="37.55" y1="55.81" x2="38.51" y2="55.81" width="0.2" layer="1"/>
+<wire x1="38.51" y1="55.81" x2="38.9" y2="56.2" width="0.2" layer="1"/>
 </signal>
 <signal name="SIM_DATA">
 <contactref element="IC9" pad="15"/>
@@ -7717,16 +7780,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="73.2" y1="47.3" x2="73.2" y2="48.45" width="0.2" layer="1"/>
 <wire x1="73.2" y1="48.45" x2="71.5" y2="50.15" width="0.2" layer="1"/>
 <via x="71.5" y="50.15" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="55.65" y1="54.55" x2="43.55" y2="54.55" width="0.2" layer="16"/>
-<wire x1="43.55" y1="54.55" x2="43.25" y2="54.85" width="0.2" layer="16"/>
-<via x="43.25" y="54.85" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="43.25" y="55.1" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="37.55" y1="53.27" x2="38.32" y2="53.27" width="0.2" layer="1"/>
 <wire x1="38.32" y1="53.27" x2="39.15" y2="54.1" width="0.2" layer="1"/>
-<wire x1="39.15" y1="54.1" x2="42.5" y2="54.1" width="0.2" layer="1"/>
-<wire x1="42.5" y1="54.1" x2="43.25" y2="54.85" width="0.2" layer="1"/>
-<wire x1="60.35" y1="49.85" x2="71.2" y2="49.85" width="0.2" layer="16"/>
-<wire x1="71.2" y1="49.85" x2="71.5" y2="50.15" width="0.2" layer="16"/>
-<wire x1="55.65" y1="54.55" x2="60.35" y2="49.85" width="0.2" layer="16"/>
+<wire x1="71.5" y1="50.15" x2="71.3" y2="49.95" width="0.2" layer="16"/>
+<wire x1="71.3" y1="49.95" x2="60.8" y2="49.95" width="0.2" layer="16"/>
+<wire x1="60.8" y1="49.95" x2="55.85" y2="54.9" width="0.2" layer="16"/>
+<wire x1="55.85" y1="54.9" x2="43.45" y2="54.9" width="0.2" layer="16"/>
+<wire x1="43.45" y1="54.9" x2="43.25" y2="55.1" width="0.2" layer="16"/>
+<wire x1="39.15" y1="54.1" x2="42.25" y2="54.1" width="0.2" layer="1"/>
+<wire x1="42.25" y1="54.1" x2="43.25" y2="55.1" width="0.2" layer="1"/>
 </signal>
 <signal name="OV_D0">
 <contactref element="X13" pad="19"/>
@@ -7897,26 +7960,24 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="Q3" pad="1"/>
 <wire x1="14.6" y1="34.45" x2="27.8" y2="47.65" width="0.2" layer="16"/>
 <wire x1="27.8" y1="47.65" x2="27.8" y2="48.15" width="0.2" layer="16"/>
-<via x="27.65" y="54.95" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="27.6" y="55.3" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="16" y="55.85" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="16" y1="55.85" x2="16" y2="54.7" width="0.2" layer="1"/>
-<wire x1="27.65" y1="54.95" x2="26.65" y2="54.95" width="0.2" layer="16"/>
-<wire x1="26.65" y1="54.95" x2="26.25" y2="54.55" width="0.2" layer="16"/>
-<wire x1="27.65" y1="54.95" x2="27.65" y2="48.3" width="0.2" layer="1"/>
-<wire x1="27.65" y1="48.3" x2="27.8" y2="48.15" width="0.2" layer="1"/>
+<wire x1="27.6" y1="48.35" x2="27.8" y2="48.15" width="0.2" layer="1"/>
 <wire x1="6.85" y1="25.1" x2="9" y2="25.1" width="0.2" layer="16"/>
-<wire x1="26.25" y1="54.55" x2="17.3" y2="54.55" width="0.2" layer="16"/>
-<wire x1="17.3" y1="54.55" x2="16" y2="55.85" width="0.2" layer="16"/>
 <contactref element="TP84" pad="TP"/>
 <wire x1="17" y1="55.85" x2="16" y2="55.85" width="0.2" layer="1"/>
+<wire x1="27.6" y1="55.3" x2="26.65" y2="55.3" width="0.2" layer="16"/>
+<wire x1="26.65" y1="55.3" x2="26.25" y2="54.9" width="0.2" layer="16"/>
+<wire x1="26.25" y1="54.9" x2="16.95" y2="54.9" width="0.2" layer="16"/>
+<wire x1="16.95" y1="54.9" x2="16" y2="55.85" width="0.2" layer="16"/>
+<wire x1="27.6" y1="48.35" x2="27.6" y2="55.3" width="0.2" layer="1"/>
 </signal>
 <signal name="PWR_BUT">
-<via x="106.65" y="13.95" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="105.65" y="19.85" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="91.1" y="48.75" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="12.4" y="54.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="IC2" pad="122"/>
-<via x="27" y="54.35" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="26.95" y="54.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="26.9" y="48.15" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="7.5" y="19.3" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="7.5" y1="19.3" x2="9.25" y2="19.3" width="0.2" layer="1"/>
@@ -7932,19 +7993,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="100.475" y1="3.2" x2="100.375" y2="3.1" width="0.2" layer="1"/>
 <wire x1="5.75" y1="23.05" x2="5.75" y2="24.65" width="0.2" layer="16"/>
 <wire x1="14.2" y1="31" x2="14.2" y2="34.65" width="0.2" layer="16"/>
-<wire x1="55.45" y1="54.15" x2="27.2" y2="54.15" width="0.2" layer="16"/>
 <wire x1="14.2" y1="34.65" x2="26.9" y2="47.35" width="0.2" layer="16"/>
 <wire x1="26.9" y1="47.35" x2="26.9" y2="48.15" width="0.2" layer="16"/>
-<wire x1="27.2" y1="54.15" x2="27" y2="54.35" width="0.2" layer="16"/>
-<wire x1="27" y1="54.35" x2="26.8" y2="54.15" width="0.2" layer="16"/>
-<wire x1="26.9" y1="48.15" x2="27.25" y2="48.5" width="0.2" layer="1"/>
-<wire x1="27.25" y1="48.5" x2="27.25" y2="54.1" width="0.2" layer="1"/>
-<wire x1="27.25" y1="54.1" x2="27" y2="54.35" width="0.2" layer="1"/>
-<wire x1="102.55" y1="10.35" x2="106.15" y2="13.95" width="0.2" layer="1"/>
-<wire x1="106.15" y1="13.95" x2="106.65" y2="13.95" width="0.2" layer="1"/>
-<wire x1="106.05" y1="14.55" x2="106.65" y2="13.95" width="0.2" layer="16"/>
+<wire x1="27.15" y1="54.6" x2="26.95" y2="54.7" width="0.2" layer="16"/>
+<wire x1="26.9" y1="48.15" x2="27.2" y2="48.45" width="0.2" layer="1"/>
 <wire x1="102.55" y1="10" x2="102.55" y2="10.35" width="0.2" layer="1"/>
-<wire x1="105" y1="23.4" x2="97.45" y2="30.95" width="0.2" layer="1"/>
 <wire x1="6.6" y1="25.5" x2="8.7" y2="25.5" width="0.2" layer="16"/>
 <wire x1="6.6" y1="25.5" x2="5.75" y2="24.65" width="0.2" layer="16"/>
 <wire x1="101.85" y1="3.2" x2="102.55" y2="3.9" width="0.2" layer="16"/>
@@ -7958,9 +8011,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="91.55" y1="47.15" x2="91.75" y2="47.35" width="0.2" layer="1"/>
 <wire x1="91.75" y1="47.35" x2="91.75" y2="48.1" width="0.2" layer="1"/>
 <wire x1="91.75" y1="48.1" x2="91.1" y2="48.75" width="0.2" layer="1"/>
-<wire x1="55.45" y1="54.15" x2="60.2" y2="49.4" width="0.2" layer="16"/>
-<wire x1="60.2" y1="49.4" x2="90.45" y2="49.4" width="0.2" layer="16"/>
-<wire x1="90.45" y1="49.4" x2="91.1" y2="48.75" width="0.2" layer="16"/>
+<wire x1="60.6" y1="49.55" x2="87.55" y2="49.55" width="0.2" layer="16"/>
 <contactref element="VD4" pad="C"/>
 <wire x1="12.4" y1="53.8" x2="12.4" y2="54.8" width="0.2" layer="1"/>
 <contactref element="IC1" pad="129"/>
@@ -7973,12 +8024,21 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="102.4" y1="10.15" x2="102.55" y2="10" width="0.2" layer="16"/>
 <wire x1="86.4" y1="13.7" x2="80.55" y2="19.55" width="0.2" layer="16"/>
 <wire x1="80.55" y1="19.55" x2="80.55" y2="19.75" width="0.2" layer="16"/>
-<wire x1="105" y1="23.4" x2="105" y2="20.5" width="0.2" layer="1"/>
-<wire x1="105" y1="20.5" x2="105.65" y2="19.85" width="0.2" layer="1"/>
-<wire x1="106.05" y1="14.55" x2="106.05" y2="19.45" width="0.2" layer="16"/>
-<wire x1="106.05" y1="19.45" x2="105.65" y2="19.85" width="0.2" layer="16"/>
-<wire x1="26.8" y1="54.15" x2="13.05" y2="54.15" width="0.2" layer="16"/>
-<wire x1="13.05" y1="54.15" x2="12.4" y2="54.8" width="0.2" layer="16"/>
+<wire x1="102.55" y1="10.35" x2="106.75" y2="14.55" width="0.2" layer="1"/>
+<wire x1="106.75" y1="14.55" x2="106.75" y2="18.75" width="0.2" layer="1"/>
+<wire x1="106.75" y1="18.75" x2="104.2" y2="21.3" width="0.2" layer="1"/>
+<wire x1="87.55" y1="49.55" x2="88.35" y2="48.75" width="0.2" layer="16"/>
+<wire x1="88.35" y1="48.75" x2="91.1" y2="48.75" width="0.2" layer="16"/>
+<wire x1="60.6" y1="49.55" x2="55.65" y2="54.5" width="0.2" layer="16"/>
+<wire x1="55.65" y1="54.5" x2="27.15" y2="54.5" width="0.2" layer="16"/>
+<wire x1="27.15" y1="54.5" x2="26.95" y2="54.7" width="0.2" layer="16"/>
+<wire x1="26.95" y1="54.7" x2="26.75" y2="54.5" width="0.2" layer="16"/>
+<wire x1="26.75" y1="54.5" x2="12.7" y2="54.5" width="0.2" layer="16"/>
+<wire x1="12.7" y1="54.5" x2="12.4" y2="54.8" width="0.2" layer="16"/>
+<wire x1="97.45" y1="30.95" x2="104.2" y2="24.2" width="0.2" layer="1"/>
+<wire x1="104.2" y1="24.2" x2="104.2" y2="21.3" width="0.2" layer="1"/>
+<wire x1="27.2" y1="48.45" x2="27.2" y2="54.45" width="0.2" layer="1"/>
+<wire x1="27.2" y1="54.45" x2="26.95" y2="54.7" width="0.2" layer="1"/>
 </signal>
 <signal name="V_USB">
 <contactref element="C2" pad="+"/>
@@ -8097,6 +8157,53 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="29.35" y1="36.1" x2="30.05" y2="36.8" width="0.6096" layer="1"/>
 <wire x1="27.6" y1="42.75" x2="29.35" y2="41" width="0.6096" layer="1"/>
 <wire x1="29.35" y1="41" x2="30.05" y2="41" width="0.6096" layer="1"/>
+<contactref element="IC21" pad="6"/>
+<contactref element="L10" pad="1"/>
+<wire x1="112.65" y1="4.2" x2="112.65" y2="7.35" width="0.2" layer="1"/>
+<via x="112.65" y="7.35" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="112.65" y1="7.35" x2="112.65" y2="7.75" width="0.2" layer="16"/>
+<wire x1="112.65" y1="7.75" x2="113.95" y2="9.05" width="0.2" layer="16"/>
+<wire x1="113.95" y1="9.05" x2="113.95" y2="11.3" width="0.2" layer="16"/>
+<wire x1="113.95" y1="11.3" x2="113" y2="12.25" width="0.2" layer="16"/>
+<wire x1="113" y1="12.25" x2="110.95" y2="12.25" width="0.2" layer="16"/>
+<wire x1="110.95" y1="12.25" x2="109.6" y2="13.6" width="0.2" layer="16"/>
+<wire x1="109.6" y1="13.6" x2="102.65" y2="13.6" width="0.2" layer="16"/>
+<wire x1="102.65" y1="13.6" x2="102.35" y2="13.9" width="0.2" layer="16"/>
+<wire x1="102.35" y1="13.9" x2="101.6" y2="13.9" width="0.2" layer="16"/>
+<wire x1="101.6" y1="13.9" x2="101.3" y2="13.6" width="0.2" layer="16"/>
+<wire x1="101.3" y1="13.6" x2="100.5" y2="13.6" width="0.2" layer="16"/>
+<wire x1="100.5" y1="13.6" x2="99.05" y2="15.05" width="0.2" layer="16"/>
+<wire x1="99.05" y1="15.05" x2="99.05" y2="16.35" width="0.2" layer="16"/>
+<wire x1="99.05" y1="16.35" x2="98.4" y2="17" width="0.2" layer="16"/>
+<wire x1="98.4" y1="17" x2="98.4" y2="19.45" width="0.2" layer="16"/>
+<wire x1="98.4" y1="19.45" x2="98.75" y2="19.8" width="0.2" layer="16"/>
+<wire x1="98.75" y1="19.8" x2="101.7" y2="19.8" width="0.2" layer="16"/>
+<wire x1="101.7" y1="19.8" x2="106.25" y2="24.35" width="0.2" layer="16"/>
+<wire x1="106.25" y1="24.35" x2="106.25" y2="33.05" width="0.2" layer="16"/>
+<wire x1="106.25" y1="33.05" x2="109.9" y2="36.7" width="0.2" layer="16"/>
+<wire x1="109.9" y1="36.7" x2="109.9" y2="44.75" width="0.2" layer="16"/>
+<wire x1="109.9" y1="44.75" x2="111.4" y2="46.25" width="0.2" layer="16"/>
+<wire x1="111.4" y1="46.25" x2="111.4" y2="49.5" width="0.2" layer="16"/>
+<wire x1="111.4" y1="49.5" x2="109.25" y2="51.65" width="0.2" layer="16"/>
+<wire x1="109.25" y1="51.65" x2="109.25" y2="53.9" width="0.2" layer="16"/>
+<wire x1="109.25" y1="53.9" x2="108.2" y2="54.95" width="0.2" layer="16"/>
+<wire x1="108.2" y1="54.95" x2="103.3" y2="54.95" width="0.2" layer="16"/>
+<wire x1="103.3" y1="54.95" x2="100.75" y2="52.4" width="0.2" layer="16"/>
+<wire x1="100.75" y1="52.4" x2="100.75" y2="50.85" width="0.2" layer="16"/>
+<wire x1="100.75" y1="50.85" x2="99.1" y2="49.2" width="0.2" layer="16"/>
+<wire x1="99.1" y1="49.2" x2="94.2" y2="49.2" width="0.2" layer="16"/>
+<wire x1="94.2" y1="49.2" x2="90.3" y2="45.3" width="0.2" layer="16"/>
+<wire x1="90.3" y1="45.3" x2="88.8" y2="45.3" width="0.2" layer="16"/>
+<wire x1="88.8" y1="45.3" x2="86.55" y2="47.55" width="0.2" layer="16"/>
+<wire x1="86.55" y1="47.55" x2="59.6" y2="47.55" width="0.2" layer="16"/>
+<wire x1="59.6" y1="47.55" x2="54.65" y2="52.5" width="0.2" layer="16"/>
+<wire x1="54.65" y1="52.5" x2="22.55" y2="52.5" width="0.2" layer="16"/>
+<wire x1="19.6" y1="48.5" x2="19.6" y2="49.8" width="0.2" layer="1"/>
+<via x="19.6" y="49.8" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="22.55" y1="52.5" x2="19.85" y2="49.8" width="0.2" layer="16"/>
+<wire x1="19.85" y1="49.8" x2="19.6" y2="49.8" width="0.2" layer="16"/>
+<wire x1="112.8086" y1="2.5" x2="112.8086" y2="4.0414" width="0.2" layer="1"/>
+<wire x1="112.8086" y1="4.0414" x2="112.65" y2="4.2" width="0.2" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="IC7" pad="8"/>
@@ -8429,14 +8536,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="90.25" y1="14.2" x2="86.6" y2="14.2" width="0.2" layer="16"/>
 <contactref element="IC10" pad="23"/>
 <contactref element="IC24" pad="4"/>
-<wire x1="116.35" y1="7" x2="119" y2="7" width="0.2" layer="16"/>
-<wire x1="115.35" y1="6" x2="116.35" y2="7" width="0.2" layer="16"/>
+<wire x1="116.3" y1="7" x2="119" y2="7" width="0.2" layer="16"/>
+<wire x1="115.15" y1="5.85" x2="116.3" y2="7" width="0.2" layer="16"/>
 <wire x1="104.5" y1="10.6" x2="106.3" y2="8.8" width="0.2" layer="16"/>
 <wire x1="106.3" y1="8.8" x2="106.3" y2="7.95" width="0.2" layer="16"/>
-<wire x1="105.6" y1="7.25" x2="106.3" y2="7.95" width="0.2" layer="16"/>
-<wire x1="105.6" y1="7.25" x2="105.6" y2="6.6" width="0.2" layer="16"/>
-<wire x1="105.6" y1="6.6" x2="106.2" y2="6" width="0.2" layer="16"/>
-<wire x1="115.35" y1="6" x2="106.2" y2="6" width="0.2" layer="16"/>
+<wire x1="105.65" y1="7.3" x2="106.3" y2="7.95" width="0.2" layer="16"/>
+<wire x1="105.65" y1="7.3" x2="105.65" y2="6.6" width="0.2" layer="16"/>
+<wire x1="105.65" y1="6.6" x2="106.4" y2="5.85" width="0.2" layer="16"/>
 <wire x1="104.5" y1="10.6" x2="93.85" y2="10.6" width="0.2" layer="16"/>
 <wire x1="93.85" y1="10.6" x2="90.25" y2="14.2" width="0.2" layer="16"/>
 <contactref element="IC12" pad="A1"/>
@@ -8454,6 +8560,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="105.45" y1="8.05" x2="106.2" y2="8.05" width="0.2" layer="1"/>
 <wire x1="106.2" y1="8.05" x2="106.3" y2="7.95" width="0.2" layer="1"/>
 <contactref element="TP67" pad="1"/>
+<wire x1="115.15" y1="5.85" x2="106.4" y2="5.85" width="0.2" layer="16"/>
 </signal>
 <signal name="NAV_I2C_SDA">
 <via x="106.3" y="6.9" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -8474,9 +8581,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="106.95" y1="6.9" x2="106.3" y2="6.9" width="0.2" layer="16"/>
 <wire x1="104.7" y1="11.05" x2="106.95" y2="8.8" width="0.2" layer="16"/>
 <wire x1="106.95" y1="8.8" x2="106.95" y2="6.9" width="0.2" layer="16"/>
-<wire x1="106.95" y1="6.9" x2="107.4" y2="6.45" width="0.2" layer="16"/>
-<wire x1="107.4" y1="6.45" x2="114.45" y2="6.45" width="0.2" layer="16"/>
-<wire x1="114.45" y1="6.45" x2="115" y2="7" width="0.2" layer="16"/>
+<wire x1="106.95" y1="6.9" x2="107.55" y2="6.3" width="0.2" layer="16"/>
+<wire x1="114.3" y1="6.3" x2="115" y2="7" width="0.2" layer="16"/>
 <wire x1="104.7" y1="11.05" x2="94.1" y2="11.05" width="0.2" layer="16"/>
 <wire x1="94.1" y1="11.05" x2="90.45" y2="14.7" width="0.2" layer="16"/>
 <contactref element="IC12" pad="A2"/>
@@ -8486,12 +8592,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="115" y1="7" x2="116" y2="8" width="0.2" layer="16"/>
 <wire x1="116" y1="8" x2="116" y2="11.6" width="0.2" layer="16"/>
 <via x="119" y="11.55" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="116" y1="11.6" x2="116.8" y2="12.4" width="0.2" layer="16"/>
-<wire x1="116.8" y1="12.4" x2="118.15" y2="12.4" width="0.2" layer="16"/>
-<wire x1="118.15" y1="12.4" x2="119" y2="11.55" width="0.2" layer="16"/>
+<wire x1="116" y1="11.6" x2="116.7" y2="12.3" width="0.2" layer="16"/>
+<wire x1="116.7" y1="12.3" x2="118.25" y2="12.3" width="0.2" layer="16"/>
+<wire x1="118.25" y1="12.3" x2="119" y2="11.55" width="0.2" layer="16"/>
 <wire x1="107.8475" y1="7.65" x2="107.05" y2="7.65" width="0.2" layer="1"/>
 <wire x1="107.05" y1="7.65" x2="106.3" y2="6.9" width="0.2" layer="1"/>
 <contactref element="TP66" pad="1"/>
+<wire x1="114.3" y1="6.3" x2="107.55" y2="6.3" width="0.2" layer="16"/>
 </signal>
 <signal name="NAV_INT0">
 <contactref element="IC1" pad="132"/>
@@ -8509,19 +8616,18 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="85.7" y1="17.75" x2="85.25" y2="17.75" width="0.2" layer="16"/>
 <wire x1="85.25" y1="17.75" x2="84.55" y2="18.45" width="0.2" layer="16"/>
 <wire x1="95.35" y1="12.4" x2="101.3" y2="12.4" width="0.2" layer="16"/>
-<wire x1="101.3" y1="12.4" x2="101.6" y2="12.1" width="0.2" layer="16"/>
-<wire x1="101.6" y1="12.1" x2="102.45" y2="12.1" width="0.2" layer="16"/>
-<wire x1="102.45" y1="12.1" x2="102.75" y2="12.4" width="0.2" layer="16"/>
+<wire x1="101.3" y1="12.4" x2="101.55" y2="12.15" width="0.2" layer="16"/>
+<wire x1="101.55" y1="12.15" x2="102.45" y2="12.15" width="0.2" layer="16"/>
+<wire x1="102.45" y1="12.15" x2="102.7" y2="12.4" width="0.2" layer="16"/>
 <contactref element="IC10" pad="12"/>
-<wire x1="102.75" y1="12.4" x2="109" y2="12.4" width="0.2" layer="16"/>
-<via x="112.3" y="10.95" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="112.3" y1="10.95" x2="112.3" y2="10.45" width="0.2" layer="1"/>
-<wire x1="112.3" y1="10.45" x2="112.3" y2="10.35" width="0.2" layer="1"/>
-<wire x1="109" y1="12.4" x2="110.45" y2="10.95" width="0.2" layer="16"/>
-<wire x1="110.45" y1="10.95" x2="112.3" y2="10.95" width="0.2" layer="16"/>
+<wire x1="102.7" y1="12.4" x2="109.05" y2="12.4" width="0.2" layer="16"/>
+<via x="112.3" y="10.75" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="110.9525" y1="9.65" x2="111.9" y2="9.65" width="0.2" layer="1"/>
 <wire x1="111.9" y1="9.65" x2="112.3" y2="10.05" width="0.2" layer="1"/>
-<wire x1="112.3" y1="10.05" x2="112.3" y2="10.35" width="0.2" layer="1"/>
+<wire x1="112.3" y1="10.05" x2="112.3" y2="10.75" width="0.2" layer="1"/>
+<wire x1="109.05" y1="12.4" x2="110.4" y2="11.05" width="0.2" layer="16"/>
+<wire x1="110.4" y1="11.05" x2="112" y2="11.05" width="0.2" layer="16"/>
+<wire x1="112" y1="11.05" x2="112.3" y2="10.75" width="0.2" layer="16"/>
 </signal>
 <signal name="FMC_!OE">
 <contactref element="X3" pad="40"/>
@@ -8686,7 +8792,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="84.25" y1="35.05" x2="84.25" y2="36.25" width="0.2" layer="16"/>
 <wire x1="84.25" y1="36.25" x2="86.5" y2="38.5" width="0.2" layer="16"/>
 <wire x1="86.5" y1="38.5" x2="86.5" y2="38.8" width="0.2" layer="16"/>
-<via x="86.5" y="38.8" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="86.5" y="38.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="86.5" y1="38.8" x2="86.5" y2="39.7" width="0.2" layer="1"/>
 <wire x1="86.5" y1="39.7" x2="86.5" y2="41.2537" width="0.2" layer="1"/>
 <wire x1="86.5" y1="41.2537" x2="86.505" y2="41.2587" width="0.2" layer="1"/>
@@ -8815,15 +8921,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="SJ2" pad="1"/>
 <wire x1="80.1" y1="38.3" x2="82.79" y2="38.3" width="0.2" layer="16"/>
 <wire x1="82.79" y1="38.3" x2="83.63" y2="39.14" width="0.2" layer="16"/>
-<wire x1="87.75" y1="38.1" x2="84.67" y2="38.1" width="0.2" layer="1"/>
 <wire x1="84.67" y1="38.1" x2="83.63" y2="39.14" width="0.2" layer="1"/>
 <wire x1="35.65" y1="26.96" x2="35.65" y2="27.6" width="0.2" layer="1"/>
 <wire x1="84.05" y1="44.3" x2="84.4" y2="44.65" width="0.2" layer="1"/>
 <wire x1="84.4" y1="44.65" x2="85.1" y2="44.65" width="0.2" layer="1"/>
-<wire x1="87.75" y1="38.1" x2="89.2" y2="36.65" width="0.2" layer="1"/>
-<wire x1="89.2" y1="36.65" x2="89.2" y2="36.3" width="0.2" layer="1"/>
-<wire x1="89.2" y1="36.3" x2="89.48" y2="36.02" width="0.2" layer="1"/>
-<wire x1="89.48" y1="36.02" x2="90.1" y2="36.02" width="0.2" layer="1"/>
 <via x="91.65" y="36.25" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="98.25" y="34.55" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="89.96" y1="19.99" x2="89.96" y2="20.96" width="0.2" layer="1"/>
@@ -8858,8 +8959,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="43.05" y1="38.35" x2="41.35" y2="36.65" width="0.2" layer="16"/>
 <wire x1="41.35" y1="36.65" x2="36.74" y2="36.65" width="0.2" layer="16"/>
 <wire x1="36.74" y1="36.65" x2="36.49" y2="36.4" width="0.2" layer="16"/>
-<wire x1="88.35" y1="39.2" x2="88.35" y2="38.7" width="0.2" layer="1"/>
-<wire x1="88.35" y1="38.7" x2="87.75" y2="38.1" width="0.2" layer="1"/>
+<wire x1="84.67" y1="38.1" x2="88.35" y2="38.1" width="0.2" layer="1"/>
+<wire x1="88.35" y1="38.1" x2="90.95" y2="38.1" width="0.2" layer="1"/>
+<wire x1="90.95" y1="38.1" x2="91.65" y2="37.4" width="0.2" layer="1"/>
+<wire x1="91.65" y1="37.4" x2="91.65" y2="36.25" width="0.2" layer="1"/>
+<wire x1="88.35" y1="39.2" x2="88.35" y2="38.1" width="0.2" layer="1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R20" pad="2"/>
@@ -9317,7 +9421,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="62.6" y1="37.9" x2="63.55" y2="38.85" width="0.2" layer="16"/>
 <wire x1="63.55" y1="38.85" x2="78.11" y2="38.85" width="0.2" layer="16"/>
 <contactref element="IC8" pad="7"/>
-<via x="98.7" y="50" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="98.7" y="49.85" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="27.86" y1="31.06" x2="29" y2="32.2" width="0.2" layer="1"/>
 <contactref element="IC23" pad="1"/>
 <wire x1="32.53" y1="37.83" x2="32.53" y2="34.23" width="0.2" layer="1"/>
@@ -9335,21 +9439,23 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="103.75" y1="53.7" x2="103.2" y2="54.25" width="0.2" layer="1"/>
 <wire x1="103.2" y1="54.25" x2="101.3" y2="54.25" width="0.2" layer="1"/>
 <via x="101.3" y="54.25" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="101.3" y1="54.25" x2="100" y2="52.95" width="0.2" layer="16"/>
 <wire x1="104.2246" y1="37.2363" x2="103.1637" y2="37.2363" width="0.2" layer="1"/>
 <wire x1="103.1637" y1="37.2363" x2="102.26" y2="38.14" width="0.2" layer="1"/>
-<wire x1="100" y1="52.95" x2="100" y2="51.3" width="0.2" layer="16"/>
-<wire x1="100" y1="51.3" x2="98.7" y2="50" width="0.2" layer="16"/>
 <wire x1="98.7" y1="43.7" x2="98.7" y2="47.8" width="0.2" layer="1"/>
 <wire x1="98.7" y1="47.8" x2="98.15" y2="48.35" width="0.2" layer="1"/>
-<wire x1="98.15" y1="48.35" x2="98.15" y2="49.45" width="0.2" layer="1"/>
-<wire x1="98.15" y1="49.45" x2="98.7" y2="50" width="0.2" layer="1"/>
+<wire x1="98.15" y1="48.35" x2="98.15" y2="49.3" width="0.2" layer="1"/>
+<wire x1="98.15" y1="49.3" x2="98.7" y2="49.85" width="0.2" layer="1"/>
 <wire x1="27.86" y1="31.06" x2="27.86" y2="28.43" width="0.2" layer="1"/>
 <wire x1="52.01" y1="37.9" x2="49.76" y2="40.15" width="0.2" layer="16"/>
 <wire x1="49.76" y1="40.15" x2="42.05" y2="40.15" width="0.2" layer="16"/>
 <wire x1="42.05" y1="40.15" x2="40.35" y2="38.45" width="0.2" layer="16"/>
 <wire x1="40.35" y1="38.45" x2="33.88" y2="38.45" width="0.2" layer="16"/>
 <wire x1="33.88" y1="38.45" x2="33.58" y2="38.15" width="0.2" layer="16"/>
+<wire x1="101.3" y1="54.25" x2="101.3" y2="53.5" width="0.2" layer="16"/>
+<wire x1="101.3" y1="53.5" x2="100.35" y2="52.55" width="0.2" layer="16"/>
+<wire x1="100.35" y1="52.55" x2="100.35" y2="51" width="0.2" layer="16"/>
+<wire x1="100.35" y1="51" x2="99.2" y2="49.85" width="0.2" layer="16"/>
+<wire x1="99.2" y1="49.85" x2="98.7" y2="49.85" width="0.2" layer="16"/>
 </signal>
 <signal name="ESP_TX">
 <contactref element="IC2" pad="37"/>
@@ -9567,25 +9673,25 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="15.2" y1="32.35" x2="15.2" y2="32.625" width="0.2" layer="1"/>
 <via x="15.2" y="32.625" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="28.7" y="48.15" extent="1-16" drill="0.3048" shape="octagon"/>
-<via x="28.3" y="55.6" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="28.25" y="55.95" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="16" y="58.5" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="28.7" y1="47.9" x2="28.7" y2="48.15" width="0.2" layer="16"/>
-<wire x1="28.3" y1="55.6" x2="28.3" y2="54.7" width="0.2" layer="1"/>
-<wire x1="28.3" y1="54.7" x2="28.05" y2="54.45" width="0.2" layer="1"/>
 <wire x1="16" y1="58.5" x2="16" y2="59.775" width="0.2" layer="1"/>
 <wire x1="16" y1="59.775" x2="16.025" y2="59.8" width="0.2" layer="1"/>
-<wire x1="28.3" y1="55.6" x2="27.4" y2="55.6" width="0.2" layer="16"/>
-<wire x1="27.4" y1="55.6" x2="27.15" y2="55.35" width="0.2" layer="16"/>
-<wire x1="27.15" y1="55.35" x2="26.45" y2="55.35" width="0.2" layer="16"/>
-<wire x1="26.45" y1="55.35" x2="26.05" y2="54.95" width="0.2" layer="16"/>
-<wire x1="26.05" y1="54.95" x2="18.55" y2="54.95" width="0.2" layer="16"/>
-<wire x1="18.55" y1="54.95" x2="16" y2="57.5" width="0.2" layer="16"/>
 <wire x1="16" y1="57.5" x2="16" y2="58.5" width="0.2" layer="16"/>
 <wire x1="28.7" y1="47.9" x2="15.45" y2="34.65" width="0.2" layer="16"/>
 <wire x1="15.45" y1="34.65" x2="15.45" y2="32.875" width="0.2" layer="16"/>
 <wire x1="15.45" y1="32.875" x2="15.2" y2="32.625" width="0.2" layer="16"/>
-<wire x1="28.05" y1="54.45" x2="28.05" y2="48.8" width="0.2" layer="1"/>
-<wire x1="28.05" y1="48.8" x2="28.7" y2="48.15" width="0.2" layer="1"/>
+<wire x1="28" y1="48.85" x2="28.7" y2="48.15" width="0.2" layer="1"/>
+<wire x1="28.25" y1="55.95" x2="27.3" y2="55.95" width="0.2" layer="16"/>
+<wire x1="27.3" y1="55.95" x2="27.05" y2="55.7" width="0.2" layer="16"/>
+<wire x1="27.05" y1="55.7" x2="26.45" y2="55.7" width="0.2" layer="16"/>
+<wire x1="26.45" y1="55.7" x2="26.05" y2="55.3" width="0.2" layer="16"/>
+<wire x1="26.05" y1="55.3" x2="18.2" y2="55.3" width="0.2" layer="16"/>
+<wire x1="18.2" y1="55.3" x2="16" y2="57.5" width="0.2" layer="16"/>
+<wire x1="28" y1="48.85" x2="28" y2="54.75" width="0.2" layer="1"/>
+<wire x1="28" y1="54.75" x2="28.25" y2="55" width="0.2" layer="1"/>
+<wire x1="28.25" y1="55" x2="28.25" y2="55.95" width="0.2" layer="1"/>
 </signal>
 <signal name="BUT3">
 <contactref element="SW3" pad="2"/>
@@ -9753,17 +9859,19 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="92.3" y1="12.6" x2="94.9" y2="12.6" width="0.2" layer="1"/>
 <wire x1="94.9" y1="12.6" x2="95.9" y2="11.6" width="0.2" layer="1"/>
 <wire x1="95.9" y1="11.6" x2="102.6" y2="11.6" width="0.2" layer="1"/>
-<wire x1="102.6" y1="11.6" x2="105.75" y2="14.75" width="0.2" layer="1"/>
-<wire x1="105.2" y1="15.75" x2="105.2" y2="15.3" width="0.2" layer="1"/>
-<wire x1="105.2" y1="15.3" x2="105.75" y2="14.75" width="0.2" layer="1"/>
-<wire x1="105.75" y1="14.75" x2="106.65" y2="15.65" width="0.2" layer="1"/>
-<via x="106.65" y="15.65" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="105.2" y="14.9" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="113.65" y="18.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="113.65" y1="18.7" x2="113.64" y2="18.71" width="0.2" layer="1"/>
 <wire x1="113.64" y1="18.71" x2="113.64" y2="20.78" width="0.2" layer="1"/>
 <wire x1="113.65" y1="17.9" x2="113.65" y2="18.7" width="0.2" layer="16"/>
-<wire x1="106.65" y1="15.65" x2="111.4" y2="15.65" width="0.2" layer="16"/>
-<wire x1="111.4" y1="15.65" x2="113.65" y2="17.9" width="0.2" layer="16"/>
+<wire x1="111.05" y1="15.3" x2="113.65" y2="17.9" width="0.2" layer="16"/>
+<wire x1="102.6" y1="11.6" x2="105.2" y2="14.2" width="0.2" layer="1"/>
+<wire x1="105.2" y1="14.2" x2="105.2" y2="14.9" width="0.2" layer="1"/>
+<wire x1="105.2" y1="15.75" x2="105.2" y2="14.9" width="0.2" layer="1"/>
+<wire x1="111.05" y1="15.3" x2="106.7" y2="15.3" width="0.2" layer="16"/>
+<wire x1="106.7" y1="15.3" x2="106.5" y2="15.5" width="0.2" layer="16"/>
+<wire x1="106.5" y1="15.5" x2="105.8" y2="15.5" width="0.2" layer="16"/>
+<wire x1="105.8" y1="15.5" x2="105.2" y2="14.9" width="0.2" layer="16"/>
 </signal>
 <signal name="N$50">
 <contactref element="IC18" pad="25"/>
@@ -9955,8 +10063,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="90.2" y="47.7" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="91.45" y1="32.85" x2="95.65" y2="32.85" width="0.2" layer="16"/>
 <wire x1="95.65" y1="32.85" x2="96.15" y2="33.35" width="0.2" layer="16"/>
-<wire x1="55.05" y1="53.35" x2="5.5" y2="53.35" width="0.2" layer="16"/>
-<wire x1="5.5" y1="53.35" x2="3.15" y2="51" width="0.2" layer="16"/>
+<wire x1="5.5" y1="53.45" x2="3.15" y2="51" width="0.2" layer="16"/>
 <wire x1="3.15" y1="51" x2="3.15" y2="48.85" width="0.2" layer="16"/>
 <wire x1="3.15" y1="48.85" x2="1.2" y2="46.9" width="0.2" layer="16"/>
 <wire x1="1.2" y1="46.9" x2="1.2" y2="45.3" width="0.2" layer="16"/>
@@ -9970,13 +10077,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="90.65" y1="45.8" x2="90.65" y2="46.85" width="0.2" layer="1"/>
 <wire x1="90.65" y1="46.85" x2="90.2" y2="47.3" width="0.2" layer="1"/>
 <wire x1="90.2" y1="47.3" x2="90.2" y2="47.7" width="0.2" layer="1"/>
-<wire x1="55.05" y1="53.35" x2="59.9" y2="48.5" width="0.2" layer="16"/>
 <wire x1="81.15" y1="21.8" x2="78.95" y2="24" width="0.2" layer="16"/>
 <wire x1="78.95" y1="24" x2="78.95" y2="25.25" width="0.2" layer="16"/>
 <wire x1="81.15" y1="21.8" x2="82.5" y2="21.8" width="0.2" layer="16"/>
 <wire x1="82.5" y1="21.8" x2="84.8" y2="19.5" width="0.2" layer="16"/>
-<wire x1="59.9" y1="48.5" x2="89.4" y2="48.5" width="0.2" layer="16"/>
-<wire x1="89.4" y1="48.5" x2="90.2" y2="47.7" width="0.2" layer="16"/>
+<wire x1="60.2" y1="48.75" x2="87.15" y2="48.75" width="0.2" layer="16"/>
+<wire x1="87.15" y1="48.75" x2="88.2" y2="47.7" width="0.2" layer="16"/>
+<wire x1="88.2" y1="47.7" x2="90.2" y2="47.7" width="0.2" layer="16"/>
+<wire x1="60.2" y1="48.75" x2="55.25" y2="53.7" width="0.2" layer="16"/>
+<wire x1="55.25" y1="53.7" x2="5.75" y2="53.7" width="0.2" layer="16"/>
+<wire x1="5.75" y1="53.7" x2="5.5" y2="53.45" width="0.2" layer="16"/>
 </signal>
 <signal name="DMIC_CLK">
 <contactref element="IC18" pad="4"/>
@@ -9998,8 +10108,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="91.65" y1="32.4" x2="95.85" y2="32.4" width="0.2" layer="16"/>
 <wire x1="95.85" y1="32.4" x2="96.2" y2="32.75" width="0.2" layer="16"/>
 <wire x1="96.2" y1="32.75" x2="96.85" y2="32.75" width="0.2" layer="16"/>
-<wire x1="55.25" y1="53.75" x2="5.3" y2="53.75" width="0.2" layer="16"/>
-<wire x1="5.3" y1="53.75" x2="2.35" y2="50.8" width="0.2" layer="16"/>
+<wire x1="5.3" y1="53.85" x2="2.35" y2="50.8" width="0.2" layer="16"/>
 <wire x1="2.35" y1="50.8" x2="1.2" y2="50.8" width="0.2" layer="16"/>
 <wire x1="96.35" y1="40.65" x2="96.35" y2="34.1" width="0.2" layer="1"/>
 <wire x1="96.35" y1="34.1" x2="96.85" y2="33.6" width="0.2" layer="1"/>
@@ -10010,13 +10119,17 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="80.4" y1="26.05" x2="79.4" y2="25.05" width="0.2" layer="16"/>
 <wire x1="96.35" y1="40.65" x2="91.1" y2="45.9" width="0.2" layer="1"/>
 <wire x1="91.1" y1="45.9" x2="91.1" y2="47.7" width="0.2" layer="1"/>
-<wire x1="55.25" y1="53.75" x2="60.05" y2="48.95" width="0.2" layer="16"/>
 <wire x1="81.35" y1="22.25" x2="79.4" y2="24.2" width="0.2" layer="16"/>
 <wire x1="79.4" y1="24.2" x2="79.4" y2="25.05" width="0.2" layer="16"/>
 <wire x1="81.35" y1="22.25" x2="82.75" y2="22.25" width="0.2" layer="16"/>
 <wire x1="82.75" y1="22.25" x2="84.85" y2="20.15" width="0.2" layer="16"/>
-<wire x1="60.05" y1="48.95" x2="89.85" y2="48.95" width="0.2" layer="16"/>
-<wire x1="89.85" y1="48.95" x2="91.1" y2="47.7" width="0.2" layer="16"/>
+<wire x1="60.4" y1="49.15" x2="87.35" y2="49.15" width="0.2" layer="16"/>
+<wire x1="87.35" y1="49.15" x2="88.2" y2="48.3" width="0.2" layer="16"/>
+<wire x1="88.2" y1="48.3" x2="90.5" y2="48.3" width="0.2" layer="16"/>
+<wire x1="90.5" y1="48.3" x2="91.1" y2="47.7" width="0.2" layer="16"/>
+<wire x1="60.4" y1="49.15" x2="55.45" y2="54.1" width="0.2" layer="16"/>
+<wire x1="55.45" y1="54.1" x2="5.55" y2="54.1" width="0.2" layer="16"/>
+<wire x1="5.55" y1="54.1" x2="5.3" y2="53.85" width="0.2" layer="16"/>
 </signal>
 <signal name="AUDIO_INT">
 <contactref element="IC18" pad="5"/>
@@ -10122,12 +10235,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="92.64" y1="18.91" x2="93.16" y2="18.91" width="0.2" layer="1"/>
 <wire x1="93.16" y1="18.91" x2="93.65" y2="19.4" width="0.2" layer="1"/>
 <wire x1="93.65" y1="19.4" x2="97.75" y2="19.4" width="0.2" layer="1"/>
-<wire x1="97.75" y1="19.4" x2="98.24" y2="18.91" width="0.2" layer="1"/>
-<wire x1="98.24" y1="18.91" x2="100.16" y2="18.91" width="0.2" layer="1"/>
 <wire x1="100.16" y1="18.91" x2="100.2" y2="18.95" width="0.2" layer="1"/>
 <wire x1="99.8" y1="20.75" x2="99.8" y2="20.15" width="0.2" layer="1"/>
 <wire x1="99.8" y1="20.15" x2="100.2" y2="19.75" width="0.2" layer="1"/>
 <wire x1="100.2" y1="19.75" x2="100.2" y2="18.95" width="0.2" layer="1"/>
+<wire x1="97.75" y1="19.4" x2="98.55" y2="18.6" width="0.2" layer="1"/>
+<wire x1="98.55" y1="18.6" x2="99.85" y2="18.6" width="0.2" layer="1"/>
+<wire x1="99.85" y1="18.6" x2="100.2" y2="18.95" width="0.2" layer="1"/>
 </signal>
 <signal name="N$49">
 <contactref element="IC18" pad="31"/>
@@ -10170,11 +10284,11 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="82.05" y1="23.95" x2="81.3" y2="24.7" width="0.2" layer="16"/>
 <wire x1="81.3" y1="24.7" x2="81.3" y2="28.1" width="0.2" layer="16"/>
 <wire x1="81.3" y1="28.1" x2="82.05" y2="28.85" width="0.2" layer="16"/>
-<wire x1="85.7" y1="21.95" x2="99.95" y2="21.95" width="0.2" layer="16"/>
-<wire x1="99.95" y1="21.95" x2="101.45" y2="23.45" width="0.2" layer="16"/>
-<wire x1="101.45" y1="23.45" x2="101.8" y2="23.45" width="0.2" layer="16"/>
+<wire x1="85.7" y1="21.95" x2="100.65" y2="21.95" width="0.2" layer="16"/>
 <wire x1="82.05" y1="23.95" x2="83.7" y2="23.95" width="0.2" layer="16"/>
 <wire x1="83.7" y1="23.95" x2="85.7" y2="21.95" width="0.2" layer="16"/>
+<wire x1="100.65" y1="21.95" x2="101.8" y2="23.1" width="0.2" layer="16"/>
+<wire x1="101.8" y1="23.1" x2="101.8" y2="23.45" width="0.2" layer="16"/>
 </signal>
 <signal name="GSM_A_IN">
 <contactref element="IC18" pad="21"/>
@@ -10222,12 +10336,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="C52" pad="1"/>
 <contactref element="R40" pad="2"/>
 <contactref element="X10" pad="2"/>
-<wire x1="98.5" y1="19.75" x2="98.5" y2="20.75" width="0.2" layer="1"/>
-<via x="98.5" y="19.75" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="99.05" y="19.2" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="110.75" y="22.85" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="98.5" y1="20.75" x2="98.1" y2="20.75" width="0.2" layer="1"/>
-<wire x1="98.1" y1="20.75" x2="97.6" y2="20.25" width="0.2" layer="1"/>
-<wire x1="97.6" y1="20.25" x2="97" y2="20.25" width="0.2" layer="1"/>
 <wire x1="110.55" y1="22.65" x2="110.75" y2="22.85" width="0.2" layer="16"/>
 <wire x1="110.75" y1="22.85" x2="111.15" y2="22.45" width="0.2" layer="1"/>
 <wire x1="111.15" y1="22.45" x2="111.15" y2="18.95" width="0.2" layer="1"/>
@@ -10235,9 +10345,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="114.75" y1="15.35" x2="117.05" y2="15.35" width="0.2" layer="1"/>
 <wire x1="117.05" y1="15.35" x2="117.54" y2="14.86" width="0.2" layer="1"/>
 <wire x1="117.54" y1="14.86" x2="117.54" y2="13.58" width="0.2" layer="1"/>
-<wire x1="101.1" y1="19.75" x2="98.5" y2="19.75" width="0.2" layer="16"/>
-<wire x1="110.55" y1="22.65" x2="104" y2="22.65" width="0.2" layer="16"/>
-<wire x1="104" y1="22.65" x2="101.1" y2="19.75" width="0.2" layer="16"/>
+<wire x1="110.55" y1="22.65" x2="105.15" y2="22.65" width="0.2" layer="16"/>
+<wire x1="101.85" y1="19.35" x2="105.15" y2="22.65" width="0.2" layer="16"/>
+<wire x1="101.85" y1="19.35" x2="99.2" y2="19.35" width="0.2" layer="16"/>
+<wire x1="99.2" y1="19.35" x2="99.05" y2="19.2" width="0.2" layer="16"/>
+<wire x1="99.05" y1="19.2" x2="99.05" y2="19.3" width="0.2" layer="1"/>
+<wire x1="99.05" y1="19.3" x2="98.45" y2="19.9" width="0.2" layer="1"/>
+<wire x1="98.45" y1="19.9" x2="97.35" y2="19.9" width="0.2" layer="1"/>
+<wire x1="97.35" y1="19.9" x2="97" y2="20.25" width="0.2" layer="1"/>
+<wire x1="98.45" y1="19.9" x2="98.45" y2="20.7" width="0.2" layer="1"/>
+<wire x1="98.45" y1="20.7" x2="98.5" y2="20.75" width="0.2" layer="1"/>
 </signal>
 <signal name="SWD_IO">
 <contactref element="IC2" pad="105"/>
@@ -10420,35 +10537,31 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </signal>
 <signal name="SPKRP">
 <contactref element="IC18" pad="22"/>
-<via x="100" y="15.4" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="100.15" y="15.4" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="93.29" y1="16.11" x2="92.64" y2="16.11" width="0.2" layer="1"/>
-<wire x1="101.35" y1="19.35" x2="101.35" y2="17.45" width="0.2" layer="16"/>
 <wire x1="93.29" y1="16.11" x2="94.45" y2="14.95" width="0.2" layer="1"/>
-<wire x1="99.55" y1="14.95" x2="100" y2="15.4" width="0.2" layer="1"/>
-<wire x1="101.35" y1="17.45" x2="100" y2="16.1" width="0.2" layer="16"/>
-<wire x1="100" y1="16.1" x2="100" y2="15.4" width="0.2" layer="16"/>
-<wire x1="99.55" y1="14.95" x2="94.45" y2="14.95" width="0.2" layer="1"/>
+<wire x1="99.7" y1="14.95" x2="100.15" y2="15.4" width="0.2" layer="1"/>
+<wire x1="99.7" y1="14.95" x2="94.45" y2="14.95" width="0.2" layer="1"/>
 <wire x1="114.2" y1="22.2" x2="115" y2="23" width="0.2" layer="16"/>
-<wire x1="114.2" y1="22.2" x2="104.2" y2="22.2" width="0.2" layer="16"/>
-<wire x1="104.2" y1="22.2" x2="101.35" y2="19.35" width="0.2" layer="16"/>
 <contactref element="TP63" pad="1"/>
+<wire x1="114.2" y1="22.2" x2="105.3" y2="22.2" width="0.2" layer="16"/>
+<wire x1="105.3" y1="22.2" x2="100.15" y2="17.05" width="0.2" layer="16"/>
+<wire x1="100.15" y1="17.05" x2="100.15" y2="15.4" width="0.2" layer="16"/>
 </signal>
 <signal name="SPKRN">
 <contactref element="IC18" pad="23"/>
 <via x="100.85" y="16.05" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="99.05" y1="15.4" x2="99.7" y2="16.05" width="0.2" layer="1"/>
-<wire x1="99.7" y1="16.05" x2="100.85" y2="16.05" width="0.2" layer="1"/>
+<wire x1="99.25" y1="15.4" x2="99.9" y2="16.05" width="0.2" layer="1"/>
+<wire x1="99.9" y1="16.05" x2="100.85" y2="16.05" width="0.2" layer="1"/>
 <wire x1="93.49" y1="16.51" x2="92.64" y2="16.51" width="0.2" layer="1"/>
 <wire x1="94.6" y1="15.4" x2="93.49" y2="16.51" width="0.2" layer="1"/>
-<wire x1="99.05" y1="15.4" x2="94.6" y2="15.4" width="0.2" layer="1"/>
-<wire x1="101.8" y1="19.15" x2="101.8" y2="17.25" width="0.2" layer="16"/>
-<wire x1="101.8" y1="17.25" x2="100.85" y2="16.3" width="0.2" layer="16"/>
-<wire x1="100.85" y1="16.3" x2="100.85" y2="16.05" width="0.2" layer="16"/>
+<wire x1="99.25" y1="15.4" x2="94.6" y2="15.4" width="0.2" layer="1"/>
 <wire x1="115.225" y1="21.725" x2="116.5" y2="23" width="0.2" layer="16"/>
 <wire x1="116.5" y1="23" x2="119" y2="23" width="0.2" layer="16"/>
-<wire x1="115.225" y1="21.725" x2="104.375" y2="21.725" width="0.2" layer="16"/>
-<wire x1="104.375" y1="21.725" x2="101.8" y2="19.15" width="0.2" layer="16"/>
 <contactref element="TP64" pad="1"/>
+<wire x1="115.225" y1="21.725" x2="105.425" y2="21.725" width="0.2" layer="16"/>
+<wire x1="105.425" y1="21.725" x2="100.85" y2="17.15" width="0.2" layer="16"/>
+<wire x1="100.85" y1="17.15" x2="100.85" y2="16.05" width="0.2" layer="16"/>
 </signal>
 <signal name="RINGP">
 <contactref element="IC18" pad="28"/>
@@ -10458,7 +10571,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="5.05" y1="20.65" x2="5.05" y2="21.15" width="0.2" layer="16"/>
 <wire x1="5.05" y1="21.15" x2="3.95" y2="22.25" width="0.2" layer="16"/>
 <wire x1="3.95" y1="22.25" x2="3.95" y2="25.1" width="0.2" layer="16"/>
-<wire x1="54.65" y1="52.55" x2="5.9" y2="52.55" width="0.2" layer="16"/>
 <wire x1="92.64" y1="18.51" x2="93.66" y2="18.51" width="0.2" layer="1"/>
 <wire x1="93.66" y1="18.51" x2="93.95" y2="18.8" width="0.2" layer="1"/>
 <via x="93.95" y="18.8" extent="1-16" drill="0.3048" shape="octagon"/>
@@ -10469,32 +10581,32 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="3.25" y1="25.8" x2="3.95" y2="25.1" width="0.2" layer="16"/>
 <wire x1="3.25" y1="25.8" x2="3.25" y2="37.9" width="0.2" layer="16"/>
 <wire x1="3.25" y1="37.9" x2="4.35" y2="39" width="0.2" layer="16"/>
-<wire x1="3.95" y1="50.6" x2="5.9" y2="52.55" width="0.2" layer="16"/>
+<wire x1="3.95" y1="50.6" x2="5.9" y2="52.65" width="0.2" layer="16"/>
 <wire x1="5.7" y1="44" x2="5.7" y2="47.3" width="0.2" layer="16"/>
 <wire x1="5.7" y1="47.3" x2="3.95" y2="49.05" width="0.2" layer="16"/>
 <wire x1="3.95" y1="49.05" x2="3.95" y2="50.6" width="0.2" layer="16"/>
 <wire x1="4.35" y1="39" x2="4.35" y2="42.65" width="0.2" layer="16"/>
 <wire x1="4.35" y1="42.65" x2="5.7" y2="44" width="0.2" layer="16"/>
 <wire x1="95.15" y1="40.2" x2="95.15" y2="32.05" width="0.2" layer="1"/>
-<wire x1="96.65" y1="21.5" x2="100.15" y2="21.5" width="0.2" layer="16"/>
-<wire x1="100.15" y1="21.5" x2="101.45" y2="22.8" width="0.2" layer="16"/>
-<wire x1="101.45" y1="22.8" x2="102.2" y2="22.8" width="0.2" layer="16"/>
-<wire x1="102.2" y1="22.8" x2="102.6" y2="23.2" width="0.2" layer="16"/>
+<wire x1="96.65" y1="21.5" x2="100.9" y2="21.5" width="0.2" layer="16"/>
 <wire x1="102.6" y1="23.2" x2="102.6" y2="24.25" width="0.2" layer="16"/>
 <wire x1="95.15" y1="40.2" x2="89.6" y2="45.75" width="0.2" layer="1"/>
 <wire x1="89.6" y1="45.75" x2="89.6" y2="46.15" width="0.2" layer="1"/>
-<wire x1="54.65" y1="52.55" x2="59.6" y2="47.6" width="0.2" layer="16"/>
-<wire x1="59.6" y1="47.6" x2="88.15" y2="47.6" width="0.2" layer="16"/>
-<wire x1="88.15" y1="47.6" x2="89.6" y2="46.15" width="0.2" layer="16"/>
+<wire x1="59.8" y1="47.95" x2="86.75" y2="47.95" width="0.2" layer="16"/>
 <wire x1="5.05" y1="20.65" x2="6.55" y2="20.65" width="0.2" layer="1"/>
 <wire x1="6.55" y1="20.65" x2="7.4" y2="21.5" width="0.2" layer="1"/>
+<wire x1="102.6" y1="23.2" x2="100.9" y2="21.5" width="0.2" layer="16"/>
+<wire x1="86.75" y1="47.95" x2="88.55" y2="46.15" width="0.2" layer="16"/>
+<wire x1="88.55" y1="46.15" x2="89.6" y2="46.15" width="0.2" layer="16"/>
+<wire x1="59.8" y1="47.95" x2="54.85" y2="52.9" width="0.2" layer="16"/>
+<wire x1="54.85" y1="52.9" x2="6.15" y2="52.9" width="0.2" layer="16"/>
+<wire x1="6.15" y1="52.9" x2="5.9" y2="52.65" width="0.2" layer="16"/>
 </signal>
 <signal name="RINGN">
 <contactref element="IC18" pad="27"/>
 <via x="89.6" y="47.05" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="B1" pad="2"/>
 <via x="5.05" y="9.45" extent="1-16" drill="0.3048" shape="octagon"/>
-<wire x1="54.85" y1="52.95" x2="5.7" y2="52.95" width="0.2" layer="16"/>
 <via x="94.85" y="18.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="92.64" y1="18.11" x2="94.16" y2="18.11" width="0.2" layer="1"/>
 <wire x1="94.16" y1="18.11" x2="94.85" y2="18.8" width="0.2" layer="1"/>
@@ -10506,7 +10618,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="3.5" y1="24.95" x2="2.85" y2="25.6" width="0.2" layer="16"/>
 <wire x1="2.85" y1="25.6" x2="2.85" y2="38.05" width="0.2" layer="16"/>
 <wire x1="2.85" y1="38.05" x2="3.95" y2="39.15" width="0.2" layer="16"/>
-<wire x1="3.55" y1="50.8" x2="5.7" y2="52.95" width="0.2" layer="16"/>
+<wire x1="3.55" y1="50.8" x2="5.7" y2="53.05" width="0.2" layer="16"/>
 <wire x1="3.5" y1="24.95" x2="3.5" y2="22.1" width="0.2" layer="16"/>
 <wire x1="3.5" y1="22.1" x2="4.45" y2="21.15" width="0.2" layer="16"/>
 <wire x1="4.45" y1="21.15" x2="4.45" y2="20.4" width="0.2" layer="16"/>
@@ -10519,19 +10631,20 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="3.95" y1="39.15" x2="3.95" y2="42.85" width="0.2" layer="16"/>
 <wire x1="3.95" y1="42.85" x2="5.3" y2="44.2" width="0.2" layer="16"/>
 <wire x1="95.55" y1="40.35" x2="95.55" y2="32.25" width="0.2" layer="1"/>
-<wire x1="96.85" y1="21.05" x2="100.35" y2="21.05" width="0.2" layer="16"/>
-<wire x1="100.35" y1="21.05" x2="101.65" y2="22.35" width="0.2" layer="16"/>
-<wire x1="101.65" y1="22.35" x2="102.45" y2="22.35" width="0.2" layer="16"/>
-<wire x1="102.45" y1="22.35" x2="103.4" y2="23.3" width="0.2" layer="16"/>
+<wire x1="96.85" y1="21.05" x2="101.15" y2="21.05" width="0.2" layer="16"/>
 <wire x1="103.4" y1="23.3" x2="103.4" y2="23.75" width="0.2" layer="16"/>
 <wire x1="95.55" y1="40.35" x2="90.25" y2="45.65" width="0.2" layer="1"/>
 <wire x1="90.25" y1="45.65" x2="90.25" y2="46.4" width="0.2" layer="1"/>
 <wire x1="90.25" y1="46.4" x2="89.6" y2="47.05" width="0.2" layer="1"/>
-<wire x1="54.85" y1="52.95" x2="59.75" y2="48.05" width="0.2" layer="16"/>
-<wire x1="59.75" y1="48.05" x2="88.6" y2="48.05" width="0.2" layer="16"/>
-<wire x1="88.6" y1="48.05" x2="89.6" y2="47.05" width="0.2" layer="16"/>
+<wire x1="60" y1="48.35" x2="86.95" y2="48.35" width="0.2" layer="16"/>
 <wire x1="5.05" y1="9.45" x2="6.45" y2="9.45" width="0.2" layer="1"/>
 <wire x1="6.45" y1="9.45" x2="7.4" y2="8.5" width="0.2" layer="1"/>
+<wire x1="103.4" y1="23.3" x2="101.15" y2="21.05" width="0.2" layer="16"/>
+<wire x1="86.95" y1="48.35" x2="88.25" y2="47.05" width="0.2" layer="16"/>
+<wire x1="88.25" y1="47.05" x2="89.6" y2="47.05" width="0.2" layer="16"/>
+<wire x1="60" y1="48.35" x2="55.05" y2="53.3" width="0.2" layer="16"/>
+<wire x1="55.05" y1="53.3" x2="5.95" y2="53.3" width="0.2" layer="16"/>
+<wire x1="5.95" y1="53.3" x2="5.7" y2="53.05" width="0.2" layer="16"/>
 </signal>
 <signal name="GSM_NL">
 <contactref element="IC9" pad="42"/>
@@ -10554,18 +10667,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="112.15" y1="12.95" x2="112.15" y2="14" width="0.2" layer="1"/>
 <wire x1="90.36" y1="12.69" x2="90.36" y2="15.03" width="0.2" layer="1"/>
 <wire x1="102.8" y1="11.2" x2="91.85" y2="11.2" width="0.2" layer="1"/>
-<wire x1="102.8" y1="11.2" x2="106.4" y2="14.8" width="0.2" layer="1"/>
+<wire x1="102.8" y1="11.2" x2="106.1" y2="14.5" width="0.2" layer="1"/>
 <wire x1="90.36" y1="12.69" x2="91.85" y2="11.2" width="0.2" layer="1"/>
-<wire x1="106.4" y1="14.8" x2="106.65" y2="14.8" width="0.2" layer="1"/>
-<via x="106.65" y="14.8" extent="1-16" drill="0.3048" shape="octagon"/>
+<wire x1="106.1" y1="14.5" x2="106.1" y2="14.9" width="0.2" layer="1"/>
+<via x="106.1" y="14.9" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="112.15" y="14" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="112.15" y1="14" x2="110.9" y2="14" width="0.2" layer="1"/>
 <wire x1="110.9" y1="14" x2="110.48" y2="13.58" width="0.2" layer="1"/>
 <wire x1="110.48" y1="13.58" x2="110.34" y2="13.58" width="0.2" layer="1"/>
-<wire x1="111.4" y1="15.2" x2="107.05" y2="15.2" width="0.2" layer="16"/>
-<wire x1="107.05" y1="15.2" x2="106.65" y2="14.8" width="0.2" layer="16"/>
-<wire x1="111.4" y1="15.2" x2="112.15" y2="14.45" width="0.2" layer="16"/>
-<wire x1="112.15" y1="14.45" x2="112.15" y2="14" width="0.2" layer="16"/>
+<wire x1="106.1" y1="14.9" x2="111.25" y2="14.9" width="0.2" layer="16"/>
+<wire x1="111.25" y1="14.9" x2="112.15" y2="14" width="0.2" layer="16"/>
 </signal>
 <signal name="N$47">
 <contactref element="L6" pad="1"/>
@@ -10821,15 +10932,16 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="IC1" pad="124"/>
 <wire x1="78.75" y1="16.75" x2="82.75" y2="16.75" width="0.2" layer="1"/>
 <wire x1="82.75" y1="16.75" x2="84.3" y2="18.3" width="0.2" layer="1"/>
-<via x="104.7" y="24.6" extent="1-16" drill="0.3048" shape="octagon"/>
+<via x="104.7" y="24.9" extent="1-16" drill="0.3048" shape="octagon"/>
 <contactref element="TP1" pad="TP"/>
-<wire x1="105.6" y1="24.6" x2="104.7" y2="24.6" width="0.2" layer="1"/>
-<wire x1="102.25" y1="24.9" x2="104.4" y2="24.9" width="0.2" layer="16"/>
-<wire x1="104.4" y1="24.9" x2="104.7" y2="24.6" width="0.2" layer="16"/>
+<wire x1="102.25" y1="24.9" x2="104.7" y2="24.9" width="0.2" layer="16"/>
 <wire x1="99.75" y1="22.4" x2="102.25" y2="24.9" width="0.2" layer="16"/>
 <wire x1="99.75" y1="22.4" x2="88" y2="22.4" width="0.2" layer="16"/>
 <wire x1="88" y1="22.4" x2="87.4" y2="23" width="0.2" layer="16"/>
 <wire x1="87.4" y1="23" x2="86.9" y2="23" width="0.2" layer="16"/>
+<contactref element="R59" pad="2"/>
+<wire x1="105.65" y1="24.9" x2="106.8" y2="24.9" width="0.2" layer="1"/>
+<wire x1="105.65" y1="24.9" x2="104.7" y2="24.9" width="0.2" layer="1"/>
 </signal>
 <signal name="N$99">
 <contactref element="IC22" pad="14"/>
@@ -10860,11 +10972,12 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <contactref element="R45" pad="1"/>
 <contactref element="C6" pad="1"/>
 <wire x1="50.25" y1="36" x2="50.25" y2="37.25" width="0.2" layer="1"/>
-<wire x1="48.4" y1="36.2" x2="49.3" y2="36.2" width="0.2" layer="1"/>
-<wire x1="49.3" y1="36.2" x2="50.25" y2="36.2" width="0.2" layer="1"/>
+<wire x1="48.4" y1="36.2" x2="49.2" y2="36.2" width="0.2" layer="1"/>
 <wire x1="50.25" y1="36.2" x2="50.25" y2="36" width="0.2" layer="1"/>
-<wire x1="48.4" y1="36.7" x2="49.3" y2="36.7" width="0.2" layer="1"/>
-<wire x1="49.3" y1="36.7" x2="49.3" y2="36.2" width="0.2" layer="1"/>
+<wire x1="48.4" y1="36.7" x2="49.2" y2="36.7" width="0.2" layer="1"/>
+<wire x1="49.2" y1="36.7" x2="49.2" y2="36.2" width="0.2" layer="1"/>
+<wire x1="49.2" y1="36.2" x2="49.4" y2="36" width="0.2" layer="1"/>
+<wire x1="49.4" y1="36" x2="50.25" y2="36" width="0.2" layer="1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R51" pad="1"/>
@@ -10942,9 +11055,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="66.95" y="34.8" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="79.25" y1="36.15" x2="80.5" y2="37.4" width="0.2" layer="16"/>
 <wire x1="80.5" y1="37.4" x2="84" y2="37.4" width="0.2" layer="16"/>
-<wire x1="84" y1="37.4" x2="84.4" y2="37.8" width="0.2" layer="16"/>
-<wire x1="84.4" y1="37.8" x2="84.4" y2="38.95" width="0.2" layer="16"/>
-<wire x1="84.4" y1="38.95" x2="84.9" y2="39.45" width="0.2" layer="16"/>
+<wire x1="84" y1="37.4" x2="84.45" y2="37.85" width="0.2" layer="16"/>
+<wire x1="84.45" y1="37.85" x2="84.45" y2="39" width="0.2" layer="16"/>
+<wire x1="84.45" y1="39" x2="84.9" y2="39.45" width="0.2" layer="16"/>
 <via x="91.1" y="39.25" extent="1-16" drill="0.3048" shape="octagon"/>
 <wire x1="88.075" y1="50.425" x2="87.05" y2="50.425" width="0.2" layer="1"/>
 <wire x1="91.1" y1="43.65" x2="91.1" y2="39.25" width="0.2" layer="1"/>
@@ -11393,7 +11506,26 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <signal name="N$23">
 <contactref element="VD9" pad="A"/>
 <contactref element="R50" pad="1"/>
-<wire x1="2.65" y1="42.9" x2="4.55" y2="42.9" width="0.2" layer="1"/>
+<wire x1="2.65" y1="43.05" x2="4.55" y2="43.05" width="0.2" layer="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="IC2" pad="7"/>
+<contactref element="SCL12" pad="TP"/>
+<wire x1="16.86" y1="7.23" x2="16.86" y2="4.86" width="0.2" layer="1"/>
+<wire x1="16.86" y1="4.86" x2="16.75" y2="4.75" width="0.2" layer="1"/>
+</signal>
+<signal name="N$77">
+<contactref element="VD10" pad="A"/>
+<contactref element="R59" pad="1"/>
+<wire x1="108.1" y1="24.9" x2="110.1" y2="24.9" width="0.2" layer="1"/>
+</signal>
+<signal name="N$88">
+<contactref element="IC27" pad="4"/>
+<contactref element="TP85" pad="TP"/>
+<wire x1="34.3" y1="51.5" x2="35.95" y2="51.5" width="0.2" layer="1"/>
+</signal>
+<signal name="N$95">
+<wire x1="89.05" y1="40.4" x2="89" y2="40.4" width="0.2" layer="1"/>
 </signal>
 </signals>
 </board>

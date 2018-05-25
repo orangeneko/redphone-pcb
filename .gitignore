@@ -9,3 +9,5 @@
 *.dri
 *.gpi
 
+# Lock files
+*.lck

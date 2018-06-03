@@ -7261,7 +7261,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="R27" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="R28" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="SUPPLY53" library="colibri" deviceset="GND" device=""/>
-<part name="3.3V5" library="netcat" deviceset="3.3V" device=""/>
 <part name="3.3V19" library="netcat" deviceset="3.3V" device=""/>
 <part name="OSC3" library="netcat" deviceset="CRYSTAL" device="3215" value="32.768 KHz"/>
 <part name="C34" library="netcat" deviceset="CAP" device="0402" value="22p"/>
@@ -7477,6 +7476,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="1.2V3" library="netcat" deviceset="1.2V" device=""/>
 <part name="2.5V3" library="netcat" deviceset="2.5V" device=""/>
 <part name="3.3V22" library="netcat" deviceset="3.3V" device=""/>
+<part name="C13" library="netcat" deviceset="CPOL-EU" device="SMCA" value="4.7u"/>
+<part name="GND24" library="netcat" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7542,6 +7543,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="C12" gate="G$1" x="205.74" y="45.72"/>
 <instance part="GND21" gate="GND" x="170.18" y="15.24"/>
 <instance part="GND22" gate="GND" x="205.74" y="35.56"/>
+<instance part="C13" gate="G$1" x="121.92" y="10.16"/>
+<instance part="GND24" gate="GND" x="121.92" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -7703,6 +7706,11 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="C12" gate="G$1" pin="-"/>
 <wire x1="205.74" y1="38.1" x2="205.74" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND24" gate="GND" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="-"/>
+<wire x1="121.92" y1="2.54" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -7812,7 +7820,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="-12.7" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="V_USB" class="0">
 <segment>
 <pinref part="X16" gate="G$1" pin="VBUS"/>
 <wire x1="-17.78" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
@@ -7878,7 +7886,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="109.22" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="V_MCU" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="VDCDC1"/>
 <wire x1="104.14" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
@@ -8060,6 +8068,17 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="60.96" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="V_SENS" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="VLDO1"/>
+<wire x1="104.14" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="+"/>
+<wire x1="121.92" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="12.7" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<junction x="121.92" y="15.24"/>
+<label x="124.46" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -8179,7 +8198,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="45.72" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$91" class="0">
+<net name="LCD_PU0" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="IM0"/>
 <pinref part="R48" gate="G$1" pin="2"/>
@@ -8384,7 +8403,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="R27" gate="G$1" x="162.56" y="63.5"/>
 <instance part="R28" gate="G$1" x="167.64" y="55.88"/>
 <instance part="SUPPLY53" gate="GND" x="160.02" y="48.26"/>
-<instance part="3.3V5" gate="G$1" x="198.12" y="33.02" rot="R180"/>
 <instance part="3.3V19" gate="G$1" x="167.64" y="71.12" rot="R180"/>
 <instance part="OSC3" gate="G$1" x="205.74" y="96.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="210.82" y="99.06" size="1.778" layer="95"/>
@@ -8492,20 +8510,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="3.3V19" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="PWR" pin="VDD"/>
-<pinref part="3.3V5" gate="G$1" pin="3.3V"/>
-<wire x1="205.74" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="PWR" pin="VDDA"/>
-<wire x1="200.66" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="25.4" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
-<junction x="200.66" y="33.02"/>
-<pinref part="IC2" gate="PWR" pin="VREF+"/>
-<wire x1="205.74" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="17.78" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
-<junction x="200.66" y="25.4"/>
 </segment>
 </net>
 <net name="V_BAT" class="0">
@@ -8999,6 +9003,22 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="-109.22" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="V_MCU" class="0">
+<segment>
+<pinref part="IC2" gate="PWR" pin="VDD"/>
+<wire x1="205.74" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="PWR" pin="VDDA"/>
+<wire x1="200.66" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="25.4" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<junction x="200.66" y="33.02"/>
+<pinref part="IC2" gate="PWR" pin="VREF+"/>
+<wire x1="205.74" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="17.78" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
+<junction x="200.66" y="25.4"/>
+<label x="198.12" y="33.02" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -9255,21 +9275,21 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <junction x="20.32" y="55.88"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="FPGA_!STATUS" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="5.08" x2="149.86" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="MGMT" pin="!STATUS"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="FPGA_!CONFIG" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="2.54" x2="144.78" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="MGMT" pin="!CONFIG"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="FPGA_CONF_DONE" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="0" x2="149.86" y2="0" width="0.1524" layer="91"/>
@@ -9282,12 +9302,22 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="IC5" gate="G$1" pin="MOSI/IO0"/>
 <label x="251.46" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-76.2" y1="-2.54" x2="-78.74" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-78.74" y="-2.54" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC1" gate="B1" pin="IO_3"/>
+</segment>
 </net>
 <net name="EPCS_DATA" class="0">
 <segment>
 <wire x1="251.46" y1="50.8" x2="248.92" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="MISO/IO1"/>
 <label x="251.46" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-76.2" y1="-25.4" x2="-78.74" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-78.74" y="-25.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC1" gate="B1" pin="IO_12"/>
 </segment>
 </net>
 <net name="JTAG_TMS" class="0">
@@ -9332,8 +9362,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="EPCS_DCLK" class="0">
 <segment>
-<wire x1="149.86" y1="-2.54" x2="144.78" y2="-2.54" width="0.1524" layer="91"/>
-<label x="144.78" y="-2.54" size="1.778" layer="95" rot="R180"/>
+<wire x1="149.86" y1="-2.54" x2="147.32" y2="-2.54" width="0.1524" layer="91"/>
+<label x="147.32" y="-2.54" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC1" gate="MGMT" pin="DCLK"/>
 </segment>
 <segment>
@@ -9347,6 +9377,11 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="220.98" y1="53.34" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
 <label x="218.44" y="53.34" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC5" gate="G$1" pin="!CS"/>
+</segment>
+<segment>
+<wire x1="-78.74" y1="-7.62" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-78.74" y="-7.62" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC1" gate="B1" pin="IO_5"/>
 </segment>
 </net>
 <net name="OSCI1" class="0">
@@ -10611,7 +10646,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="33.02" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$70" class="1">
+<net name="N$70" class="0">
 <segment>
 <pinref part="IC18" gate="G$1" pin="HPOUTER"/>
 <wire x1="27.94" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>

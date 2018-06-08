@@ -7381,7 +7381,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="TP9" library="netcat" deviceset="TP" device="06R" value="2"/>
 <part name="TP13" library="netcat" deviceset="TP" device="06R" value="4"/>
 <part name="TP24" library="netcat" deviceset="TP" device="06R" value="VBAT"/>
-<part name="SCL6" library="netcat" deviceset="TP" device="06R" value="TS_INT"/>
 <part name="TP38" library="netcat" deviceset="TP" device="06R" value="GND"/>
 <part name="GND68" library="netcat" deviceset="GND" device=""/>
 <part name="TP54" library="netcat" deviceset="TP_HOLE" device=""/>
@@ -8194,9 +8193,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="X5" gate="G$1" x="109.22" y="53.34"/>
 <instance part="3.3V1" gate="G$1" x="88.9" y="55.88" rot="R180"/>
 <instance part="GND33" gate="GND" x="93.98" y="45.72"/>
-<instance part="SCL6" gate="G$1" x="132.08" y="55.88" smashed="yes">
-<attribute name="VALUE" x="132.08" y="58.42" size="1.27" layer="95"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -8265,16 +8261,12 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <net name="TS_INT" class="0">
 <segment>
 <pinref part="R49" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="X5" gate="G$1" pin="INT"/>
-<label x="137.16" y="53.34" size="1.778" layer="95"/>
-<wire x1="132.08" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
+<label x="127" y="53.34" size="1.778" layer="95"/>
+<wire x1="127" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="55.88" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <junction x="124.46" y="53.34"/>
-<pinref part="SCL6" gate="G$1" pin="TEST"/>
-<wire x1="132.08" y1="55.88" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-<junction x="132.08" y="53.34"/>
 </segment>
 </net>
 <net name="LCD_BL_A" class="0">
@@ -8525,7 +8517,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <busses>
 <bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDC,ETH_MDIO,ETH_REF_CLK,ETH_RXD[0..1],ETH_TXD[0..1],ETH_TX_EN,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..7],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,UART_EXT_RX,UART_EXT_TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,V_BAT,V_USB">
 <segment>
-<wire x1="-66.04" y1="43.18" x2="-66.04" y2="-15.24" width="0.762" layer="92"/>
+<wire x1="-109.22" y1="43.18" x2="-109.22" y2="-15.24" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -9355,6 +9347,20 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="-22.86" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91"/>
 <label x="-25.4" y="88.9" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC2" gate="C" pin="PC6"/>
+</segment>
+</net>
+<net name="FPGA_RX" class="0">
+<segment>
+<pinref part="IC2" gate="F" pin="PF6"/>
+<wire x1="-106.68" y1="20.32" x2="-109.22" y2="20.32" width="0.1524" layer="91"/>
+<label x="-109.22" y="20.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_TX" class="0">
+<segment>
+<pinref part="IC2" gate="F" pin="PF7"/>
+<wire x1="-106.68" y1="17.78" x2="-109.22" y2="17.78" width="0.1524" layer="91"/>
+<label x="-109.22" y="17.78" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -11063,9 +11069,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="3.3V22" gate="G$1" x="160.02" y="104.14"/>
 </instances>
 <busses>
-<bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDIO,ETH_REF_CLK,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..9],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,USB_RX[0..3],USB_SBU[1..2],USB_TX[0..3],V_BAT,V_USB">
+<bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDIO,ETH_REF_CLK,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..9],OV_EN,OV_HSYNC,OV_PCLK,OV_PD,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,USB_RX[0..3],USB_SBU[1..2],USB_TX[0..3],V_BAT,V_USB">
 <segment>
-<wire x1="175.26" y1="139.7" x2="175.26" y2="81.28" width="0.762" layer="92"/>
+<wire x1="157.48" y1="139.7" x2="157.48" y2="81.28" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -11427,6 +11433,20 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="X2" gate="G$1" pin="PCLK"/>
 <wire x1="154.94" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
 <label x="157.48" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OV_CLK" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="XCLK"/>
+<wire x1="154.94" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+<label x="157.48" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OV_PD" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWDN"/>
+<wire x1="154.94" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="157.48" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

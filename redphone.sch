@@ -8517,7 +8517,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <busses>
 <bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDC,ETH_MDIO,ETH_REF_CLK,ETH_RXD[0..1],ETH_TXD[0..1],ETH_TX_EN,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..7],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,UART_EXT_RX,UART_EXT_TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,V_BAT,V_USB">
 <segment>
-<wire x1="-109.22" y1="109.22" x2="-109.22" y2="50.8" width="0.762" layer="92"/>
+<wire x1="-66.04" y1="114.3" x2="-66.04" y2="55.88" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -9074,20 +9074,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="71.12" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="GSM_RX" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="PA9"/>
-<wire x1="-106.68" y1="81.28" x2="-109.22" y2="81.28" width="0.1524" layer="91"/>
-<label x="-109.22" y="81.28" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="GSM_TX" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="PA10"/>
-<wire x1="-106.68" y1="78.74" x2="-109.22" y2="78.74" width="0.1524" layer="91"/>
-<label x="-109.22" y="78.74" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="V_MCU" class="0">
 <segment>
 <pinref part="IC2" gate="PWR" pin="VDD"/>
@@ -9335,20 +9321,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="-66.04" y="12.7" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="ESP_TX" class="0">
-<segment>
-<wire x1="-22.86" y1="86.36" x2="-25.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="-25.4" y="86.36" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC2" gate="C" pin="PC7"/>
-</segment>
-</net>
-<net name="ESP_RX" class="0">
-<segment>
-<wire x1="-22.86" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91"/>
-<label x="-25.4" y="88.9" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC2" gate="C" pin="PC6"/>
-</segment>
-</net>
 <net name="USB_DM" class="0">
 <segment>
 <pinref part="IC2" gate="B" pin="PB14"/>
@@ -9365,9 +9337,78 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="ESP_CE" class="0">
 <segment>
-<wire x1="121.92" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<label x="121.92" y="35.56" size="1.778" layer="95" rot="R180"/>
-<pinref part="IC2" gate="K" pin="PK0"/>
+<wire x1="-40.64" y1="-27.94" x2="-38.1" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-40.64" y="-27.94" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="USB_CC1" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="PA9"/>
+<wire x1="-106.68" y1="81.28" x2="-109.22" y2="81.28" width="0.1524" layer="91"/>
+<label x="-109.22" y="81.28" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="USB_CC2" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="PA10"/>
+<wire x1="-106.68" y1="78.74" x2="-109.22" y2="78.74" width="0.1524" layer="91"/>
+<label x="-109.22" y="78.74" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="GSM_RX" class="0">
+<segment>
+<pinref part="IC2" gate="C" pin="PC6"/>
+<wire x1="-22.86" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91"/>
+<label x="-25.4" y="88.9" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="GSM_TX" class="0">
+<segment>
+<pinref part="IC2" gate="C" pin="PC7"/>
+<wire x1="-22.86" y1="86.36" x2="-25.4" y2="86.36" width="0.1524" layer="91"/>
+<label x="-25.4" y="86.36" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="ESP_RX" class="0">
+<segment>
+<pinref part="IC2" gate="B" pin="PB10"/>
+<wire x1="-63.5" y1="78.74" x2="-66.04" y2="78.74" width="0.1524" layer="91"/>
+<label x="-66.04" y="78.74" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="ESP_TX" class="0">
+<segment>
+<pinref part="IC2" gate="B" pin="PB11"/>
+<wire x1="-63.5" y1="76.2" x2="-66.04" y2="76.2" width="0.1524" layer="91"/>
+<label x="-66.04" y="76.2" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="TS_SCL" class="0">
+<segment>
+<pinref part="IC2" gate="H" pin="PH7"/>
+<wire x1="-22.86" y1="17.78" x2="-25.4" y2="17.78" width="0.1524" layer="91"/>
+<label x="-25.4" y="17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="TS_SDA" class="0">
+<segment>
+<pinref part="IC2" gate="H" pin="PH8"/>
+<wire x1="-22.86" y1="15.24" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="-25.4" y="15.24" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="I2C_SCL" class="0">
+<segment>
+<pinref part="IC2" gate="B" pin="PB6"/>
+<wire x1="-63.5" y1="88.9" x2="-66.04" y2="88.9" width="0.1524" layer="91"/>
+<label x="-66.04" y="88.9" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="I2C_SDA" class="0">
+<segment>
+<pinref part="IC2" gate="B" pin="PB7"/>
+<wire x1="-63.5" y1="86.36" x2="-66.04" y2="86.36" width="0.1524" layer="91"/>
+<label x="-66.04" y="86.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

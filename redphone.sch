@@ -8143,7 +8143,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="-45.72" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="USB_CC1" class="0">
+<net name="USB_CC1" class="4">
 <segment>
 <pinref part="X16" gate="G$1" pin="CC1"/>
 <wire x1="-17.78" y1="121.92" x2="-15.24" y2="121.92" width="0.1524" layer="91"/>
@@ -9341,7 +9341,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="-40.64" y="-27.94" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="USB_CC1" class="0">
+<net name="USB_CC1" class="4">
 <segment>
 <pinref part="IC2" gate="A" pin="PA9"/>
 <wire x1="-106.68" y1="81.28" x2="-109.22" y2="81.28" width="0.1524" layer="91"/>

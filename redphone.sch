@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="63" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="31" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -3882,6 +3882,10 @@ http://www.bccomponents.com/</description>
 <wire x1="5.1" y1="0.3" x2="5.1" y2="0" width="0.127" layer="21"/>
 <wire x1="5.1" y1="0" x2="4.8" y2="0" width="0.127" layer="21"/>
 </package>
+<package name="TP10R">
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="1" y="0" size="0.8128" layer="25" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MT48LC16M">
@@ -4405,17 +4409,6 @@ http://www.bccomponents.com/</description>
 <wire x1="20.32" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <text x="2.54" y="7.62" size="1.27" layer="95" font="vector">&gt;NAME</text>
 <text x="2.54" y="5.08" size="1.27" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-<symbol name="OSC">
-<pin name="VCC" x="-5.08" y="0" length="short"/>
-<pin name="GND" x="-5.08" y="-2.54" length="short"/>
-<pin name="OUT" x="15.24" y="0" length="short" rot="R180"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<text x="-2.54" y="5.08" size="1.27" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="3.175" size="1.27" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="MPU9250">
 <pin name="VDD" x="-15.24" y="-5.08" length="short"/>
@@ -5792,6 +5785,14 @@ http://www.bccomponents.com/</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="10R" package="TP10R">
+<connects>
+<connect gate="G$1" pin="TEST" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CRYSTAL_GND" prefix="OSC" uservalue="yes">
@@ -6343,23 +6344,6 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="SCL" pad="7"/>
 <connect gate="G$1" pin="SDA" pad="1"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OSC" prefix="OSC" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="OSC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="3225" package="3225">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7300,7 +7284,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C50" library="netcat" deviceset="CAP" device="0603" value="1u"/>
 <part name="C51" library="netcat" deviceset="CAP" device="0603" value="1u"/>
 <part name="C52" library="netcat" deviceset="CAP" device="0603" value="1u"/>
-<part name="C54" library="netcat" deviceset="CAP" device="0402" value="100n"/>
 <part name="3.3V23" library="netcat" deviceset="3.3V" device=""/>
 <part name="C55" library="netcat" deviceset="CAP" device="0402" value="100n"/>
 <part name="C56" library="netcat" deviceset="CAP" device="0402" value="100n"/>
@@ -7361,8 +7344,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="VD2" library="netcat" deviceset="DIODE" device="-SOD523" value="BAS516"/>
 <part name="C8" library="netcat" deviceset="CAP" device="0603" value="4.7u"/>
 <part name="SUPPLY6" library="colibri" deviceset="GND" device=""/>
-<part name="OSC4" library="netcat" deviceset="OSC" device="3225" value="48 MHz"/>
-<part name="3.3V26" library="netcat" deviceset="3.3V" device=""/>
 <part name="IC10" library="netcat" deviceset="MPU9250" device=""/>
 <part name="C26" library="netcat" deviceset="CAP" device="0402" value="100n"/>
 <part name="GND52" library="netcat" deviceset="GND" device=""/>
@@ -7413,7 +7394,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="TP80" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP81" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP82" library="netcat" deviceset="TP_HOLE" device=""/>
-<part name="GND88" library="netcat" deviceset="GND" device=""/>
 <part name="IC4" library="netcat" deviceset="MT48LC16M16A2" device="B4"/>
 <part name="IC1" library="netcat" deviceset="EP4CE22" device=""/>
 <part name="IC2" library="netcat" deviceset="STM32F429NI" device="">
@@ -7481,6 +7461,8 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="3.3V22" library="netcat" deviceset="3.3V" device=""/>
 <part name="C13" library="netcat" deviceset="CPOL-EU" device="SMCA" value="4.7u"/>
 <part name="GND24" library="netcat" deviceset="GND" device=""/>
+<part name="TP1" library="netcat" deviceset="TP" device="06R"/>
+<part name="TP2" library="netcat" deviceset="TP" device="06R"/>
 </parts>
 <sheets>
 <sheet>
@@ -7550,7 +7532,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="GND24" gate="GND" x="121.92" y="0"/>
 </instances>
 <busses>
-<bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDIO,ETH_REF_CLK,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..7],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,USB_RX[0..3],USB_SBU[1..2],USB_TX[0..3],V_BAT,V_USB">
+<bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDIO,ETH_REF_CLK,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,GSM_WAKEUP,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..7],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,USB_RX[0..3],USB_SBU[1..2],USB_TX[0..3],V_BAT,V_USB">
 <segment>
 <wire x1="246.38" y1="38.1" x2="246.38" y2="-20.32" width="0.762" layer="92"/>
 </segment>
@@ -8513,11 +8495,13 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="IC2" gate="K" x="129.54" y="27.94"/>
 <instance part="IC2" gate="EXT" x="190.5" y="66.04"/>
 <instance part="IC2" gate="A" x="-101.6" y="86.36"/>
+<instance part="TP1" gate="G$1" x="-111.76" y="71.12"/>
+<instance part="TP2" gate="G$1" x="-109.22" y="68.58"/>
 </instances>
 <busses>
-<bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDC,ETH_MDIO,ETH_REF_CLK,ETH_RXD[0..1],ETH_TXD[0..1],ETH_TX_EN,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..7],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,UART_EXT_RX,UART_EXT_TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,V_BAT,V_USB">
+<bus name="!LCD_BL_EN,!LED_ST_EN,!NRF_CS,1W,AQ[0..13],AUDIO_INT,BAT_CHG,BAT_EN,BAT_SENS,BQ[0..1],BUT[0..4],DMIC_CLK,DMIC_DAT,DQ[0..15],EE_I2C_SCL,EE_I2C_SDA,EPCS_!CS,EPCS_ASDI,EPCS_DATA,EPCS_DCLK,ESP_RX,ESP_TX,ETH_CRS_DV,ETH_MDC,ETH_MDIO,ETH_REF_CLK,ETH_RXD[0..1],ETH_TXD[0..1],ETH_TX_EN,FMC_!E[1..2],FMC_!OE,FMC_!WE,FPGA_CLK,FPGA_EN,FPGA_IO[0..3],FPGA_MISO,FPGA_MOSI,FPGA_OSC,FPGA_RX,FPGA_SCL,FPGA_TX,GPIO_FPGA[0..1],GPS_RX,GPS_TX,GSM_A_IN,GSM_A_OUT,GSM_EN,GSM_PWRKEY,GSM_RST,GSM_RX,GSM_TX,I2C_SCL,I2C_SDA,JACK_MIC,JTAG_TCK,JTAG_TDI,JTAG_TDO,JTAG_TMS,LCD_BL_GND,LCD_BL_PWR,LCD_CS,LCD_RD,LCD_RS,LCD_WR,LTDC_B[3..7],LTDC_CLK,LTDC_DE,LTDC_G[2..7],LTDC_HSYNC,LTDC_R[3..7],LTDC_VSYNC,MCU_SPI_CLK,MCU_SPI_MISO,MCU_SPI_MOSI,MDL[0..1],MIC_PWR,NAV_I2C_SCL,NAV_I2C_SDA,NAV_INT[0..3],NRF_IRQ,NRF_MISO,NRF_MOSI,NRF_SCL,OV_CLK,OV_D[0..7],OV_EN,OV_HSYNC,OV_PCLK,OV_SCL,OV_SDA,OV_VSYNC,PWR_BUT,PWR_EN,PWR_INT,PWR_OTG_MODE,PWR_PB,PWR_SHDN,RADIO_CE,RINGN,RINGP,SAI_FSA,SAI_MCLK,SAI_SCKA,SAI_SDA,SAI_SDB,SDHC_ST,SDIO[0..3],SDIO_CLK,SDIO_CMD,SDR_!CAS,SDR_!E0,SDR_!RAS,SDR_!WE,SDR_CKE0,SDR_CLK,SDR_NBL[0..1],SIM_CLK,SIM_DATA,SIM_DET,SIM_RST,SIM_VDD,SPKRN,SPKRP,SWD_CLK,SWD_IO,SYS_LED[0..1],SYS_RST,TS_INT,TS_SCL,TS_SDA,TX,UART_EXT_RX,UART_EXT_TX,USB_CC[1..2],USB_DM,USB_DP,USB_ID,V_BAT,V_USB">
 <segment>
-<wire x1="-66.04" y1="114.3" x2="-66.04" y2="55.88" width="0.762" layer="92"/>
+<wire x1="-88.9" y1="38.1" x2="-88.9" y2="-20.32" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -9337,8 +9321,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="ESP_CE" class="0">
 <segment>
-<wire x1="-40.64" y1="-27.94" x2="-38.1" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-40.64" y="-27.94" size="1.778" layer="95" rot="R180"/>
+<wire x1="-25.4" y1="20.32" x2="-22.86" y2="20.32" width="0.1524" layer="91"/>
+<label x="-25.4" y="20.32" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="H" pin="PH6"/>
 </segment>
 </net>
 <net name="USB_CC1" class="4">
@@ -9411,6 +9396,104 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="-66.04" y="86.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="FPGA_CLK" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="PA8"/>
+<wire x1="-106.68" y1="83.82" x2="-109.22" y2="83.82" width="0.1524" layer="91"/>
+<label x="-109.22" y="83.82" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_IO0" class="0">
+<segment>
+<pinref part="IC2" gate="F" pin="PF6"/>
+<wire x1="-106.68" y1="20.32" x2="-109.22" y2="20.32" width="0.1524" layer="91"/>
+<label x="-109.22" y="20.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_IO1" class="0">
+<segment>
+<pinref part="IC2" gate="F" pin="PF7"/>
+<wire x1="-106.68" y1="17.78" x2="-109.22" y2="17.78" width="0.1524" layer="91"/>
+<label x="-109.22" y="17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_IO2" class="0">
+<segment>
+<pinref part="IC2" gate="F" pin="PF8"/>
+<wire x1="-106.68" y1="15.24" x2="-109.22" y2="15.24" width="0.1524" layer="91"/>
+<label x="-109.22" y="15.24" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_IO3" class="0">
+<segment>
+<pinref part="IC2" gate="F" pin="PF9"/>
+<wire x1="-106.68" y1="12.7" x2="-109.22" y2="12.7" width="0.1524" layer="91"/>
+<label x="-109.22" y="12.7" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="GSM_WAKEUP" class="0">
+<segment>
+<wire x1="-63.5" y1="17.78" x2="-66.04" y2="17.78" width="0.1524" layer="91"/>
+<label x="-66.04" y="17.78" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="G" pin="PG7"/>
+</segment>
+</net>
+<net name="TS_INT" class="0">
+<segment>
+<label x="-25.4" y="10.16" size="1.778" layer="95" rot="R180"/>
+<wire x1="-25.4" y1="10.16" x2="-22.86" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="H" pin="PH10"/>
+</segment>
+</net>
+<net name="EPCS_ASDI" class="0">
+<segment>
+<wire x1="-63.5" y1="91.44" x2="-66.04" y2="91.44" width="0.1524" layer="91"/>
+<label x="-66.04" y="91.44" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="B" pin="PB5"/>
+</segment>
+</net>
+<net name="EPCS_DATA" class="0">
+<segment>
+<wire x1="-63.5" y1="93.98" x2="-66.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="-66.04" y="93.98" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="B" pin="PB4"/>
+</segment>
+</net>
+<net name="EPCS_DCLK" class="0">
+<segment>
+<wire x1="-63.5" y1="96.52" x2="-66.04" y2="96.52" width="0.1524" layer="91"/>
+<label x="-66.04" y="96.52" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="B" pin="PB3"/>
+</segment>
+</net>
+<net name="EPCS_!CS" class="0">
+<segment>
+<wire x1="22.86" y1="2.54" x2="20.32" y2="2.54" width="0.1524" layer="91"/>
+<label x="20.32" y="2.54" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="J" pin="PJ13"/>
+</segment>
+</net>
+<net name="USB_ID" class="0">
+<segment>
+<wire x1="-63.5" y1="73.66" x2="-66.04" y2="73.66" width="0.1524" layer="91"/>
+<label x="-66.04" y="73.66" size="1.778" layer="95" rot="R180"/>
+<pinref part="IC2" gate="B" pin="PB12"/>
+</segment>
+</net>
+<net name="SWD_IO" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="PA13"/>
+<pinref part="TP1" gate="G$1" pin="TEST"/>
+<wire x1="-106.68" y1="71.12" x2="-111.76" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWD_CLK" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="PA14"/>
+<pinref part="TP2" gate="G$1" pin="TEST"/>
+<wire x1="-106.68" y1="68.58" x2="-109.22" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -9444,10 +9527,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <attribute name="VALUE" x="187.198" y="-1.27" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND87" gate="GND" x="195.58" y="-35.56"/>
-<instance part="C54" gate="G$1" x="238.76" y="-2.54" rot="MR0"/>
-<instance part="OSC4" gate="G$1" x="254" y="2.54"/>
-<instance part="3.3V26" gate="G$1" x="236.22" y="2.54" rot="MR0"/>
-<instance part="GND88" gate="GND" x="246.38" y="-15.24"/>
 <instance part="IC1" gate="CLK" x="287.02" y="2.54"/>
 <instance part="IC1" gate="PWR" x="38.1" y="53.34"/>
 <instance part="1.2V2" gate="G$1" x="17.78" y="66.04" rot="R180"/>
@@ -9495,17 +9574,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="195.58" y1="-30.48" x2="195.58" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OSC4" gate="G$1" pin="GND"/>
-<wire x1="248.92" y1="0" x2="246.38" y2="0" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="0" x2="246.38" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="C54" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="-10.16" x2="246.38" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="-7.62" x2="238.76" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="-10.16" x2="246.38" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="246.38" y="-10.16"/>
-<pinref part="GND88" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="PWR" pin="GND"/>
 <wire x1="55.88" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
@@ -9535,15 +9603,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="C54" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="0" x2="238.76" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="OSC4" gate="G$1" pin="VCC"/>
-<wire x1="238.76" y1="2.54" x2="248.92" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="3.3V26" gate="G$1" pin="3.3V"/>
-<wire x1="236.22" y1="2.54" x2="238.76" y2="2.54" width="0.1524" layer="91"/>
-<junction x="238.76" y="2.54"/>
-</segment>
 <segment>
 <pinref part="3.3V7" gate="G$1" pin="3.3V"/>
 <pinref part="IC1" gate="PWR" pin="VCCIO1"/>
@@ -9776,11 +9835,11 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="IC1" gate="B1" pin="IO_5"/>
 </segment>
 </net>
-<net name="OSCI1" class="0">
+<net name="FPGA_CLK" class="0">
 <segment>
-<wire x1="269.24" y1="2.54" x2="284.48" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="OSC4" gate="G$1" pin="OUT"/>
+<wire x1="281.94" y1="2.54" x2="284.48" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="CLK" pin="CLK1"/>
+<label x="281.94" y="2.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -10563,6 +10622,13 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="175.26" y1="7.62" x2="167.64" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="GSM_WAKEUP" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="DTR"/>
+<wire x1="175.26" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
+<label x="172.72" y="45.72" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -10769,7 +10835,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="35.56" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="HL" class="0">
 <segment>
 <pinref part="IC18" gate="G$1" pin="HPOUTL"/>
 <pinref part="C39" gate="G$1" pin="2"/>
@@ -10988,9 +11054,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-15.24" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="63.5" y="-15.24"/>
-<label x="68.58" y="-15.24" size="1.778" layer="95"/>
+<label x="66.04" y="-15.24" size="1.778" layer="95"/>
 <pinref part="TP21" gate="G$1" pin="TEST"/>
 <wire x1="48.26" y1="-15.24" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="-15.24"/>
@@ -11040,7 +11106,7 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <label x="33.02" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$70" class="0">
+<net name="HR" class="0">
 <segment>
 <pinref part="IC18" gate="G$1" pin="HPOUTER"/>
 <wire x1="27.94" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>

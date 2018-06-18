@@ -7459,8 +7459,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="C77" library="netcat" deviceset="CAP" device="0402" value="100n"/>
 <part name="GND92" library="netcat" deviceset="GND" device=""/>
 <part name="1.2V4" library="netcat" deviceset="1.2V" device=""/>
-<part name="TP21" library="netcat" deviceset="TP" device="06R" value="AIN"/>
-<part name="TP23" library="netcat" deviceset="TP" device="06R" value="AOUT"/>
 <part name="VD2" library="netcat" deviceset="DIODE" device="-SOD523" value="BAS516"/>
 <part name="C8" library="netcat" deviceset="CAP" device="0603" value="1F"/>
 <part name="SUPPLY6" library="colibri" deviceset="GND" device=""/>
@@ -10137,6 +10135,336 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <junction x="279.4" y="2.54"/>
 </segment>
 </net>
+<net name="LTDC_G5" class="5">
+<segment>
+<pinref part="IC1" gate="B1" pin="IO_6"/>
+<wire x1="-76.2" y1="-10.16" x2="-78.74" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-78.74" y="-10.16" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_G7" class="5">
+<segment>
+<pinref part="IC1" gate="B1" pin="IO_2"/>
+<wire x1="-76.2" y1="0" x2="-78.74" y2="0" width="0.1524" layer="91"/>
+<label x="-78.74" y="0" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LCD_WR" class="0">
+<segment>
+<pinref part="IC1" gate="B1" pin="IO_1"/>
+<wire x1="-76.2" y1="2.54" x2="-78.74" y2="2.54" width="0.1524" layer="91"/>
+<label x="-78.74" y="2.54" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LCD_CS" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_17"/>
+<wire x1="-7.62" y1="-119.38" x2="-10.16" y2="-119.38" width="0.1524" layer="91"/>
+<label x="-10.16" y="-119.38" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LCD_RS" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_16"/>
+<wire x1="-7.62" y1="-116.84" x2="-10.16" y2="-116.84" width="0.1524" layer="91"/>
+<label x="-10.16" y="-116.84" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LCD_RD" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_15"/>
+<wire x1="-7.62" y1="-114.3" x2="-10.16" y2="-114.3" width="0.1524" layer="91"/>
+<label x="-10.16" y="-114.3" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_14"/>
+<wire x1="-7.62" y1="-111.76" x2="-10.16" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_B7" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_13"/>
+<wire x1="-7.62" y1="-109.22" x2="-10.16" y2="-109.22" width="0.1524" layer="91"/>
+<label x="-10.16" y="-109.22" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_B5" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_12"/>
+<wire x1="-7.62" y1="-106.68" x2="-10.16" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-10.16" y="-106.68" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_B4" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_18"/>
+<wire x1="-7.62" y1="-121.92" x2="-10.16" y2="-121.92" width="0.1524" layer="91"/>
+<label x="-10.16" y="-121.92" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_19"/>
+<wire x1="-7.62" y1="-124.46" x2="-10.16" y2="-124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_B3" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_9"/>
+<wire x1="-7.62" y1="-99.06" x2="-10.16" y2="-99.06" width="0.1524" layer="91"/>
+<label x="-10.16" y="-99.06" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_10"/>
+<wire x1="-7.62" y1="-101.6" x2="-10.16" y2="-101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_11"/>
+<wire x1="-7.62" y1="-104.14" x2="-10.16" y2="-104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_7"/>
+<wire x1="-7.62" y1="-93.98" x2="-10.16" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_G4" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_6"/>
+<wire x1="-7.62" y1="-91.44" x2="-10.16" y2="-91.44" width="0.1524" layer="91"/>
+<label x="-10.16" y="-91.44" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_G2" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_5"/>
+<wire x1="-7.62" y1="-88.9" x2="-10.16" y2="-88.9" width="0.1524" layer="91"/>
+<label x="-10.16" y="-88.9" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_4"/>
+<wire x1="-7.62" y1="-86.36" x2="-10.16" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_3"/>
+<wire x1="-7.62" y1="-83.82" x2="-10.16" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_2"/>
+<wire x1="-7.62" y1="-81.28" x2="-10.16" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_1"/>
+<wire x1="-7.62" y1="-78.74" x2="-10.16" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_B6" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_20"/>
+<wire x1="-7.62" y1="-127" x2="-10.16" y2="-127" width="0.1524" layer="91"/>
+<label x="-10.16" y="-127" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_21"/>
+<wire x1="-7.62" y1="-129.54" x2="-10.16" y2="-129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_22"/>
+<wire x1="-7.62" y1="-132.08" x2="-10.16" y2="-132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_G6" class="5">
+<segment>
+<pinref part="IC1" gate="B8" pin="IO_8"/>
+<wire x1="-7.62" y1="-96.52" x2="-10.16" y2="-96.52" width="0.1524" layer="91"/>
+<label x="-10.16" y="-96.52" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_22"/>
+<wire x1="-40.64" y1="-132.08" x2="-43.18" y2="-132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_21"/>
+<wire x1="-40.64" y1="-129.54" x2="-43.18" y2="-129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_20"/>
+<wire x1="-40.64" y1="-127" x2="-43.18" y2="-127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_R5" class="5">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_19"/>
+<wire x1="-40.64" y1="-124.46" x2="-43.18" y2="-124.46" width="0.1524" layer="91"/>
+<label x="-43.18" y="-124.46" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_R3" class="5">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_18"/>
+<wire x1="-40.64" y1="-121.92" x2="-43.18" y2="-121.92" width="0.1524" layer="91"/>
+<label x="-43.18" y="-121.92" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_17"/>
+<wire x1="-40.64" y1="-119.38" x2="-43.18" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_16"/>
+<wire x1="-40.64" y1="-116.84" x2="-43.18" y2="-116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_15"/>
+<wire x1="-40.64" y1="-114.3" x2="-43.18" y2="-114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_CLK" class="5">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_14"/>
+<wire x1="-40.64" y1="-111.76" x2="-43.18" y2="-111.76" width="0.1524" layer="91"/>
+<label x="-43.18" y="-111.76" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_VSYNC" class="5">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_13"/>
+<wire x1="-40.64" y1="-109.22" x2="-43.18" y2="-109.22" width="0.1524" layer="91"/>
+<label x="-43.18" y="-109.22" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_R7" class="5">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_12"/>
+<wire x1="-40.64" y1="-106.68" x2="-43.18" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-43.18" y="-106.68" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_G3" class="5">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_11"/>
+<wire x1="-40.64" y1="-104.14" x2="-43.18" y2="-104.14" width="0.1524" layer="91"/>
+<label x="-43.18" y="-104.14" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_10"/>
+<wire x1="-40.64" y1="-101.6" x2="-43.18" y2="-101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_9"/>
+<wire x1="-40.64" y1="-99.06" x2="-43.18" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_8"/>
+<wire x1="-40.64" y1="-96.52" x2="-43.18" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_7"/>
+<wire x1="-40.64" y1="-93.98" x2="-43.18" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_6"/>
+<wire x1="-40.64" y1="-91.44" x2="-43.18" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_5"/>
+<wire x1="-40.64" y1="-88.9" x2="-43.18" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_4"/>
+<wire x1="-40.64" y1="-86.36" x2="-43.18" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_3"/>
+<wire x1="-40.64" y1="-83.82" x2="-43.18" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_2"/>
+<wire x1="-40.64" y1="-81.28" x2="-43.18" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="IC1" gate="B7" pin="IO_1"/>
+<wire x1="-40.64" y1="-78.74" x2="-43.18" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LTDC_DE" class="5">
+<segment>
+<pinref part="IC1" gate="CLK" pin="CLK9"/>
+<wire x1="284.48" y1="-17.78" x2="281.94" y2="-17.78" width="0.1524" layer="91"/>
+<label x="281.94" y="-17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_R4" class="5">
+<segment>
+<pinref part="IC1" gate="CLK" pin="CLK10"/>
+<wire x1="284.48" y1="-20.32" x2="281.94" y2="-20.32" width="0.1524" layer="91"/>
+<label x="281.94" y="-20.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_R6" class="5">
+<segment>
+<pinref part="IC1" gate="CLK" pin="CLK11"/>
+<wire x1="284.48" y1="-22.86" x2="281.94" y2="-22.86" width="0.1524" layer="91"/>
+<label x="281.94" y="-22.86" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="LTDC_HSYNC" class="5">
+<segment>
+<pinref part="IC1" gate="CLK" pin="CLK8"/>
+<wire x1="284.48" y1="-15.24" x2="281.94" y2="-15.24" width="0.1524" layer="91"/>
+<label x="281.94" y="-15.24" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11095,8 +11423,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="3.3V16" gate="G$1" x="-55.88" y="-48.26" rot="R180"/>
 <instance part="IC20" gate="G$1" x="-48.26" y="-38.1"/>
 <instance part="B2" gate="G$1" x="88.9" y="20.32"/>
-<instance part="TP21" gate="G$1" x="48.26" y="-15.24" rot="R180"/>
-<instance part="TP23" gate="G$1" x="-68.58" y="2.54" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11436,8 +11762,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="-68.58" y1="0" x2="-78.74" y2="0" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-5.08" x2="-68.58" y2="0" width="0.1524" layer="91"/>
 <junction x="-68.58" y="0"/>
-<pinref part="TP23" gate="G$1" pin="TEST"/>
-<wire x1="-68.58" y1="2.54" x2="-68.58" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GSM_A_IN" class="0">
@@ -11451,9 +11775,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <wire x1="66.04" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="63.5" y="-15.24"/>
 <label x="66.04" y="-15.24" size="1.778" layer="95"/>
-<pinref part="TP21" gate="G$1" pin="TEST"/>
-<wire x1="48.26" y1="-15.24" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="50.8" y="-15.24"/>
 </segment>
 </net>
 <net name="JACK_MIC" class="0">

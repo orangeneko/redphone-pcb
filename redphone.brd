@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="63" fill="1" visible="yes" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -3118,7 +3118,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <element name="TP62" library="netcat" package="TP065RH" value="" x="119" y="40"/>
 <element name="TP63" library="netcat" package="TP065RH" value="" x="115" y="23"/>
 <element name="TP64" library="netcat" package="TP065RH" value="" x="119" y="23"/>
-<element name="TP65" library="netcat" package="TP065RH" value="" x="119" y="54.5"/>
 <element name="TP66" library="netcat" package="TP065RH" value="" x="115" y="7"/>
 <element name="TP67" library="netcat" package="TP065RH" value="" x="119" y="7"/>
 <element name="TP68" library="netcat" package="TP065RH" value="" x="119" y="56"/>
@@ -3129,7 +3128,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <element name="TP73" library="netcat" package="TP065RH" value="" x="127" y="40"/>
 <element name="TP74" library="netcat" package="TP065RH" value="" x="123" y="23"/>
 <element name="TP75" library="netcat" package="TP065RH" value="" x="127" y="23"/>
-<element name="TP76" library="netcat" package="TP065RH" value="" x="127" y="54.5"/>
 <element name="TP77" library="netcat" package="TP065RH" value="" x="123" y="7"/>
 <element name="TP78" library="netcat" package="TP065RH" value="" x="127" y="7"/>
 <element name="TP79" library="netcat" package="TP065RH" value="" x="127" y="56"/>
@@ -3158,9 +3156,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <element name="IC6" library="netcat" package="SIM800H" value="SIM800H" x="38.77" y="38.09"/>
 <element name="X1" library="netcat" package="SAMSUNG_S8_SIM_SD" value="MICRO_SIM_SDS8" x="5" y="39.5"/>
 <element name="IC7" library="netcat" package="VQFN-48" value="TPS65217" x="22" y="26.6" rot="R270"/>
-<element name="C2" library="netcat" package="R0603" value="4.7u" x="25.6" y="18.65" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.2" y="16" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="27.3145" y="17.761" size="0.8128" layer="27" font="vector" rot="R90"/>
+<element name="C2" library="netcat" package="R0603" value="4.7u" x="25.4" y="18.65" smashed="yes" rot="R90">
+<attribute name="NAME" x="25" y="16" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="27.1145" y="17.761" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="L1" library="netcat" package="L2520" value="2.2uH" x="14" y="27.11" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.8" y="26.6" size="0.8128" layer="25" font="vector" rot="R180"/>
@@ -3191,8 +3189,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <attribute name="NAME" x="20.1" y="39.8" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="18.668" y="37.195" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="VD1" library="netcat" package="SOD123" value="" x="27.33" y="17.91" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.6" y="18.8" size="0.8128" layer="25" font="vector" rot="R270"/>
+<element name="VD1" library="netcat" package="SOD123" value="" x="27.13" y="17.91" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.4" y="18.8" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C6" library="netcat" package="SMC_A" value="4.7u" x="30.3" y="24.4" smashed="yes">
 <attribute name="NAME" x="33.3" y="24" size="0.8128" layer="25" font="vector"/>
@@ -3235,13 +3233,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <attribute name="NAME" x="12.9" y="32" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="15.485" y="33.732" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R10" library="netcat" package="R0402" value="4.7k" x="17.2" y="19.07" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.7" y="17.8" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="19.232" y="18.435" size="0.8128" layer="27" font="vector" rot="R90"/>
+<element name="R10" library="netcat" package="R0402" value="4.7k" x="17" y="19" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.5" y="17.73" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="19.032" y="18.365" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R11" library="netcat" package="R0402" value="4.7k" x="18.42" y="19.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.4" y="16.8" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="16.388" y="19.715" size="0.8128" layer="27" font="vector" rot="R270"/>
+<element name="R11" library="netcat" package="R0402" value="4.7k" x="18.2" y="19" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.18" y="16.72" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="16.168" y="19.635" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C17" library="netcat" package="R0402" value="100n" x="36" y="14.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.8" y="14.7" size="0.8128" layer="25" font="vector" rot="R180"/>
@@ -3486,7 +3484,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="TP59" pad="1"/>
 <contactref element="TP60" pad="1"/>
 <contactref element="TP61" pad="1"/>
-<contactref element="TP65" pad="1"/>
 <contactref element="IC2" pad="F2"/>
 <contactref element="IC2" pad="K9"/>
 <contactref element="IC2" pad="F10"/>
@@ -3751,26 +3748,17 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="67" y="27" extent="1-16" drill="0.1524"/>
 <wire x1="65.8" y1="27.4" x2="65.4" y2="27" width="0.1" layer="1"/>
 <via x="65.4" y="27" extent="1-16" drill="0.1524"/>
-<wire x1="95.320625" y1="29.2" x2="96.05" y2="29.2" width="0.1" layer="1"/>
-<wire x1="95.320625" y1="30" x2="96.1" y2="30" width="0.1" layer="1"/>
 <wire x1="95.320625" y1="30.8" x2="96" y2="30.8" width="0.1" layer="1"/>
-<wire x1="96" y1="30.8" x2="96.15" y2="30.65" width="0.1" layer="1"/>
 <via x="95.2" y="24.3" extent="1-16" drill="0.15"/>
-<wire x1="88.475" y1="59.55" x2="88.475" y2="56.725" width="0.1" layer="1"/>
 <via x="106.3" y="52.9" extent="1-16" drill="0.15"/>
 <via x="105.6" y="53.6" extent="1-16" drill="0.15"/>
 <via x="107" y="53.6" extent="1-16" drill="0.15"/>
 <via x="107" y="52.2" extent="1-16" drill="0.15"/>
 <via x="105.6" y="52.2" extent="1-16" drill="0.15"/>
-<wire x1="48.2" y1="12.4" x2="48.6" y2="12" width="0.1" layer="1"/>
-<wire x1="95.95" y1="50.5" x2="95.95" y2="49.65" width="0.1" layer="1"/>
-<wire x1="95.95" y1="47.1" x2="95.95" y2="47.95" width="0.1" layer="1"/>
-<wire x1="97.55" y1="47.1" x2="97.55" y2="47.95" width="0.1" layer="1"/>
 <via x="84.4" y="9.5" extent="1-16" drill="0.15"/>
 <via x="82.2" y="5.7" extent="1-16" drill="0.15"/>
 <via x="93.4" y="9.2" extent="1-16" drill="0.15"/>
 <wire x1="41.58" y1="60.83" x2="41.58" y2="55.6" width="0.4064" layer="2"/>
-<wire x1="41.58" y1="55.6" x2="41.6" y2="55.6" width="0.4064" layer="2"/>
 <via x="92" y="56.5" extent="1-16" drill="0.15"/>
 <wire x1="87.1" y1="61.675" x2="88.475" y2="60.3" width="0.1" layer="1"/>
 <wire x1="88.475" y1="60.3" x2="88.475" y2="59.55" width="0.1" layer="1"/>
@@ -3810,7 +3798,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="24.95" y1="26" x2="23" y2="26" width="0.2" layer="1"/>
 <wire x1="23" y1="26" x2="22.6" y2="26.4" width="0.2" layer="1"/>
 <via x="71.4" y="26.7" extent="1-16" drill="0.15"/>
-<wire x1="67.2" y1="17.2" x2="67.9" y2="17.2" width="0.1" layer="1"/>
 <contactref element="R16" pad="2"/>
 <via x="108.5" y="7.5" extent="1-16" drill="0.15"/>
 <wire x1="43.4" y1="13.2" x2="43" y2="13.6" width="0.1" layer="1"/>
@@ -3829,20 +3816,31 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="46.2" y1="16" x2="45.8" y2="16.4" width="0.1" layer="1"/>
 <wire x1="46.2" y1="16" x2="46.6" y2="16.4" width="0.1" layer="1"/>
 <wire x1="79.6" y1="29.3" x2="79.6" y2="28.7" width="0.1" layer="2"/>
-<wire x1="81.1" y1="29.7" x2="81.4" y2="29.4" width="0.1" layer="2"/>
-<wire x1="81.4" y1="29.4" x2="81.9" y2="29.4" width="0.1" layer="2"/>
+<wire x1="81.9" y1="29.4" x2="81.4" y2="29.4" width="0.1" layer="2"/>
 <wire x1="81.3" y1="20.6" x2="81.9" y2="20.6" width="0.1" layer="2"/>
 <wire x1="82" y1="19.9" x2="82" y2="20.5" width="0.1" layer="2"/>
 <wire x1="82.8" y1="19.9" x2="82.8" y2="20.5" width="0.1" layer="2"/>
 <wire x1="81.9" y1="21.4" x2="81.3" y2="21.4" width="0.1" layer="2"/>
-<wire x1="64" y1="15.6" x2="63.9" y2="15.5" width="0.1" layer="1"/>
-<wire x1="63.9" y1="15.5" x2="63.9" y2="15" width="0.1" layer="1"/>
 <contactref element="C43" pad="2"/>
 <wire x1="86.9" y1="23" x2="87.5" y2="23" width="0.1" layer="16"/>
 <contactref element="R24" pad="2"/>
 <via x="52.5" y="18.1" extent="1-16" drill="0.15"/>
 <via x="88.8" y="21.8" extent="1-16" drill="0.15"/>
 <contactref element="TP12" pad="1"/>
+<contactref element="TP62" pad="1"/>
+<wire x1="95.320625" y1="29.2" x2="96.1" y2="29.2" width="0.1" layer="1"/>
+<wire x1="95.320625" y1="30" x2="96.15" y2="30" width="0.1" layer="1"/>
+<wire x1="96" y1="30.8" x2="96.2" y2="30.6" width="0.1" layer="1"/>
+<wire x1="88.475" y1="59.55" x2="88.475" y2="56.525" width="0.1" layer="1"/>
+<wire x1="48.2" y1="12.4" x2="48.6" y2="12" width="0.1" layer="1"/>
+<wire x1="95.95" y1="50.5" x2="95.95" y2="49.4" width="0.1" layer="1"/>
+<wire x1="95.95" y1="47.1" x2="95.95" y2="48.2" width="0.1" layer="1"/>
+<wire x1="97.55" y1="47.1" x2="97.55" y2="48.2" width="0.1" layer="1"/>
+<wire x1="67.2" y1="17.2" x2="68.2" y2="17.2" width="0.1" layer="1"/>
+<wire x1="64" y1="15.6" x2="63.9" y2="15.5" width="0.1" layer="1"/>
+<wire x1="63.9" y1="15.5" x2="63.9" y2="14.85" width="0.1" layer="1"/>
+<wire x1="81.4" y1="29.4" x2="81" y2="29.8" width="0.1" layer="2"/>
+<wire x1="81" y1="29.8" x2="80.8" y2="29.8" width="0.1" layer="2"/>
 </signal>
 <signal name="AQ0" class="2">
 <contactref element="IC3" pad="H7"/>
@@ -3853,7 +3851,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="61.6" y1="12.4" x2="61.5840375" y2="12.4" width="0.1" layer="1"/>
 <wire x1="61.5840375" y1="12.4" x2="61.2" y2="12.8" width="0.1" layer="1"/>
 <via x="61.2" y="12.8" extent="1-16" drill="0.15"/>
-<wire x1="61.2040375" y1="12.69" x2="61.2" y2="12.8" width="0.1" layer="2"/>
 <wire x1="61.2" y1="12.8" x2="60.7" y2="13.28" width="0.1" layer="2"/>
 <wire x1="60.7" y1="13.28" x2="59.88" y2="13.28" width="0.1" layer="2"/>
 <wire x1="57.913" y1="11.313" x2="46.70596875" y2="11.313" width="0.1" layer="2"/>
@@ -4182,11 +4179,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="47.366025" y1="21.6" x2="47" y2="21.6" width="0.1" layer="2"/>
 <wire x1="48.664" y1="24.0919375" x2="48.664" y2="22.897975" width="0.1" layer="2"/>
 <wire x1="48.664" y1="22.897975" x2="47.366025" y2="21.6" width="0.1" layer="2"/>
-<wire x1="51.724" y1="24.476" x2="53.41" y2="22.79" width="0.1" layer="2"/>
-<wire x1="49.0480625" y1="24.476" x2="51.724" y2="24.476" width="0.1" layer="2"/>
-<wire x1="53.41" y1="22.79" x2="63.53103125" y2="22.79" width="0.1" layer="2"/>
-<wire x1="63.53103125" y1="22.79" x2="66.924" y2="19.39703125" width="0.1" layer="2"/>
-<wire x1="66.924" y1="19.39703125" x2="66.924" y2="15.544" width="0.1" layer="2"/>
+<wire x1="51.224" y1="24.476" x2="53.46" y2="22.24" width="0.1" layer="2"/>
+<wire x1="49.0480625" y1="24.476" x2="51.224" y2="24.476" width="0.1" layer="2"/>
+<wire x1="53.46" y1="22.24" x2="62.68103125" y2="22.24" width="0.1" layer="2"/>
+<wire x1="62.68103125" y1="22.24" x2="66.924" y2="17.99703125" width="0.1" layer="2"/>
+<wire x1="66.924" y1="17.99703125" x2="66.924" y2="15.544" width="0.1" layer="2"/>
 <wire x1="79.0363625" y1="15.96255625" x2="77.03636875" y2="15.96255625" width="0.1" layer="16"/>
 <wire x1="77.03636875" y1="15.96255625" x2="73.2438125" y2="12.17" width="0.1" layer="16"/>
 <wire x1="73.2438125" y1="12.17" x2="67.77" y2="12.17" width="0.1" layer="16"/>
@@ -4204,7 +4201,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC2" pad="K13"/>
 <via x="46.2" y="22.4" extent="1-16" drill="0.15"/>
 <via x="66.8" y="11.2" extent="1-16" drill="0.15"/>
-<wire x1="66.4" y1="10.77" x2="66.4" y2="10.8" width="0.1" layer="1"/>
 <wire x1="68.18" y1="11.71" x2="68.18" y2="15.82" width="0.1" layer="2"/>
 <wire x1="68.18" y1="11.71" x2="67.67" y2="11.2" width="0.1" layer="2"/>
 <wire x1="67.67" y1="11.2" x2="66.8" y2="11.2" width="0.1" layer="2"/>
@@ -4221,14 +4217,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="E6"/>
 <wire x1="86" y1="22.2" x2="86.4" y2="21.8" width="0.1" layer="1"/>
 <via x="86.4" y="21.8" extent="1-16" drill="0.15"/>
-<wire x1="52.925" y1="25.775" x2="48.125" y2="25.775" width="0.1" layer="2"/>
+<wire x1="51.925" y1="25.775" x2="48.125" y2="25.775" width="0.1" layer="2"/>
 <wire x1="68.18" y1="15.82" x2="68.554" y2="16.194" width="0.1" layer="2"/>
-<wire x1="68.554" y1="18.5880625" x2="68.281" y2="18.8610625" width="0.1" layer="2"/>
-<wire x1="68.554" y1="16.194" x2="68.554" y2="18.5880625" width="0.1" layer="2"/>
-<wire x1="68.281" y1="18.8610625" x2="68.281" y2="20.303125" width="0.1" layer="2"/>
-<wire x1="68.281" y1="20.303125" x2="64.176125" y2="24.408" width="0.1" layer="2"/>
-<wire x1="64.176125" y1="24.408" x2="54.292" y2="24.408" width="0.1" layer="2"/>
-<wire x1="54.292" y1="24.408" x2="52.925" y2="25.775" width="0.1" layer="2"/>
+<wire x1="68.554" y1="16.194" x2="68.554" y2="18.7380625" width="0.1" layer="2"/>
+<wire x1="68.554" y1="18.7380625" x2="63.3840625" y2="23.908" width="0.1" layer="2"/>
+<wire x1="63.3840625" y1="23.908" x2="53.792" y2="23.908" width="0.1" layer="2"/>
+<wire x1="53.792" y1="23.908" x2="51.925" y2="25.775" width="0.1" layer="2"/>
 <wire x1="68.34703125" y1="11.716" x2="68.00403125" y2="11.373" width="0.1" layer="16"/>
 <wire x1="66.973" y1="11.373" x2="66.8" y2="11.2" width="0.1" layer="16"/>
 <wire x1="68.00403125" y1="11.373" x2="66.973" y2="11.373" width="0.1" layer="16"/>
@@ -4242,7 +4236,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="40.2" y1="21.2" x2="40.6" y2="21.6" width="0.1" layer="1"/>
 <via x="40.6" y="21.6" extent="1-16" drill="0.15"/>
 <via x="66.8" y="12" extent="1-16" drill="0.15"/>
-<wire x1="66.4" y1="11.6159625" x2="66.4" y2="11.6" width="0.1" layer="1"/>
 <wire x1="66.8" y1="12" x2="66.831" y2="12.0469625" width="0.1" layer="2"/>
 <wire x1="66.831" y1="12.0469625" x2="66.831" y2="12.199" width="0.1" layer="2"/>
 <wire x1="66.831" y1="12.199" x2="65.86" y2="13.17" width="0.1" layer="2"/>
@@ -4256,11 +4249,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="48.9356" y1="23.3075125" x2="49.2280875" y2="23.6" width="0.1" layer="2"/>
 <wire x1="48.9356" y1="22.84854375" x2="47.28265625" y2="21.1956" width="0.1" layer="2"/>
 <wire x1="48.9356" y1="23.3075125" x2="48.9356" y2="22.84854375" width="0.1" layer="2"/>
-<wire x1="52.27896875" y1="23.6" x2="53.31596875" y2="22.563" width="0.1" layer="2"/>
-<wire x1="49.2280875" y1="23.6" x2="52.27896875" y2="23.6" width="0.1" layer="2"/>
-<wire x1="53.31596875" y1="22.563" x2="63.437" y2="22.563" width="0.1" layer="2"/>
-<wire x1="63.437" y1="22.563" x2="66.697" y2="19.303" width="0.1" layer="2"/>
-<wire x1="66.697" y1="19.303" x2="66.697" y2="15.67596875" width="0.1" layer="2"/>
+<wire x1="51.77896875" y1="23.6" x2="53.36596875" y2="22.013" width="0.1" layer="2"/>
+<wire x1="49.2280875" y1="23.6" x2="51.77896875" y2="23.6" width="0.1" layer="2"/>
+<wire x1="53.36596875" y1="22.013" x2="62.587" y2="22.013" width="0.1" layer="2"/>
+<wire x1="62.587" y1="22.013" x2="66.697" y2="17.903" width="0.1" layer="2"/>
+<wire x1="66.697" y1="17.903" x2="66.697" y2="15.67596875" width="0.1" layer="2"/>
 <wire x1="79.13039375" y1="15.73555625" x2="77.1304" y2="15.73555625" width="0.1" layer="16"/>
 <wire x1="79.13039375" y1="15.73555625" x2="79.7298375" y2="16.335" width="0.1" layer="16"/>
 <wire x1="73.33784375" y1="11.943" x2="77.1304" y2="15.73555625" width="0.1" layer="16"/>
@@ -4282,7 +4275,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="41" y1="21.2" x2="41.4" y2="21.6" width="0.1" layer="1"/>
 <via x="41.4" y="21.6" extent="1-16" drill="0.15"/>
 <via x="66" y="11.2" extent="1-16" drill="0.15"/>
-<wire x1="65.6" y1="10.76" x2="65.6" y2="10.8" width="0.1" layer="1"/>
 <wire x1="65.62" y1="13.08" x2="65.62" y2="14.92" width="0.1" layer="2"/>
 <wire x1="65.62" y1="13.08" x2="66.4" y2="12.3" width="0.1" layer="2"/>
 <wire x1="44.3314" y1="20.9686" x2="47.3766875" y2="20.9686" width="0.1" layer="2"/>
@@ -4296,11 +4288,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="66.4" y1="12.3" x2="66.4" y2="11.6" width="0.1" layer="2"/>
 <wire x1="66.4" y1="11.6" x2="66" y2="11.2" width="0.1" layer="2"/>
 <wire x1="47.3766875" y1="20.9686" x2="49.2080875" y2="22.8" width="0.1" layer="2"/>
-<wire x1="66.47" y1="19.2061875" x2="66.47" y2="15.77" width="0.1" layer="2"/>
-<wire x1="52.7579375" y1="22.8" x2="53.2219375" y2="22.336" width="0.1" layer="2"/>
-<wire x1="49.2080875" y1="22.8" x2="52.7579375" y2="22.8" width="0.1" layer="2"/>
-<wire x1="53.2219375" y1="22.336" x2="63.3401875" y2="22.336" width="0.1" layer="2"/>
-<wire x1="63.3401875" y1="22.336" x2="66.47" y2="19.2061875" width="0.1" layer="2"/>
+<wire x1="66.47" y1="17.8061875" x2="66.47" y2="15.77" width="0.1" layer="2"/>
+<wire x1="52.2579375" y1="22.8" x2="53.2719375" y2="21.786" width="0.1" layer="2"/>
+<wire x1="49.2080875" y1="22.8" x2="52.2579375" y2="22.8" width="0.1" layer="2"/>
+<wire x1="53.2719375" y1="21.786" x2="62.4901875" y2="21.786" width="0.1" layer="2"/>
+<wire x1="62.4901875" y1="21.786" x2="66.47" y2="17.8061875" width="0.1" layer="2"/>
 <wire x1="77.318453125" y1="15.281546875" x2="79.318453125" y2="15.281546875" width="0.1" layer="16"/>
 <wire x1="77.318453125" y1="15.281546875" x2="73.52590625" y2="11.489" width="0.1" layer="16"/>
 <wire x1="86.8" y1="20.6" x2="86.4" y2="21" width="0.1" layer="16"/>
@@ -4335,11 +4327,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="48.95" y1="18.99" x2="49.14" y2="18.8" width="0.1" layer="2"/>
 <wire x1="48.95" y1="19.70500625" x2="48.95" y2="18.99" width="0.1" layer="2"/>
 <wire x1="50.10899375" y1="20.864" x2="48.95" y2="19.70500625" width="0.1" layer="2"/>
-<wire x1="53.58984375" y1="21.655" x2="52.79884375" y2="20.864" width="0.1" layer="2"/>
-<wire x1="52.79884375" y1="20.864" x2="50.10899375" y2="20.864" width="0.1" layer="2"/>
-<wire x1="65.364" y1="12.894075" x2="65.364" y2="19.34909375" width="0.1" layer="2"/>
-<wire x1="63.05809375" y1="21.655" x2="53.58984375" y2="21.655" width="0.1" layer="2"/>
-<wire x1="65.364" y1="19.34909375" x2="63.05809375" y2="21.655" width="0.1" layer="2"/>
+<wire x1="65.364" y1="12.894075" x2="65.364" y2="17.94909375" width="0.1" layer="2"/>
+<wire x1="62.44909375" y1="20.864" x2="50.10899375" y2="20.864" width="0.1" layer="2"/>
+<wire x1="65.364" y1="17.94909375" x2="62.44909375" y2="20.864" width="0.1" layer="2"/>
 <wire x1="73.15278125" y1="12.4" x2="76.9423375" y2="16.18955625" width="0.1" layer="16"/>
 <wire x1="73.15278125" y1="12.4" x2="66.4" y2="12.4" width="0.1" layer="16"/>
 <wire x1="66.4" y1="12.4" x2="66" y2="12" width="0.1" layer="16"/>
@@ -4364,17 +4354,14 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="49.0159625" y1="18.8" x2="49" y2="18.8" width="0.1" layer="1"/>
 <wire x1="49.41" y1="19.2" x2="49.41" y2="19.843975" width="0.1" layer="2"/>
 <via x="65.2" y="10.4" extent="1-16" drill="0.15"/>
-<wire x1="64.8" y1="10.8071625" x2="64.8" y2="10.8" width="0.1" layer="1"/>
 <wire x1="65.6" y1="10.8071625" x2="65.2" y2="10.4" width="0.1" layer="2"/>
 <wire x1="65.6" y1="12.26" x2="65.6" y2="10.8071625" width="0.1" layer="2"/>
 <wire x1="65.137" y1="12.723" x2="65.6" y2="12.26" width="0.1" layer="2"/>
 <wire x1="49.41" y1="19.843975" x2="50.203025" y2="20.637" width="0.1" layer="2"/>
-<wire x1="50.203025" y1="20.637" x2="52.892875" y2="20.637" width="0.1" layer="2"/>
-<wire x1="52.892875" y1="20.637" x2="53.683875" y2="21.428" width="0.1" layer="2"/>
 <wire x1="64.8" y1="10.8" x2="65.2" y2="10.4" width="0.1" layer="1"/>
-<wire x1="53.683875" y1="21.428" x2="62.9640625" y2="21.428" width="0.1" layer="2"/>
-<wire x1="62.9640625" y1="21.428" x2="65.137" y2="19.2550625" width="0.1" layer="2"/>
-<wire x1="65.137" y1="19.2550625" x2="65.137" y2="12.723" width="0.1" layer="2"/>
+<wire x1="50.203025" y1="20.637" x2="62.3550625" y2="20.637" width="0.1" layer="2"/>
+<wire x1="62.3550625" y1="20.637" x2="65.137" y2="17.8550625" width="0.1" layer="2"/>
+<wire x1="65.137" y1="17.8550625" x2="65.137" y2="12.723" width="0.1" layer="2"/>
 <wire x1="79.50596875" y1="14.827" x2="80.10596875" y2="15.427" width="0.1" layer="16"/>
 <wire x1="73.71396875" y1="11.035" x2="77.50596875" y2="14.827" width="0.1" layer="16"/>
 <wire x1="79.50596875" y1="14.827" x2="77.50596875" y2="14.827" width="0.1" layer="16"/>
@@ -4401,16 +4388,14 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="50.5956" y1="19.5456" x2="50.5956" y2="20.1675125" width="0.1" layer="2"/>
 <wire x1="50.5956" y1="20.1675125" x2="50.8380875" y2="20.41" width="0.1" layer="2"/>
 <wire x1="50.25" y1="19.2" x2="50.5956" y2="19.5456" width="0.1" layer="2"/>
-<wire x1="50.8380875" y1="20.41" x2="52.98690625" y2="20.41" width="0.1" layer="2"/>
-<wire x1="52.98690625" y1="20.41" x2="53.77790625" y2="21.201" width="0.1" layer="2"/>
 <wire x1="64.8" y1="11.6" x2="65.2" y2="11.2" width="0.1" layer="1"/>
 <wire x1="64.91" y1="14.79" x2="64.681" y2="14.561" width="0.1" layer="2"/>
 <wire x1="64.681" y1="14.561" x2="64.681" y2="11.84598125" width="0.1" layer="2"/>
-<wire x1="64.91" y1="19.16103125" x2="64.91" y2="14.79" width="0.1" layer="2"/>
+<wire x1="64.91" y1="17.76103125" x2="64.91" y2="14.79" width="0.1" layer="2"/>
 <wire x1="65.2" y1="11.32698125" x2="65.2" y2="11.2" width="0.1" layer="2"/>
 <wire x1="64.681" y1="11.84598125" x2="65.2" y2="11.32698125" width="0.1" layer="2"/>
-<wire x1="53.77790625" y1="21.201" x2="62.87003125" y2="21.201" width="0.1" layer="2"/>
-<wire x1="62.87003125" y1="21.201" x2="64.91" y2="19.16103125" width="0.1" layer="2"/>
+<wire x1="50.8380875" y1="20.41" x2="62.26103125" y2="20.41" width="0.1" layer="2"/>
+<wire x1="62.26103125" y1="20.41" x2="64.91" y2="17.76103125" width="0.1" layer="2"/>
 <wire x1="79.4119375" y1="15.054" x2="80.0119375" y2="15.654" width="0.1" layer="16"/>
 <wire x1="77.4119375" y1="15.054" x2="73.6199375" y2="11.262" width="0.1" layer="16"/>
 <wire x1="79.4119375" y1="15.054" x2="77.4119375" y2="15.054" width="0.1" layer="16"/>
@@ -4436,15 +4421,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="50.6" y1="18.8" x2="51" y2="18.4" width="0.1" layer="1"/>
 <via x="51" y="18.4" extent="1-16" drill="0.15"/>
 <wire x1="64" y1="10.8" x2="64.4" y2="10.4" width="0.1" layer="1"/>
-<wire x1="64.44" y1="10.36" x2="64.4" y2="10.4" width="0.1" layer="1"/>
 <via x="64.4" y="10.4" extent="1-16" drill="0.15"/>
 <wire x1="63.66" y1="17.33" x2="64" y2="16.99" width="0.1" layer="2"/>
 <wire x1="64" y1="16.99" x2="64" y2="14.71" width="0.1" layer="2"/>
-<wire x1="54.06" y1="20.52" x2="62.5879375" y2="20.52" width="0.1" layer="2"/>
-<wire x1="51.94" y1="18.4" x2="54.06" y2="20.52" width="0.1" layer="2"/>
-<wire x1="51" y1="18.4" x2="51.94" y2="18.4" width="0.1" layer="2"/>
-<wire x1="62.5879375" y1="20.52" x2="63.66" y2="19.4479375" width="0.1" layer="2"/>
-<wire x1="63.66" y1="19.4479375" x2="63.66" y2="17.33" width="0.1" layer="2"/>
+<wire x1="51.76" y1="18.77" x2="62.9379375" y2="18.77" width="0.1" layer="2"/>
+<wire x1="51.39" y1="18.4" x2="51.76" y2="18.77" width="0.1" layer="2"/>
+<wire x1="62.9379375" y1="18.77" x2="63.66" y2="18.0479375" width="0.1" layer="2"/>
+<wire x1="63.66" y1="18.0479375" x2="63.66" y2="17.33" width="0.1" layer="2"/>
 <wire x1="64.8" y1="11.39595" x2="64.8" y2="10.8" width="0.1" layer="2"/>
 <wire x1="64.8" y1="10.8" x2="64.4" y2="10.4" width="0.1" layer="2"/>
 <wire x1="64" y1="14.71" x2="64.454" y2="14.256" width="0.1" layer="2"/>
@@ -4466,6 +4449,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="D3"/>
 <wire x1="88.4" y1="21.4" x2="88" y2="21" width="0.1" layer="1"/>
 <via x="88" y="21" extent="1-16" drill="0.15"/>
+<wire x1="51" y1="18.4" x2="51.39" y2="18.4" width="0.1" layer="2"/>
 </signal>
 <signal name="DQ8" class="1">
 <contactref element="IC3" pad="E1"/>
@@ -4504,20 +4488,17 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC2" pad="R10"/>
 <via x="51" y="19.2" extent="1-16" drill="0.15"/>
 <wire x1="50.6" y1="19.6" x2="51" y2="19.2" width="0.1" layer="1"/>
-<wire x1="51.0194" y1="19.1806" x2="51" y2="19.2" width="0.1" layer="1"/>
 <wire x1="64.8" y1="16.4" x2="64.4" y2="16" width="0.1" layer="1"/>
 <via x="64.4" y="16" extent="1-16" drill="0.15"/>
 <wire x1="64.4" y1="16" x2="65.32" y2="16.9" width="0.1" layer="16"/>
-<wire x1="62.68196875" y1="20.747" x2="53.96596875" y2="20.747" width="0.1" layer="2"/>
-<wire x1="62.68196875" y1="20.747" x2="63.91" y2="19.51896875" width="0.1" layer="2"/>
-<wire x1="63.91" y1="17.46" x2="63.91" y2="19.51896875" width="0.1" layer="2"/>
+<wire x1="63.02896875" y1="19" x2="51.2" y2="19" width="0.1" layer="2"/>
+<wire x1="63.02896875" y1="19" x2="63.91" y2="18.11896875" width="0.1" layer="2"/>
+<wire x1="63.91" y1="17.46" x2="63.91" y2="18.11896875" width="0.1" layer="2"/>
 <wire x1="65.32" y1="16.9" x2="65.32" y2="18.250809375" width="0.1" layer="16"/>
 <wire x1="65.32" y1="18.250809375" x2="65.942190625" y2="18.873" width="0.1" layer="16"/>
 <wire x1="65.942190625" y1="18.873" x2="73.85609375" y2="18.873" width="0.1" layer="16"/>
 <wire x1="64.4" y1="16" x2="64.4" y2="16.97" width="0.1" layer="2"/>
 <wire x1="64.4" y1="16.97" x2="63.91" y2="17.46" width="0.1" layer="2"/>
-<wire x1="53.96596875" y1="20.747" x2="52.41896875" y2="19.2" width="0.1" layer="2"/>
-<wire x1="52.41896875" y1="19.2" x2="51" y2="19.2" width="0.1" layer="2"/>
 <wire x1="82.8" y1="22.2" x2="83.2" y2="21.8" width="0.1" layer="16"/>
 <contactref element="IC1" pad="E9"/>
 <wire x1="83.6" y1="22.2" x2="83.2" y2="21.8" width="0.1" layer="1"/>
@@ -4526,24 +4507,22 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="80.354" y1="21.954" x2="80.6" y2="22.2" width="0.1" layer="16"/>
 <wire x1="80.6" y1="22.2" x2="82.8" y2="22.2" width="0.1" layer="16"/>
 <wire x1="76.93709375" y1="21.954" x2="80.354" y2="21.954" width="0.1" layer="16"/>
+<wire x1="51.2" y1="19" x2="51" y2="19.2" width="0.1" layer="2"/>
 </signal>
 <signal name="DQ10" class="1">
 <contactref element="IC3" pad="D1"/>
 <contactref element="IC2" pad="R12"/>
 <via x="51" y="21.6" extent="1-16" drill="0.15"/>
 <via x="66" y="17.6" extent="1-16" drill="0.15"/>
-<wire x1="53.40178125" y1="22.109" x2="63.24615625" y2="22.109" width="0.1" layer="2"/>
-<wire x1="52.61078125" y1="21.318" x2="53.40178125" y2="22.109" width="0.1" layer="2"/>
-<wire x1="52.61078125" y1="21.318" x2="51.282" y2="21.318" width="0.1" layer="2"/>
+<wire x1="51.282" y1="21.318" x2="62.63715625" y2="21.318" width="0.1" layer="2"/>
 <wire x1="51.282" y1="21.318" x2="51" y2="21.6" width="0.1" layer="2"/>
 <wire x1="66" y1="17.6" x2="65.2" y2="17.6" width="0.1" layer="1"/>
 <wire x1="65.2" y1="17.6" x2="64.8" y2="17.2" width="0.1" layer="1"/>
 <wire x1="66" y1="17.6" x2="67.046" y2="18.646" width="0.1" layer="16"/>
 <wire x1="67.046" y1="18.646" x2="73.950125" y2="18.646" width="0.1" layer="16"/>
 <wire x1="50.6" y1="21.2" x2="51" y2="21.6" width="0.1" layer="1"/>
-<wire x1="66.243" y1="17.843" x2="66" y2="17.6" width="0.1" layer="2"/>
-<wire x1="63.24615625" y1="22.109" x2="66.243" y2="19.11215625" width="0.1" layer="2"/>
-<wire x1="66.243" y1="19.11215625" x2="66.243" y2="17.843" width="0.1" layer="2"/>
+<wire x1="66" y1="17.95515625" x2="65.877578125" y2="18.077578125" width="0.1" layer="2"/>
+<wire x1="62.63715625" y1="21.318" x2="65.877578125" y2="18.077578125" width="0.1" layer="2"/>
 <wire x1="80.6" y1="21.4" x2="81.2" y2="21.4" width="0.1" layer="16"/>
 <wire x1="81.2" y1="21.4" x2="81.6" y2="21.8" width="0.1" layer="16"/>
 <contactref element="IC1" pad="E11"/>
@@ -4552,6 +4531,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="80.273" y1="21.727" x2="80.6" y2="21.4" width="0.1" layer="16"/>
 <wire x1="73.950125" y1="18.646" x2="77.031125" y2="21.727" width="0.1" layer="16"/>
 <wire x1="77.031125" y1="21.727" x2="80.273" y2="21.727" width="0.1" layer="16"/>
+<wire x1="66" y1="17.95515625" x2="66" y2="17.6" width="0.1" layer="2"/>
 </signal>
 <signal name="DQ11" class="1">
 <contactref element="IC3" pad="C2"/>
@@ -4561,15 +4541,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="50.2" y="21.6" extent="1-16" drill="0.15"/>
 <wire x1="65.6" y1="16.4" x2="66" y2="16.8" width="0.1" layer="1"/>
 <via x="66" y="16.8" extent="1-16" drill="0.15"/>
-<wire x1="52.7048125" y1="21.091" x2="53.4958125" y2="21.882" width="0.1" layer="2"/>
-<wire x1="52.7048125" y1="21.091" x2="50.709" y2="21.091" width="0.1" layer="2"/>
 <wire x1="50.709" y1="21.091" x2="50.2" y2="21.6" width="0.1" layer="2"/>
 <wire x1="65.591" y1="17.209" x2="66" y2="16.8" width="0.1" layer="2"/>
 <wire x1="67.619" y1="18.419" x2="74.04415625" y2="18.419" width="0.1" layer="16"/>
 <wire x1="66" y1="16.8" x2="67.619" y2="18.419" width="0.1" layer="16"/>
-<wire x1="53.4958125" y1="21.882" x2="63.152125" y2="21.882" width="0.1" layer="2"/>
-<wire x1="63.152125" y1="21.882" x2="65.591" y2="19.443125" width="0.1" layer="2"/>
-<wire x1="65.591" y1="19.443125" x2="65.591" y2="17.209" width="0.1" layer="2"/>
+<wire x1="50.709" y1="21.091" x2="62.543125" y2="21.091" width="0.1" layer="2"/>
+<wire x1="62.543125" y1="21.091" x2="65.591" y2="18.043125" width="0.1" layer="2"/>
+<wire x1="65.591" y1="18.043125" x2="65.591" y2="17.209" width="0.1" layer="2"/>
 <wire x1="80.67896875" y1="21" x2="80.7" y2="21" width="0.1" layer="16"/>
 <contactref element="IC1" pad="D12"/>
 <wire x1="80.7" y1="21" x2="80.8" y2="21" width="0.1" layer="16"/>
@@ -4590,15 +4568,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="65.2" y1="16.8" x2="64.6" y2="16.8" width="0.1" layer="1"/>
 <wire x1="64.6" y1="16.8" x2="64.4" y2="17" width="0.1" layer="1"/>
 <wire x1="64.4" y1="17" x2="64.4" y2="17.6" width="0.1" layer="1"/>
-<wire x1="62.776" y1="20.974" x2="53.8719375" y2="20.974" width="0.1" layer="2"/>
-<wire x1="62.776" y1="20.974" x2="64.15" y2="19.6" width="0.1" layer="2"/>
-<wire x1="64.15" y1="19.6" x2="64.15" y2="17.85" width="0.1" layer="2"/>
+<wire x1="63.1" y1="19.25" x2="51.75" y2="19.25" width="0.1" layer="2"/>
+<wire x1="63.1" y1="19.25" x2="64.15" y2="18.2" width="0.1" layer="2"/>
+<wire x1="64.15" y1="18.2" x2="64.15" y2="17.85" width="0.1" layer="2"/>
 <wire x1="64.15" y1="17.85" x2="64.4" y2="17.6" width="0.1" layer="2"/>
 <wire x1="64.4" y1="18.03" x2="64.4" y2="17.6" width="0.1" layer="16"/>
 <wire x1="73.75" y1="19.1" x2="65.47" y2="19.1" width="0.1" layer="16"/>
 <wire x1="65.47" y1="19.1" x2="64.4" y2="18.03" width="0.1" layer="16"/>
-<wire x1="53.8719375" y1="20.974" x2="52.8979375" y2="20" width="0.1" layer="2"/>
-<wire x1="52.8979375" y1="20" x2="51" y2="20" width="0.1" layer="2"/>
 <wire x1="73.75" y1="19.1" x2="73.7620625" y2="19.1" width="0.1" layer="16"/>
 <contactref element="IC1" pad="F13"/>
 <wire x1="80.4" y1="23" x2="80.8" y2="22.6" width="0.1" layer="1"/>
@@ -4607,6 +4583,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="80.65" y1="22.6" x2="80.8" y2="22.6" width="0.1" layer="16"/>
 <wire x1="76.8430625" y1="22.181" x2="80.231" y2="22.181" width="0.1" layer="16"/>
 <wire x1="80.231" y1="22.181" x2="80.65" y2="22.6" width="0.1" layer="16"/>
+<wire x1="51.75" y1="19.25" x2="51" y2="20" width="0.1" layer="2"/>
 </signal>
 <signal name="DQ13" class="1">
 <contactref element="IC3" pad="B2"/>
@@ -4626,15 +4603,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="D11"/>
 <wire x1="82" y1="21.4" x2="81.6" y2="21" width="0.1" layer="1"/>
 <via x="81.6" y="21" extent="1-16" drill="0.15"/>
-<wire x1="52.7369375" y1="25.321" x2="48.321" y2="25.321" width="0.1" layer="2"/>
+<wire x1="51.7369375" y1="25.321" x2="48.321" y2="25.321" width="0.1" layer="2"/>
 <wire x1="48.321" y1="25.321" x2="47.81" y2="24.81" width="0.1" layer="2"/>
 <wire x1="67.6" y1="16.8" x2="68.1" y2="17.3" width="0.1" layer="2"/>
-<wire x1="68.1" y1="18.4" x2="67.827" y2="18.673" width="0.1" layer="2"/>
-<wire x1="67.827" y1="18.673" x2="67.827" y2="20.1150625" width="0.1" layer="2"/>
-<wire x1="67.827" y1="20.1150625" x2="63.9880625" y2="23.954" width="0.1" layer="2"/>
-<wire x1="68.1" y1="17.3" x2="68.1" y2="18.4" width="0.1" layer="2"/>
-<wire x1="63.9880625" y1="23.954" x2="54.1039375" y2="23.954" width="0.1" layer="2"/>
-<wire x1="54.1039375" y1="23.954" x2="52.7369375" y2="25.321" width="0.1" layer="2"/>
+<wire x1="68.1" y1="18.5420625" x2="63.1880625" y2="23.454" width="0.1" layer="2"/>
+<wire x1="68.1" y1="17.3" x2="68.1" y2="18.5420625" width="0.1" layer="2"/>
+<wire x1="63.1880625" y1="23.454" x2="53.6039375" y2="23.454" width="0.1" layer="2"/>
+<wire x1="53.6039375" y1="23.454" x2="51.7369375" y2="25.321" width="0.1" layer="2"/>
 </signal>
 <signal name="DQ14" class="1">
 <contactref element="IC3" pad="B1"/>
@@ -4655,12 +4630,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="D14"/>
 <wire x1="79.6" y1="21.4" x2="79.2" y2="21" width="0.1" layer="1"/>
 <via x="79.2" y="21" extent="1-16" drill="0.15"/>
-<wire x1="52.64290625" y1="25.094" x2="48.744" y2="25.094" width="0.1" layer="2"/>
+<wire x1="51.64290625" y1="25.094" x2="48.744" y2="25.094" width="0.1" layer="2"/>
 <wire x1="48.744" y1="25.094" x2="48.21" y2="24.56" width="0.1" layer="2"/>
-<wire x1="67.6" y1="17.6" x2="67.6" y2="20.02103125" width="0.1" layer="2"/>
-<wire x1="67.6" y1="20.02103125" x2="63.89403125" y2="23.727" width="0.1" layer="2"/>
-<wire x1="63.89403125" y1="23.727" x2="54.00990625" y2="23.727" width="0.1" layer="2"/>
-<wire x1="54.00990625" y1="23.727" x2="52.64290625" y2="25.094" width="0.1" layer="2"/>
+<wire x1="67.6" y1="17.6" x2="67.6" y2="18.72103125" width="0.1" layer="2"/>
+<wire x1="67.6" y1="18.72103125" x2="63.09403125" y2="23.227" width="0.1" layer="2"/>
+<wire x1="63.09403125" y1="23.227" x2="53.50990625" y2="23.227" width="0.1" layer="2"/>
+<wire x1="53.50990625" y1="23.227" x2="51.64290625" y2="25.094" width="0.1" layer="2"/>
 </signal>
 <signal name="DQ15" class="1">
 <contactref element="IC3" pad="A2"/>
@@ -4677,15 +4652,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="C14"/>
 <wire x1="79.6" y1="20.6" x2="79.2" y2="20.2" width="0.1" layer="1"/>
 <via x="79.2" y="20.2" extent="1-16" drill="0.15"/>
-<wire x1="52.83096875" y1="25.548" x2="48.21903125" y2="25.548" width="0.1" layer="2"/>
+<wire x1="51.83096875" y1="25.548" x2="48.21903125" y2="25.548" width="0.1" layer="2"/>
 <wire x1="48.21903125" y1="25.548" x2="47" y2="24.32896875" width="0.1" layer="2"/>
 <wire x1="67.6" y1="16" x2="68.327" y2="16.727" width="0.1" layer="2"/>
-<wire x1="68.327" y1="18.49403125" x2="68.054" y2="18.76703125" width="0.1" layer="2"/>
-<wire x1="68.327" y1="16.727" x2="68.327" y2="18.49403125" width="0.1" layer="2"/>
-<wire x1="68.054" y1="18.76703125" x2="68.054" y2="20.20909375" width="0.1" layer="2"/>
-<wire x1="68.054" y1="20.20909375" x2="64.08209375" y2="24.181" width="0.1" layer="2"/>
-<wire x1="64.08209375" y1="24.181" x2="54.19796875" y2="24.181" width="0.1" layer="2"/>
-<wire x1="54.19796875" y1="24.181" x2="52.83096875" y2="25.548" width="0.1" layer="2"/>
+<wire x1="68.327" y1="16.727" x2="68.327" y2="18.64403125" width="0.1" layer="2"/>
+<wire x1="68.327" y1="18.64403125" x2="63.29003125" y2="23.681" width="0.1" layer="2"/>
+<wire x1="63.29003125" y1="23.681" x2="53.69796875" y2="23.681" width="0.1" layer="2"/>
+<wire x1="53.69796875" y1="23.681" x2="51.83096875" y2="25.548" width="0.1" layer="2"/>
 </signal>
 <signal name="SDR_CLK" class="3">
 <contactref element="IC3" pad="F2"/>
@@ -4702,11 +4675,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="45.8" y1="22" x2="45.4" y2="22.4" width="0.1" layer="2"/>
 <wire x1="47.44499375" y1="22" x2="45.8" y2="22" width="0.1" layer="2"/>
 <wire x1="48.437" y1="24.46596875" x2="48.83803125" y2="24.867" width="0.1" layer="2"/>
-<wire x1="52.548875" y1="24.867" x2="48.83803125" y2="24.867" width="0.1" layer="2"/>
-<wire x1="67.17" y1="20.13" x2="63.8" y2="23.5" width="0.1" layer="2"/>
-<wire x1="63.8" y1="23.5" x2="53.915875" y2="23.5" width="0.1" layer="2"/>
-<wire x1="67.17" y1="15.17" x2="67.17" y2="20.13" width="0.1" layer="2"/>
-<wire x1="53.915875" y1="23.5" x2="52.548875" y2="24.867" width="0.1" layer="2"/>
+<wire x1="51.548875" y1="24.867" x2="48.83803125" y2="24.867" width="0.1" layer="2"/>
+<wire x1="67.17" y1="18.83" x2="63" y2="23" width="0.1" layer="2"/>
+<wire x1="63" y1="23" x2="53.415875" y2="23" width="0.1" layer="2"/>
+<wire x1="67.17" y1="15.17" x2="67.17" y2="18.83" width="0.1" layer="2"/>
+<wire x1="53.415875" y1="23" x2="51.548875" y2="24.867" width="0.1" layer="2"/>
 <wire x1="63.6" y1="15.32" x2="63.6" y2="14.6" width="0.1" layer="1"/>
 <wire x1="63.6" y1="14.6" x2="64" y2="14.2" width="0.1" layer="1"/>
 <wire x1="64" y1="14.2" x2="66.2" y2="14.2" width="0.1" layer="1"/>
@@ -4733,7 +4706,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="49.4" y="18.4" extent="1-16" drill="0.15"/>
 <wire x1="49.57" y1="18.39" x2="49.4" y2="18.4" width="0.1" layer="2"/>
 <wire x1="63.2" y1="11.6" x2="63.6" y2="12" width="0.1" layer="1"/>
-<wire x1="63.59" y1="11.99" x2="63.6" y2="12" width="0.1" layer="1"/>
 <via x="63.6" y="12" extent="1-16" drill="0.15"/>
 <wire x1="50.27" y1="17.69" x2="49.57" y2="18.39" width="0.1" layer="2"/>
 <wire x1="62.4" y1="17.83" x2="62.2" y2="18.03" width="0.1" layer="2"/>
@@ -4847,7 +4819,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="39.4" y1="15.6" x2="39" y2="16" width="0.1" layer="1"/>
 <via x="39" y="16" extent="1-16" drill="0.15"/>
 <via x="63.6" y="16.8" extent="1-16" drill="0.15"/>
-<wire x1="63.2" y1="17.28" x2="63.2" y2="17.2" width="0.1" layer="1"/>
 <wire x1="63.2" y1="17.2" x2="63.6" y2="16.8" width="0.1" layer="1"/>
 <wire x1="64" y1="11.8" x2="64" y2="11.02" width="0.1" layer="2"/>
 <wire x1="64.227" y1="12.027" x2="64" y2="11.8" width="0.1" layer="2"/>
@@ -5038,8 +5009,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <vertex x="109.5" y="13.5"/>
 <vertex x="111.5" y="15.5"/>
 <vertex x="111.5" y="35"/>
-<vertex x="86" y="35"/>
-<vertex x="82" y="39"/>
+<vertex x="102" y="35"/>
+<vertex x="98" y="39"/>
 <vertex x="66" y="39"/>
 <vertex x="56" y="29"/>
 </polygon>
@@ -5062,17 +5033,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="21.55" y1="22.75" x2="21.55" y2="21.8" width="0.2" layer="1"/>
 <wire x1="21.55" y1="21.8" x2="20.03" y2="20.28" width="0.4064" layer="1"/>
 <wire x1="20.03" y1="20.28" x2="20.03" y2="19.18" width="0.4064" layer="1"/>
-<wire x1="17.2" y1="18.42" x2="18.31" y2="18.42" width="0.2" layer="1"/>
-<wire x1="18.31" y1="18.42" x2="18.42" y2="18.43" width="0.2" layer="1"/>
-<wire x1="18.42" y1="18.43" x2="18.42" y2="18.35" width="0.2" layer="1"/>
-<wire x1="18.42" y1="18.35" x2="18.42" y2="18.33" width="0.2" layer="1"/>
-<wire x1="20.7" y1="17.7" x2="21.35" y2="17.05" width="0.2" layer="1"/>
-<wire x1="21.35" y1="17.05" x2="22.05" y2="17.05" width="0.2" layer="1"/>
-<wire x1="22.13" y1="16.97" x2="22.91" y2="16.97" width="0.2" layer="1"/>
-<wire x1="20" y1="17.7" x2="20.7" y2="17.7" width="0.2" layer="1"/>
-<wire x1="22.05" y1="17.05" x2="22.13" y2="16.97" width="0.2" layer="1"/>
-<wire x1="20" y1="17.7" x2="20.03" y2="17.73" width="0.2" layer="1"/>
-<wire x1="20.03" y1="17.73" x2="20.03" y2="19.18" width="0.2" layer="1"/>
 <polygon width="0.1" layer="3" isolate="0.2">
 <vertex x="20" y="32"/>
 <vertex x="16" y="28"/>
@@ -5094,8 +5054,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <vertex x="26" y="28"/>
 <vertex x="54" y="28"/>
 <vertex x="65.5" y="39.5"/>
-<vertex x="83" y="39.5"/>
-<vertex x="86.5" y="36"/>
+<vertex x="99" y="39.5"/>
+<vertex x="102.5" y="36"/>
 <vertex x="106" y="36"/>
 <vertex x="109.5" y="36"/>
 <vertex x="109.5" y="39.5"/>
@@ -5134,9 +5094,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </polygon>
 <wire x1="41.25" y1="54.5" x2="41.75" y2="54.5" width="0.1" layer="3"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="20" y1="17.7" x2="19.25" y2="17.7" width="0.2" layer="1"/>
-<wire x1="18.6" y1="18.35" x2="18.42" y2="18.35" width="0.2" layer="1"/>
-<wire x1="19.25" y1="17.7" x2="18.6" y2="18.35" width="0.2" layer="1"/>
 <via x="20.03" y="20.28" extent="1-16" drill="0.15"/>
 <via x="84.95" y="6.1" extent="1-16" drill="0.15"/>
 <wire x1="84.7" y1="5.3" x2="84.7" y2="5.85" width="0.1" layer="1"/>
@@ -5231,6 +5188,16 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="96.215" y1="17.565" x2="94.585" y2="17.565" width="0.1" layer="1"/>
 <wire x1="94.585" y1="17.565" x2="94.45" y2="17.7" width="0.1" layer="1"/>
 <contactref element="TP11" pad="1"/>
+<wire x1="22.91" y1="16.97" x2="22.91" y2="17.89" width="0.4064" layer="1"/>
+<wire x1="22.91" y1="17.89" x2="22.6" y2="18.2" width="0.4064" layer="1"/>
+<wire x1="22.6" y1="18.2" x2="21" y2="18.2" width="0.4064" layer="1"/>
+<wire x1="20.03" y1="19.17" x2="20.03" y2="19.18" width="0.4064" layer="1"/>
+<wire x1="21" y1="18.2" x2="20.03" y2="19.17" width="0.4064" layer="1"/>
+<via x="17" y="17.4" extent="1-16" drill="0.15"/>
+<wire x1="17" y1="17.4" x2="17" y2="18.35" width="0.1" layer="1"/>
+<wire x1="17" y1="17.4" x2="17.8" y2="17.4" width="0.1" layer="1"/>
+<wire x1="17.8" y1="17.4" x2="18.2" y2="17.8" width="0.1" layer="1"/>
+<wire x1="18.2" y1="17.8" x2="18.2" y2="18.35" width="0.1" layer="1"/>
 </signal>
 <signal name="2.5V" airwireshidden="yes">
 <contactref element="IC1" pad="L5"/>
@@ -5250,7 +5217,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="96.19" y="31.2" extent="1-16" drill="0.15"/>
 <via x="26.66" y="25.6" extent="1-16" drill="0.15"/>
 <wire x1="81.2" y1="23" x2="81.6" y2="22.6" width="0.1" layer="1"/>
-<wire x1="82.3" y1="24.2" x2="82.3" y2="25.1" width="0.4064" layer="3"/>
+<wire x1="82.3" y1="24.2" x2="82.3" y2="25.3" width="0.4064" layer="3"/>
 <wire x1="82.3" y1="24.2" x2="81.6" y2="23.5" width="0.4064" layer="3"/>
 <wire x1="81.6" y1="23.5" x2="81.6" y2="22.6" width="0.4064" layer="3"/>
 <wire x1="82.3" y1="24.2" x2="86.4" y2="24.2" width="0.4064" layer="3"/>
@@ -5262,12 +5229,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="93.39" y1="28.4" x2="96.19" y2="31.2" width="0.4064" layer="3"/>
 <wire x1="88" y1="27.4" x2="89" y2="28.4" width="0.4064" layer="3"/>
 <wire x1="89" y1="28.4" x2="93.39" y2="28.4" width="0.4064" layer="3"/>
-<wire x1="82.3" y1="25.1" x2="81.55" y2="25.85" width="0.4064" layer="3"/>
-<wire x1="81.55" y1="25.85" x2="80.8" y2="25.85" width="0.4064" layer="3"/>
+<wire x1="82.3" y1="25.3" x2="81.75" y2="25.85" width="0.4064" layer="3"/>
+<wire x1="81.75" y1="25.85" x2="80.8" y2="25.85" width="0.4064" layer="3"/>
 <wire x1="80.8" y1="26.6" x2="80.8" y2="25.85" width="0.4064" layer="3"/>
 <wire x1="75.65" y1="23.25" x2="78.2" y2="25.8" width="0.8128" layer="3"/>
 <wire x1="75.65" y1="23.25" x2="75" y2="23.25" width="0.8128" layer="3"/>
-<wire x1="75" y1="23.25" x2="56.25" y2="23.25" width="0.8128" layer="3"/>
+<wire x1="71.4" y1="19.65" x2="62.85" y2="19.65" width="0.8128" layer="3"/>
 <wire x1="28.8" y1="24.4" x2="27.86" y2="24.4" width="0.4064" layer="1"/>
 <wire x1="80.75" y1="25.8" x2="80.8" y2="25.85" width="0.8128" layer="3"/>
 <wire x1="78.2" y1="25.8" x2="80.75" y2="25.8" width="0.8128" layer="3"/>
@@ -5279,8 +5246,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="98.2" y1="32.1" x2="98.2" y2="34.5" width="0.1" layer="1"/>
 <wire x1="98.2" y1="34.5" x2="98.8" y2="35.1" width="0.1" layer="1"/>
 <wire x1="98.8" y1="35.1" x2="98.8" y2="36.25" width="0.1" layer="1"/>
-<wire x1="56.25" y1="23.25" x2="51.8" y2="27.7" width="0.8128" layer="3"/>
-<wire x1="51.8" y1="27.7" x2="29.1" y2="27.7" width="0.8128" layer="3"/>
+<wire x1="62.85" y1="19.65" x2="54.8" y2="27.7" width="0.8128" layer="3"/>
+<wire x1="54.8" y1="27.7" x2="29.1" y2="27.7" width="0.8128" layer="3"/>
 <via x="75" y="23.25" extent="1-16" drill="0.15"/>
 <wire x1="75" y1="23.25" x2="74.4" y2="23.25" width="0.1" layer="1"/>
 <wire x1="74.4" y1="23.25" x2="74.35" y2="23.2" width="0.1" layer="1"/>
@@ -5289,6 +5256,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="29.1" y1="27.7" x2="27" y2="25.6" width="0.8128" layer="3"/>
 <wire x1="27" y1="25.6" x2="26.66" y2="25.6" width="0.8128" layer="3"/>
 <wire x1="95.320625" y1="31.2" x2="96.19" y2="31.2" width="0.2" layer="1"/>
+<wire x1="75" y1="23.25" x2="71.4" y2="19.65" width="0.8128" layer="3"/>
 </signal>
 <signal name="1.2V">
 <contactref element="C76" pad="1"/>
@@ -5374,7 +5342,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="88" y1="29" x2="93.16" y2="29" width="0.4064" layer="3"/>
 <wire x1="93.16" y1="29" x2="96.2" y2="32" width="0.4064" layer="3"/>
 <wire x1="75.25" y1="24.45" x2="79" y2="28.2" width="0.8128" layer="3"/>
-<wire x1="75.25" y1="24.45" x2="56.75" y2="24.45" width="0.8128" layer="3"/>
+<wire x1="70.85" y1="20.85" x2="63.35" y2="20.85" width="0.8128" layer="3"/>
 <wire x1="28.8" y1="26.7" x2="28.7" y2="26.8" width="0.4064" layer="1"/>
 <wire x1="28.7" y1="26.8" x2="26.49" y2="26.8" width="0.4064" layer="1"/>
 <wire x1="85.6" y1="22.6" x2="85.6" y2="25.8" width="0.4064" layer="2"/>
@@ -5385,14 +5353,16 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="96.85" y1="34.5" x2="96.85" y2="32.65" width="0.1" layer="1"/>
 <wire x1="79" y1="28.2" x2="81.6" y2="28.2" width="0.8128" layer="3"/>
 <wire x1="28.59" y1="28.9" x2="26.49" y2="26.8" width="0.8128" layer="3"/>
-<wire x1="56.75" y1="24.45" x2="52.3" y2="28.9" width="0.8128" layer="3"/>
-<wire x1="52.3" y1="28.9" x2="28.59" y2="28.9" width="0.8128" layer="3"/>
+<wire x1="63.35" y1="20.85" x2="55.3" y2="28.9" width="0.8128" layer="3"/>
+<wire x1="55.3" y1="28.9" x2="28.59" y2="28.9" width="0.8128" layer="3"/>
 <wire x1="75.25" y1="24.45" x2="75.2213625" y2="24.4213625" width="0.1" layer="3"/>
 <wire x1="75.2213625" y1="24.4213625" x2="75" y2="24.4213625" width="0.1" layer="3"/>
 <via x="75" y="24.4213625" extent="1-16" drill="0.15"/>
 <wire x1="75" y1="24.4213625" x2="74.4286375" y2="24.4213625" width="0.1" layer="1"/>
 <wire x1="74.4286375" y1="24.4213625" x2="74.35" y2="24.5" width="0.1" layer="1"/>
 <wire x1="95.320625" y1="32" x2="96.2" y2="32" width="0.2" layer="1"/>
+<wire x1="70.85" y1="20.85" x2="74.45" y2="24.45" width="0.8128" layer="3"/>
+<wire x1="74.45" y1="24.45" x2="75.25" y2="24.45" width="0.8128" layer="3"/>
 </signal>
 <signal name="FPGA_!STATUS">
 <contactref element="R1" pad="2"/>
@@ -5429,14 +5399,14 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="79.589" y1="24.589" x2="80" y2="25" width="0.1" layer="16"/>
 <contactref element="IC2" pad="P3"/>
 <wire x1="53.86071875" y1="14.1" x2="52.65" y2="14.1" width="0.1" layer="16"/>
-<wire x1="53.86071875" y1="14.1" x2="62.35371875" y2="22.593" width="0.1" layer="16"/>
+<wire x1="53.86071875" y1="14.1" x2="62.25371875" y2="22.493" width="0.1" layer="16"/>
 <wire x1="49.8" y1="14" x2="50.2" y2="13.6" width="0.1" layer="1"/>
 <via x="50.2" y="13.6" extent="1-16" drill="0.15"/>
 <wire x1="53.35" y1="14.1" x2="52.65" y2="14.1" width="0.1" layer="1"/>
 <via x="52.65" y="14.1" extent="1-16" drill="0.15"/>
-<wire x1="62.35371875" y1="22.593" x2="72.2509375" y2="22.593" width="0.1" layer="16"/>
+<wire x1="62.25371875" y1="22.493" x2="72.1509375" y2="22.493" width="0.1" layer="16"/>
 <wire x1="78.911" y1="24.589" x2="79.589" y2="24.589" width="0.1" layer="16"/>
-<wire x1="72.2509375" y1="22.593" x2="74.696" y2="25.0380625" width="0.1" layer="16"/>
+<wire x1="72.1509375" y1="22.493" x2="74.696" y2="25.0380625" width="0.1" layer="16"/>
 <wire x1="74.696" y1="25.0380625" x2="78.4619375" y2="25.0380625" width="0.1" layer="16"/>
 <wire x1="78.4619375" y1="25.0380625" x2="78.911" y2="24.589" width="0.1" layer="16"/>
 <wire x1="52.65" y1="14.1" x2="50.9" y2="14.1" width="0.1" layer="16"/>
@@ -5570,15 +5540,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="90.4" y="24.2" extent="1-16" drill="0.15"/>
 <wire x1="90.4" y1="24.2" x2="92.71" y2="21.89" width="0.1" layer="2"/>
 <wire x1="93" y1="7.563" x2="93.17403125" y2="7.563" width="0.1" layer="16"/>
-<wire x1="93.17403125" y1="7.563" x2="96.160515625" y2="10.549484375" width="0.1" layer="16"/>
-<wire x1="96.160515625" y1="10.549484375" x2="96.174" y2="10.56296875" width="0.1" layer="16"/>
-<wire x1="96.160515625" y1="10.549484375" x2="97.157" y2="11.54596875" width="0.1" layer="16"/>
 <wire x1="97.157" y1="11.54596875" x2="97.157" y2="14.983" width="0.1" layer="16"/>
 <wire x1="92.71" y1="21.89" x2="99.72" y2="21.89" width="0.1" layer="2"/>
 <wire x1="99.72" y1="21.89" x2="104.07" y2="17.54" width="0.1" layer="2"/>
 <wire x1="97.157" y1="14.983" x2="98.681" y2="16.507" width="0.1" layer="16"/>
 <wire x1="103.037" y1="16.507" x2="104.07" y2="17.54" width="0.1" layer="16"/>
 <wire x1="98.681" y1="16.507" x2="103.037" y2="16.507" width="0.1" layer="16"/>
+<wire x1="93.17403125" y1="7.563" x2="97.157" y2="11.54596875" width="0.1" layer="16"/>
 </signal>
 <signal name="USB_DP">
 <contactref element="X16" pad="A6"/>
@@ -5767,7 +5735,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC7" pad="5"/>
 <contactref element="IC7" pad="6"/>
 <contactref element="C9" pad="+"/>
-<wire x1="22.53" y1="33.13" x2="22.6" y2="33.7" width="0.2" layer="1"/>
 <polygon width="0.1" layer="3" isolate="0.2">
 <vertex x="0.2" y="37.5"/>
 <vertex x="17.5" y="37.5"/>
@@ -5784,14 +5751,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="22.2" y1="29.55" x2="22.2" y2="30.2" width="0.2" layer="1"/>
 <wire x1="23" y1="29.55" x2="23" y2="30.2" width="0.2" layer="1"/>
 <wire x1="23" y1="30.2" x2="22.6" y2="30.6" width="0.2" layer="1"/>
-<wire x1="4.25" y1="38.3" x2="4.25" y2="38" width="0.8128" layer="3"/>
 <via x="22.8" y="34.7" extent="1-16" drill="0.15"/>
-<wire x1="22.35" y1="33.95" x2="22.6" y2="33.7" width="0.4064" layer="1"/>
-<wire x1="22.8" y1="34.7" x2="22.8" y2="33.9" width="0.4064" layer="1"/>
+<wire x1="22.375" y1="33.925" x2="22.6" y2="33.7" width="0.4064" layer="1"/>
+<wire x1="22.8" y1="34.7" x2="22.8" y2="33.9" width="0.508" layer="1"/>
 <wire x1="22.8" y1="33.9" x2="22.6" y2="33.7" width="0.4064" layer="1"/>
-<via x="22.4" y="34.7" extent="1-16" drill="0.15"/>
-<wire x1="22.4" y1="34.7" x2="22.4" y2="33.9" width="0.4064" layer="1"/>
-<wire x1="22.4" y1="33.9" x2="22.6" y2="33.7" width="0.4064" layer="1"/>
+<via x="22.375" y="34.7" extent="1-16" drill="0.15"/>
+<wire x1="22.375" y1="34.7" x2="22.375" y2="33.925" width="0.508" layer="1"/>
 </signal>
 <signal name="NAV_INT0">
 <contactref element="IC10" pad="12"/>
@@ -5834,9 +5799,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="N$24">
 <contactref element="R20" pad="2"/>
 <contactref element="IC8" pad="31"/>
-<wire x1="108.6" y1="54.15" x2="109.95" y2="54.15" width="0.1" layer="1"/>
-<wire x1="110.5" y1="54.7" x2="111.25" y2="54.7" width="0.1" layer="1"/>
-<wire x1="109.95" y1="54.15" x2="110.5" y2="54.7" width="0.1" layer="1"/>
+<wire x1="108.6" y1="54.15" x2="109.55" y2="54.15" width="0.1" layer="1"/>
+<wire x1="110.1" y1="54.7" x2="111.25" y2="54.7" width="0.1" layer="1"/>
+<wire x1="109.55" y1="54.15" x2="110.1" y2="54.7" width="0.1" layer="1"/>
 </signal>
 <signal name="SD_!WP!">
 <contactref element="IC8" pad="19"/>
@@ -5844,10 +5809,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="106.935" y1="41.2" x2="106.935" y2="40" width="0.1" layer="1"/>
 <via x="106.935" y="40" extent="1-16" drill="0.15"/>
 <wire x1="106.935" y1="40" x2="106.51" y2="40.425" width="0.1" layer="2"/>
-<wire x1="106.51" y1="47.79" x2="107.72" y2="49" width="0.1" layer="2"/>
-<wire x1="107.72" y1="49" x2="107.72" y2="50.24" width="0.1" layer="2"/>
-<wire x1="107.72" y1="50.24" x2="107.33" y2="50.63" width="0.1" layer="2"/>
-<wire x1="106.51" y1="40.425" x2="106.51" y2="47.79" width="0.1" layer="2"/>
+<wire x1="106.51" y1="47.99" x2="107.82" y2="49.3" width="0.1" layer="2"/>
+<wire x1="107.82" y1="49.3" x2="107.82" y2="50.14" width="0.1" layer="2"/>
+<wire x1="107.82" y1="50.14" x2="107.33" y2="50.63" width="0.1" layer="2"/>
+<wire x1="106.51" y1="40.425" x2="106.51" y2="47.99" width="0.1" layer="2"/>
 <wire x1="107.33" y1="50.63" x2="106.33" y2="50.63" width="0.1" layer="2"/>
 <wire x1="106.33" y1="50.63" x2="105.55" y2="49.8" width="0.1" layer="2"/>
 <via x="105.55" y="49.8" extent="1-16" drill="0.15"/>
@@ -5948,13 +5913,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="96.75" y1="47.1" x2="96.75" y2="45.12" width="0.1" layer="1"/>
 <wire x1="60.3759375" y1="29.218" x2="72.46403125" y2="29.218" width="0.1" layer="16"/>
 <wire x1="96.75" y1="45.12" x2="96.13" y2="44.5" width="0.1" layer="2"/>
-<wire x1="96.13" y1="44.5" x2="95.15103125" y2="44.5" width="0.1" layer="2"/>
-<wire x1="95.15103125" y1="44.5" x2="84.575515625" y2="33.924484375" width="0.1" layer="2"/>
-<wire x1="84.575515625" y1="33.924484375" x2="84.547" y2="33.89596875" width="0.1" layer="2"/>
+<wire x1="95.15103125" y1="44.5" x2="96.13" y2="44.5" width="0.1" layer="2"/>
 <wire x1="77.20203125" y1="30.081" x2="78.510515625" y2="31.389484375" width="0.1" layer="16"/>
 <wire x1="73.32703125" y1="30.081" x2="77.20203125" y2="30.081" width="0.1" layer="16"/>
 <wire x1="72.46403125" y1="29.218" x2="73.32703125" y2="30.081" width="0.1" layer="16"/>
-<wire x1="84.575515625" y1="33.924484375" x2="83.6" y2="32.94896875" width="0.1" layer="2"/>
 <wire x1="83.6" y1="30.2" x2="83.6" y2="32.94896875" width="0.1" layer="2"/>
 <wire x1="78.510515625" y1="31.389484375" x2="82.410515625" y2="31.389484375" width="0.1" layer="16"/>
 <contactref element="IC1" pad="P8"/>
@@ -5962,6 +5924,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="84" y="29.8" extent="1-16" drill="0.15"/>
 <wire x1="84" y1="29.8" x2="83.6" y2="30.2" width="0.1" layer="2"/>
 <wire x1="82.410515625" y1="31.389484375" x2="84" y2="29.8" width="0.1" layer="16"/>
+<wire x1="83.6" y1="32.94896875" x2="95.15103125" y2="44.5" width="0.1" layer="2"/>
 </signal>
 <signal name="TS_SCL">
 <contactref element="X5" pad="2"/>
@@ -6235,12 +6198,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="52.5" y1="10.1" x2="53.473" y2="9.127" width="0.1" layer="16"/>
 <wire x1="53.473" y1="9.127" x2="73.62184375" y2="9.127" width="0.1" layer="16"/>
 <wire x1="73.62184375" y1="9.127" x2="78.2598" y2="13.76495625" width="0.1" layer="16"/>
-<wire x1="79.9018625" y1="13.76495625" x2="80.31790625" y2="14.181" width="0.1" layer="16"/>
 <wire x1="78.2598" y1="13.76495625" x2="79.9018625" y2="13.76495625" width="0.1" layer="16"/>
-<wire x1="81.2389375" y1="14.181" x2="81.4119375" y2="14.354" width="0.1" layer="16"/>
-<wire x1="80.31790625" y1="14.181" x2="81.2389375" y2="14.181" width="0.1" layer="16"/>
+<wire x1="79.9018625" y1="13.76495625" x2="80.49090625" y2="14.354" width="0.1" layer="16"/>
 <wire x1="83.43296875" y1="14.354" x2="84.70596875" y2="15.627" width="0.1" layer="16"/>
-<wire x1="81.4119375" y1="14.354" x2="83.43296875" y2="14.354" width="0.1" layer="16"/>
+<wire x1="80.49090625" y1="14.354" x2="83.43296875" y2="14.354" width="0.1" layer="16"/>
 <wire x1="89.427" y1="15.627" x2="91.5" y2="17.7" width="0.1" layer="16"/>
 <wire x1="91.5" y1="17.7" x2="91.5" y2="25.1" width="0.1" layer="16"/>
 <wire x1="91.5" y1="25.1" x2="90" y2="26.6" width="0.1" layer="16"/>
@@ -6565,7 +6526,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="C37" pad="2"/>
 <contactref element="R40" pad="1"/>
 <contactref element="R41" pad="1"/>
-<wire x1="23.36" y1="4.305" x2="23.4425" y2="4.2225" width="0.1" layer="1"/>
 <wire x1="23.4425" y1="4.2225" x2="23.65" y2="4.215" width="0.1" layer="1"/>
 <wire x1="23.605" y1="4.385" x2="23.4425" y2="4.2225" width="0.1" layer="1"/>
 <wire x1="23.605" y1="6.385" x2="23.4" y2="6.59" width="0.2" layer="1"/>
@@ -6607,7 +6567,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="5.12" y1="53.53" x2="30.13" y2="53.53" width="0.3048" layer="2"/>
 <wire x1="30.13" y1="53.53" x2="42.95" y2="40.71" width="0.3048" layer="2"/>
 <wire x1="21.17" y1="5.56" x2="18.8251875" y2="5.56" width="0.3048" layer="2"/>
-<wire x1="29.2" y1="7.35" x2="28.95" y2="7.6" width="0.1" layer="1"/>
 <wire x1="25.4" y1="3.05" x2="25.4" y2="2.3" width="0.2" layer="1"/>
 <wire x1="25.4" y1="3.05" x2="29.25" y2="3.05" width="0.2" layer="1"/>
 <wire x1="29.25" y1="3.05" x2="30.9" y2="4.7" width="0.2" layer="1"/>
@@ -6627,7 +6586,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="41.57" y1="40.7" x2="41.58" y2="40.71" width="0.1" layer="1"/>
 <via x="41.58" y="40.71" extent="1-16" drill="0.15"/>
 <via x="19.32" y="6.67" extent="1-16" drill="0.15"/>
-<wire x1="18.735" y1="4.4" x2="18.7" y2="4.35" width="0.1" layer="1"/>
 <wire x1="19.32" y1="6.67" x2="18.42585" y2="6.67" width="0.3048" layer="2"/>
 <wire x1="3.46" y1="51.2593375" x2="5.2988625" y2="53.0982" width="0.3048" layer="2"/>
 <wire x1="5.2988625" y1="53.0982" x2="29.9511375" y2="53.0982" width="0.3048" layer="2"/>
@@ -6638,30 +6596,29 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="20.2" y1="7.42" x2="20.2" y2="6.9" width="0.2" layer="1"/>
 <wire x1="19.97" y1="6.67" x2="19.32" y2="6.67" width="0.2" layer="1"/>
 <wire x1="20.2" y1="6.9" x2="19.97" y2="6.67" width="0.2" layer="1"/>
-<wire x1="18.7" y1="4.35" x2="18.7" y2="6.05" width="0.2" layer="1"/>
-<wire x1="18.7" y1="6.05" x2="19.32" y2="6.67" width="0.2" layer="1"/>
+<wire x1="19.32" y1="6.67" x2="18.7" y2="6.05" width="0.2" layer="1"/>
+<wire x1="18.7" y1="6.05" x2="18.7" y2="4.35" width="0.2" layer="1"/>
 </signal>
 <signal name="FPGA_CLK">
 <contactref element="IC1" pad="E1"/>
 <wire x1="90" y1="22.2" x2="90.4" y2="21.8" width="0.1" layer="1"/>
 <via x="90.7" y="21.8" extent="1-16" drill="0.15"/>
-<wire x1="75.8" y1="16.4" x2="89.8" y2="16.4" width="0.2032" layer="3"/>
+<wire x1="74" y1="16.4" x2="89.8" y2="16.4" width="0.2032" layer="3"/>
 <wire x1="89.8" y1="16.4" x2="91.3" y2="17.9" width="0.2032" layer="3"/>
 <wire x1="91.3" y1="17.9" x2="91.3" y2="21.2" width="0.2032" layer="3"/>
 <wire x1="91.3" y1="21.2" x2="90.7" y2="21.8" width="0.2032" layer="3"/>
-<wire x1="55.88696875" y1="22.465" x2="53.54196875" y2="24.81" width="0.2032" layer="3"/>
-<wire x1="55.88696875" y1="22.465" x2="69.735" y2="22.465" width="0.2032" layer="3"/>
-<wire x1="69.735" y1="22.465" x2="75.8" y2="16.4" width="0.2032" layer="3"/>
+<wire x1="62.48696875" y1="18.865" x2="71.535" y2="18.865" width="0.2032" layer="3"/>
+<wire x1="71.535" y1="18.865" x2="74" y2="16.4" width="0.2032" layer="3"/>
 <contactref element="R22" pad="1"/>
 <via x="43.4" y="26.5" extent="1-16" drill="0.15"/>
 <wire x1="43.4" y1="26.5" x2="43.4" y2="27.05" width="0.2" layer="1"/>
 <wire x1="43.8" y1="26.9" x2="43.4" y2="26.5" width="0.2" layer="3"/>
-<wire x1="53.54196875" y1="24.81" x2="51.45196875" y2="26.9" width="0.2" layer="3"/>
-<wire x1="51.45196875" y1="26.9" x2="43.8" y2="26.9" width="0.2" layer="3"/>
+<wire x1="43.8" y1="26.9" x2="54.45196875" y2="26.9" width="0.2" layer="3"/>
 <contactref element="R24" pad="1"/>
-<wire x1="93.15" y1="21.6" x2="92.95" y2="21.8" width="0.1" layer="1"/>
-<wire x1="92.95" y1="21.8" x2="90.7" y2="21.8" width="0.1" layer="1"/>
 <wire x1="90.4" y1="21.8" x2="90.7" y2="21.8" width="0.1" layer="1"/>
+<wire x1="54.45196875" y1="26.9" x2="62.48696875" y2="18.865" width="0.2" layer="3"/>
+<wire x1="93.15" y1="21.6" x2="90.9" y2="21.6" width="0.1" layer="1"/>
+<wire x1="90.9" y1="21.6" x2="90.7" y2="21.8" width="0.1" layer="1"/>
 </signal>
 <signal name="JACK_MIC">
 <contactref element="C52" pad="1"/>
@@ -6724,13 +6681,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC9" pad="28"/>
 <via x="7.5" y="6" extent="1-16" drill="0.65" diameter="1.1"/>
 <via x="23.004196875" y="5.795803125" extent="1-16" drill="0.15"/>
-<wire x1="23.004196875" y1="7.420803125" x2="23" y2="7.42" width="0.1" layer="1"/>
 <wire x1="23.004196875" y1="5.795803125" x2="21.66839375" y2="4.46" width="0.3048" layer="2"/>
 <wire x1="9.81" y1="6" x2="7.5" y2="6" width="0.3048" layer="2"/>
 <wire x1="21.66839375" y1="4.46" x2="11.35" y2="4.46" width="0.3048" layer="2"/>
 <wire x1="11.35" y1="4.46" x2="9.81" y2="6" width="0.3048" layer="2"/>
-<wire x1="23" y1="7.42" x2="23.004196875" y2="7.415803125" width="0.2" layer="1"/>
-<wire x1="23.004196875" y1="7.415803125" x2="23.004196875" y2="5.795803125" width="0.2" layer="1"/>
+<wire x1="23" y1="7.42" x2="23" y2="5.8" width="0.2" layer="1"/>
+<wire x1="23" y1="5.8" x2="23.004196875" y2="5.795803125" width="0.2" layer="1"/>
 </signal>
 <signal name="RINGN">
 <contactref element="IC9" pad="27"/>
@@ -6780,13 +6736,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="83.8" y1="8.365" x2="83.8" y2="9.02" width="0.1" layer="1"/>
 <via x="83.8" y="9.02" extent="1-16" drill="0.15"/>
 <via x="25.6" y="20.65" extent="1-16" drill="0.15"/>
-<wire x1="78.78" y1="4" x2="83.8" y2="9.02" width="0.8128" layer="3"/>
+<wire x1="62.98" y1="4" x2="64" y2="5.02" width="0.8128" layer="3"/>
 <wire x1="24.95" y1="24.8" x2="25.6" y2="24.8" width="0.2" layer="1"/>
 <wire x1="25.6" y1="24.8" x2="26.5" y2="23.9" width="0.2" layer="1"/>
-<wire x1="27.305" y1="19.556" x2="25.6" y2="19.556" width="0.4064" layer="1"/>
-<wire x1="25.6" y1="19.556" x2="25.344" y2="19.556" width="0.4064" layer="1"/>
-<wire x1="25.344" y1="19.556" x2="25.6" y2="19.5" width="0.4064" layer="1"/>
-<wire x1="25.6" y1="20.65" x2="25.6" y2="19.556" width="0.4064" layer="1"/>
+<wire x1="27.105" y1="19.556" x2="25.4" y2="19.556" width="0.4064" layer="1"/>
+<wire x1="25.4" y1="19.556" x2="25.144" y2="19.556" width="0.4064" layer="1"/>
+<wire x1="25.144" y1="19.556" x2="25.4" y2="19.5" width="0.4064" layer="1"/>
+<wire x1="25.4" y1="20.45" x2="25.4" y2="19.556" width="0.4064" layer="1"/>
 <wire x1="26.5" y1="23.9" x2="26.5" y2="22.9" width="0.2" layer="1"/>
 <wire x1="26.5" y1="22.9" x2="25.6" y2="22" width="0.2" layer="1"/>
 <wire x1="25.6" y1="22" x2="25.6" y2="20.65" width="0.4064" layer="1"/>
@@ -6794,7 +6750,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="25.6" y1="20.3" x2="25.6" y2="20.65" width="0.8128" layer="3"/>
 <wire x1="30.4" y1="15.5" x2="25.6" y2="20.3" width="0.8128" layer="3"/>
 <wire x1="30.4" y1="9.94" x2="36.34" y2="4" width="0.8128" layer="3"/>
-<wire x1="36.34" y1="4" x2="78.78" y2="4" width="0.8128" layer="3"/>
+<wire x1="36.34" y1="4" x2="62.98" y2="4" width="0.8128" layer="3"/>
+<wire x1="25.6" y1="20.65" x2="25.4" y2="20.45" width="0.4064" layer="1"/>
+<wire x1="64" y1="5.02" x2="79.8" y2="5.02" width="0.8128" layer="3"/>
+<wire x1="79.8" y1="5.02" x2="83.8" y2="9.02" width="0.8128" layer="3"/>
 </signal>
 <signal name="N$53">
 <via x="116.5" y="3.5" extent="1-16" drill="2" diameter="2.54"/>
@@ -6814,18 +6773,23 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC7" pad="33"/>
 <via x="84.1" y="6.11" extent="1-16" drill="0.15"/>
 <wire x1="84.1" y1="5.3" x2="84.1" y2="6.11" width="0.1" layer="1"/>
-<wire x1="84.1" y1="6.11" x2="83.89" y2="6.11" width="0.8128" layer="3"/>
-<wire x1="80.44" y1="2.66" x2="83.89" y2="6.11" width="0.8128" layer="3"/>
-<via x="23.4" y="22.53" extent="1-16" drill="0.15"/>
+<wire x1="80.3" y1="3.91" x2="64.49" y2="3.91" width="0.8128" layer="3"/>
+<wire x1="63.44" y1="2.86" x2="64.49" y2="3.91" width="0.8128" layer="3"/>
 <wire x1="23.4" y1="22.53" x2="23.4" y2="23.65" width="0.2" layer="1"/>
 <wire x1="23" y1="23.65" x2="23" y2="22.93" width="0.2" layer="1"/>
 <wire x1="23" y1="22.93" x2="23.4" y2="22.53" width="0.2" layer="1"/>
-<wire x1="24.4" y1="21.53" x2="23.4" y2="22.53" width="0.8128" layer="3"/>
 <wire x1="29.2" y1="15" x2="29.2" y2="9.42" width="0.8128" layer="3"/>
-<wire x1="24.4" y1="19.8" x2="24.4" y2="21.53" width="0.8128" layer="3"/>
 <wire x1="29.2" y1="15" x2="24.4" y2="19.8" width="0.8128" layer="3"/>
-<wire x1="29.2" y1="9.42" x2="35.96" y2="2.66" width="0.8128" layer="3"/>
-<wire x1="35.96" y1="2.66" x2="80.44" y2="2.66" width="0.8128" layer="3"/>
+<wire x1="29.2" y1="9.42" x2="35.76" y2="2.86" width="0.8128" layer="3"/>
+<wire x1="35.76" y1="2.86" x2="63.44" y2="2.86" width="0.8128" layer="3"/>
+<wire x1="23.4" y1="22.53" x2="23.8" y2="22.13" width="0.2" layer="1"/>
+<wire x1="23.8" y1="22.13" x2="23.8" y2="21.4" width="0.2" layer="1"/>
+<via x="23.8" y="21.4" extent="1-16" drill="0.15"/>
+<wire x1="24.4" y1="19.8" x2="24.4" y2="20.8" width="0.8128" layer="3"/>
+<wire x1="24.4" y1="20.8" x2="23.8" y2="21.4" width="0.8128" layer="3"/>
+<wire x1="81.1" y1="4.71" x2="80.3" y2="3.91" width="0.8128" layer="3"/>
+<wire x1="82.7" y1="4.71" x2="81.1" y2="4.71" width="0.8128" layer="3"/>
+<wire x1="84.1" y1="6.11" x2="82.7" y2="4.71" width="0.8128" layer="3"/>
 </signal>
 <signal name="LCD_PU0">
 <contactref element="R48" pad="2"/>
@@ -6844,9 +6808,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="N$92">
 <contactref element="IC8" pad="32"/>
 <contactref element="R18" pad="1"/>
-<wire x1="108.6" y1="54.65" x2="109.25" y2="54.65" width="0.1" layer="1"/>
-<wire x1="110.8" y1="56.2" x2="111.25" y2="56.2" width="0.1" layer="1"/>
-<wire x1="109.25" y1="54.65" x2="110.8" y2="56.2" width="0.1" layer="1"/>
+<wire x1="108.6" y1="54.65" x2="109.15" y2="54.65" width="0.1" layer="1"/>
+<wire x1="110.7" y1="56.2" x2="111.25" y2="56.2" width="0.1" layer="1"/>
+<wire x1="109.15" y1="54.65" x2="110.7" y2="56.2" width="0.1" layer="1"/>
 </signal>
 <signal name="SYS_LED0">
 <contactref element="R44" pad="2"/>
@@ -6859,9 +6823,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="N$17">
 <contactref element="IC25" pad="4"/>
 <contactref element="IC25" pad="3"/>
-<wire x1="122.3" y1="53.515" x2="121.4" y2="53.515" width="0.2" layer="16"/>
-<wire x1="121.4" y1="53.515" x2="121.4" y2="52.55" width="0.2" layer="16"/>
-<wire x1="121.4" y1="52.55" x2="122.3" y2="52.55" width="0.2" layer="16"/>
+<wire x1="122.3" y1="53.515" x2="121.5" y2="53.515" width="0.2" layer="16"/>
+<wire x1="121.5" y1="53.515" x2="121.5" y2="52.55" width="0.2" layer="16"/>
+<wire x1="121.5" y1="52.55" x2="122.3" y2="52.55" width="0.2" layer="16"/>
 <wire x1="122.3" y1="52.55" x2="122.3" y2="52.545" width="0.2" layer="16"/>
 </signal>
 <signal name="N$12">
@@ -6869,18 +6833,15 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="C8" pad="1"/>
 <contactref element="IC2" pad="C1"/>
 <contactref element="C17" pad="1"/>
-<wire x1="36.65" y1="12.1" x2="36.6" y2="12" width="0.1" layer="1"/>
-<wire x1="36.6" y1="12" x2="36.55" y2="11.9" width="0.1" layer="1"/>
-<wire x1="36.65" y1="14.25" x2="36.65" y2="14.3" width="0.1" layer="1"/>
-<wire x1="36.65" y1="12.05" x2="36.6" y2="12" width="0.1" layer="1"/>
 <wire x1="41" y1="12.4" x2="41" y2="12" width="0.1" layer="1"/>
 <wire x1="41" y1="12" x2="40.1" y2="11.1" width="0.1" layer="1"/>
 <wire x1="40.1" y1="11.1" x2="38.1" y2="11.1" width="0.1" layer="1"/>
 <wire x1="37.3" y1="11.9" x2="36.55" y2="11.9" width="0.1" layer="1"/>
 <wire x1="38.1" y1="11.1" x2="37.3" y2="11.9" width="0.1" layer="1"/>
+<wire x1="36.6" y1="13.1" x2="36.6" y2="11.95" width="0.1" layer="1"/>
+<wire x1="36.6" y1="11.95" x2="36.55" y2="11.9" width="0.1" layer="1"/>
 <wire x1="36.65" y1="14.3" x2="36.65" y2="13.15" width="0.1" layer="1"/>
 <wire x1="36.65" y1="13.15" x2="36.6" y2="13.1" width="0.1" layer="1"/>
-<wire x1="36.6" y1="13.1" x2="36.6" y2="12" width="0.1" layer="1"/>
 </signal>
 <signal name="N$78">
 <contactref element="IC10" pad="10"/>
@@ -6906,36 +6867,40 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC25" pad="1"/>
 <contactref element="IC11" pad="7"/>
 <contactref element="TP77" pad="1"/>
-<wire x1="122.3" y1="55.455" x2="122.3" y2="56.4" width="0.2" layer="16"/>
-<via x="122.3" y="56.4" extent="1-16" drill="0.15"/>
-<wire x1="125.6" y1="39.45" x2="123" y2="36.85" width="0.2" layer="1"/>
+<wire x1="122.3" y1="55.455" x2="122.3" y2="56.2" width="0.2" layer="16"/>
+<via x="122.3" y="56.2" extent="1-16" drill="0.15"/>
+<wire x1="125.7" y1="39.55" x2="123" y2="36.85" width="0.2" layer="1"/>
 <wire x1="123" y1="36.85" x2="123" y2="25.4" width="0.2" layer="1"/>
 <wire x1="123" y1="25.4" x2="124.8" y2="23.6" width="0.2" layer="1"/>
-<wire x1="124.75" y1="9.8" x2="124.75" y2="8.75" width="0.2" layer="16"/>
-<wire x1="124.75" y1="8.75" x2="123" y2="7" width="0.2" layer="16"/>
-<wire x1="124.8" y1="23.6" x2="124.8" y2="8.8" width="0.2" layer="1"/>
-<wire x1="124.8" y1="8.8" x2="123" y2="7" width="0.2" layer="1"/>
-<wire x1="125.6" y1="39.45" x2="125.6" y2="52.75" width="0.2" layer="1"/>
-<wire x1="125.6" y1="52.75" x2="122.3" y2="56.05" width="0.2" layer="1"/>
-<wire x1="122.3" y1="56.05" x2="122.3" y2="56.4" width="0.2" layer="1"/>
+<wire x1="124.75" y1="9.8" x2="124.75" y2="7.95" width="0.2" layer="16"/>
+<wire x1="124.75" y1="7.95" x2="123.8" y2="7" width="0.2" layer="16"/>
+<wire x1="124.8" y1="23.6" x2="124.8" y2="8" width="0.2" layer="1"/>
+<wire x1="124.8" y1="8" x2="123.8" y2="7" width="0.2" layer="1"/>
+<wire x1="125.7" y1="39.55" x2="125.7" y2="52.55" width="0.2" layer="1"/>
+<wire x1="125.7" y1="52.55" x2="122.3" y2="55.95" width="0.2" layer="1"/>
+<wire x1="122.3" y1="55.95" x2="122.3" y2="56.2" width="0.2" layer="1"/>
+<wire x1="123.8" y1="7" x2="123" y2="7" width="0.2" layer="16"/>
+<wire x1="123.8" y1="7" x2="123" y2="7" width="0.2" layer="1"/>
 </signal>
 <signal name="NAV_I2C_SCL2">
 <contactref element="IC25" pad="7"/>
 <contactref element="IC11" pad="6"/>
 <contactref element="TP78" pad="1"/>
-<wire x1="123.7" y1="54.485" x2="124.8" y2="54.485" width="0.2" layer="16"/>
-<wire x1="124.8" y1="54.485" x2="124.85" y2="54.5" width="0.2" layer="16"/>
-<via x="124.85" y="54.5" extent="1-16" drill="0.15"/>
-<wire x1="126" y1="39.3" x2="123.4" y2="36.7" width="0.2" layer="1"/>
+<wire x1="123.7" y1="54.485" x2="124.5" y2="54.485" width="0.2" layer="16"/>
+<wire x1="124.5" y1="54.485" x2="124.5" y2="54.5" width="0.2" layer="16"/>
+<via x="124.5" y="54.5" extent="1-16" drill="0.15"/>
+<wire x1="126.1" y1="39.4" x2="123.4" y2="36.7" width="0.2" layer="1"/>
 <wire x1="123.4" y1="36.7" x2="123.4" y2="25.55" width="0.2" layer="1"/>
 <wire x1="123.4" y1="25.55" x2="125.2" y2="23.75" width="0.2" layer="1"/>
-<wire x1="125.25" y1="9.8" x2="125.25" y2="8.75" width="0.2" layer="16"/>
-<wire x1="125.25" y1="8.75" x2="127" y2="7" width="0.2" layer="16"/>
-<wire x1="125.2" y1="23.75" x2="125.2" y2="8.8" width="0.2" layer="1"/>
-<wire x1="125.2" y1="8.8" x2="127" y2="7" width="0.2" layer="1"/>
-<wire x1="126" y1="39.3" x2="126" y2="52.9" width="0.2" layer="1"/>
-<wire x1="126" y1="52.9" x2="124.85" y2="54.05" width="0.2" layer="1"/>
-<wire x1="124.85" y1="54.05" x2="124.85" y2="54.5" width="0.2" layer="1"/>
+<wire x1="125.25" y1="9.8" x2="125.25" y2="7.95" width="0.2" layer="16"/>
+<wire x1="125.25" y1="7.95" x2="126.2" y2="7" width="0.2" layer="16"/>
+<wire x1="125.2" y1="23.75" x2="125.2" y2="8" width="0.2" layer="1"/>
+<wire x1="125.2" y1="8" x2="126.2" y2="7" width="0.2" layer="1"/>
+<wire x1="126.1" y1="39.4" x2="126.1" y2="52.7" width="0.2" layer="1"/>
+<wire x1="126.2" y1="7" x2="127" y2="7" width="0.2" layer="16"/>
+<wire x1="126.2" y1="7" x2="127" y2="7" width="0.2" layer="1"/>
+<wire x1="126.1" y1="52.7" x2="124.5" y2="54.3" width="0.2" layer="1"/>
+<wire x1="124.5" y1="54.3" x2="124.5" y2="54.5" width="0.2" layer="1"/>
 </signal>
 <signal name="3.3V2">
 <contactref element="IC25" pad="8"/>
@@ -6943,52 +6908,46 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="LED1" pad="4"/>
 <contactref element="IC11" pad="8"/>
 <contactref element="TP79" pad="1"/>
-<wire x1="126.455" y1="55.455" x2="123.7" y2="55.455" width="0.3048" layer="16"/>
-<wire x1="126.455" y1="55.455" x2="127" y2="56" width="0.3048" layer="16"/>
-<wire x1="123.7" y1="55.455" x2="123" y2="55.455" width="0.3048" layer="16"/>
-<wire x1="123" y1="55.455" x2="123" y2="52.55" width="0.3048" layer="16"/>
-<wire x1="123" y1="52.55" x2="123.7" y2="52.55" width="0.3048" layer="16"/>
+<wire x1="123" y1="52.55" x2="123.7" y2="52.55" width="0.2" layer="16"/>
 <wire x1="123.7" y1="52.55" x2="123.7" y2="52.545" width="0.2" layer="16"/>
-<wire x1="125.2" y1="24.85" x2="126.55" y2="26.2" width="0.3048" layer="16"/>
-<wire x1="126.55" y1="26.2" x2="126.55" y2="36.95" width="0.3048" layer="16"/>
-<wire x1="126.55" y1="36.95" x2="125.5" y2="38" width="0.3048" layer="16"/>
-<wire x1="125.5" y1="38" x2="125.5" y2="52.295" width="0.3048" layer="16"/>
 <wire x1="124.25" y1="9.8" x2="124.25" y2="9.25" width="0.2" layer="16"/>
-<wire x1="124.25" y1="9.25" x2="123.8" y2="8.8" width="0.2" layer="16"/>
-<wire x1="125.5" y1="52.295" x2="125.25" y2="52.545" width="0.3048" layer="16"/>
-<wire x1="125.25" y1="52.545" x2="123.7" y2="52.545" width="0.3048" layer="16"/>
+<wire x1="124.25" y1="9.25" x2="124" y2="9" width="0.2" layer="16"/>
 <via x="124.2" y="21.7" extent="1-16" drill="0.15"/>
-<wire x1="124.3" y1="15.075" x2="124.3" y2="9.3" width="0.4064" layer="1"/>
-<wire x1="124.3" y1="9.3" x2="123.8" y2="8.8" width="0.4064" layer="1"/>
-<via x="123.8" y="8.8" extent="1-16" drill="0.15"/>
+<via x="124" y="9" extent="1-16" drill="0.15"/>
 <wire x1="122.675" y1="16.15" x2="122.675" y2="15.075" width="0.2" layer="16"/>
 <via x="122.675" y="15.075" extent="1-16" drill="0.15"/>
-<wire x1="122.675" y1="15.075" x2="124.3" y2="15.075" width="0.4064" layer="1"/>
-<wire x1="124.3" y1="15.075" x2="124.3" y2="21.6" width="0.4064" layer="1"/>
-<wire x1="124.3" y1="21.6" x2="124.2" y2="21.7" width="0.4064" layer="1"/>
-<wire x1="125.2" y1="24.85" x2="125.2" y2="22.7" width="0.3048" layer="16"/>
-<wire x1="125.2" y1="22.7" x2="124.2" y2="21.7" width="0.3048" layer="16"/>
+<polygon width="0.1" layer="3" isolate="0.2">
+<vertex x="122" y="57"/>
+<vertex x="128" y="57"/>
+<vertex x="128" y="6"/>
+<vertex x="122" y="6"/>
+<vertex x="122" y="51.5"/>
+<vertex x="121" y="51.5"/>
+<vertex x="121" y="57"/>
+</polygon>
+<via x="123" y="52.55" extent="1-16" drill="0.15"/>
+<wire x1="123.7" y1="55.455" x2="124.5" y2="55.455" width="0.2" layer="16"/>
+<via x="124.5" y="55.455" extent="1-16" drill="0.15"/>
 </signal>
 <signal name="GND2">
 <contactref element="IC25" pad="6"/>
 <contactref element="IC11" pad="5"/>
-<contactref element="TP76" pad="1"/>
-<wire x1="127.2" y1="37.2" x2="127.2" y2="25.95" width="0.3048" layer="16"/>
-<via x="125.8" y="21.7" extent="1-16" drill="0.15"/>
-<via x="126.2" y="8.8" extent="1-16" drill="0.15"/>
-<wire x1="126.2" y1="8.8" x2="125.75" y2="9.25" width="0.2" layer="16"/>
+<via x="126" y="9" extent="1-16" drill="0.15"/>
+<wire x1="126" y1="9" x2="125.75" y2="9.25" width="0.2" layer="16"/>
 <wire x1="125.75" y1="9.25" x2="125.75" y2="9.8" width="0.2" layer="16"/>
-<wire x1="127.2" y1="25.95" x2="125.8" y2="24.55" width="0.3048" layer="16"/>
-<wire x1="123.7" y1="53.515" x2="123.735" y2="53.55" width="0.2" layer="16"/>
-<wire x1="125.8" y1="24.55" x2="125.8" y2="21.7" width="0.3048" layer="16"/>
-<wire x1="126.2" y1="8.8" x2="125.7" y2="9.3" width="0.4064" layer="1"/>
-<wire x1="125.7" y1="9.3" x2="125.7" y2="21.6" width="0.4064" layer="1"/>
-<wire x1="125.7" y1="21.6" x2="125.8" y2="21.7" width="0.4064" layer="1"/>
-<wire x1="127.2" y1="37.2" x2="126.1" y2="38.3" width="0.3048" layer="16"/>
-<wire x1="126.1" y1="53.6" x2="127" y2="54.5" width="0.3048" layer="16"/>
-<wire x1="123.735" y1="53.55" x2="126.05" y2="53.55" width="0.2" layer="16"/>
-<wire x1="126.05" y1="53.55" x2="126.1" y2="53.6" width="0.2" layer="16"/>
-<wire x1="126.1" y1="38.3" x2="126.1" y2="53.6" width="0.3048" layer="16"/>
+<polygon width="0.1" layer="1" isolate="0.2">
+<vertex x="122" y="57"/>
+<vertex x="128" y="57"/>
+<vertex x="128" y="6"/>
+<vertex x="122" y="6"/>
+<vertex x="122" y="51.5"/>
+<vertex x="121" y="51.5"/>
+<vertex x="121" y="57"/>
+</polygon>
+<contactref element="TP73" pad="1"/>
+<wire x1="123.7" y1="53.515" x2="123.685" y2="53.5" width="0.2" layer="16"/>
+<wire x1="123.685" y1="53.5" x2="123" y2="53.5" width="0.2" layer="16"/>
+<via x="123" y="53.5" extent="1-16" drill="0.15"/>
 </signal>
 <signal name="N$40">
 <contactref element="LED1" pad="1"/>
@@ -7060,10 +7019,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <vertex x="-6.8" y="37"/>
 </polygon>
 <wire x1="-5" y1="52" x2="-4.6" y2="52.4" width="0.4064" layer="16"/>
-<wire x1="-4.6" y1="52.4" x2="-3.8" y2="52.4" width="0.4064" layer="16"/>
+<wire x1="-4.6" y1="52.4" x2="-3.8" y2="52.4" width="0.508" layer="16"/>
 <via x="-3.8" y="52.4" extent="1-16" drill="0.15"/>
-<via x="-3.8" y="52" extent="1-16" drill="0.15"/>
-<wire x1="-3.8" y1="52" x2="-5" y2="52" width="0.4064" layer="16"/>
+<via x="-3.8" y="51.975" extent="1-16" drill="0.15"/>
+<wire x1="-3.8" y1="51.975" x2="-4.975" y2="51.975" width="0.508" layer="16"/>
+<wire x1="-4.975" y1="51.975" x2="-5" y2="52" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$82">
 <via x="-2.5" y="24" extent="1-16" drill="0.6" diameter="1.1" alwaysstop="yes"/>
@@ -7490,16 +7450,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="78.4" y1="10.4" x2="74.848" y2="6.848" width="0.1" layer="16"/>
 <wire x1="80.832675" y1="11.72195625" x2="83.82635625" y2="11.72195625" width="0.1" layer="16"/>
 <wire x1="83.82635625" y1="11.72195625" x2="84" y2="11.9" width="0.1" layer="16"/>
-<wire x1="84" y1="19.4" x2="84" y2="13.56908125" width="0.1" layer="1"/>
-<wire x1="84" y1="13.56908125" x2="84.0024" y2="13.56668125" width="0.1" layer="1"/>
-<wire x1="84.0024" y1="13.56668125" x2="84.0024" y2="13.23331875" width="0.1" layer="1"/>
-<wire x1="84.0024" y1="13.23331875" x2="84" y2="13.23091875" width="0.1" layer="1"/>
-<wire x1="84" y1="13.23091875" x2="84" y2="11.9" width="0.1" layer="1"/>
 <wire x1="86.2" y1="9.6" x2="84" y2="11.8" width="0.1" layer="1"/>
 <wire x1="84" y1="11.8" x2="84" y2="11.9" width="0.1" layer="1"/>
 <wire x1="44.73096875" y1="6.848" x2="41" y2="10.57896875" width="0.1" layer="16"/>
 <wire x1="41" y1="10.57896875" x2="41" y2="14.8" width="0.1" layer="16"/>
 <wire x1="74.848" y1="6.848" x2="44.73096875" y2="6.848" width="0.1" layer="16"/>
+<wire x1="84" y1="19.4" x2="84" y2="11.9" width="0.1" layer="1"/>
 </signal>
 <signal name="LTDC_R7" class="5">
 <contactref element="X3" pad="15"/>
@@ -7716,7 +7672,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="38.75" y="53.35" extent="1-16" drill="0.15"/>
 <via x="14.29" y="23.36" extent="1-16" drill="0.15"/>
 <wire x1="14.29" y1="23.36" x2="15.19" y2="23.36" width="0.2" layer="1"/>
-<wire x1="23.31" y1="32.92" x2="19.09" y2="32.92" width="0.8128" layer="3"/>
 <polygon width="0.1" layer="3">
 <vertex x="37" y="54"/>
 <vertex x="36" y="53"/>
@@ -7747,7 +7702,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="37.4" y1="50.8" x2="38.46" y2="50.8" width="0.4064" layer="1"/>
 <wire x1="38.46" y1="50.8" x2="38.47" y2="50.79" width="0.4064" layer="1"/>
 <wire x1="14.29" y1="28.12" x2="14.29" y2="23.36" width="0.8128" layer="3"/>
-<wire x1="19.09" y1="32.92" x2="14.29" y2="28.12" width="0.8128" layer="3"/>
+<wire x1="14.29" y1="28.12" x2="19.09" y2="32.92" width="0.8128" layer="3"/>
 <contactref element="R19" pad="2"/>
 <wire x1="57.25" y1="51.4" x2="57.85" y2="51.4" width="0.1" layer="1"/>
 <via x="57.85" y="51.4" extent="1-16" drill="0.15"/>
@@ -7758,8 +7713,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="28.45" y1="37.7" x2="28.45" y2="35.3" width="0.6096" layer="1"/>
 <wire x1="28.45" y1="35.3" x2="28.25" y2="35.1" width="0.6096" layer="1"/>
 <wire x1="57.85" y1="51.4" x2="50" y2="51.4" width="0.1" layer="3"/>
-<wire x1="46.65" y1="48.05" x2="40.9" y2="48.05" width="0.1" layer="3"/>
-<wire x1="50" y1="51.4" x2="46.65" y2="48.05" width="0.1" layer="3"/>
+<wire x1="46.6" y1="48" x2="40.85" y2="48" width="0.1" layer="3"/>
+<wire x1="50" y1="51.4" x2="46.6" y2="48" width="0.1" layer="3"/>
+<wire x1="19.09" y1="32.92" x2="23.57" y2="32.92" width="0.8128" layer="3"/>
 </signal>
 <signal name="SDHC_ST">
 <contactref element="X1" pad="D1"/>
@@ -7891,8 +7847,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="6.225" y1="30.225" x2="6.175" y2="30.275" width="0.1" layer="1"/>
 <wire x1="7.385" y1="32.725" x2="6.225" y2="32.725" width="0.1" layer="1"/>
 <wire x1="6.225" y1="32.725" x2="6.175" y2="32.675" width="0.1" layer="1"/>
-<wire x1="6.665" y1="32.675" x2="6.175" y2="32.675" width="0.508" layer="3"/>
-<wire x1="6.635" y1="30.275" x2="6.175" y2="30.275" width="0.508" layer="3"/>
 <contactref element="Q2" pad="2"/>
 <polygon width="0.1" layer="3" isolate="0.2">
 <vertex x="0.2" y="26"/>
@@ -7909,8 +7863,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="19.8" y1="29.55" x2="19.8" y2="30.4" width="0.2" layer="1"/>
 <wire x1="19.8" y1="30.4" x2="18.7" y2="31.5" width="0.4064" layer="1"/>
 <wire x1="18.7" y1="31.5" x2="18.7" y2="33.7" width="0.4064" layer="1"/>
-<via x="14.55" y="33.45" extent="1-16" drill="0.15"/>
-<wire x1="14.55" y1="33.45" x2="15.5" y2="33.45" width="0.4064" layer="1"/>
+<via x="15.5" y="34.25" extent="1-16" drill="0.15"/>
+<wire x1="15.5" y1="34.25" x2="15.5" y2="33.45" width="0.4064" layer="1"/>
 <wire x1="15.5" y1="33.45" x2="15.5" y2="31.7" width="0.1" layer="1"/>
 <via x="17.7" y="33.85" extent="1-16" drill="0.15"/>
 <wire x1="17.7" y1="33.85" x2="18.55" y2="33.85" width="0.4064" layer="1"/>
@@ -8052,7 +8006,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="19.75" y1="26.8" x2="21.3" y2="25.25" width="0.8128" layer="3"/>
 <wire x1="21.3" y1="25.25" x2="24.5" y2="25.25" width="0.8128" layer="3"/>
 <wire x1="24.5" y1="25.25" x2="25.75" y2="24" width="0.8128" layer="3"/>
-<wire x1="25.75" y1="24" x2="26.7" y2="24" width="0.8128" layer="3"/>
+<wire x1="25.75" y1="24" x2="26.75" y2="24" width="0.8128" layer="3"/>
 </signal>
 <signal name="N$15">
 <contactref element="IC7" pad="37"/>
@@ -8064,7 +8018,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="25.9" y="23.2" extent="1-16" drill="0.15"/>
 <via x="29.9" y="21.75" extent="1-16" drill="0.15"/>
 <wire x1="29.9" y1="21.75" x2="29.9" y2="17.7" width="0.4064" layer="1"/>
-<wire x1="28.464" y1="16.264" x2="27.305" y2="16.264" width="0.4064" layer="1"/>
+<wire x1="28.464" y1="16.264" x2="27.105" y2="16.264" width="0.4064" layer="1"/>
 <wire x1="29.9" y1="17.7" x2="28.464" y2="16.264" width="0.4064" layer="1"/>
 <wire x1="25.9" y1="23.2" x2="28.45" y2="23.2" width="0.4064" layer="16"/>
 <wire x1="28.45" y1="23.2" x2="29.9" y2="21.75" width="0.4064" layer="16"/>
@@ -8100,30 +8054,28 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="19.05" y1="25.6" x2="18.4" y2="25.6" width="0.2" layer="1"/>
 <wire x1="18.4" y1="25.6" x2="18.2" y2="25.4" width="0.2" layer="1"/>
 <wire x1="22.6" y1="23.65" x2="22.6" y2="22.15" width="0.2" layer="1"/>
-<wire x1="22.6" y1="22.15" x2="22.95" y2="21.8" width="0.2" layer="1"/>
-<via x="22.95" y="21.8" extent="1-16" drill="0.15"/>
-<wire x1="24.95" y1="26.4" x2="25.8" y2="26.4" width="0.2" layer="1"/>
-<wire x1="25.8" y1="26.4" x2="25.993446875" y2="26.206553125" width="0.2" layer="1"/>
-<wire x1="26" y1="26.2" x2="25.993446875" y2="26.206553125" width="0.2" layer="1"/>
-<via x="25.993446875" y="26.206553125" extent="1-16" drill="0.15"/>
+<wire x1="22.6" y1="22.15" x2="22.75" y2="22" width="0.2" layer="1"/>
+<via x="22.75" y="22" extent="1-16" drill="0.15"/>
+<via x="25.95" y="26.2" extent="1-16" drill="0.15"/>
 <wire x1="23.8" y1="29.55" x2="23.8" y2="31.1" width="0.2" layer="1"/>
 <wire x1="23.8" y1="31.1" x2="24.2" y2="31.5" width="0.2" layer="1"/>
 <via x="24.2" y="31.5" extent="1-16" drill="0.15"/>
 <wire x1="24.2" y1="31.5" x2="23.75" y2="31.05" width="0.4064" layer="16"/>
 <via x="21.8" y="31.05" extent="1-16" drill="0.15"/>
 <via x="26.3" y="24.9" extent="1-16" drill="0.15"/>
-<wire x1="25.993446875" y1="26.206553125" x2="25.993446875" y2="25.206553125" width="0.4064" layer="16"/>
-<wire x1="25.993446875" y1="25.206553125" x2="26.3" y2="24.9" width="0.4064" layer="16"/>
 <wire x1="21.8" y1="31.05" x2="23.75" y2="31.05" width="0.4064" layer="16"/>
-<wire x1="22.95" y1="21.8" x2="22.6" y2="22.15" width="0.4064" layer="16"/>
-<wire x1="23.75" y1="26.2" x2="23.75" y2="31.05" width="0.4064" layer="16"/>
-<wire x1="25.993446875" y1="26.206553125" x2="25.98689375" y2="26.2" width="0.4064" layer="16"/>
-<wire x1="25.98689375" y1="26.2" x2="23.8" y2="26.2" width="0.4064" layer="16"/>
-<wire x1="23.8" y1="26.2" x2="23.75" y2="26.2" width="0.4064" layer="16"/>
+<wire x1="22.75" y1="22" x2="22.6" y2="22.15" width="0.4064" layer="16"/>
 <wire x1="22.6" y1="22.15" x2="22.6" y2="25" width="0.4064" layer="16"/>
-<wire x1="22.6" y1="25" x2="23.8" y2="26.2" width="0.4064" layer="16"/>
 <wire x1="22.6" y1="25" x2="18.6" y2="25" width="0.4064" layer="16"/>
 <wire x1="18.6" y1="25" x2="18.2" y2="25.4" width="0.4064" layer="16"/>
+<wire x1="24.95" y1="26.4" x2="25.75" y2="26.4" width="0.2" layer="1"/>
+<wire x1="25.75" y1="26.4" x2="25.95" y2="26.2" width="0.2" layer="1"/>
+<wire x1="22.6" y1="25" x2="23.8" y2="26.2" width="0.4064" layer="16"/>
+<wire x1="23.8" y1="26.2" x2="25.95" y2="26.2" width="0.4064" layer="16"/>
+<wire x1="23.8" y1="26.2" x2="23.75" y2="26.25" width="0.4064" layer="16"/>
+<wire x1="23.75" y1="26.25" x2="23.75" y2="31.05" width="0.4064" layer="16"/>
+<wire x1="26.3" y1="24.9" x2="25.95" y2="25.25" width="0.4064" layer="16"/>
+<wire x1="25.95" y1="25.25" x2="25.95" y2="26.2" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="C3" pad="2"/>
@@ -8186,14 +8138,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="19.3" y="22.6" extent="1-16" drill="0.15"/>
 <wire x1="89.6" y1="31.4" x2="89.6" y2="35.15" width="0.1" layer="16"/>
 <wire x1="89.6" y1="35.15" x2="87.5" y2="37.25" width="0.1" layer="16"/>
-<wire x1="87.5" y1="37.25" x2="86.95" y2="37.25" width="0.1" layer="16"/>
+<wire x1="87.5" y1="37.25" x2="86.3" y2="37.25" width="0.1" layer="16"/>
 <wire x1="43.65" y1="38.15" x2="48.55" y2="38.15" width="0.1" layer="16"/>
 <wire x1="43.65" y1="38.15" x2="42.75" y2="37.25" width="0.1" layer="16"/>
 <wire x1="42.75" y1="37.25" x2="16.25" y2="37.25" width="0.1" layer="16"/>
-<wire x1="92.725" y1="58.465" x2="92.725" y2="43.775" width="0.1" layer="2"/>
-<wire x1="86.95" y1="38" x2="86.95" y2="37.25" width="0.1" layer="2"/>
-<via x="86.95" y="37.25" extent="1-16" drill="0.15"/>
-<wire x1="92.725" y1="43.775" x2="86.95" y2="38" width="0.1" layer="2"/>
+<wire x1="92.725" y1="58.465" x2="92.725" y2="43.675" width="0.1" layer="2"/>
+<via x="86.3" y="37.25" extent="1-16" drill="0.15"/>
+<wire x1="92.725" y1="43.675" x2="86.3" y2="37.25" width="0.1" layer="2"/>
 <contactref element="IC2" pad="K14"/>
 <wire x1="46.6" y1="22.8" x2="46.2" y2="23.2" width="0.1" layer="1"/>
 <via x="46.2" y="23.2" extent="1-16" drill="0.15"/>
@@ -8205,11 +8156,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="45.7" y1="30.3" x2="52.1" y2="36.7" width="0.1" layer="2"/>
 <wire x1="49.45" y1="37.25" x2="52.1" y2="37.25" width="0.1" layer="16"/>
 <wire x1="48.55" y1="38.15" x2="49.45" y2="37.25" width="0.1" layer="16"/>
-<wire x1="52.1" y1="37.25" x2="86.95" y2="37.25" width="0.1" layer="16"/>
+<wire x1="52.1" y1="37.25" x2="86.3" y2="37.25" width="0.1" layer="16"/>
 <via x="16.25" y="37.25" extent="1-16" drill="0.15"/>
-<wire x1="16.25" y1="37.25" x2="16.25" y2="36.4" width="0.1" layer="2"/>
-<wire x1="16.25" y1="36.4" x2="14" y2="34.15" width="0.1" layer="2"/>
-<wire x1="14" y1="34.15" x2="14" y2="33.35" width="0.1" layer="2"/>
+<wire x1="16.25" y1="37.25" x2="14" y2="35" width="0.1" layer="2"/>
+<wire x1="14" y1="35" x2="14" y2="33.35" width="0.1" layer="2"/>
 <wire x1="14" y1="33.35" x2="12.65" y2="32" width="0.1" layer="2"/>
 <wire x1="12.65" y1="32" x2="12.65" y2="26.95" width="0.1" layer="2"/>
 <wire x1="12.65" y1="26.95" x2="17" y2="22.6" width="0.1" layer="2"/>
@@ -8283,7 +8233,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="BQ1" class="2">
 <contactref element="IC2" pad="N11"/>
 <contactref element="IC3" pad="G8"/>
-<wire x1="49" y1="20.4" x2="48.9840375" y2="20.4" width="0.1" layer="1"/>
 <via x="47.8" y="20" extent="1-16" drill="0.15"/>
 <via x="62" y="12" extent="1-16" drill="0.15"/>
 <wire x1="62" y1="12" x2="62.4" y2="11.6" width="0.1" layer="1"/>
@@ -8356,10 +8305,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="24.48" y1="10.5" x2="25" y2="10.5" width="0.1" layer="1"/>
 <wire x1="25" y1="10.5" x2="25.2" y2="10.7" width="0.1" layer="1"/>
 <wire x1="25.2" y1="10.7" x2="25.83" y2="10.7" width="0.1" layer="1"/>
-<wire x1="21" y1="22.2" x2="20.35" y2="21.55" width="0.1" layer="1"/>
-<wire x1="20.35" y1="21.55" x2="19.25" y2="21.55" width="0.1" layer="1"/>
-<wire x1="19.25" y1="21.55" x2="18.42" y2="20.72" width="0.1" layer="1"/>
-<wire x1="18.42" y1="20.72" x2="18.42" y2="19.73" width="0.1" layer="1"/>
 <wire x1="26.287" y1="14.783" x2="21" y2="20.07" width="0.1" layer="16"/>
 <wire x1="21" y1="20.07" x2="21" y2="22.2" width="0.1" layer="16"/>
 <wire x1="104.37" y1="12.58" x2="105.22" y2="12.58" width="0.1" layer="16"/>
@@ -8375,6 +8320,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="117.25" y1="8.61" x2="117.565" y2="8.925" width="0.1" layer="1"/>
 <wire x1="118.635" y1="8.925" x2="119.01" y2="8.55" width="0.1" layer="1"/>
 <wire x1="119.01" y1="8.55" x2="119.01" y2="7.01" width="0.1" layer="1"/>
+<wire x1="21" y1="22.2" x2="20.2" y2="21.4" width="0.1" layer="1"/>
+<wire x1="20.2" y1="21.4" x2="19" y2="21.4" width="0.1" layer="1"/>
+<wire x1="19" y1="21.4" x2="18.2" y2="20.6" width="0.1" layer="1"/>
+<wire x1="18.2" y1="20.6" x2="18.2" y2="19.65" width="0.1" layer="1"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="IC9" pad="36"/>
@@ -8430,10 +8379,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="89.6" y1="27.4" x2="96.6" y2="27.4" width="0.1" layer="1"/>
 <wire x1="98.39" y1="29.19" x2="98.58" y2="29.19" width="0.1" layer="1"/>
 <wire x1="96.6" y1="27.4" x2="98.39" y2="29.19" width="0.1" layer="1"/>
-<wire x1="20.6" y1="22.77" x2="19.78" y2="21.95" width="0.1" layer="1"/>
-<wire x1="18.05" y1="21.95" x2="17.2" y2="21.1" width="0.1" layer="1"/>
-<wire x1="17.2" y1="21.1" x2="17.2" y2="19.72" width="0.1" layer="1"/>
-<wire x1="19.78" y1="21.95" x2="18.05" y2="21.95" width="0.1" layer="1"/>
 <wire x1="26.06" y1="14.68896875" x2="20.6" y2="20.14896875" width="0.1" layer="16"/>
 <wire x1="20.6" y1="20.14896875" x2="20.6" y2="22.77" width="0.1" layer="16"/>
 <wire x1="24.48" y1="10.1" x2="25.29" y2="10.1" width="0.1" layer="1"/>
@@ -8443,6 +8388,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="108.87" y1="12.13" x2="110.8" y2="10.2" width="0.1" layer="16"/>
 <wire x1="116.92" y1="7.61" x2="116.92" y2="8.84" width="0.1" layer="1"/>
 <wire x1="116.92" y1="8.84" x2="117.655" y2="9.575" width="0.1" layer="1"/>
+<wire x1="20.6" y1="22.77" x2="19.63" y2="21.8" width="0.1" layer="1"/>
+<wire x1="19.63" y1="21.8" x2="18.4" y2="21.8" width="0.1" layer="1"/>
+<wire x1="18.4" y1="21.8" x2="17" y2="20.4" width="0.1" layer="1"/>
+<wire x1="17" y1="20.4" x2="17" y2="19.65" width="0.1" layer="1"/>
 </signal>
 <signal name="V_SENS">
 <contactref element="C13" pad="+"/>
@@ -8481,7 +8430,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="107" y1="3.4" x2="107" y2="4.7" width="0.1" layer="1"/>
 <wire x1="107" y1="4.7" x2="107.5" y2="5.2" width="0.1" layer="1"/>
 <contactref element="TP68" pad="1"/>
-<wire x1="25.5" y1="33.7" x2="25.5" y2="33.35" width="0.4064" layer="1"/>
 <wire x1="25.7" y1="30.15" x2="25.7" y2="33.5" width="0.4064" layer="1"/>
 <wire x1="25.7" y1="33.5" x2="25.5" y2="33.7" width="0.4064" layer="1"/>
 <wire x1="24.2" y1="29.55" x2="24.2" y2="29.95" width="0.2" layer="1"/>
@@ -8489,8 +8437,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="24.2" y1="29.95" x2="24.4" y2="30.15" width="0.2" layer="1"/>
 <wire x1="25.7" y1="30.15" x2="25.9" y2="30.15" width="0.4064" layer="3"/>
 <wire x1="25.9" y1="30.15" x2="56.57" y2="30.15" width="0.8128" layer="3"/>
-<wire x1="65.37" y1="38.95" x2="82.85" y2="38.95" width="0.8128" layer="3"/>
-<wire x1="82.85" y1="38.95" x2="86.35" y2="35.45" width="0.8128" layer="3"/>
+<wire x1="65.37" y1="38.95" x2="98.85" y2="38.95" width="0.8128" layer="3"/>
+<wire x1="98.85" y1="38.95" x2="102.35" y2="35.45" width="0.8128" layer="3"/>
 <wire x1="56.57" y1="30.15" x2="65.37" y2="38.95" width="0.8128" layer="3"/>
 <wire x1="115.975" y1="9.575" x2="114.575" y2="9.575" width="0.1" layer="1"/>
 <wire x1="114.575" y1="9.575" x2="114.55" y2="9.6" width="0.1" layer="1"/>
@@ -8510,8 +8458,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <vertex x="110" y="13"/>
 <vertex x="104" y="13"/>
 </polygon>
-<wire x1="109.95" y1="35.45" x2="110.5" y2="36" width="0.8128" layer="3"/>
-<wire x1="86.35" y1="35.45" x2="109.95" y2="35.45" width="0.8128" layer="3"/>
+<wire x1="102.35" y1="35.45" x2="109.95" y2="35.45" width="0.8128" layer="3"/>
+<wire x1="109.95" y1="35.45" x2="110.45" y2="35.95" width="0.8128" layer="3"/>
 </signal>
 <signal name="USB_TX0">
 <contactref element="X16" pad="A2"/>
@@ -8532,11 +8480,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="9.09" y="33.725" extent="1-16" drill="0.15"/>
 <wire x1="7.385" y1="33.225" x2="8.59" y2="33.225" width="0.1" layer="1"/>
 <wire x1="8.59" y1="33.225" x2="9.09" y2="33.725" width="0.1" layer="1"/>
-<wire x1="86.143" y1="35.557" x2="12.8790625" y2="35.557" width="0.1" layer="16"/>
+<wire x1="86.143" y1="35.557" x2="12.5790625" y2="35.557" width="0.1" layer="16"/>
 <wire x1="86.143" y1="35.557" x2="87.2" y2="34.5" width="0.1" layer="16"/>
 <wire x1="87.2" y1="34.5" x2="87.2" y2="31.4" width="0.1" layer="16"/>
-<wire x1="11.0470625" y1="33.725" x2="9.09" y2="33.725" width="0.1" layer="16"/>
-<wire x1="12.8790625" y1="35.557" x2="11.0470625" y2="33.725" width="0.1" layer="16"/>
+<wire x1="10.7470625" y1="33.725" x2="9.09" y2="33.725" width="0.1" layer="16"/>
+<wire x1="12.5790625" y1="35.557" x2="10.7470625" y2="33.725" width="0.1" layer="16"/>
 <contactref element="IC1" pad="T4"/>
 <wire x1="87.6" y1="31" x2="87.2" y2="31.4" width="0.1" layer="1"/>
 <via x="87.2" y="31.4" extent="1-16" drill="0.15"/>
@@ -8548,18 +8496,18 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="9.79" y="32.64" extent="1-16" drill="0.15"/>
 <wire x1="9.79" y1="32.64" x2="9.7794" y2="32.6294" width="0.1" layer="2"/>
 <wire x1="9.7794" y1="32.6294" x2="8.12836875" y2="32.6294" width="0.1" layer="2"/>
-<wire x1="8.12836875" y1="32.6294" x2="7.293" y2="31.79403125" width="0.1" layer="2"/>
-<wire x1="7.293" y1="31.79403125" x2="7.293" y2="30.15196875" width="0.1" layer="2"/>
-<wire x1="7.293" y1="30.15196875" x2="6.58403125" y2="29.443" width="0.1" layer="2"/>
 <wire x1="86.8" y1="34.17896875" x2="85.64896875" y2="35.33" width="0.1" layer="16"/>
 <wire x1="86.8" y1="31" x2="86.4" y2="30.6" width="0.1" layer="16"/>
 <wire x1="86.8" y1="34.17896875" x2="86.8" y2="31" width="0.1" layer="16"/>
-<wire x1="10.31896875" y1="32.64" x2="9.79" y2="32.64" width="0.1" layer="16"/>
-<wire x1="13.00896875" y1="35.33" x2="10.31896875" y2="32.64" width="0.1" layer="16"/>
-<wire x1="85.64896875" y1="35.33" x2="13.00896875" y2="35.33" width="0.1" layer="16"/>
+<wire x1="10.09396875" y1="32.64" x2="9.79" y2="32.64" width="0.1" layer="16"/>
+<wire x1="12.78396875" y1="35.33" x2="10.09396875" y2="32.64" width="0.1" layer="16"/>
+<wire x1="85.64896875" y1="35.33" x2="12.78396875" y2="35.33" width="0.1" layer="16"/>
 <contactref element="IC1" pad="R5"/>
 <wire x1="86.8" y1="30.2" x2="86.4" y2="30.6" width="0.1" layer="1"/>
 <via x="86.4" y="30.6" extent="1-16" drill="0.15"/>
+<wire x1="8.12836875" y1="32.6294" x2="7.273" y2="31.77403125" width="0.1" layer="2"/>
+<wire x1="7.273" y1="30.13196875" x2="6.58403125" y2="29.443" width="0.1" layer="2"/>
+<wire x1="7.273" y1="31.77403125" x2="7.273" y2="30.13196875" width="0.1" layer="2"/>
 </signal>
 <signal name="USB_TX3">
 <contactref element="X16" pad="B3"/>
@@ -8567,21 +8515,21 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="6.49" y1="29.67" x2="5.68" y2="29.67" width="0.1" layer="2"/>
 <via x="9.1" y="33.07" extent="1-16" drill="0.15"/>
 <wire x1="9.1" y1="33.07" x2="8.2479375" y2="33.07" width="0.1" layer="2"/>
-<wire x1="8.2479375" y1="33.07" x2="7.066" y2="31.8880625" width="0.1" layer="2"/>
-<wire x1="7.066" y1="30.246" x2="6.49" y2="29.67" width="0.1" layer="2"/>
-<wire x1="7.066" y1="31.8880625" x2="7.066" y2="30.246" width="0.1" layer="2"/>
 <wire x1="9.1" y1="33.07" x2="9.1" y2="32.7" width="0.1" layer="16"/>
 <wire x1="9.1" y1="32.7" x2="9.6" y2="32.2" width="0.1" layer="16"/>
-<wire x1="9.6" y1="32.2" x2="10.2" y2="32.2" width="0.1" layer="16"/>
+<wire x1="9.6" y1="32.2" x2="9.975" y2="32.2" width="0.1" layer="16"/>
 <wire x1="86.4" y1="34.2" x2="85.497" y2="35.103" width="0.1" layer="16"/>
 <wire x1="86.4" y1="34.2" x2="86.4" y2="31.4" width="0.1" layer="16"/>
 <wire x1="85.497" y1="35.103" x2="31.4" y2="35.103" width="0.1" layer="16"/>
 <wire x1="31.4" y1="35.103" x2="28.2" y2="35.103" width="0.1" layer="16"/>
-<wire x1="28.2" y1="35.103" x2="13.103" y2="35.103" width="0.1" layer="16"/>
-<wire x1="13.103" y1="35.103" x2="10.2" y2="32.2" width="0.1" layer="16"/>
+<wire x1="28.2" y1="35.103" x2="12.878" y2="35.103" width="0.1" layer="16"/>
+<wire x1="12.878" y1="35.103" x2="9.975" y2="32.2" width="0.1" layer="16"/>
 <contactref element="IC1" pad="T5"/>
 <wire x1="86.8" y1="31" x2="86.4" y2="31.4" width="0.1" layer="1"/>
 <via x="86.4" y="31.4" extent="1-16" drill="0.15"/>
+<wire x1="8.2479375" y1="33.07" x2="7.046" y2="31.8680625" width="0.1" layer="2"/>
+<wire x1="7.046" y1="30.226" x2="6.49" y2="29.67" width="0.1" layer="2"/>
+<wire x1="7.046" y1="31.8680625" x2="7.046" y2="30.226" width="0.1" layer="2"/>
 </signal>
 <signal name="USB_RX0">
 <contactref element="X16" pad="B11"/>
@@ -8636,7 +8584,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </signal>
 <signal name="USB_RX3">
 <contactref element="X16" pad="A10"/>
-<wire x1="7.385" y1="29.725" x2="7.395" y2="29.715" width="0.1" layer="1"/>
 <wire x1="7.385" y1="29.725" x2="8.875" y2="29.725" width="0.1" layer="1"/>
 <via x="8.875" y="29.725" extent="1-16" drill="0.15"/>
 <via x="12.12" y="33.3" extent="1-16" drill="0.15"/>
@@ -8664,18 +8611,18 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC2" pad="E15"/>
 <wire x1="42.6" y1="23.6" x2="42.2" y2="24" width="0.1" layer="1"/>
 <via x="42.2" y="24" extent="1-16" drill="0.15"/>
-<via x="7.52" y="26.56" extent="1-16" drill="0.15"/>
+<via x="7.5" y="26.55" extent="1-16" drill="0.15"/>
 <wire x1="8.9" y1="32.225" x2="8.045" y2="32.225" width="0.1" layer="2"/>
-<wire x1="8.045" y1="32.225" x2="7.52" y2="31.7" width="0.1" layer="2"/>
-<wire x1="7.52" y1="31.7" x2="7.52" y2="26.56" width="0.1" layer="2"/>
-<wire x1="7.52" y1="26.56103125" x2="7.52" y2="26.56" width="0.1" layer="16"/>
-<wire x1="7.52" y1="26.56" x2="9.46" y2="26.56" width="0.1" layer="16"/>
 <wire x1="17.8" y1="30.35" x2="19.75" y2="32.3" width="0.1" layer="16"/>
-<wire x1="9.46" y1="26.56" x2="13.25" y2="30.35" width="0.1" layer="16"/>
-<wire x1="13.25" y1="30.35" x2="17.8" y2="30.35" width="0.1" layer="16"/>
+<wire x1="17.8" y1="30.35" x2="13.25" y2="30.35" width="0.1" layer="16"/>
 <wire x1="19.75" y1="32.3" x2="35.7" y2="32.3" width="0.1" layer="16"/>
 <wire x1="42.2" y1="25.8" x2="42.2" y2="24" width="0.1" layer="16"/>
 <wire x1="35.7" y1="32.3" x2="42.2" y2="25.8" width="0.1" layer="16"/>
+<wire x1="13.25" y1="30.35" x2="9.45" y2="26.55" width="0.1" layer="16"/>
+<wire x1="9.45" y1="26.55" x2="7.5" y2="26.55" width="0.1" layer="16"/>
+<wire x1="8.045" y1="32.225" x2="8.045" y2="32.225" width="0.1" layer="2"/>
+<wire x1="8.045" y1="32.225" x2="7.5" y2="31.68" width="0.1" layer="2"/>
+<wire x1="7.5" y1="31.68" x2="7.5" y2="26.55" width="0.1" layer="2"/>
 </signal>
 <signal name="USB_CC2">
 <contactref element="X16" pad="B5"/>
@@ -8733,13 +8680,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="48.6" y="12.8" extent="1-16" drill="0.15"/>
 <wire x1="48.6" y1="12.8" x2="49.277" y2="12.123" width="0.1" layer="16"/>
 <wire x1="49.277" y1="12.123" x2="52.8468125" y2="12.123" width="0.1" layer="16"/>
-<wire x1="52.8468125" y1="12.123" x2="62.6358125" y2="21.912" width="0.1" layer="16"/>
+<wire x1="52.8468125" y1="12.123" x2="62.5358125" y2="21.812" width="0.1" layer="16"/>
 <wire x1="82.2500625" y1="23.908" x2="82.6460625" y2="24.304" width="0.1" layer="16"/>
 <wire x1="75.723875" y1="23.908" x2="82.2500625" y2="23.908" width="0.1" layer="16"/>
-<wire x1="72.53303125" y1="21.912" x2="74.34403125" y2="23.723" width="0.1" layer="16"/>
+<wire x1="72.43303125" y1="21.812" x2="74.34403125" y2="23.723" width="0.1" layer="16"/>
 <wire x1="75.538875" y1="23.723" x2="75.723875" y2="23.908" width="0.1" layer="16"/>
 <wire x1="74.34403125" y1="23.723" x2="75.538875" y2="23.723" width="0.1" layer="16"/>
-<wire x1="62.6358125" y1="21.912" x2="72.53303125" y2="21.912" width="0.1" layer="16"/>
+<wire x1="62.5358125" y1="21.812" x2="72.43303125" y2="21.812" width="0.1" layer="16"/>
 <wire x1="86.4" y1="25.37896875" x2="86.4" y2="25.8" width="0.1" layer="16"/>
 <wire x1="82.6460625" y1="24.304" x2="85.32503125" y2="24.304" width="0.1" layer="16"/>
 <wire x1="85.32503125" y1="24.304" x2="86.4" y2="25.37896875" width="0.1" layer="16"/>
@@ -8753,14 +8700,14 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="50.2" y="12.8" extent="1-16" drill="0.15"/>
 <wire x1="50.2" y1="12.8" x2="50.65" y2="12.35" width="0.1" layer="16"/>
 <wire x1="50.65" y1="12.35" x2="52.75278125" y2="12.35" width="0.1" layer="16"/>
-<wire x1="52.75278125" y1="12.35" x2="62.54178125" y2="22.139" width="0.1" layer="16"/>
-<wire x1="62.54178125" y1="22.139" x2="72.439" y2="22.139" width="0.1" layer="16"/>
+<wire x1="52.75278125" y1="12.35" x2="62.44178125" y2="22.039" width="0.1" layer="16"/>
+<wire x1="62.44178125" y1="22.039" x2="72.339" y2="22.039" width="0.1" layer="16"/>
 <wire x1="82.15603125" y1="24.135" x2="82.55203125" y2="24.531" width="0.1" layer="16"/>
 <wire x1="82.55203125" y1="24.531" x2="85.131" y2="24.531" width="0.1" layer="16"/>
 <wire x1="75.44484375" y1="23.95" x2="75.62984375" y2="24.135" width="0.1" layer="16"/>
 <wire x1="74.25" y1="23.95" x2="75.44484375" y2="23.95" width="0.1" layer="16"/>
 <wire x1="75.62984375" y1="24.135" x2="82.15603125" y2="24.135" width="0.1" layer="16"/>
-<wire x1="72.439" y1="22.139" x2="74.25" y2="23.95" width="0.1" layer="16"/>
+<wire x1="72.339" y1="22.039" x2="74.25" y2="23.95" width="0.1" layer="16"/>
 <wire x1="85.131" y1="24.531" x2="85.9" y2="25.3" width="0.1" layer="16"/>
 <wire x1="85.9" y1="25.3" x2="85.9" y2="26.9" width="0.1" layer="16"/>
 <wire x1="85.9" y1="26.9" x2="86.4" y2="27.4" width="0.1" layer="16"/>
@@ -8775,31 +8722,29 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="50.6" y1="13.99" x2="51" y2="13.6" width="0.1" layer="1"/>
 <via x="51" y="13.6" extent="1-16" drill="0.15"/>
 <wire x1="51" y1="13.6" x2="53.68175" y2="13.6" width="0.1" layer="16"/>
-<wire x1="53.68175" y1="13.6" x2="62.44775" y2="22.366" width="0.1" layer="16"/>
-<wire x1="62.44775" y1="22.366" x2="72.3" y2="22.366" width="0.1" layer="16"/>
+<wire x1="53.68175" y1="13.6" x2="62.34775" y2="22.266" width="0.1" layer="16"/>
 <contactref element="IC1" pad="J13"/>
-<wire x1="72.3" y1="22.366" x2="72.34496875" y2="22.366" width="0.1" layer="16"/>
 <wire x1="80.4" y1="25.4" x2="80.8" y2="25" width="0.1" layer="1"/>
 <via x="80.8" y="25" extent="1-16" drill="0.15"/>
 <wire x1="80.162" y1="24.362" x2="80.8" y2="25" width="0.1" layer="16"/>
 <wire x1="78.36790625" y1="24.8110625" x2="78.81696875" y2="24.362" width="0.1" layer="16"/>
 <wire x1="78.81696875" y1="24.362" x2="80.162" y2="24.362" width="0.1" layer="16"/>
-<wire x1="72.3" y1="22.366" x2="72.34496875" y2="22.366" width="0.1" layer="16"/>
 <wire x1="74.79003125" y1="24.8110625" x2="78.36790625" y2="24.8110625" width="0.1" layer="16"/>
-<wire x1="72.34496875" y1="22.366" x2="74.79003125" y2="24.8110625" width="0.1" layer="16"/>
+<wire x1="72.24496875" y1="22.266" x2="74.79003125" y2="24.8110625" width="0.1" layer="16"/>
+<wire x1="62.34775" y1="22.266" x2="72.24496875" y2="22.266" width="0.1" layer="16"/>
 </signal>
 <signal name="ETH_MDC" class="6">
 <contactref element="IC2" pad="M3"/>
 <wire x1="48.2" y1="14" x2="48.6" y2="13.6" width="0.1" layer="1"/>
 <via x="48.6" y="13.6" extent="1-16" drill="0.15"/>
 <wire x1="52.249" y1="15.476" x2="54.9156875" y2="15.476" width="0.1" layer="16"/>
-<wire x1="54.9156875" y1="15.476" x2="62.2596875" y2="22.82" width="0.1" layer="16"/>
+<wire x1="54.9156875" y1="15.476" x2="62.1596875" y2="22.72" width="0.1" layer="16"/>
 <contactref element="IC1" pad="J14"/>
 <wire x1="79.6" y1="25.4" x2="79.2" y2="25" width="0.1" layer="1"/>
 <via x="79.2" y="25" extent="1-16" drill="0.15"/>
-<wire x1="62.2596875" y1="22.82" x2="72.15690625" y2="22.82" width="0.1" layer="16"/>
+<wire x1="62.1596875" y1="22.72" x2="72.05690625" y2="22.72" width="0.1" layer="16"/>
 <wire x1="78.9349375" y1="25.2650625" x2="79.2" y2="25" width="0.1" layer="16"/>
-<wire x1="72.15690625" y1="22.82" x2="74.60196875" y2="25.2650625" width="0.1" layer="16"/>
+<wire x1="72.05690625" y1="22.72" x2="74.60196875" y2="25.2650625" width="0.1" layer="16"/>
 <wire x1="74.60196875" y1="25.2650625" x2="78.9349375" y2="25.2650625" width="0.1" layer="16"/>
 <wire x1="48.6" y1="13.6" x2="49" y2="14" width="0.1" layer="16"/>
 <wire x1="49" y1="14" x2="50.4" y2="14" width="0.1" layer="16"/>
@@ -8813,9 +8758,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <via x="48.6" y="15.2" extent="1-16" drill="0.15"/>
 <wire x1="48.6" y1="15.2" x2="49.33" y2="15.93" width="0.1" layer="16"/>
 <wire x1="49.33" y1="15.93" x2="54.727625" y2="15.93" width="0.1" layer="16"/>
-<wire x1="54.727625" y1="15.93" x2="62.071625" y2="23.274" width="0.1" layer="16"/>
-<wire x1="71.96884375" y1="23.274" x2="74.42584375" y2="25.731" width="0.1" layer="16"/>
-<wire x1="62.071625" y1="23.274" x2="71.96884375" y2="23.274" width="0.1" layer="16"/>
+<wire x1="54.727625" y1="15.93" x2="61.971625" y2="23.174" width="0.1" layer="16"/>
+<wire x1="71.86884375" y1="23.174" x2="74.42584375" y2="25.731" width="0.1" layer="16"/>
+<wire x1="61.971625" y1="23.174" x2="71.86884375" y2="23.174" width="0.1" layer="16"/>
 <wire x1="84.531" y1="25.731" x2="85.2" y2="26.4" width="0.1" layer="16"/>
 <wire x1="74.42584375" y1="25.731" x2="84.531" y2="25.731" width="0.1" layer="16"/>
 <wire x1="85.2" y1="26.4" x2="85.2" y2="27.8" width="0.1" layer="16"/>
@@ -8828,33 +8773,29 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC2" pad="P5"/>
 <wire x1="49.8" y1="15.6" x2="49.4" y2="15.2" width="0.1" layer="1"/>
 <via x="49.4" y="15.2" extent="1-16" drill="0.15"/>
-<wire x1="62.16565625" y1="23.047" x2="71.5" y2="23.047" width="0.1" layer="16"/>
-<wire x1="71.5" y1="23.047" x2="71.55" y2="23.047" width="0.1" layer="16"/>
 <wire x1="49.4" y1="15.2" x2="49.903" y2="15.703" width="0.1" layer="16"/>
 <wire x1="49.903" y1="15.703" x2="54.82165625" y2="15.703" width="0.1" layer="16"/>
-<wire x1="54.82165625" y1="15.703" x2="62.16565625" y2="23.047" width="0.1" layer="16"/>
-<wire x1="71.55" y1="23.047" x2="72.062875" y2="23.047" width="0.1" layer="16"/>
-<wire x1="72.062875" y1="23.047" x2="74.5079375" y2="25.4920625" width="0.1" layer="16"/>
+<wire x1="54.82165625" y1="15.703" x2="62.059328125" y2="22.940671875" width="0.1" layer="16"/>
 <wire x1="74.5079375" y1="25.4920625" x2="84.6920625" y2="25.4920625" width="0.1" layer="16"/>
 <wire x1="84.6920625" y1="25.4920625" x2="85.6" y2="26.4" width="0.1" layer="16"/>
 <wire x1="85.6" y1="26.4" x2="85.6" y2="27.4" width="0.1" layer="16"/>
 <contactref element="IC1" pad="M6"/>
 <wire x1="86" y1="27.8" x2="85.6" y2="27.4" width="0.1" layer="1"/>
 <via x="85.6" y="27.4" extent="1-16" drill="0.15"/>
+<wire x1="62.06565625" y1="22.947" x2="71.962875" y2="22.947" width="0.1" layer="16"/>
+<wire x1="71.962875" y1="22.947" x2="74.5079375" y2="25.4920625" width="0.1" layer="16"/>
+<wire x1="62.059328125" y1="22.940671875" x2="62.06565625" y2="22.947" width="0.1" layer="16"/>
 </signal>
 <signal name="ETH_TXD0" class="6">
 <contactref element="IC2" pad="B3"/>
 <wire x1="40.2" y1="14" x2="40.6" y2="14.4" width="0.1" layer="1"/>
 <via x="40.6" y="14.4" extent="1-16" drill="0.15"/>
-<wire x1="61.97759375" y1="23.501" x2="71.8748125" y2="23.501" width="0.1" layer="16"/>
+<wire x1="61.87759375" y1="23.401" x2="71.7748125" y2="23.401" width="0.1" layer="16"/>
 <wire x1="40.6" y1="14.4" x2="40.69" y2="14.49" width="0.1" layer="16"/>
 <wire x1="40.69" y1="14.49" x2="40.69" y2="15.92" width="0.1" layer="16"/>
-<wire x1="54.63959375" y1="16.163" x2="61.97759375" y2="23.501" width="0.1" layer="16"/>
+<wire x1="54.63959375" y1="16.163" x2="61.87759375" y2="23.401" width="0.1" layer="16"/>
 <wire x1="40.69" y1="15.92" x2="42.01" y2="17.24" width="0.1" layer="16"/>
-<wire x1="42.01" y1="17.24" x2="45.1" y2="17.24" width="0.1" layer="16"/>
-<wire x1="45.1" y1="17.24" x2="45.13896875" y2="17.24" width="0.1" layer="16"/>
-<wire x1="71.8748125" y1="23.501" x2="74.3318125" y2="25.958" width="0.1" layer="16"/>
-<wire x1="45.1" y1="17.24" x2="45.594" y2="16.746" width="0.1" layer="16"/>
+<wire x1="71.7748125" y1="23.401" x2="74.3318125" y2="25.958" width="0.1" layer="16"/>
 <wire x1="46.90596875" y1="16.746" x2="47.48896875" y2="16.163" width="0.1" layer="16"/>
 <wire x1="45.594" y1="16.746" x2="46.90596875" y2="16.746" width="0.1" layer="16"/>
 <wire x1="47.48896875" y1="16.163" x2="54.63959375" y2="16.163" width="0.1" layer="16"/>
@@ -8863,16 +8804,18 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="L7"/>
 <wire x1="85.2" y1="27" x2="84.8" y2="26.6" width="0.1" layer="1"/>
 <via x="84.8" y="26.6" extent="1-16" drill="0.15"/>
+<wire x1="42.01" y1="17.24" x2="45.1" y2="17.24" width="0.1" layer="16"/>
+<wire x1="45.1" y1="17.24" x2="45.594" y2="16.746" width="0.1" layer="16"/>
 </signal>
 <signal name="ETH_TXD1" class="6">
 <contactref element="IC2" pad="A4"/>
 <wire x1="39.4" y1="14.8" x2="39.8" y2="15.2" width="0.1" layer="1"/>
 <via x="39.8" y="15.2" extent="1-16" drill="0.15"/>
-<wire x1="61.8835625" y1="23.728" x2="71.78078125" y2="23.728" width="0.1" layer="16"/>
-<wire x1="54.5455625" y1="16.39" x2="61.8835625" y2="23.728" width="0.1" layer="16"/>
+<wire x1="61.7835625" y1="23.628" x2="71.68078125" y2="23.628" width="0.1" layer="16"/>
+<wire x1="54.5455625" y1="16.39" x2="61.7835625" y2="23.628" width="0.1" layer="16"/>
 <wire x1="40.46" y1="16.04103125" x2="41.88596875" y2="17.467" width="0.1" layer="16"/>
 <wire x1="41.88596875" y1="17.467" x2="45.233" y2="17.467" width="0.1" layer="16"/>
-<wire x1="71.78078125" y1="23.728" x2="74.23778125" y2="26.185" width="0.1" layer="16"/>
+<wire x1="71.68078125" y1="23.628" x2="74.23778125" y2="26.185" width="0.1" layer="16"/>
 <wire x1="40.46" y1="15.51" x2="40.46" y2="16.04103125" width="0.1" layer="16"/>
 <wire x1="40.15" y1="15.2" x2="40.46" y2="15.51" width="0.1" layer="16"/>
 <wire x1="39.8" y1="15.2" x2="40.15" y2="15.2" width="0.1" layer="16"/>
@@ -9080,10 +9023,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="X2" pad="2"/>
 <contactref element="IC1" pad="P1"/>
 <wire x1="93.2" y1="33.2" x2="95.320625" y2="33.2" width="0.1" layer="1"/>
-<wire x1="90" y1="29.4" x2="91.1" y2="29.4" width="0.1" layer="1"/>
-<wire x1="91.1" y1="29.4" x2="92.6" y2="30.9" width="0.1" layer="1"/>
-<wire x1="92.6" y1="30.9" x2="92.6" y2="32.6" width="0.1" layer="1"/>
+<wire x1="92.6" y1="32.6" x2="92.6" y2="30.9" width="0.1" layer="1"/>
 <wire x1="92.6" y1="32.6" x2="93.2" y2="33.2" width="0.1" layer="1"/>
+<wire x1="92.6" y1="30.9" x2="91.5" y2="29.8" width="0.1" layer="1"/>
+<wire x1="90.4" y1="29.8" x2="90" y2="29.4" width="0.1" layer="1"/>
+<wire x1="91.5" y1="29.8" x2="90.4" y2="29.8" width="0.1" layer="1"/>
 </signal>
 <signal name="OV_PCLK">
 <contactref element="X2" pad="9"/>
@@ -9116,15 +9060,15 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="45.82103125" y1="17.2" x2="50.53" y2="17.2" width="0.1" layer="16"/>
 <wire x1="50.53" y1="17.2" x2="51.113" y2="16.617" width="0.1" layer="16"/>
 <wire x1="51.113" y1="16.617" x2="54.45153125" y2="16.617" width="0.1" layer="16"/>
-<wire x1="54.45153125" y1="16.617" x2="61.78953125" y2="23.955" width="0.1" layer="16"/>
+<wire x1="54.45153125" y1="16.617" x2="61.68953125" y2="23.855" width="0.1" layer="16"/>
 <wire x1="39.8" y1="18.4" x2="40.2" y2="18" width="0.1" layer="16"/>
 <wire x1="40.2" y1="18" x2="41.0159625" y2="18" width="0.1" layer="16"/>
 <wire x1="45.32703125" y1="17.694" x2="45.82103125" y2="17.2" width="0.1" layer="16"/>
 <wire x1="41.0159625" y1="18" x2="41.3219625" y2="17.694" width="0.1" layer="16"/>
 <wire x1="41.3219625" y1="17.694" x2="45.32703125" y2="17.694" width="0.1" layer="16"/>
-<wire x1="71.68675" y1="23.955" x2="74.14375" y2="26.412" width="0.1" layer="16"/>
+<wire x1="71.58675" y1="23.855" x2="74.14375" y2="26.412" width="0.1" layer="16"/>
 <wire x1="79.812" y1="26.412" x2="80" y2="26.6" width="0.1" layer="16"/>
-<wire x1="61.78953125" y1="23.955" x2="71.68675" y2="23.955" width="0.1" layer="16"/>
+<wire x1="61.68953125" y1="23.855" x2="71.58675" y2="23.855" width="0.1" layer="16"/>
 <wire x1="74.14375" y1="26.412" x2="79.812" y2="26.412" width="0.1" layer="16"/>
 <contactref element="IC1" pad="L14"/>
 <wire x1="79.6" y1="27" x2="80" y2="26.6" width="0.1" layer="1"/>
@@ -9182,10 +9126,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="48.2" y1="13.2" x2="48.2" y2="12.55" width="0.1" layer="16"/>
 <wire x1="48.2" y1="12.55" x2="49.06" y2="11.69" width="0.1" layer="16"/>
 <wire x1="62.86" y1="21.15" x2="72.78690625" y2="21.15" width="0.1" layer="16"/>
-<wire x1="82.75596875" y1="24.077" x2="84.9" y2="24.077" width="0.1" layer="16"/>
-<wire x1="84.9" y1="24.077" x2="84.94803125" y2="24.077" width="0.1" layer="16"/>
 <wire x1="76.11790625" y1="23.681" x2="82.35996875" y2="23.681" width="0.1" layer="16"/>
-<wire x1="82.35996875" y1="23.681" x2="82.75596875" y2="24.077" width="0.1" layer="16"/>
 <wire x1="49.06" y1="11.69" x2="54.84" y2="11.69" width="0.1" layer="16"/>
 <wire x1="54.84" y1="11.69" x2="56.8024" y2="13.6524" width="0.1" layer="16"/>
 <wire x1="56.8024" y1="15.0924" x2="62.86" y2="21.15" width="0.1" layer="16"/>
@@ -9193,11 +9134,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="72.78690625" y1="21.15" x2="74.43690625" y2="22.8" width="0.1" layer="16"/>
 <wire x1="75.23690625" y1="22.8" x2="76.11790625" y2="23.681" width="0.1" layer="16"/>
 <wire x1="74.43690625" y1="22.8" x2="75.23690625" y2="22.8" width="0.1" layer="16"/>
-<wire x1="84.9" y1="24.077" x2="85.477" y2="24.077" width="0.1" layer="16"/>
 <wire x1="85.477" y1="24.077" x2="88" y2="26.6" width="0.1" layer="16"/>
 <contactref element="IC1" pad="L4"/>
 <wire x1="87.6" y1="27" x2="88" y2="26.6" width="0.1" layer="1"/>
 <via x="88" y="26.6" extent="1-16" drill="0.15"/>
+<wire x1="82.35996875" y1="23.681" x2="82.75596875" y2="24.077" width="0.1" layer="16"/>
+<wire x1="82.75596875" y1="24.077" x2="85.477" y2="24.077" width="0.1" layer="16"/>
 </signal>
 <signal name="FPGA_IO3">
 <contactref element="IC2" pad="L2"/>
@@ -9274,7 +9216,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="15.5" y1="22.45" x2="15.5" y2="27.69" width="0.8128" layer="3"/>
 <wire x1="23.2" y1="31.85" x2="23.4" y2="31.65" width="0.8128" layer="3"/>
 <wire x1="19.66" y1="31.85" x2="23.2" y2="31.85" width="0.8128" layer="3"/>
-<wire x1="13.65" y1="16.75" x2="14.8" y2="15.6" width="0.8128" layer="3"/>
 <wire x1="13.65" y1="20.6" x2="13.65" y2="16.75" width="0.8128" layer="3"/>
 <wire x1="20.2" y1="12.38" x2="20.2" y2="12.9" width="0.2" layer="1"/>
 <wire x1="20.2" y1="12.9" x2="19.8" y2="13.3" width="0.2" layer="1"/>
@@ -9290,6 +9231,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="21.05" y1="5.4" x2="20.45" y2="5.4" width="0.2" layer="1"/>
 <wire x1="20.45" y1="5.4" x2="20.1" y2="5.05" width="0.2" layer="1"/>
 <wire x1="20.1" y1="5.05" x2="20.1" y2="4.35" width="0.2" layer="1"/>
+<wire x1="13.65" y1="16.75" x2="14.85" y2="15.55" width="0.8128" layer="3"/>
 </signal>
 <signal name="SDRAM_A0" class="8">
 <contactref element="IC4" pad="H7"/>
@@ -9302,23 +9244,23 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="SDRAM_A1" class="8">
 <contactref element="IC4" pad="H8"/>
 <wire x1="62.6" y1="26.6" x2="63" y2="26.2" width="0.1" layer="1"/>
-<wire x1="63" y1="26.2" x2="63" y2="23.3420625" width="0.1" layer="1"/>
+<wire x1="63" y1="26.2" x2="63" y2="24.1420625" width="0.1" layer="1"/>
 <contactref element="IC1" pad="D15"/>
 <wire x1="78.4" y1="21" x2="78.8" y2="21.4" width="0.1" layer="1"/>
-<wire x1="66.1690625" y1="20.173" x2="76.39403125" y2="20.173" width="0.1" layer="1"/>
+<wire x1="66.9690625" y1="20.173" x2="76.39403125" y2="20.173" width="0.1" layer="1"/>
 <wire x1="77.22103125" y1="21" x2="78.4" y2="21" width="0.1" layer="1"/>
-<wire x1="63" y1="23.3420625" x2="66.1690625" y2="20.173" width="0.1" layer="1"/>
+<wire x1="63" y1="24.1420625" x2="66.9690625" y2="20.173" width="0.1" layer="1"/>
 <wire x1="76.39403125" y1="20.173" x2="77.22103125" y2="21" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_A2" class="8">
 <contactref element="IC4" pad="J8"/>
 <wire x1="61.8" y1="26.6" x2="62.2" y2="26.2" width="0.1" layer="1"/>
-<wire x1="62.2" y1="26.2" x2="62.2" y2="23.2" width="0.1" layer="1"/>
+<wire x1="62.2" y1="26.2" x2="62.2" y2="24" width="0.1" layer="1"/>
 <contactref element="IC1" pad="C15"/>
 <wire x1="78.4" y1="20.2" x2="78.8" y2="20.6" width="0.1" layer="1"/>
-<wire x1="65.927" y1="19.473" x2="76.79403125" y2="19.473" width="0.1" layer="1"/>
+<wire x1="66.727" y1="19.473" x2="76.79403125" y2="19.473" width="0.1" layer="1"/>
 <wire x1="77.52103125" y1="20.2" x2="78.4" y2="20.2" width="0.1" layer="1"/>
-<wire x1="62.2" y1="23.2" x2="65.927" y2="19.473" width="0.1" layer="1"/>
+<wire x1="62.2" y1="24" x2="66.727" y2="19.473" width="0.1" layer="1"/>
 <wire x1="76.79403125" y1="19.473" x2="77.52103125" y2="20.2" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_A3" class="8">
@@ -9386,12 +9328,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </signal>
 <signal name="SDRAM_A10" class="8">
 <contactref element="IC4" pad="H9"/>
-<wire x1="62.6" y1="25.8" x2="62.6" y2="23.12103125" width="0.1" layer="1"/>
+<wire x1="62.6" y1="25.8" x2="62.6" y2="23.92103125" width="0.1" layer="1"/>
 <contactref element="IC1" pad="C16"/>
 <wire x1="77.827" y1="20.427" x2="78" y2="20.6" width="0.1" layer="1"/>
 <wire x1="77.427" y1="20.427" x2="77.827" y2="20.427" width="0.1" layer="1"/>
-<wire x1="62.6" y1="23.12103125" x2="66.02103125" y2="19.7" width="0.1" layer="1"/>
-<wire x1="66.02103125" y1="19.7" x2="76.7" y2="19.7" width="0.1" layer="1"/>
+<wire x1="62.6" y1="23.92103125" x2="66.82103125" y2="19.7" width="0.1" layer="1"/>
+<wire x1="66.82103125" y1="19.7" x2="76.7" y2="19.7" width="0.1" layer="1"/>
 <wire x1="76.7" y1="19.7" x2="77.427" y2="20.427" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_A11" class="8">
@@ -9426,11 +9368,11 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="SDRAM_B1" class="8">
 <contactref element="IC4" pad="G8"/>
 <wire x1="63.4" y1="26.6" x2="63.8" y2="26.2" width="0.1" layer="1"/>
-<wire x1="63.8" y1="26.2" x2="63.8" y2="23.484125" width="0.1" layer="1"/>
+<wire x1="63.8" y1="26.2" x2="63.8" y2="24.284125" width="0.1" layer="1"/>
 <contactref element="IC1" pad="E15"/>
 <wire x1="78.4" y1="21.8" x2="78.8" y2="22.2" width="0.1" layer="1"/>
-<wire x1="66.411125" y1="20.873" x2="75.99403125" y2="20.873" width="0.1" layer="1"/>
-<wire x1="63.8" y1="23.484125" x2="66.411125" y2="20.873" width="0.1" layer="1"/>
+<wire x1="67.211125" y1="20.873" x2="75.99403125" y2="20.873" width="0.1" layer="1"/>
+<wire x1="63.8" y1="24.284125" x2="67.211125" y2="20.873" width="0.1" layer="1"/>
 <wire x1="75.99403125" y1="20.873" x2="76.92103125" y2="21.8" width="0.1" layer="1"/>
 <wire x1="76.92103125" y1="21.8" x2="78.4" y2="21.8" width="0.1" layer="1"/>
 </signal>
@@ -9515,7 +9457,6 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </signal>
 <signal name="GSM_PCM_OUT">
 <contactref element="IC6" pad="30"/>
-<wire x1="54.47" y1="50.79" x2="54.48" y2="50.8" width="0.1" layer="1"/>
 <via x="55.6" y="50.5" extent="1-16" drill="0.15"/>
 <wire x1="55.6" y1="50.5" x2="56.2" y2="49.9" width="0.1" layer="2"/>
 <wire x1="56.2" y1="49.9" x2="56.2" y2="49.12103125" width="0.1" layer="2"/>
@@ -9565,13 +9506,13 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </signal>
 <signal name="SDRAM_D15" class="8">
 <contactref element="IC4" pad="A2"/>
-<wire x1="71.4" y1="32.7" x2="78.5" y2="32.7" width="0.1" layer="1"/>
+<wire x1="70.6" y1="32.7" x2="78.5" y2="32.7" width="0.1" layer="1"/>
 <wire x1="79.2" y1="32" x2="78.5" y2="32.7" width="0.1" layer="1"/>
 <contactref element="IC1" pad="R14"/>
 <wire x1="79.6" y1="30.2" x2="79.2" y2="30.6" width="0.1" layer="1"/>
 <wire x1="79.2" y1="30.6" x2="79.2" y2="32" width="0.1" layer="1"/>
-<wire x1="68.2" y1="31.4" x2="70.1" y2="31.4" width="0.1" layer="1"/>
-<wire x1="70.1" y1="31.4" x2="71.4" y2="32.7" width="0.1" layer="1"/>
+<wire x1="68.2" y1="31.4" x2="69.3" y2="31.4" width="0.1" layer="1"/>
+<wire x1="69.3" y1="31.4" x2="70.6" y2="32.7" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_D0" class="8">
 <contactref element="IC4" pad="A8"/>
@@ -9608,9 +9549,9 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="77.973" y1="25.427" x2="78" y2="25.4" width="0.1" layer="1"/>
 <wire x1="72.45596875" y1="25.427" x2="77.973" y2="25.427" width="0.1" layer="1"/>
 <wire x1="70.87896875" y1="23.85" x2="72.45596875" y2="25.427" width="0.1" layer="1"/>
-<wire x1="66.6" y1="25.8" x2="66.6" y2="24.57103125" width="0.1" layer="1"/>
-<wire x1="67.32103125" y1="23.85" x2="70.87896875" y2="23.85" width="0.1" layer="1"/>
-<wire x1="66.6" y1="24.57103125" x2="67.32103125" y2="23.85" width="0.1" layer="1"/>
+<wire x1="66.6" y1="25.8" x2="66.6" y2="24.77103125" width="0.1" layer="1"/>
+<wire x1="67.52103125" y1="23.85" x2="70.87896875" y2="23.85" width="0.1" layer="1"/>
+<wire x1="66.6" y1="24.77103125" x2="67.52103125" y2="23.85" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_D4" class="8">
 <contactref element="IC4" pad="C8"/>
@@ -9627,34 +9568,34 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </signal>
 <signal name="SDRAM_D5" class="8">
 <contactref element="IC4" pad="D9"/>
-<wire x1="65.8" y1="25.8" x2="65.8" y2="23.72103125" width="0.1" layer="1"/>
+<wire x1="65.8" y1="25.8" x2="65.8" y2="24.52103125" width="0.1" layer="1"/>
 <contactref element="IC1" pad="G16"/>
 <wire x1="77.827" y1="23.627" x2="78" y2="23.8" width="0.1" layer="1"/>
 <wire x1="76.127" y1="23.627" x2="77.827" y2="23.627" width="0.1" layer="1"/>
-<wire x1="65.8" y1="23.72103125" x2="67.02103125" y2="22.5" width="0.1" layer="1"/>
-<wire x1="67.02103125" y1="22.5" x2="75" y2="22.5" width="0.1" layer="1"/>
+<wire x1="65.8" y1="24.52103125" x2="67.82103125" y2="22.5" width="0.1" layer="1"/>
+<wire x1="67.82103125" y1="22.5" x2="75" y2="22.5" width="0.1" layer="1"/>
 <wire x1="75" y1="22.5" x2="76.127" y2="23.627" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_D6" class="8">
 <contactref element="IC4" pad="D8"/>
 <wire x1="65.8" y1="26.6" x2="66.2" y2="26.2" width="0.1" layer="1"/>
-<wire x1="66.2" y1="26.2" x2="66.2" y2="24.65" width="0.1" layer="1"/>
+<wire x1="66.2" y1="26.2" x2="66.2" y2="24.85" width="0.1" layer="1"/>
 <wire x1="77.75" y1="25" x2="78.4" y2="25" width="0.1" layer="1"/>
 <wire x1="77.75" y1="25" x2="77.55" y2="25.2" width="0.1" layer="1"/>
 <wire x1="72.55" y1="25.2" x2="77.55" y2="25.2" width="0.1" layer="1"/>
 <contactref element="IC1" pad="J15"/>
 <wire x1="78.4" y1="25" x2="78.8" y2="25.4" width="0.1" layer="1"/>
-<wire x1="67.227" y1="23.623" x2="70.973" y2="23.623" width="0.1" layer="1"/>
+<wire x1="67.427" y1="23.623" x2="70.973" y2="23.623" width="0.1" layer="1"/>
 <wire x1="70.973" y1="23.623" x2="72.55" y2="25.2" width="0.1" layer="1"/>
-<wire x1="66.2" y1="24.65" x2="67.227" y2="23.623" width="0.1" layer="1"/>
+<wire x1="66.2" y1="24.85" x2="67.427" y2="23.623" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_D7" class="8">
 <contactref element="IC4" pad="E9"/>
-<wire x1="65" y1="25.8" x2="65" y2="23.54721875" width="0.1" layer="1"/>
+<wire x1="65" y1="25.8" x2="65" y2="24.34721875" width="0.1" layer="1"/>
 <contactref element="IC1" pad="F16"/>
 <wire x1="77.827" y1="22.827" x2="78" y2="23" width="0.1" layer="1"/>
-<wire x1="65" y1="23.54721875" x2="66.74721875" y2="21.8" width="0.1" layer="1"/>
-<wire x1="66.74721875" y1="21.8" x2="75.5" y2="21.8" width="0.1" layer="1"/>
+<wire x1="65" y1="24.34721875" x2="67.54721875" y2="21.8" width="0.1" layer="1"/>
+<wire x1="67.54721875" y1="21.8" x2="75.5" y2="21.8" width="0.1" layer="1"/>
 <wire x1="75.5" y1="21.8" x2="76.527" y2="22.827" width="0.1" layer="1"/>
 <wire x1="76.527" y1="22.827" x2="77.827" y2="22.827" width="0.1" layer="1"/>
 </signal>
@@ -9732,12 +9673,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </signal>
 <signal name="SDRAM_!WE" class="8">
 <contactref element="IC4" pad="F9"/>
-<wire x1="64.2" y1="25.8" x2="64.2" y2="23.40515625" width="0.1" layer="1"/>
+<wire x1="64.2" y1="25.8" x2="64.2" y2="24.20515625" width="0.1" layer="1"/>
 <contactref element="IC1" pad="E16"/>
 <wire x1="77.827" y1="22.027" x2="78" y2="22.2" width="0.1" layer="1"/>
 <wire x1="76.827" y1="22.027" x2="77.827" y2="22.027" width="0.1" layer="1"/>
-<wire x1="64.2" y1="23.40515625" x2="66.50515625" y2="21.1" width="0.1" layer="1"/>
-<wire x1="66.50515625" y1="21.1" x2="75.9" y2="21.1" width="0.1" layer="1"/>
+<wire x1="64.2" y1="24.20515625" x2="67.30515625" y2="21.1" width="0.1" layer="1"/>
+<wire x1="67.30515625" y1="21.1" x2="75.9" y2="21.1" width="0.1" layer="1"/>
 <wire x1="75.9" y1="21.1" x2="76.827" y2="22.027" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_!CAS" class="8">
@@ -9750,22 +9691,22 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="SDRAM_!RAS" class="8">
 <contactref element="IC4" pad="F8"/>
 <wire x1="64.2" y1="26.6" x2="64.6" y2="26.2" width="0.1" layer="1"/>
-<wire x1="64.6" y1="26.2" x2="64.6" y2="23.6261875" width="0.1" layer="1"/>
+<wire x1="64.6" y1="26.2" x2="64.6" y2="24.4261875" width="0.1" layer="1"/>
 <contactref element="IC1" pad="F15"/>
 <wire x1="78.4" y1="22.6" x2="78.8" y2="23" width="0.1" layer="1"/>
-<wire x1="66.6531875" y1="21.573" x2="75.59403125" y2="21.573" width="0.1" layer="1"/>
+<wire x1="67.4531875" y1="21.573" x2="75.59403125" y2="21.573" width="0.1" layer="1"/>
 <wire x1="76.62103125" y1="22.6" x2="78.4" y2="22.6" width="0.1" layer="1"/>
-<wire x1="64.6" y1="23.6261875" x2="66.6531875" y2="21.573" width="0.1" layer="1"/>
+<wire x1="64.6" y1="24.4261875" x2="67.4531875" y2="21.573" width="0.1" layer="1"/>
 <wire x1="75.59403125" y1="21.573" x2="76.62103125" y2="22.6" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_!CS" class="8">
 <contactref element="IC4" pad="G9"/>
-<wire x1="63.4" y1="25.8" x2="63.4" y2="23.26309375" width="0.1" layer="1"/>
+<wire x1="63.4" y1="25.8" x2="63.4" y2="24.06309375" width="0.1" layer="1"/>
 <contactref element="IC1" pad="D16"/>
 <wire x1="77.827" y1="21.227" x2="78" y2="21.4" width="0.1" layer="1"/>
 <wire x1="77.127" y1="21.227" x2="77.827" y2="21.227" width="0.1" layer="1"/>
-<wire x1="63.4" y1="23.26309375" x2="66.26309375" y2="20.4" width="0.1" layer="1"/>
-<wire x1="66.26309375" y1="20.4" x2="76.3" y2="20.4" width="0.1" layer="1"/>
+<wire x1="63.4" y1="24.06309375" x2="67.06309375" y2="20.4" width="0.1" layer="1"/>
+<wire x1="67.06309375" y1="20.4" x2="76.3" y2="20.4" width="0.1" layer="1"/>
 <wire x1="76.3" y1="20.4" x2="77.127" y2="21.227" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_CLK" class="8">
@@ -9786,10 +9727,8 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <contactref element="IC1" pad="T15"/>
 <wire x1="78.8" y1="32.07896875" x2="78.8" y2="31" width="0.1" layer="1"/>
 <wire x1="64.719" y1="30.081" x2="68.331" y2="30.081" width="0.1" layer="1"/>
-<wire x1="68.331" y1="30.081" x2="69.423" y2="31.173" width="0.1" layer="1"/>
-<wire x1="70.19403125" y1="31.173" x2="71.49403125" y2="32.473" width="0.1" layer="1"/>
-<wire x1="69.423" y1="31.173" x2="70.19403125" y2="31.173" width="0.1" layer="1"/>
-<wire x1="71.49403125" y1="32.473" x2="78.40596875" y2="32.473" width="0.1" layer="1"/>
+<wire x1="68.331" y1="30.081" x2="70.723" y2="32.473" width="0.1" layer="1"/>
+<wire x1="70.723" y1="32.473" x2="78.40596875" y2="32.473" width="0.1" layer="1"/>
 </signal>
 <signal name="SDRAM_DQMH" class="8">
 <contactref element="IC4" pad="F1"/>
@@ -9803,12 +9742,12 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="SDRAM_DQML" class="8">
 <contactref element="IC4" pad="E8"/>
 <wire x1="65" y1="26.6" x2="65.4" y2="26.2" width="0.1" layer="1"/>
-<wire x1="65.4" y1="26.2" x2="65.4" y2="23.8" width="0.1" layer="1"/>
+<wire x1="65.4" y1="26.2" x2="65.4" y2="24.6" width="0.1" layer="1"/>
 <contactref element="IC1" pad="G15"/>
 <wire x1="78.4" y1="23.4" x2="78.8" y2="23.8" width="0.1" layer="1"/>
-<wire x1="66.927" y1="22.273" x2="75.09403125" y2="22.273" width="0.1" layer="1"/>
+<wire x1="67.727" y1="22.273" x2="75.09403125" y2="22.273" width="0.1" layer="1"/>
 <wire x1="76.22103125" y1="23.4" x2="78.4" y2="23.4" width="0.1" layer="1"/>
-<wire x1="65.4" y1="23.8" x2="66.927" y2="22.273" width="0.1" layer="1"/>
+<wire x1="65.4" y1="24.6" x2="67.727" y2="22.273" width="0.1" layer="1"/>
 <wire x1="75.09403125" y1="22.273" x2="76.22103125" y2="23.4" width="0.1" layer="1"/>
 </signal>
 <signal name="RING1">
@@ -9884,12 +9823,10 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="52.1" y1="9.7" x2="52.9" y2="8.9" width="0.1" layer="16"/>
 <wire x1="73.715875" y1="8.9" x2="78.35383125" y2="13.53795625" width="0.1" layer="16"/>
 <wire x1="52.9" y1="8.9" x2="73.715875" y2="8.9" width="0.1" layer="16"/>
-<wire x1="79.99589375" y1="13.53795625" x2="80.4119375" y2="13.954" width="0.1" layer="16"/>
 <wire x1="78.35383125" y1="13.53795625" x2="79.99589375" y2="13.53795625" width="0.1" layer="16"/>
-<wire x1="81.33296875" y1="13.954" x2="81.50596875" y2="14.127" width="0.1" layer="16"/>
-<wire x1="80.4119375" y1="13.954" x2="81.33296875" y2="13.954" width="0.1" layer="16"/>
+<wire x1="79.99589375" y1="13.53795625" x2="80.5849375" y2="14.127" width="0.1" layer="16"/>
 <wire x1="83.527" y1="14.127" x2="84.8" y2="15.4" width="0.1" layer="16"/>
-<wire x1="81.50596875" y1="14.127" x2="83.527" y2="14.127" width="0.1" layer="16"/>
+<wire x1="80.5849375" y1="14.127" x2="83.527" y2="14.127" width="0.1" layer="16"/>
 <wire x1="89.52103125" y1="15.4" x2="91.727" y2="17.60596875" width="0.1" layer="16"/>
 <wire x1="84.8" y1="15.4" x2="89.52103125" y2="15.4" width="0.1" layer="16"/>
 <wire x1="91.727" y1="17.60596875" x2="91.727" y2="24.927" width="0.1" layer="16"/>
@@ -9900,7 +9837,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <signal name="MCO1">
 <contactref element="R22" pad="2"/>
 <contactref element="IC2" pad="F15"/>
-<wire x1="43.4" y1="23.6" x2="43.4" y2="25.75" width="0.2" layer="1"/>
+<wire x1="43.4" y1="25.75" x2="43.4" y2="23.6" width="0.1" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="TP8" pad="1"/>

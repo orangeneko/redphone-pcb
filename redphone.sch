@@ -7602,7 +7602,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="TP63" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP64" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="GND84" library="netcat" deviceset="GND" device=""/>
-<part name="TP65" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP66" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP67" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP68" library="netcat" deviceset="TP_HOLE" device=""/>
@@ -7613,7 +7612,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <part name="TP73" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP74" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP75" library="netcat" deviceset="TP_HOLE" device=""/>
-<part name="TP76" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP77" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP78" library="netcat" deviceset="TP_HOLE" device=""/>
 <part name="TP79" library="netcat" deviceset="TP_HOLE" device=""/>
@@ -13637,7 +13635,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="TP63" gate="G$1" x="167.64" y="10.16"/>
 <instance part="TP64" gate="G$1" x="167.64" y="7.62"/>
 <instance part="GND84" gate="GND" x="165.1" y="2.54"/>
-<instance part="TP65" gate="G$1" x="167.64" y="15.24"/>
 <instance part="TP66" gate="G$1" x="187.96" y="15.24" rot="R180"/>
 <instance part="TP67" gate="G$1" x="187.96" y="12.7" rot="R180"/>
 <instance part="TP68" gate="G$1" x="187.96" y="10.16" rot="R180"/>
@@ -13648,7 +13645,6 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 <instance part="TP73" gate="G$1" x="233.68" y="12.7"/>
 <instance part="TP74" gate="G$1" x="233.68" y="10.16"/>
 <instance part="TP75" gate="G$1" x="233.68" y="7.62"/>
-<instance part="TP76" gate="G$1" x="233.68" y="15.24"/>
 <instance part="TP77" gate="G$1" x="254" y="15.24" rot="R180"/>
 <instance part="TP78" gate="G$1" x="254" y="12.7" rot="R180"/>
 <instance part="TP79" gate="G$1" x="254" y="10.16" rot="R180"/>
@@ -13757,9 +13753,9 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </segment>
 <segment>
 <pinref part="GND84" gate="GND" pin="GND"/>
-<pinref part="TP65" gate="G$1" pin="P$1"/>
-<wire x1="167.64" y1="15.24" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="15.24" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="TP62" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="12.7" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP12" gate="G$1" pin="P$1"/>
@@ -13953,9 +13949,10 @@ author: &lt;author&gt;netcat&lt;/author&gt;</description>
 </net>
 <net name="GND2" class="0">
 <segment>
-<pinref part="TP76" gate="G$1" pin="P$1"/>
-<wire x1="233.68" y1="15.24" x2="231.14" y2="15.24" width="0.1524" layer="91"/>
-<label x="231.14" y="15.24" size="1.778" layer="95" font="vector" rot="R180"/>
+<label x="228.6" y="12.7" size="1.778" layer="95" font="vector" rot="R180"/>
+<wire x1="231.14" y1="12.7" x2="228.6" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="TP73" gate="G$1" pin="P$1"/>
+<wire x1="233.68" y1="12.7" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NAV_I2C_SDA2" class="0">

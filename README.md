@@ -6,20 +6,19 @@ Redphone - simple handmade open source mobile phone
 ![logo](./doc/img/pcb_bottom.png)
 
 ## Hardware
-* Cortex M4 STM32F429
-* FPGA EP4CE6E22
+* Cortex M4 STM32F429NI
+* FPGA EP4CE22U14I7N
 * 800x480 LCD on RM68120 controller
 * Capasitive LG P715 touch screen
-* Memory (SDRAM MT48LC16M16A2TG, MicroSD, EEPROM 24LC256)
-* Audio system based on (WM8903, MP34DT01 mic, headphone, ring, minijack)
+* Memory (two SDRAM MT48LC16M16A2B4, MicroSD)
+* Audio system based on (WM8903, MP34DT01 dmic, headphone, ring, minijack)
 * Wi-Fi on ESP8266
-* GSM & Bluetooth on SIM800C
-* NRF24L01+
-* Sensors (MPU9250, APDS-9960, BME280, HDC1000, DS18B20)
+* GSM & Bluetooth in SIM800H, nanosim (galaxy s8 sim-sd slot)
+* Sensors (MPU9250, APDS-9960, BME280)
 * GPS MC-1010-G
-* OV26400 camera & led
-* Power domain (SGS4 Battery, MAX8903A charger, TPS63001, TPS63000, MAX8815A, LP3990TL, PT4181)
-* USB type-C for connection to JTAG & SWD
+* OV5647 camera (Raspberry Pi compatible) & led
+* Power domain (galaxy s4 battery, TPS65217)
+* USB type-C for custom connections
 
 ## Software
 * Latest linux kernel

@@ -7668,7 +7668,7 @@ Source: www.kingbright.com</description>
 <part name="R20" library="netcat" deviceset="RES" device="R0402" value="12k"/>
 <part name="R21" library="netcat" deviceset="RES" device="R0402" value="330"/>
 <part name="R23" library="netcat" deviceset="RES" device="R0402" value="100k"/>
-<part name="L5" library="netcat" deviceset="LED" device="0603" value="GREEN"/>
+<part name="L5" library="netcat" deviceset="LED" device="0603" value="G"/>
 <part name="3.3V14" library="netcat" deviceset="3.3V" device=""/>
 <part name="3.3V15" library="netcat" deviceset="3.3V" device=""/>
 <part name="GND41" library="netcat" deviceset="GND" device=""/>
@@ -7756,7 +7756,7 @@ Source: www.kingbright.com</description>
 <part name="R42" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="B2" library="netcat" deviceset="SPEAKER" device="_HTC_ONE"/>
 <part name="R44" library="netcat" deviceset="RES" device="R0402" value="330"/>
-<part name="VD3" library="netcat" deviceset="LED" device="0603"/>
+<part name="VD3" library="netcat" deviceset="LED" device="0603" value="R"/>
 <part name="GND75" library="netcat" deviceset="GND" device=""/>
 <part name="C71" library="netcat" deviceset="CAP" device="0402" value="100n"/>
 <part name="IC8" library="netcat" deviceset="ESP8266" device="" value="ESP8266"/>
@@ -7870,8 +7870,8 @@ Source: www.kingbright.com</description>
 <part name="GND14" library="netcat" deviceset="GND" device=""/>
 <part name="C5" library="netcat" deviceset="CPOL-EU" device="SMCA" value="10u"/>
 <part name="GND15" library="netcat" deviceset="GND" device=""/>
-<part name="R4" library="netcat" deviceset="RES" device="R0402"/>
-<part name="R5" library="netcat" deviceset="RES" device="R0402"/>
+<part name="R4" library="netcat" deviceset="RES" device="R0402" value="100k"/>
+<part name="R5" library="netcat" deviceset="RES" device="R0402" value="100k"/>
 <part name="GND16" library="netcat" deviceset="GND" device=""/>
 <part name="VD1" library="netcat" deviceset="DIODE" device="-SOD123"/>
 <part name="1.2V1" library="netcat" deviceset="1.2V" device=""/>
@@ -7902,7 +7902,7 @@ Source: www.kingbright.com</description>
 <part name="GND26" library="netcat" deviceset="GND" device=""/>
 <part name="3.3V5" library="netcat" deviceset="3.3V" device=""/>
 <part name="Q1" library="netcat" deviceset="MOSFET_P" device="SOT23" value="IRLML2502"/>
-<part name="R8" library="netcat" deviceset="RES" device="R0402" value="100k"/>
+<part name="R8" library="netcat" deviceset="RES" device="R0402" value="10k"/>
 <part name="3.3V20" library="netcat" deviceset="3.3V" device=""/>
 <part name="R10" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
 <part name="R11" library="netcat" deviceset="RES" device="R0402" value="4.7k"/>
@@ -7914,9 +7914,9 @@ Source: www.kingbright.com</description>
 <part name="C18" library="netcat" deviceset="CAP" device="0402" value="100n"/>
 <part name="C21" library="netcat" deviceset="CPOL-EU" device="SMCA" value="4.7u"/>
 <part name="R14" library="netcat" deviceset="RES" device="R0402" value="330"/>
-<part name="VD4" library="netcat" deviceset="LED" device="0603"/>
+<part name="VD4" library="netcat" deviceset="LED" device="0603" value="G"/>
 <part name="R15" library="netcat" deviceset="RES" device="R0402" value="1k"/>
-<part name="VD5" library="netcat" deviceset="LED" device="0603"/>
+<part name="VD5" library="netcat" deviceset="LED" device="0603" value="Y"/>
 <part name="B1" library="netcat" deviceset="SPEAKER" device="_NOKIA_RING"/>
 <part name="LOGO2" library="netcat" deviceset="LOGO" device="2" value="LOGO2"/>
 <part name="C22" library="netcat" deviceset="CAP" device="0402" value="100n"/>

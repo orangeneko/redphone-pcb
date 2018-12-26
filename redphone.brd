@@ -3,15 +3,15 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="63" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="63" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="31" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -33,9 +33,9 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -624,6 +624,10 @@
 <wire x1="120" y1="54" x2="120" y2="52" width="0" layer="41"/>
 <wire x1="120" y1="11" x2="120" y2="9" width="0" layer="42"/>
 <wire x1="120" y1="11" x2="120" y2="9" width="0" layer="41"/>
+<text x="8" y="62" size="1.016" layer="1" font="vector" ratio="12" align="center">1</text>
+<text x="9" y="62" size="1.016" layer="2" font="vector" ratio="12" align="center">2</text>
+<text x="10" y="62" size="1.016" layer="3" font="vector" ratio="12" align="center">3</text>
+<text x="11" y="62" size="1.016" layer="16" font="vector" ratio="12" align="center">4</text>
 </plain>
 <libraries>
 <library name="netcat">
@@ -2867,7 +2871,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="0.25mm"/>
-<param name="mdDrill" value="0.25mm"/>
+<param name="mdDrill" value="5mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="0.1mm"/>
 <param name="msDrill" value="0.15mm"/>
@@ -3030,62 +3034,62 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="R1" library="netcat" package="R0402" value="10k" x="93.8" y="19" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.8" y="14" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="94.565" y="18.668" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="92.965" y="18.568" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R2" library="netcat" package="R0402" value="10k" x="93.8" y="20.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.8" y="15" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="93.335" y="20.732" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="92.865" y="19.968" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R3" library="netcat" package="R0402" value="10k" x="54" y="13.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.4" y="13.2" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="54.635" y="15.632" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="53.165" y="13.168" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="X3" library="netcat" package="FH39-45S-0.3SHW" value="RM68120_LCD" x="83.5" y="5.3" locked="yes" smashed="yes">
 <attribute name="NAME" x="84.1" y="3.8" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C14" library="netcat" package="SMC_A" value="10u" x="110.7" y="44.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="109.8" y="41.1" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="108.7" y="46.2" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="110.3" y="45.7" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C15" library="netcat" package="R0402" value="100n" x="101.3" y="55.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="100" y="56.1" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="101.935" y="57.132" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="99.965" y="54.768" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R18" library="netcat" package="R0402" value="100k" x="111.9" y="56.2" smashed="yes">
 <attribute name="NAME" x="113.5" y="55.8" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="111.265" y="54.168" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="110.765" y="55.768" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R20" library="netcat" package="R0402" value="12k" x="111.9" y="54.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.5" y="54.3" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="112.535" y="56.732" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="111.165" y="54.268" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R21" library="netcat" package="R0402" value="330" x="112.75" y="46.05" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.3" y="45" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="110.718" y="46.685" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="113.182" y="45.115" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R23" library="netcat" package="R0402" value="100k" x="101.3" y="53.65" smashed="yes">
 <attribute name="NAME" x="100" y="54.9" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="100.665" y="51.618" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="100.065" y="53.318" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="L5" library="netcat" package="LED0603" value="GREEN" x="112.75" y="43.3" smashed="yes" rot="R180">
+<element name="L5" library="netcat" package="LED0603" value="G" x="112.75" y="43.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="114.3" y="42.6" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="111.1625" y="43.935" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="112.3625" y="43.735" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="QZ3" library="netcat" package="2520" value="26 MHz" x="112.1" y="51" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.3" y="49.8" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="113.186" y="47.808" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="114.386" y="51.408" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C19" library="netcat" package="R0402" value="10p" x="111.95" y="49" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.5" y="49.4" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="112.585" y="51.032" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="113.185" y="49.432" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C20" library="netcat" package="R0402" value="10p" x="111.9" y="53.15" smashed="yes">
 <attribute name="NAME" x="113.5" y="52.8" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="111.265" y="51.118" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="110.965" y="52.818" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="IC9" library="netcat" package="QFN40-5X5" value="WM8903" x="22" y="9.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.2" y="13.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="16.56" y="12.8" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="19.9" y="11.16" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="SW1" library="netcat" package="SW_GND" value="PWR" x="90" y="62.55" smashed="yes">
 <attribute name="NAME" x="87.5" y="58.05" size="0.8128" layer="25" font="vector"/>
@@ -3098,143 +3102,143 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="C30" library="netcat" package="R0603" value="4.7u" x="35.7" y="20.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.7" y="19.2" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="36.588996875" y="22.5145" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.088996875" y="21.2145" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C31" library="netcat" package="R0603" value="4.7u" x="54.4" y="19.7" smashed="yes">
 <attribute name="NAME" x="56.2" y="19.3" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="53.511" y="17.9855" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="53.211" y="19.2855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="QZ1" library="netcat" package="3225" value="8 MHz" x="45.25" y="8.65" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.27" y="6.81" size="0.8128" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="47.536" y="9.158" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="47.336" y="9.058" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C32" library="netcat" package="R0402" value="22p" x="44.8" y="6.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.8" y="4.69" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="45.435" y="8.282" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="46.035" y="6.682" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C33" library="netcat" package="R0402" value="22p" x="48.1" y="9" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.7" y="7.5" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="50.132" y="8.365" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="48.432" y="7.965" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R26" library="netcat" package="R0402" value="10k" x="49.4" y="9" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.1" y="7.5" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="51.432" y="8.365" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="49.732" y="8.065" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R27" library="netcat" package="R0402" value="10k" x="36" y="16.8" smashed="yes">
 <attribute name="NAME" x="34.7" y="17.2" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="35.365" y="14.768" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="35.165" y="16.468" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R28" library="netcat" package="R0402" value="10k" x="36" y="15.6" smashed="yes">
 <attribute name="NAME" x="34.7" y="16" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="35.365" y="13.568" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="35.065" y="15.268" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="QZ2" library="netcat" package="3215" value="32.768 KHz" x="41.6" y="8" smashed="yes" rot="R90">
 <attribute name="NAME" x="40" y="4.6" size="0.8128" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="40.838" y="5.714" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="42.038" y="4.814" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C34" library="netcat" package="R0402" value="22p" x="39.9" y="9.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.1" y="8.2" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="41.932" y="8.465" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="40.232" y="8.165" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C35" library="netcat" package="R0402" value="22p" x="39.9" y="6.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="39" y="5.5" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="37.868" y="7.435" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="39.468" y="7.935" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C36" library="netcat" package="R0603" value="2.2u" x="15.9" y="12.5" smashed="yes">
 <attribute name="NAME" x="14.1" y="13" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.011" y="10.7855" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="14.811" y="11.9855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C37" library="netcat" package="R0603" value="4.7u" x="23.65" y="3.365" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.7" y="0.5" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="25.3645" y="2.476" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="24.0645" y="2.176" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C38" library="netcat" package="R0603" value="4.7u" x="21.87" y="3.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.1" y="0.9" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="23.5845" y="2.461" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="22.2845" y="2.161" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C39" library="netcat" package="R0402" value="100n" x="112.14" y="23" smashed="yes">
 <attribute name="NAME" x="111.2" y="23.8" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="111.005" y="21.668" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="113.795" y="23.432" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C40" library="netcat" package="R0402" value="100n" x="110.99" y="11.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="109.8" y="11.8" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="112.625" y="12.812" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="109.575" y="11.088" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R29" library="netcat" package="R0402" value="20" x="113.9" y="11.48" smashed="yes">
 <attribute name="NAME" x="112.8" y="12.3" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="113.265" y="11.948" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="113.265" y="11.048" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R30" library="netcat" package="R0402" value="20" x="109.2" y="23" smashed="yes" rot="R180">
 <attribute name="NAME" x="108.2" y="23.8" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="109.935" y="22.432" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="109.935" y="23.432" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C41" library="netcat" package="R0402" value="100n" x="20.1" y="3.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.7" y="2.5" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="18.068" y="4.335" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="19.768" y="4.835" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C44" library="netcat" package="R0603" value="4.7u" x="28.1" y="12.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.2" y="13.4" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="28.989" y="14.2145" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.011" y="11.9855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C45" library="netcat" package="R0603" value="2.2u" x="15.9" y="9.2" smashed="yes">
 <attribute name="NAME" x="14.1" y="9.7" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.011" y="7.4855" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="14.811" y="8.7855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C46" library="netcat" package="R0603" value="2.2u" x="15.9" y="10.9" smashed="yes">
 <attribute name="NAME" x="14.1" y="11.4" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.011" y="9.1855" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="14.711" y="10.3855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C47" library="netcat" package="R0402" value="100n" x="16.27" y="7.5" smashed="yes">
 <attribute name="NAME" x="14.8" y="7.9" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.635" y="5.468" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="15.035" y="7.068" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C48" library="netcat" package="R0402" value="100n" x="18.7" y="3.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.3" y="2.5" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="20.732" y="3.065" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="19.132" y="2.265" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R32" library="netcat" package="R0402" value="20" x="17.2" y="3.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.8" y="2.5" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="19.232" y="3.065" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="17.532" y="3.065" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R33" library="netcat" package="R0402" value="20" x="16.27" y="6.125" smashed="yes">
 <attribute name="NAME" x="14.8" y="6.5" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="15.635" y="4.093" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="15.635" y="5.693" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C49" library="netcat" package="R0603" value="1u" x="28.1" y="10.9" smashed="yes">
 <attribute name="NAME" x="29.9" y="10.4" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="27.211" y="9.1855" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="27.411" y="10.4855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C50" library="netcat" package="R0603" value="1u" x="28.1" y="9.2" smashed="yes">
 <attribute name="NAME" x="29.9" y="8.7" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="27.211" y="7.4855" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="27.411" y="8.7855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C51" library="netcat" package="R0603" value="1u" x="28.1" y="7.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.9" y="7.1" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="28.989" y="9.3145" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.411" y="7.1855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C52" library="netcat" package="R0603" value="1u" x="28.1" y="6" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.89" y="5.62" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="28.989" y="7.7145" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="27.411" y="5.5855" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C56" library="netcat" package="R0402" value="100n" x="90.3" y="16" smashed="yes" rot="R270">
 <attribute name="NAME" x="91.5" y="14.7" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="88.868" y="17.235" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="89.868" y="17.635" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C57" library="netcat" package="R0402" value="100n" x="96.75" y="53.65" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.9" y="52.7" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="98.78200625" y="53.015" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="97.08200625" y="52.415" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C58" library="netcat" package="R0402" value="100n" x="97.5" y="37" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.8" y="38.35" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="99.532" y="36.365" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="97.832" y="35.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C59" library="netcat" package="R0402" value="100n" x="70.3" y="26.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="70.7" y="27.5" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="72.332" y="25.415" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="70.732" y="24.615" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C60" library="netcat" package="R0402" value="100n" x="59.55" y="26.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.75" y="25" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="61.582" y="25.415" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="59.882" y="24.615" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C61" library="netcat" package="R0402" value="100n" x="3.9" y="44.8" smashed="yes" rot="MR180">
 <attribute name="NAME" x="2.665" y="43.988" size="0.8128" layer="26" font="vector" rot="MR180"/>
@@ -3242,20 +3246,20 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="C62" library="netcat" package="R0402" value="100n" x="58.7" y="11.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.1" y="12.3" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="60.732" y="10.415" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="59.132" y="9.715" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C63" library="netcat" package="R0402" value="100n" x="90" y="34.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.66" y="33.2" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="92.032" y="33.565" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="90.432" y="32.965" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Y4" library="netcat" package="GSM_ANT" value="GSM_PCB" x="40" y="62.8"/>
 <element name="R40" library="netcat" package="R0402" value="2.2k" x="27.765" y="4.6" smashed="yes">
 <attribute name="NAME" x="29.3" y="4.2" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="27.13" y="2.568" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="26.73" y="4.168" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R41" library="netcat" package="R0402" value="2.2k" x="25.4" y="3.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="26" y="1.8" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="23.368" y="4.335" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="24.968" y="4.835" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="Y3" library="netcat" package="ANTENNA_CHIP_2X5" value="2.4Ghz" x="50.1" y="55.2" smashed="yes">
 <attribute name="NAME" x="51.25" y="56.45" size="0.8128" layer="25" font="vector"/>
@@ -3272,7 +3276,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="C67" library="netcat" package="R0402" value="100n" x="101.3" y="49.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.25" y="47.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="101.935" y="51.232" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="99.965" y="48.768" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="LOGO1" library="netcat" package="LOGO2" value="LOGO2" x="56.765" y="4.425"/>
 <element name="IC20" library="netcat" package="HCLGA" value="MP34DT01" x="3.8" y="48.3" smashed="yes" rot="MR90">
@@ -3280,59 +3284,59 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="R42" library="netcat" package="R0402" value="100k" x="101.3" y="50.65" smashed="yes">
 <attribute name="NAME" x="100" y="52.5" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="100.665" y="48.618" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="99.965" y="50.218" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="B2" library="netcat" package="HTC_ONE_S_SPEAKER" value="SPEAKER_HTC_ONE" x="129" y="39.05" rot="MR270"/>
 <element name="R44" library="netcat" package="R0402" value="330" x="47.6" y="26.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.7" y="25.5" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="45.568" y="27.035" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="47.168" y="27.535" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="VD3" library="netcat" package="LED0603" value="" x="47.6" y="29.4" smashed="yes">
+<element name="VD3" library="netcat" package="LED0603" value="R" x="47.6" y="29.4" smashed="yes">
 <attribute name="NAME" x="48" y="31.1" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="49.1875" y="28.765" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="47.8875" y="29.165" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C71" library="netcat" package="R0402" value="100n" x="82.7" y="10.35" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.7" y="11.1" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="84.335" y="11.582" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="84.235" y="10.682" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC8" library="netcat" package="QFN32" value="ESP8266" x="106.3" y="52.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="102.9" y="56.1" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="101.95" y="56.95" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="103.65" y="54.15" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R48" library="netcat" package="R0402" value="10k" x="92.6" y="10.35" smashed="yes">
 <attribute name="NAME" x="92.6" y="11.1" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="91.765" y="10.818" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="91.765" y="10.018" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R49" library="netcat" package="R0402" value="100k" x="98.05" y="43.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="97.6" y="42" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="96.018" y="44.335" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="98.482" y="42.465" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="X1" library="netcat" package="USB-TYPE-C-HYBRID" value="USB" x="6.825" y="35.075" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.8" y="25" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="R53" library="netcat" package="R0402" value="10k" x="93.8" y="24.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.8" y="22.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="94.835" y="23.732" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="94.935" y="24.732" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R54" library="netcat" package="R0402" value="10k" x="97.3" y="24.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="96.4" y="22.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="98.335" y="23.732" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="98.535" y="24.732" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R55" library="netcat" package="R0402" value="10k" x="100.8" y="24.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.8" y="22.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="101.935" y="23.732" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="101.935" y="24.732" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="BATTARY_PLACE" library="netcat" package="GALAXY_BATTARY_S4" value="GALAXY_BATTARY_S4" x="39" y="32"/>
 <element name="C73" library="netcat" package="R0402" value="100n" x="73.7" y="31" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.7" y="31.7" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="74.335" y="33.032" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="75.235" y="31.432" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC12" library="netcat" package="BME280" value="BME280" x="117" y="9.9" smashed="yes">
 <attribute name="NAME" x="118.66" y="11.22" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C74" library="netcat" package="R0402" value="100n" x="113.9" y="9.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="112.95" y="7.95" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="115.435" y="9.132" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="115.435" y="10.032" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC25" library="netcat" package="APDS-9960" value="APDS-9960" x="123" y="54" smashed="yes" rot="MR0">
 <attribute name="NAME" x="126.35" y="52.25" size="0.8128" layer="26" font="vector" rot="MR270"/>
@@ -3340,26 +3344,26 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="C76" library="netcat" package="R0402" value="100n" x="73.7" y="24.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.7" y="25.2" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="74.335" y="26.532" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="75.235" y="24.932" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C77" library="netcat" package="R0402" value="100n" x="96.2" y="37" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.3" y="36" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="98.232" y="36.365" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="96.532" y="35.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="VD2" library="netcat" package="SOD523" value="BAS516" x="36" y="13.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.7" y="13.5" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="37.1" y="14.765" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="38.1" y="13.565" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C8" library="netcat" package="R0805" value="1F" x="35.7" y="11.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="34" y="12.1" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="36.589" y="13.4145" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="36.589" y="12.1145" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC10" library="netcat" package="QFN24-3X3" value="MPU9250" x="108.5" y="7.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="106.9" y="10.3" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C26" library="netcat" package="R0402" value="100n" x="104.4" y="6.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="103.1" y="7.2" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="106.035" y="6.282" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="105.835" y="7.182" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="X5" library="netcat" package="GB042-10S-H10-E3000" value="LG_P715_TS" x="95.95" y="47.1" locked="yes" smashed="yes">
 <attribute name="NAME" x="93.1" y="50.7" size="0.8128" layer="25" font="vector" rot="R270"/>
@@ -3387,7 +3391,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="R17" library="netcat" package="R0402" value="100k" x="101.3" y="52.15" smashed="yes">
 <attribute name="NAME" x="100" y="53.7" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="100.665" y="50.118" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="99.965" y="51.718" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="TP54" library="netcat" package="TP065RH" value="" x="1.5" y="24"/>
 <element name="TP55" library="netcat" package="TP065RH" value="" x="7.5" y="24"/>
@@ -3432,7 +3436,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="C1" library="netcat" package="R0402" value="100n" x="69.3" y="11.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.7" y="12.7" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="70.632" y="9.715" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="69.732" y="9.615" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="IC5" library="netcat" package="WSON8" value="W25Q64FV" x="100.2" y="18.2" smashed="yes">
 <attribute name="NAME" x="96.9" y="14.1" size="0.8128" layer="25" font="vector"/>
@@ -3441,14 +3445,14 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <attribute name="NAME" x="39.9" y="54.7" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="X16" library="netcat" package="SAMSUNG_S8_SIM_SD" value="MICRO_SIM_SDS8" x="5.5" y="39.5" smashed="yes">
-<attribute name="NAME" x="29.5" y="56.5" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="28.5" y="56.5" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="IC7" library="netcat" package="VQFN-48" value="TPS65217" x="22" y="26.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="26" y="30.1" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="C2" library="netcat" package="R0603" value="4.7u" x="27.95" y="16.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.4" y="15.35" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="28.839" y="18.6145" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="29.239" y="17.2145" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="L1" library="netcat" package="L2520" value="2.2uH" x="14" y="27.51" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.8" y="26.9" size="0.8128" layer="25" font="vector" rot="R90"/>
@@ -3471,13 +3475,13 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="C5" library="netcat" package="SMC_A" value="10u" x="18.7" y="35.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.7" y="36.1" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R4" library="netcat" package="R0402" value="" x="20.7" y="33.8" smashed="yes" rot="R270">
+<element name="R4" library="netcat" package="R0402" value="100k" x="20.7" y="33.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.3" y="33.18" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="18.668" y="34.435" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="20.268" y="34.835" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R5" library="netcat" package="R0402" value="" x="20.7" y="36.6" smashed="yes" rot="R270">
+<element name="R5" library="netcat" package="R0402" value="100k" x="20.7" y="36.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.3" y="34.24" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="18.668" y="37.235" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="20.268" y="38.135" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="VD1" library="netcat" package="SOD123" value="" x="28.79" y="19.13" smashed="yes">
 <attribute name="NAME" x="29.9" y="17.3" size="0.8128" layer="25" font="vector"/>
@@ -3493,7 +3497,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 </element>
 <element name="C10" library="netcat" package="SMC_D" value="470u" x="37.4" y="48.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.5" y="43.4" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="33.59" y="50.84" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="36.99" y="49.54" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C11" library="netcat" package="SMC_A" value="4.7u" x="25.03" y="17.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.2" y="14.9" size="0.8128" layer="25" font="vector"/>
@@ -3519,88 +3523,88 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <element name="Q1" library="netcat" package="SOT23" value="IRLML2502" x="14.55" y="34.55" smashed="yes">
 <attribute name="NAME" x="13.5" y="36.5" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="R8" library="netcat" package="R0402" value="100k" x="14.25" y="31.9" smashed="yes" rot="R180">
+<element name="R8" library="netcat" package="R0402" value="10k" x="14.25" y="31.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.5" y="32.3" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="14.885" y="33.932" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="15.385" y="32.332" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R10" library="netcat" package="R0402" value="4.7k" x="18.5" y="19" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.1" y="17.4" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="20.532" y="18.365" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="18.932" y="17.965" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R11" library="netcat" package="R0402" value="4.7k" x="19.7" y="19" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.3" y="17.4" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="17.668" y="19.635" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="20.132" y="17.965" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C17" library="netcat" package="R0402" value="100n" x="36" y="14.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.7" y="14.7" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="36.635" y="16.332" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.535" y="14.732" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R12" library="netcat" package="R0402" value="4.7k" x="96.75" y="43.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.3" y="42" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="98.782" y="43.065" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="97.082" y="42.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R13" library="netcat" package="R0402" value="4.7k" x="95.45" y="43.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="95" y="42" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="97.482" y="43.065" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="95.782" y="42.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C18" library="netcat" package="R0402" value="100n" x="104.4" y="8.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="103.1" y="8.7" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="106.035" y="9.582" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="105.835" y="8.682" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C21" library="netcat" package="SMC_A" value="4.7u" x="108.5" y="3.4" smashed="yes">
-<attribute name="NAME" x="106.3" y="1.3" size="0.8128" layer="25" font="vector"/>
+<element name="C21" library="netcat" package="SMC_A" value="4.7u" x="108.5" y="3.5" smashed="yes">
+<attribute name="NAME" x="106.3" y="1.4" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="R14" library="netcat" package="R0402" value="330" x="49" y="26.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.8" y="27.9" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="46.968" y="27.035" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="48.568" y="27.435" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="VD4" library="netcat" package="LED0603" value="" x="49" y="29.4" smashed="yes">
+<element name="VD4" library="netcat" package="LED0603" value="G" x="49" y="29.4" smashed="yes">
 <attribute name="NAME" x="49.4" y="31.1" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="R15" library="netcat" package="R0402" value="1k" x="60.8" y="45.85" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.45" y="44.8" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="58.768" y="46.485" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="60.368" y="46.485" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="VD5" library="netcat" package="LED0603" value="" x="60.8" y="49.85" smashed="yes">
+<element name="VD5" library="netcat" package="LED0603" value="Y" x="60.8" y="49.85" smashed="yes">
 <attribute name="NAME" x="62.45" y="48.85" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="B1" library="netcat" package="NOKIA_820_RING" value="SPEAKER_NOKIA_RING" x="-10" y="23" rot="MR270"/>
 <element name="LOGO2" library="netcat" package="LOGO2" value="LOGO2" x="-5.5" y="14.8"/>
 <element name="C22" library="netcat" package="R0402" value="100n" x="98.8" y="37" smashed="yes" rot="R90">
 <attribute name="NAME" x="99.6" y="38.3" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="100.832" y="36.365" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="99.232" y="35.665" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C23" library="netcat" package="R0402" value="100n" x="73.7" y="23.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="72.7" y="21.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="74.335" y="25.232" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="75.235" y="23.632" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C25" library="netcat" package="R0402" value="100n" x="40.2" y="26.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.6" y="27.9" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="42.232" y="25.765" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="40.532" y="25.065" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C27" library="netcat" package="R0402" value="100n" x="36" y="18" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.7" y="18.4" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="36.635" y="20.032" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.535" y="18.432" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C28" library="netcat" package="R0402" value="100n" x="54" y="12.1" smashed="yes">
 <attribute name="NAME" x="53.5" y="10.6" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="53.365" y="10.068" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="52.765" y="11.668" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C24" library="netcat" package="R0402" value="100n" x="50.4" y="26.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="52" y="25.5" size="0.8128" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="52.432" y="25.765" size="0.8128" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="50.832" y="25.065" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C29" library="netcat" package="R0402" value="100n" x="54" y="18" smashed="yes">
 <attribute name="NAME" x="55.45" y="17.65" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="53.365" y="15.968" size="0.8128" layer="27" font="vector"/>
+<attribute name="VALUE" x="52.665" y="17.568" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="C55" library="netcat" package="R0402" value="100n" x="77.6" y="16" smashed="yes" rot="R270">
 <attribute name="NAME" x="76" y="17.2" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="76.268" y="16.935" size="0.8128" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="77.168" y="17.535" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C42" library="netcat" package="R0402" value="100n" x="93.8" y="17.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.8" y="13" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="95.435" y="17.332" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="92.465" y="17.268" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="TP3" library="netcat" package="TP065RH" value="" x="-9" y="57" rot="R180"/>
 <element name="TP4" library="netcat" package="TP065RH" value="" x="-13" y="57" rot="R180"/>
@@ -7016,7 +7020,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="25.4" y="2.3" extent="1-16" drill="0.2"/>
 <wire x1="22.47" y1="6.86" x2="24.29" y2="6.86" width="0.3048" layer="2"/>
 <wire x1="22.47" y1="6.86" x2="21.17" y2="5.56" width="0.3048" layer="2"/>
-<wire x1="3.0282" y1="51.4382" x2="5.12" y2="53.53" width="0.3048" layer="2"/>
+<wire x1="3.0282" y1="50.4382" x2="6.12" y2="53.53" width="0.3048" layer="2"/>
 <wire x1="21.17" y1="5.56" x2="18.8251875" y2="5.56" width="0.3048" layer="2"/>
 <wire x1="25.4" y1="3.05" x2="25.4" y2="2.3" width="0.2" layer="1"/>
 <wire x1="25.4" y1="3.05" x2="29.25" y2="3.05" width="0.2" layer="1"/>
@@ -7027,10 +7031,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="24.29" y1="6.86" x2="25.4" y2="5.75" width="0.3048" layer="2"/>
 <wire x1="25.4" y1="5.75" x2="25.4" y2="2.3" width="0.3048" layer="2"/>
 <wire x1="18.8251875" y1="5.56" x2="3.0282" y2="21.3569875" width="0.3048" layer="2"/>
-<wire x1="3.0282" y1="21.3569875" x2="3.0282" y2="51.4382" width="0.3048" layer="2"/>
+<wire x1="3.0282" y1="21.3569875" x2="3.0282" y2="50.4382" width="0.3048" layer="2"/>
 <wire x1="45.9" y1="39.7" x2="45.9" y2="40.9" width="0.1" layer="1"/>
 <wire x1="33.27" y1="53.53" x2="45.9" y2="40.9" width="0.3048" layer="2"/>
-<wire x1="5.12" y1="53.53" x2="33.27" y2="53.53" width="0.3048" layer="2"/>
+<wire x1="6.12" y1="53.53" x2="33.27" y2="53.53" width="0.3048" layer="2"/>
 </signal>
 <signal name="GSM_A_IN">
 <contactref element="IC9" pad="21"/>
@@ -7039,9 +7043,9 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="44.5" y="40.9" extent="1-16" drill="0.2"/>
 <via x="19.32" y="6.67" extent="1-16" drill="0.2"/>
 <wire x1="19.32" y1="6.67" x2="18.42585" y2="6.67" width="0.3048" layer="2"/>
-<wire x1="3.46" y1="51.2593375" x2="5.2988625" y2="53.0982" width="0.3048" layer="2"/>
+<wire x1="3.46" y1="50.2593375" x2="6.2988625" y2="53.0982" width="0.3048" layer="2"/>
 <wire x1="18.42585" y1="6.67" x2="3.46" y2="21.63585" width="0.3048" layer="2"/>
-<wire x1="3.46" y1="21.63585" x2="3.46" y2="51.2593375" width="0.3048" layer="2"/>
+<wire x1="3.46" y1="21.63585" x2="3.46" y2="50.2593375" width="0.3048" layer="2"/>
 <wire x1="20.2" y1="7.42" x2="20.2" y2="6.9" width="0.2" layer="1"/>
 <wire x1="19.97" y1="6.67" x2="19.32" y2="6.67" width="0.2" layer="1"/>
 <wire x1="20.2" y1="6.9" x2="19.97" y2="6.67" width="0.2" layer="1"/>
@@ -7049,7 +7053,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <wire x1="18.7" y1="6.05" x2="18.7" y2="4.35" width="0.2" layer="1"/>
 <wire x1="44.5" y1="39.7" x2="44.5" y2="40.9" width="0.1" layer="1"/>
 <wire x1="44.5" y1="41.6893375" x2="44.5" y2="40.9" width="0.3048" layer="2"/>
-<wire x1="5.2988625" y1="53.0982" x2="33.0911375" y2="53.0982" width="0.3048" layer="2"/>
+<wire x1="6.2988625" y1="53.0982" x2="33.0911375" y2="53.0982" width="0.3048" layer="2"/>
 <wire x1="33.0911375" y1="53.0982" x2="44.5" y2="41.6893375" width="0.3048" layer="2"/>
 </signal>
 <signal name="FPGA_CLK">
@@ -8900,7 +8904,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4906-MAX4907F.pdf</description>
 <via x="109.5" y="9.7" extent="1-16" drill="0.2"/>
 <wire x1="107.5" y1="5.9975" x2="107.5" y2="5.2" width="0.1" layer="1"/>
 <via x="107.5" y="5.2" extent="1-16" drill="0.2"/>
-<wire x1="107" y1="3.4" x2="107" y2="4.7" width="0.2" layer="1"/>
+<wire x1="107" y1="3.5" x2="107" y2="4.7" width="0.2" layer="1"/>
 <wire x1="107" y1="4.7" x2="107.5" y2="5.2" width="0.2" layer="1"/>
 <contactref element="TP68" pad="1"/>
 <wire x1="25.7" y1="30.15" x2="25.7" y2="32.2" width="0.4064" layer="1"/>

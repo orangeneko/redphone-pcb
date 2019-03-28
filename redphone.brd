@@ -693,6 +693,7 @@ chip</description>
 <rectangle x1="-0.5286" y1="-0.3048" x2="-0.2286" y2="0.2951" layer="51"/>
 <rectangle x1="0.2334" y1="-0.3048" x2="0.5334" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
 <package name="FH39-45S-0.3SHW">
 <smd name="1" x="0" y="0" dx="0.3" dy="0.67" layer="1"/>
@@ -2459,11 +2460,11 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <smd name="G6" x="4.75" y="16.5" dx="2.4" dy="1.4" layer="1"/>
 <wire x1="2.2" y1="-1.25" x2="8.45" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="11.35" y1="-1.25" x2="25.9" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-0.45" y1="16.25" x2="3.3" y2="16.25" width="0.127" layer="21"/>
+<wire x1="2.25" y1="16.25" x2="3.3" y2="16.25" width="0.127" layer="21"/>
 <wire x1="6.2" y1="16.25" x2="8.5" y2="16.25" width="0.127" layer="21"/>
 <wire x1="11.4" y1="16.25" x2="25.95" y2="16.25" width="0.127" layer="21"/>
 <wire x1="28.65" y1="7.5" x2="28.65" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.45" y1="-0.55" x2="-0.45" y2="16.25" width="0.127" layer="21"/>
+<wire x1="-0.45" y1="-0.55" x2="-0.45" y2="15" width="0.127" layer="21"/>
 <text x="21.5" y="17.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <smd name="GND" x="28.75" y="8" dx="1" dy="0.5" layer="1"/>
 <wire x1="28.65" y1="8.5" x2="28.65" y2="15.55" width="0.127" layer="21"/>
@@ -2475,6 +2476,10 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <smd name="S2_4" x="1.9" y="7.35" dx="1" dy="0.65" layer="1" rot="R90"/>
 <smd name="S2_5" x="4.45" y="7.35" dx="1" dy="0.65" layer="1" rot="R90"/>
 <smd name="S2_6" x="7" y="7.35" dx="1" dy="0.65" layer="1" rot="R90"/>
+<wire x1="-0.5" y1="16.25" x2="2" y2="16.25" width="0" layer="20"/>
+<wire x1="2" y1="16.25" x2="2" y2="15.25" width="0" layer="20"/>
+<wire x1="2" y1="15.25" x2="-0.5" y2="15.25" width="0" layer="20"/>
+<wire x1="-0.5" y1="15.25" x2="-0.5" y2="16.25" width="0" layer="20"/>
 </package>
 <package name="VQFN-48">
 <description>&lt;b&gt;RGZ (S-PVQFN-N48)&lt;/b&gt;&lt;p&gt;</description>
